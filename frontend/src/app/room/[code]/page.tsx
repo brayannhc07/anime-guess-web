@@ -24,7 +24,8 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const [loading, setLoading] = useState(true);
   const {
     phase, playerId, mode, currentTurn, pendingAsk, pendingRuleGuess, players,
-    setRoomCode, setPhase, setMode, setAnime, setPlayers, setCharacterIds,
+    setRoomCode, setPhase, setMode, setCharacterSource, setTemplateKeys, setSearchAnimeId,
+    setPlayers, setCharacterIds,
     setCurrentTurn, setPendingAsk, setPendingRuleGuess, setWinner, setGuessResult,
     hydratePlayer,
   } = useGameStore();
@@ -55,7 +56,9 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
         .then((room) => {
           setPhase(room.phase);
           setMode(room.mode);
-          setAnime(room.anime);
+          setCharacterSource(room.characterSource);
+          setTemplateKeys(room.templateKeys);
+          setSearchAnimeId(room.searchAnimeId);
           setPlayers(room.players);
           setCharacterIds(room.characterIds);
           setCurrentTurn(room.currentTurn);

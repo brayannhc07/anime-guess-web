@@ -1,0 +1,47 @@
+{
+  "name": "Mushoku Tensei: Jobless Reincarnation",
+  "characters": [
+    {
+      "id": 111245,
+      "name": "Greyrat, Rudeus",
+      "image": "https://cdn.myanimelist.net/images/characters/2/423667.jpg?s=6b182cf752969a2d5a6d75c278f4ce2f",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    },
+    {
+      "id": 111335,
+      "name": "Greyrat, Eris Boreas",
+      "image": "https://cdn.myanimelist.net/images/characters/14/324594.jpg?s=3648ce18134882a5f934130607f69548",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    },
+    {
+      "id": 111341,
+      "name": "Migurdia, Roxy",
+      "image": "https://cdn.myanimelist.net/images/characters/16/552605.jpg?s=77b5b2dfd526c9ec5563c372a4dac111",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    },
+    {
+      "id": 111337,
+      "name": "Sylphiette",
+      "image": "https://cdn.myanimelist.net/images/characters/10/423669.jpg?s=858da1787027ca0290e9833fc9b32e02",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    },
+    {
+      "id": 118271,
+      "name": "Grimoire, Cliff",
+      "image": "https://cdn.myanimelist.net/images/characters/10/518423.jpg?s=a1e3c1ee7be9385d8c9c7ffd3022a32d",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    },
+    {
+      "id": 111739,
+      "name": "Superdia, Ruijerd",
+      "image": "https://cdn.myanimelist.net/images/characters/16/490046.jpg?s=b16b9af0cd4aea5ad5f72b1ec3f398e7",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    },
+    {
+      "id": 118207,
+      "name": "Asura, Ariel Anemoi",
+      "image": "https://cdn.myanimelist.net/images/characters/12/591402.jpg?s=92b73205e86b8b1aee83056d41f947ae",
+      "anime": "Mushoku Tensei: Jobless Reincarnation"
+    }
+  ]
+}

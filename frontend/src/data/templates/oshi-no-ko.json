@@ -1,0 +1,35 @@
+{
+  "name": "[Oshi No Ko]",
+  "characters": [
+    {
+      "id": 188038,
+      "name": "Arima, Kana",
+      "image": "https://cdn.myanimelist.net/images/characters/6/503733.jpg?s=6dddc82129535b664f8d5f0ba1e5b14b",
+      "anime": "[Oshi No Ko]"
+    },
+    {
+      "id": 186921,
+      "name": "Hoshino, Ruby",
+      "image": "https://cdn.myanimelist.net/images/characters/5/496454.jpg?s=0bdb7d58a99eab12eb3de20b5a79033d",
+      "anime": "[Oshi No Ko]"
+    },
+    {
+      "id": 185313,
+      "name": "Hoshino, Aquamarine",
+      "image": "https://cdn.myanimelist.net/images/characters/8/512509.jpg?s=0fbc9c40821bab48c922aa336708bb33",
+      "anime": "[Oshi No Ko]"
+    },
+    {
+      "id": 195178,
+      "name": "Kurokawa, Akane",
+      "image": "https://cdn.myanimelist.net/images/characters/6/592737.jpg?s=602e780d91b34622645cf66e520d7ba6",
+      "anime": "[Oshi No Ko]"
+    },
+    {
+      "id": 188037,
+      "name": "Hoshino, Ai",
+      "image": "https://cdn.myanimelist.net/images/characters/6/496453.jpg?s=586f73ec11e59e6a6acc659afe9fb660",
+      "anime": "[Oshi No Ko]"
+    }
+  ]
+}

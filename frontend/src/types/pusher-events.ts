@@ -1,4 +1,4 @@
-import type { GameMode, AnimePreset } from "./room";
+import type { GameMode, CharacterSource } from "./room";
 
 export const PUSHER_EVENTS = {
   PLAYER_JOINED: "player-joined",
@@ -29,7 +29,9 @@ export interface PlayerLeftPayload {
 export interface GameStartedPayload {
   characterIds: number[];
   mode: GameMode;
-  anime: AnimePreset;
+  characterSource: CharacterSource;
+  templateKeys: string[];
+  searchAnimeId: number | null;
 }
 
 export interface PlayerLockedInPayload {

@@ -1,0 +1,35 @@
+{
+  "name": "Attack on Titan",
+  "characters": [
+    {
+      "id": 40881,
+      "name": "Ackerman, Mikasa",
+      "image": "https://cdn.myanimelist.net/images/characters/9/215563.jpg?s=5b0650bb09a7e053afc6bad84ab48947",
+      "anime": "Attack on Titan"
+    },
+    {
+      "id": 46494,
+      "name": "Arlert, Armin",
+      "image": "https://cdn.myanimelist.net/images/characters/8/220267.jpg?s=afa2751e2201aba1f5179544e787ba1a",
+      "anime": "Attack on Titan"
+    },
+    {
+      "id": 40882,
+      "name": "Yeager, Eren",
+      "image": "https://cdn.myanimelist.net/images/characters/10/216895.jpg?s=ccb6539cbfc5462df97d61a48c52af93",
+      "anime": "Attack on Titan"
+    },
+    {
+      "id": 62481,
+      "name": "Lenz, Krista",
+      "image": "https://cdn.myanimelist.net/images/characters/16/216967.jpg?s=2f74a5c6ddaabc40ea15cf562f1d1eab",
+      "anime": "Attack on Titan"
+    },
+    {
+      "id": 45627,
+      "name": "Levi",
+      "image": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db",
+      "anime": "Attack on Titan"
+    }
+  ]
+}

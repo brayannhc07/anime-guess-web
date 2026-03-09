@@ -1,6 +1,7 @@
 "use client";
 
 import { useGameStore } from "@/stores/game-store";
+import type { CharacterSource } from "@/types/room";
 
 export function useGameActions() {
   const { playerId, playerName } = useGameStore();
@@ -25,11 +26,18 @@ export function useGameActions() {
     return res.json();
   }
 
-  async function startGame(code: string, characterIds: number[], mode: string, anime: string) {
+  async function startGame(
+    code: string,
+    characterIds: number[],
+    mode: string,
+    characterSource: CharacterSource,
+    templateKeys: string[],
+    searchAnimeId: number | null
+  ) {
     const res = await fetch("/api/room/start", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ code, characterIds, mode, anime }),
+      body: JSON.stringify({ code, characterIds, mode, characterSource, templateKeys, searchAnimeId }),
     });
     if (!res.ok) throw new Error("Failed to start game");
     return res.json();

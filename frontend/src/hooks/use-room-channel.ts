@@ -24,7 +24,9 @@ export function useRoomChannel(roomCode: string) {
   const {
     setPhase,
     setMode,
-    setAnime,
+    setCharacterSource,
+    setTemplateKeys,
+    setSearchAnimeId,
     setCharacterIds,
     setPlayers,
     updatePlayerLocked,
@@ -69,7 +71,9 @@ export function useRoomChannel(roomCode: string) {
     channel.bind(PUSHER_EVENTS.GAME_STARTED, (data: GameStartedPayload) => {
       setCharacterIds(data.characterIds);
       setMode(data.mode);
-      setAnime(data.anime);
+      setCharacterSource(data.characterSource);
+      setTemplateKeys(data.templateKeys);
+      setSearchAnimeId(data.searchAnimeId);
       setPhase("selection");
       clearEliminated();
       setCurrentTurn(null);

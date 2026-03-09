@@ -1,0 +1,41 @@
+{
+  "name": "The Quintessential Quintuplets",
+  "characters": [
+    {
+      "id": 161471,
+      "name": "Nakano, Itsuki",
+      "image": "https://cdn.myanimelist.net/images/characters/5/437010.jpg?s=78ea744f81e05986a8c5d1ae0ed56257",
+      "anime": "The Quintessential Quintuplets"
+    },
+    {
+      "id": 161472,
+      "name": "Nakano, Nino",
+      "image": "https://cdn.myanimelist.net/images/characters/7/437011.jpg?s=a50b82662ce8bd2cef7ee56673ab0bac",
+      "anime": "The Quintessential Quintuplets"
+    },
+    {
+      "id": 161470,
+      "name": "Nakano, Ichika",
+      "image": "https://cdn.myanimelist.net/images/characters/12/436646.jpg?s=e5f1f9b3873caf65584e84d2a09217bd",
+      "anime": "The Quintessential Quintuplets"
+    },
+    {
+      "id": 161469,
+      "name": "Nakano, Yotsuba",
+      "image": "https://cdn.myanimelist.net/images/characters/8/437009.jpg?s=9f92210bf0c47a198dd25bffb003b1c1",
+      "anime": "The Quintessential Quintuplets"
+    },
+    {
+      "id": 160603,
+      "name": "Nakano, Miku",
+      "image": "https://cdn.myanimelist.net/images/characters/15/507743.jpg?s=ecc7de646b4ccef8b1074546c3e09010",
+      "anime": "The Quintessential Quintuplets"
+    },
+    {
+      "id": 159332,
+      "name": "Uesugi, Fuutarou",
+      "image": "https://cdn.myanimelist.net/images/characters/3/554695.jpg?s=39d5b60a1689ce44f7ff7bb61568016e",
+      "anime": "The Quintessential Quintuplets"
+    }
+  ]
+}

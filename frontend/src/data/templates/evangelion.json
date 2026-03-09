@@ -1,0 +1,41 @@
+{
+  "name": "Evangelion",
+  "characters": [
+    {
+      "id": 86,
+      "name": "Ayanami, Rei",
+      "image": "https://cdn.myanimelist.net/images/characters/11/314932.jpg?s=3686e6c4d76595fb1f71b0390d7997a2",
+      "anime": "Evangelion: 1.0 You Are (Not) Alone"
+    },
+    {
+      "id": 89,
+      "name": "Ikari, Shinji",
+      "image": "https://cdn.myanimelist.net/images/characters/5/225177.jpg?s=6ac886f090e501714d54b820680ad7e1",
+      "anime": "Evangelion: 1.0 You Are (Not) Alone"
+    },
+    {
+      "id": 1259,
+      "name": "Katsuragi, Misato",
+      "image": "https://cdn.myanimelist.net/images/characters/15/515181.jpg?s=92e2a933ea958ad8a2b94bd692c50dee",
+      "anime": "Evangelion: 1.0 You Are (Not) Alone"
+    },
+    {
+      "id": 162259,
+      "name": "Ayanami (tentative), Rei",
+      "image": "https://cdn.myanimelist.net/images/characters/6/467614.jpg?s=bbe44a0f78e1c08ed062c1acad83ce6f",
+      "anime": "Evangelion: 3.0+1.0 Thrice Upon a Time"
+    },
+    {
+      "id": 1261,
+      "name": "Nagisa, Kaworu",
+      "image": "https://cdn.myanimelist.net/images/characters/3/175413.jpg?s=5ee20b6aa1f53fea531625a5a4dbff2a",
+      "anime": "Evangelion: 3.0+1.0 Thrice Upon a Time"
+    },
+    {
+      "id": 94,
+      "name": "Souryuu, Asuka Langley",
+      "image": "https://cdn.myanimelist.net/images/characters/12/79465.jpg?s=9551d38debcab623eaf0b633be75e9b9",
+      "anime": "Evangelion: 3.0+1.0 Thrice Upon a Time"
+    }
+  ]
+}

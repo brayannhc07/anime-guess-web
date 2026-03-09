@@ -2,12 +2,7 @@ export type GamePhase = "lobby" | "selection" | "playing" | "finished";
 
 export type GameMode = "classic" | "rule-master";
 
-export type AnimePreset =
-  | "rezero"
-  | "aot"
-  | "kaguya"
-  | "frieren"
-  | "konosuba";
+export type CharacterSource = "template" | "search";
 
 export interface Player {
   id: string;
@@ -31,7 +26,9 @@ export interface RoomState {
   code: string;
   phase: GamePhase;
   mode: GameMode;
-  anime: AnimePreset;
+  characterSource: CharacterSource;
+  templateKeys: string[];
+  searchAnimeId: number | null;
   players: Player[];
   characterIds: number[];
   winner: string | null;

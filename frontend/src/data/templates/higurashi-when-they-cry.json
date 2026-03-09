@@ -1,0 +1,41 @@
+{
+  "name": "Higurashi: When They Cry",
+  "characters": [
+    {
+      "id": 1534,
+      "name": "Furude, Rika",
+      "image": "https://cdn.myanimelist.net/images/characters/15/317398.jpg?s=dc709bd3919874c9411fdf069d38235c",
+      "anime": "Higurashi: When They Cry"
+    },
+    {
+      "id": 1612,
+      "name": "Houjou, Satoko",
+      "image": "https://cdn.myanimelist.net/images/characters/3/438310.jpg?s=a2a4d73bb17caa922d3f48d8f72d220b",
+      "anime": "Higurashi: When They Cry"
+    },
+    {
+      "id": 1851,
+      "name": "Maebara, Keiichi",
+      "image": "https://cdn.myanimelist.net/images/characters/4/251221.jpg?s=7e805d2a40d3c5db2f9ce696361076d5",
+      "anime": "Higurashi: When They Cry"
+    },
+    {
+      "id": 1427,
+      "name": "Ryuuguu, Rena",
+      "image": "https://cdn.myanimelist.net/images/characters/13/264395.jpg?s=c1dfd45088e6ee53de203aee72ed2677",
+      "anime": "Higurashi: When They Cry"
+    },
+    {
+      "id": 1611,
+      "name": "Sonozaki, Mion",
+      "image": "https://cdn.myanimelist.net/images/characters/9/543619.jpg?s=ea499e20bd3ae94f1634524135747846",
+      "anime": "Higurashi: When They Cry"
+    },
+    {
+      "id": 1313,
+      "name": "Sonozaki, Shion",
+      "image": "https://cdn.myanimelist.net/images/characters/15/543531.jpg?s=0f12a1375e6ae0764e9d2ef6b43ae7ad",
+      "anime": "Higurashi: When They Cry"
+    }
+  ]
+}

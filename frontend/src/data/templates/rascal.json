@@ -1,0 +1,29 @@
+{
+  "name": "Rascal Does Not Dream",
+  "characters": [
+    {
+      "id": 118733,
+      "name": "Azusagawa, Sakuta",
+      "image": "https://cdn.myanimelist.net/images/characters/11/398261.jpg?s=7d388c5e74f80277e1cc1457cfba07e0",
+      "anime": "Rascal Does Not Dream of a Knapsack Kid"
+    },
+    {
+      "id": 118739,
+      "name": "Sakurajima, Mai",
+      "image": "https://cdn.myanimelist.net/images/characters/2/366639.jpg?s=cfb308a21fca8c573e6bfa0cb6d9b867",
+      "anime": "Rascal Does Not Dream of a Knapsack Kid"
+    },
+    {
+      "id": 151021,
+      "name": "Azusagawa, Kaede",
+      "image": "https://cdn.myanimelist.net/images/characters/7/366710.jpg?s=f170dbb4d5cf6c3086ac7ef1b3d576fb",
+      "anime": "Rascal Does Not Dream of a Sister Venturing Out"
+    },
+    {
+      "id": 259398,
+      "name": "Miniskirt Santa",
+      "image": "https://cdn.myanimelist.net/images/characters/6/599592.jpg?s=3a7d5a65427e4ee314ffbaa40fc2f2cc",
+      "anime": "Rascal Does Not Dream of Santa Claus"
+    }
+  ]
+}

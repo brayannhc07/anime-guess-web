@@ -1,0 +1,149 @@
+{
+  "name": "Dragon Ball",
+  "characters": [
+    {
+      "id": 678,
+      "name": "Bulma",
+      "image": "https://cdn.myanimelist.net/images/characters/14/280893.jpg?s=2b0fdc4d608cdb9f6ca28d6192cb9251",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 2159,
+      "name": "Kuririn",
+      "image": "https://cdn.myanimelist.net/images/characters/2/48517.jpg?s=19014a6433cd36c32f3661b21b38dad3",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 6167,
+      "name": "Muten-Roushi",
+      "image": "https://cdn.myanimelist.net/images/characters/6/359001.jpg?s=b0f6c285cdf733f32738264f42ebdd2f",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 246,
+      "name": "Son, Gokuu",
+      "image": "https://cdn.myanimelist.net/images/characters/15/72546.jpg?s=c434a442d8ad1212885a8d02dbcbbee0",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 4014,
+      "name": "Yamcha",
+      "image": "https://cdn.myanimelist.net/images/characters/14/126147.jpg?s=c6b311761d167c90d6717a7555efc3ae",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 255308,
+      "name": "Glorio",
+      "image": "https://cdn.myanimelist.net/images/characters/9/564873.jpg?s=2afdaf8fe5ecf99237c48391853ff155",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 6133,
+      "name": "Higashi no Kaioshin",
+      "image": "https://cdn.myanimelist.net/images/characters/3/32340.jpg?s=eca0a0e023cdfc81f2866ab1e473240a",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 255309,
+      "name": "Panzy",
+      "image": "https://cdn.myanimelist.net/images/characters/9/569165.jpg?s=aa688dc64b4d795ca0bdc7edec07f68a",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 2152,
+      "name": "Son, Gokuu Jr.",
+      "image": "https://cdn.myanimelist.net/images/characters/15/116675.jpg?s=4adc17a5a43388d9a60e0ff67946a0a0",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 913,
+      "name": "Vegeta",
+      "image": "https://cdn.myanimelist.net/images/characters/14/86185.jpg?s=145f25d852734f70db55a92cab54b27b",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 4945,
+      "name": "Broly",
+      "image": "https://cdn.myanimelist.net/images/characters/2/275050.jpg?s=afa9e1e85155ebcfeb3fe1c03d9183f7",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 168187,
+      "name": "Gogeta",
+      "image": "https://cdn.myanimelist.net/images/characters/5/400009.jpg?s=6ccccaa0ec400524baad62e10bc5cd02",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 212189,
+      "name": "Gamma 1-gou",
+      "image": "https://cdn.myanimelist.net/images/characters/13/476892.jpg?s=0da509d16f684b76b2f1885487145c05",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 212190,
+      "name": "Gamma 2-gou",
+      "image": "https://cdn.myanimelist.net/images/characters/6/496557.jpg?s=3b6862ead72c52eb4524416ce676a8e0",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 914,
+      "name": "Piccolo",
+      "image": "https://cdn.myanimelist.net/images/characters/8/45628.jpg?s=7f3263916ca42434072fb20a7590c277",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 2093,
+      "name": "Son, Gohan",
+      "image": "https://cdn.myanimelist.net/images/characters/2/72715.jpg?s=886561eebbd32941685b470ff9ed78a2",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 6122,
+      "name": "Bardock",
+      "image": "https://cdn.myanimelist.net/images/characters/6/103847.jpg?s=c38c133a809e886e0b01fec8e6bb13ee",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 3694,
+      "name": "Freeza",
+      "image": "https://cdn.myanimelist.net/images/characters/7/359258.jpg?s=9283da1c6156a10c96ca75d71522d62d",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 76348,
+      "name": "Beerus",
+      "image": "https://cdn.myanimelist.net/images/characters/12/348954.jpg?s=5c7dbf7b62688a6bb8aea54b8596ad12",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 76346,
+      "name": "Whis",
+      "image": "https://cdn.myanimelist.net/images/characters/13/496535.jpg?s=b231f5bc1cdd00b91ee2fea142ee5844",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 143844,
+      "name": "Future Trunks",
+      "image": "https://cdn.myanimelist.net/images/characters/5/375125.jpg?s=dfee723daa759ba6480fa09fe6903b00",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 2147,
+      "name": "Jinzouningen 17-gou",
+      "image": "https://cdn.myanimelist.net/images/characters/16/48582.jpg?s=79dd6757c70b3dc78cc4e1739affe6d4",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 4318,
+      "name": "Jinzouningen 18-gou",
+      "image": "https://cdn.myanimelist.net/images/characters/2/357828.jpg?s=f07a58b451c4312cece1db2aa84ebdf8",
+      "anime": "Dragon Ball"
+    },
+    {
+      "id": 46175,
+      "name": "Chilled",
+      "image": "https://cdn.myanimelist.net/images/characters/11/147807.jpg?s=9d1fe5430496299c20fa50943a09ccaa",
+      "anime": "Dragon Ball"
+    }
+  ]
+}

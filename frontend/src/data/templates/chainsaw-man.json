@@ -1,0 +1,35 @@
+{
+  "name": "Chainsaw Man",
+  "characters": [
+    {
+      "id": 170732,
+      "name": "Denji",
+      "image": "https://cdn.myanimelist.net/images/characters/3/492407.jpg?s=4d8e9a01dac6a5d891c3ed434187fba9",
+      "anime": "Chainsaw Man"
+    },
+    {
+      "id": 170735,
+      "name": "Hayakawa, Aki",
+      "image": "https://cdn.myanimelist.net/images/characters/13/395003.jpg?s=d0d59f9d3f6d5aa89534c8b16433cf74",
+      "anime": "Chainsaw Man"
+    },
+    {
+      "id": 170734,
+      "name": "Makima",
+      "image": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183",
+      "anime": "Chainsaw Man"
+    },
+    {
+      "id": 170733,
+      "name": "Power",
+      "image": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106",
+      "anime": "Chainsaw Man"
+    },
+    {
+      "id": 174751,
+      "name": "Reze",
+      "image": "https://cdn.myanimelist.net/images/characters/10/618421.jpg?s=f4e6085be8336c1c8224e9a636a7b3c2",
+      "anime": "Chainsaw Man"
+    }
+  ]
+}

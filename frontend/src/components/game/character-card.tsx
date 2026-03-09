@@ -1,6 +1,6 @@
 "use client";
 
-import type { AnimeCharacter } from "@/types/pokemon";
+import type { AnimeCharacter } from "@/types/character";
 import { cn } from "@/lib/utils";
 
 interface CharacterCardProps {

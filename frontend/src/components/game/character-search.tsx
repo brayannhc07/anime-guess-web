@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
-import { useCharacterList } from "@/hooks/use-character-list";
+import { useAllCharacters } from "@/hooks/use-character-list";
 
 export function CharacterSearch() {
-  const { roomCode, playerId, currentTurn, pendingAsk, askedCharacters, anime } = useGameStore();
+  const { roomCode, playerId, currentTurn, pendingAsk, askedCharacters } = useGameStore();
   const { askCharacter } = useGameActions();
-  const { data: allCharacters } = useCharacterList(anime);
+  const { data: allCharacters } = useAllCharacters();
   const [query, setQuery] = useState("");
   const [asking, setAsking] = useState(false);
 

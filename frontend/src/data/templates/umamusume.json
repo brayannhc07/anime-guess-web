@@ -1,0 +1,59 @@
+{
+  "name": "Umamusume",
+  "characters": [
+    {
+      "id": 162150,
+      "name": "Oguri Cap",
+      "image": "https://cdn.myanimelist.net/images/characters/13/613451.jpg?s=694de64508d9483a22afcd54376c9c67",
+      "anime": "Umamusume: Cinderella Gray"
+    },
+    {
+      "id": 161405,
+      "name": "Tamamo Cross",
+      "image": "https://cdn.myanimelist.net/images/characters/15/573645.jpg?s=61f8c2829285fd0b8cec9c51e82dd538",
+      "anime": "Umamusume: Cinderella Gray"
+    },
+    {
+      "id": 199011,
+      "name": "Agnes Tachyon",
+      "image": "https://cdn.myanimelist.net/images/characters/11/574411.jpg?s=f0517a29f2578cfa867a27120f09796a",
+      "anime": "Umamusume: Pretty Derby"
+    },
+    {
+      "id": 243784,
+      "name": "Dantsu Flame",
+      "image": "https://cdn.myanimelist.net/images/characters/3/574417.jpg?s=11b62d9bd312b739d9f831646d8670cd",
+      "anime": "Umamusume: Pretty Derby"
+    },
+    {
+      "id": 239395,
+      "name": "Jungle Pocket",
+      "image": "https://cdn.myanimelist.net/images/characters/5/574412.jpg?s=25948ce324a846a6db567ca7e7865017",
+      "anime": "Umamusume: Pretty Derby"
+    },
+    {
+      "id": 168199,
+      "name": "Manhattan Cafe",
+      "image": "https://cdn.myanimelist.net/images/characters/5/574422.jpg?s=3fbc94dd2230d757a0af057eba977a88",
+      "anime": "Umamusume: Pretty Derby"
+    },
+    {
+      "id": 210367,
+      "name": "Admire Vega",
+      "image": "https://cdn.myanimelist.net/images/characters/6/574413.jpg?s=83f56c810fa911eef749b629439430fb",
+      "anime": "Umamusume: Pretty Derby"
+    },
+    {
+      "id": 210368,
+      "name": "Narita Top Road",
+      "image": "https://cdn.myanimelist.net/images/characters/3/574885.jpg?s=c8c35b5d24ba0bb14ad840735e648efe",
+      "anime": "Umamusume: Pretty Derby"
+    },
+    {
+      "id": 163814,
+      "name": "T.M. Opera O",
+      "image": "https://cdn.myanimelist.net/images/characters/10/574425.jpg?s=98a8675e46a9667ebcb970650c7332f9",
+      "anime": "Umamusume: Pretty Derby"
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-import type { GameMode, AnimePreset, RoomState } from "@/types/room";
+import type { GameMode, CharacterSource, RoomState } from "@/types/room";
 import { generateCode } from "./generate-code";
 
 const globalForRooms = globalThis as unknown as {
@@ -14,7 +14,9 @@ export function createRoom(hostName: string, hostId: string): RoomState {
     code,
     phase: "lobby",
     mode: "classic",
-    anime: "rezero",
+    characterSource: "template",
+    templateKeys: [],
+    searchAnimeId: null,
     players: [
       {
         id: hostId,
@@ -94,14 +96,18 @@ export function startGame(
   code: string,
   characterIds: number[],
   mode: GameMode,
-  anime: AnimePreset
+  characterSource: CharacterSource,
+  templateKeys: string[],
+  searchAnimeId: number | null
 ): RoomState | null {
   const room = rooms.get(code);
   if (!room) return null;
   room.phase = "selection";
   room.characterIds = characterIds;
   room.mode = mode;
-  room.anime = anime;
+  room.characterSource = characterSource;
+  room.templateKeys = templateKeys;
+  room.searchAnimeId = searchAnimeId;
   room.winner = null;
   room.guessResult = null;
   room.currentTurn = null;

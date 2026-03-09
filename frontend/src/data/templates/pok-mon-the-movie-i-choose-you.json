@@ -1,0 +1,53 @@
+{
+  "name": "Pokémon the Movie: I Choose You!",
+  "characters": [
+    {
+      "id": 222765,
+      "name": "Houou",
+      "image": "https://cdn.myanimelist.net/images/characters/6/498325.jpg?s=244b949a48461ccbddf6937c883b5851",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 8364,
+      "name": "Lucario",
+      "image": "https://cdn.myanimelist.net/images/characters/16/472877.jpg?s=212f1dd46cb5945a1671db3bc2fc32f8",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 149931,
+      "name": "Makoto",
+      "image": "https://cdn.myanimelist.net/images/characters/14/326974.jpg?s=a1e3fa39f4db32b859ae98ca060c736c",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 160115,
+      "name": "Marshadow",
+      "image": "https://cdn.myanimelist.net/images/characters/6/595097.jpg?s=bc8dc9dfcf0c598d356c6e67dd770a35",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 3891,
+      "name": "Pikachu",
+      "image": "https://cdn.myanimelist.net/images/characters/10/289627.jpg?s=b97db39e3126c4cc184a764059abe0f6",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 199750,
+      "name": "Pochama",
+      "image": "https://cdn.myanimelist.net/images/characters/12/449497.jpg?s=c2298c5226083be5dcf2738c78036bb8",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 2473,
+      "name": "Satoshi",
+      "image": "https://cdn.myanimelist.net/images/characters/10/100701.jpg?s=e0c6afbdb021ec02343675ebb587d488",
+      "anime": "Pokémon the Movie: I Choose You!"
+    },
+    {
+      "id": 149932,
+      "name": "Souji",
+      "image": "https://cdn.myanimelist.net/images/characters/5/326977.jpg?s=14be8faec4a71e2171a9f2db281e5ece",
+      "anime": "Pokémon the Movie: I Choose You!"
+    }
+  ]
+}

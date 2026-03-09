@@ -2,7 +2,7 @@
 
 import { CharacterCard } from "./character-card";
 import { useGameStore } from "@/stores/game-store";
-import { useCharacterListByIds } from "@/hooks/use-character-list";
+import { useGameCharacters } from "@/hooks/use-character-list";
 
 interface GameBoardProps {
   selectable?: boolean;
@@ -11,8 +11,8 @@ interface GameBoardProps {
 }
 
 export function GameBoard({ selectable, selectedId, onSelectCharacter }: GameBoardProps) {
-  const { characterIds, eliminated, toggleEliminated, phase, anime } = useGameStore();
-  const { data: characterList, isLoading } = useCharacterListByIds(characterIds, anime);
+  const { eliminated, toggleEliminated, phase } = useGameStore();
+  const { data: characterList, isLoading } = useGameCharacters();
 
   if (isLoading || !characterList) {
     return (

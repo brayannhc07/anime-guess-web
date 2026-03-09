@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { AskedCharacter, GameMode, GamePhase, AnimePreset, Player } from "@/types/room";
+import type { AskedCharacter, GameMode, GamePhase, CharacterSource, Player } from "@/types/room";
 import type { GuessResultPayload, CharacterAskedPayload, RuleGuessSubmittedPayload } from "@/types/pusher-events";
 
 interface GameState {
@@ -8,7 +8,9 @@ interface GameState {
   roomCode: string;
   phase: GamePhase;
   mode: GameMode;
-  anime: AnimePreset;
+  characterSource: CharacterSource;
+  templateKeys: string[];
+  searchAnimeId: number | null;
   players: Player[];
   characterIds: number[];
   eliminated: Set<number>;
@@ -24,7 +26,9 @@ interface GameState {
   setRoomCode: (code: string) => void;
   setPhase: (phase: GamePhase) => void;
   setMode: (mode: GameMode) => void;
-  setAnime: (anime: AnimePreset) => void;
+  setCharacterSource: (source: CharacterSource) => void;
+  setTemplateKeys: (keys: string[]) => void;
+  setSearchAnimeId: (id: number | null) => void;
   setPlayers: (players: Player[]) => void;
   setCharacterIds: (ids: number[]) => void;
   toggleEliminated: (id: number) => void;
@@ -48,7 +52,9 @@ export const useGameStore = create<GameState>((set) => ({
   roomCode: "",
   phase: "lobby",
   mode: "classic",
-  anime: "rezero",
+  characterSource: "template",
+  templateKeys: [],
+  searchAnimeId: null,
   players: [],
   characterIds: [],
   eliminated: new Set(),
@@ -68,7 +74,9 @@ export const useGameStore = create<GameState>((set) => ({
   setRoomCode: (code) => set({ roomCode: code }),
   setPhase: (phase) => set({ phase }),
   setMode: (mode) => set({ mode }),
-  setAnime: (anime) => set({ anime }),
+  setCharacterSource: (source) => set({ characterSource: source }),
+  setTemplateKeys: (keys) => set({ templateKeys: keys }),
+  setSearchAnimeId: (id) => set({ searchAnimeId: id }),
   setPlayers: (players) => set({ players }),
   setCharacterIds: (ids) => set({ characterIds: ids }),
   toggleEliminated: (id) =>
@@ -113,7 +121,9 @@ export const useGameStore = create<GameState>((set) => ({
       roomCode: "",
       phase: "lobby",
       mode: "classic",
-      anime: "rezero",
+      characterSource: "template",
+      templateKeys: [],
+      searchAnimeId: null,
       players: [],
       characterIds: [],
       eliminated: new Set(),

@@ -4,13 +4,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
-import { useCharacterListByIds } from "@/hooks/use-character-list";
+import { useGameCharacters } from "@/hooks/use-character-list";
 import { useState } from "react";
 
 export function GameOverBanner() {
-  const { winner, playerId, guessResult, mode, roomCode, characterIds, players, anime } = useGameStore();
+  const { winner, playerId, guessResult, mode, roomCode, players } = useGameStore();
   const { requestRematch } = useGameActions();
-  const { data: characterList } = useCharacterListByIds(characterIds, anime);
+  const { data: characterList } = useGameCharacters();
   const [loading, setLoading] = useState(false);
 
   const isWinner = winner === playerId;

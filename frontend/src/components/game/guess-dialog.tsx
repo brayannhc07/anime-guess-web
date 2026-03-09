@@ -12,12 +12,12 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
-import { useCharacterListByIds } from "@/hooks/use-character-list";
+import { useGameCharacters } from "@/hooks/use-character-list";
 
 export function GuessDialog() {
-  const { mode, roomCode, characterIds, eliminated, pendingRuleGuess, anime } = useGameStore();
+  const { mode, roomCode, eliminated, pendingRuleGuess } = useGameStore();
   const { makeGuess, submitRuleGuess } = useGameActions();
-  const { data: characterList } = useCharacterListByIds(characterIds, anime);
+  const { data: characterList } = useGameCharacters();
   const [open, setOpen] = useState(false);
   const [ruleGuess, setRuleGuess] = useState("");
   const [loading, setLoading] = useState(false);

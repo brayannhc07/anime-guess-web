@@ -2,11 +2,11 @@
 
 import { Badge } from "@/components/ui/badge";
 import { useGameStore } from "@/stores/game-store";
-import { useCharacterListByIds } from "@/hooks/use-character-list";
+import { useGameCharacters } from "@/hooks/use-character-list";
 
 export function PlayerInfoBadge() {
-  const { playerId, players, mode, characterIds, anime } = useGameStore();
-  const { data: characterList } = useCharacterListByIds(characterIds, anime);
+  const { playerId, players, mode } = useGameStore();
+  const { data: characterList } = useGameCharacters();
 
   const me = players.find((p) => p.id === playerId);
   if (!me || !me.lockedIn) return null;
