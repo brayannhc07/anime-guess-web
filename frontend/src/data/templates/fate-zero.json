@@ -1,0 +1,412 @@
+{
+  "name": "Fate/Zero",
+  "characters": [
+    {
+      "id": 10010,
+      "name": "Emiya, Kiritsugu",
+      "image": "https://cdn.myanimelist.net/images/characters/4/474826.jpg?s=6852e68ca2080a3868fdf0a35e28c3ca",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 2514,
+      "name": "Gilgamesh",
+      "image": "https://cdn.myanimelist.net/images/characters/12/338672.jpg?s=371d0ab7f558421873f80899afcd2b67",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 506,
+      "name": "Kotomine, Kirei",
+      "image": "https://cdn.myanimelist.net/images/characters/3/258487.jpg?s=625b5a2f748dcf042543281d4021e364",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 497,
+      "name": "Saber",
+      "image": "https://cdn.myanimelist.net/images/characters/6/275276.jpg?s=4eba6ea0e7bc9054777e616f944eaec0",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 15164,
+      "name": "von Einzbern, Irisviel",
+      "image": "https://cdn.myanimelist.net/images/characters/14/30256.jpg?s=cbccf9b3356ac912ab8beac5a704c339",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 16025,
+      "name": "Assassin",
+      "image": "https://cdn.myanimelist.net/images/characters/14/160563.jpg?s=e42efe11d9c839615f11bf44cc59a165",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 12732,
+      "name": "Berserker",
+      "image": "https://cdn.myanimelist.net/images/characters/8/102820.jpg?s=bad9103613abdac2877322928abc652f",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16024,
+      "name": "Caster",
+      "image": "https://cdn.myanimelist.net/images/characters/2/101272.jpg?s=5af57642f5a6a0d3e37e3144c1ac1bbc",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16028,
+      "name": "El-Melloi Archibald, Kayneth",
+      "image": "https://cdn.myanimelist.net/images/characters/13/141327.jpg?s=2621b59dd43ceb308cb579a093d64472",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 52493,
+      "name": "Gráinne",
+      "image": "https://cdn.myanimelist.net/images/characters/12/144149.jpg?s=51d9f19054cebf2276c8ca5119999efc",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16020,
+      "name": "Hisau, Maiya",
+      "image": "https://cdn.myanimelist.net/images/characters/7/82371.jpg?s=008e74b5f6991b435273757af5096d54",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16035,
+      "name": "Kamiński, Natalia",
+      "image": "https://cdn.myanimelist.net/images/characters/15/165953.jpg?s=94c6e1d057b64b5840c352119159307c",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16029,
+      "name": "Kotomine, Risei",
+      "image": "https://cdn.myanimelist.net/images/characters/7/136611.jpg?s=be6059d791401e764bee7aabdbcb8830",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 52829,
+      "name": "Kotone",
+      "image": "https://cdn.myanimelist.net/images/characters/2/145199.jpg?s=2fb6781e881fd4f104c1d19edb14d2ef",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16022,
+      "name": "Lancer",
+      "image": "https://cdn.myanimelist.net/images/characters/11/116250.jpg?s=3f9e61c2b72351b7eee642f3e275b3d8",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 24333,
+      "name": "Leysritt",
+      "image": "https://cdn.myanimelist.net/images/characters/2/280450.jpg?s=a54f30ffb5b5c9482c8e6a9cb66f8741",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 52491,
+      "name": "mac Cumhaill, Fionn",
+      "image": "https://cdn.myanimelist.net/images/characters/7/559446.jpg?s=1a2e8987ab311eac3e92e75713214288",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 51305,
+      "name": "Mackenzie, Martha",
+      "image": "https://cdn.myanimelist.net/images/characters/16/171557.jpg?s=c7d865f908dde7e67b0b619e8f4843b1",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 52245,
+      "name": "Mackenzie, Glen",
+      "image": "https://cdn.myanimelist.net/images/characters/14/171555.jpg?s=9fee27fffbe5f2a523147d2d8dfbf573",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16030,
+      "name": "Matou, Zouken",
+      "image": "https://cdn.myanimelist.net/images/characters/4/438849.jpg?s=a6a84504b75083918efec2d7ae656cf1",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16026,
+      "name": "Matou, Kariya",
+      "image": "https://cdn.myanimelist.net/images/characters/6/135841.jpg?s=8454decb059c618c36853a660fad6df2",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 500,
+      "name": "Matou, Sakura",
+      "image": "https://cdn.myanimelist.net/images/characters/14/294277.jpg?s=68459ba6411dcb45bd908138f664cf0f",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16032,
+      "name": "Nuada-Re Sophia-Ri, Sola-Ui",
+      "image": "https://cdn.myanimelist.net/images/characters/7/102986.jpg?s=a8defbb9fd90cf0b175d786e98aa856d",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16021,
+      "name": "Rider",
+      "image": "https://cdn.myanimelist.net/images/characters/9/142869.jpg?s=e130372dee2406626a19b9871c526a0c",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16017,
+      "name": "Toosaka, Tokiomi",
+      "image": "https://cdn.myanimelist.net/images/characters/9/338666.jpg?s=c4bd38c76c59614174cdde2efaab8008",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 498,
+      "name": "Toosaka, Rin",
+      "image": "https://cdn.myanimelist.net/images/characters/2/270529.jpg?s=706a118549bd43c8f2e405d2225499a0",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16018,
+      "name": "Toosaka, Aoi",
+      "image": "https://cdn.myanimelist.net/images/characters/15/142871.jpg?s=b4735ec5293e8b59abfd33499f952d47",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16019,
+      "name": "Uryuu, Ryuunosuke",
+      "image": "https://cdn.myanimelist.net/images/characters/5/158189.jpg?s=56ebb87b1fe09e6f7821b3e41f93f4e8",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16023,
+      "name": "Velvet, Waver",
+      "image": "https://cdn.myanimelist.net/images/characters/8/126883.jpg?s=3a933082f693498a8355f823d8297aee",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 503,
+      "name": "von Einzbern, Illyasviel",
+      "image": "https://cdn.myanimelist.net/images/characters/14/346384.jpg?s=8751cbf099a4f5c9c90aed8bead068e5",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16027,
+      "name": "von Einzbern, Jubstacheit",
+      "image": "https://cdn.myanimelist.net/images/characters/13/142973.jpg?s=0b2b56feffcb45503cb3a395951cde4a",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16751,
+      "name": "Alba, Cornelius",
+      "image": "https://cdn.myanimelist.net/images/characters/7/150361.jpg?s=f13cb5a62392722d55efd9ccbf168dc6",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 496,
+      "name": "Emiya, Shirou",
+      "image": "https://cdn.myanimelist.net/images/characters/13/173271.jpg?s=74059f2718fb3dafbc6f487382c2fa6e",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16033,
+      "name": "Emiya, Norikata",
+      "image": "https://cdn.myanimelist.net/images/characters/12/165803.jpg?s=c26be89fd4e1d56ba7a771cc7c98690a",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16031,
+      "name": "Matou, Byakuya",
+      "image": "https://cdn.myanimelist.net/images/characters/13/167747.jpg?s=5177e9b45dce5c5222c038ac47ee770d",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 170483,
+      "name": "Mithrenes",
+      "image": "https://cdn.myanimelist.net/images/characters/16/379830.jpg?s=f923a53a4523ee8ad589a52ef43ffb6b",
+      "anime": "Fate/Zero",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 16034,
+      "name": "Shirley",
+      "image": "https://cdn.myanimelist.net/images/characters/16/165805.jpg?s=a90f5b87a53fa357453f6b7966ef54db",
+      "anime": "Fate/Zero",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

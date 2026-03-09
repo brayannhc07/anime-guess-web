@@ -1,0 +1,687 @@
+{
+  "name": "Teasing Master Takagi-san",
+  "characters": [
+    {
+      "id": 123698,
+      "name": "Nishikata",
+      "image": "https://cdn.myanimelist.net/images/characters/14/334435.jpg?s=4a8d926b9175b0a4a4221f8c7b330d86",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 123699,
+      "name": "Takagi",
+      "image": "https://cdn.myanimelist.net/images/characters/13/348969.jpg?s=a1a38afe98c4bf0b49d2ab843fe1516d",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 226878,
+      "name": "Art Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/4/506634.jpg?s=9267136a8c112a9e3e6008e2b3322ca9",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226922,
+      "name": "Assistant Principal Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/15/506787.jpg?s=e6e371463baa39394fe527bf72359dc8",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226830,
+      "name": "Clerk",
+      "image": "https://cdn.myanimelist.net/images/characters/15/506448.jpg?s=4c61542e317b34e515fec7de24047006",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226778,
+      "name": "Elementary School Big Brother",
+      "image": "https://cdn.myanimelist.net/images/characters/11/506343.jpg?s=09a99b984ca49ccdc31980af48aca25e",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226780,
+      "name": "Elementary School Younger Sister",
+      "image": "https://cdn.myanimelist.net/images/characters/8/506345.jpg?s=127740ce5eefd3489c601e1fa456e46c",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 140923,
+      "name": "Hibino, Mina",
+      "image": "https://cdn.myanimelist.net/images/characters/12/378859.jpg?s=ba0000609066d3e3071aea1ac8ca0136",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226738,
+      "name": "Ikeo",
+      "image": "https://cdn.myanimelist.net/images/characters/4/506273.jpg?s=1344347d5cd0a51b2e5cb43e90d98ee8",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226652,
+      "name": "Japanese Language Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/8/506157.jpg?s=5d56e8454043ee5cba3b89ab38628a38",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157900,
+      "name": "Kimura",
+      "image": "https://cdn.myanimelist.net/images/characters/7/351655.jpg?s=a655d0a56c3783d9d03d1c6e923d29a2",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226737,
+      "name": "Kyunko",
+      "image": "https://cdn.myanimelist.net/images/characters/8/506272.jpg?s=87a880eafb9c7b9b07f8b9cfc741016a",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157901,
+      "name": "Mano",
+      "image": "https://cdn.myanimelist.net/images/characters/2/378862.jpg?s=2b1902850137fe0f88df152185f49e91",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226768,
+      "name": "Math Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/10/506333.jpg?s=6169cc4bf424734bb08974c3b52e5b36",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157881,
+      "name": "Nakai, Kouki",
+      "image": "https://cdn.myanimelist.net/images/characters/2/351654.jpg?s=05c6b83f33a78b3982a34f5ca52a387d",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226879,
+      "name": "Nakamura",
+      "image": "https://cdn.myanimelist.net/images/characters/14/506636.jpg?s=1a2134dbb74ff585c7d98a180cea5425",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226653,
+      "name": "Physical Education Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/9/506158.jpg?s=f14cddbcbf6607fce10fd6adcbd41fc3",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206180,
+      "name": "Sakurai",
+      "image": "https://cdn.myanimelist.net/images/characters/11/464828.jpg?s=3c6e71a10f15226424dcf2774b77b747",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 197758,
+      "name": "Takagawa, Sumire",
+      "image": "https://cdn.myanimelist.net/images/characters/2/455526.jpg?s=5690637646e4327db2ce190b692d0359",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226829,
+      "name": "Takagi's Mother",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157902,
+      "name": "Takao",
+      "image": "https://cdn.myanimelist.net/images/characters/2/378861.jpg?s=38d4f695a4ef6718ad6de6722884060a",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157880,
+      "name": "Tanabe-sensei",
+      "image": "https://cdn.myanimelist.net/images/characters/5/351653.jpg?s=4848ff38e6393f16ec565f4e65acb022",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 140924,
+      "name": "Tenkawa, Yukari",
+      "image": "https://cdn.myanimelist.net/images/characters/3/348073.jpg?s=3480071bfd4583a95bfe27c39bc614af",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 140925,
+      "name": "Tsukimoto, Sanae",
+      "image": "https://cdn.myanimelist.net/images/characters/16/378858.jpg?s=63a48b30b3ea465b196069775573e559",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227271,
+      "name": "Cake Shop Clerk",
+      "image": "https://cdn.myanimelist.net/images/characters/10/507436.jpg?s=00b8c1e93b3d8d12c760c0ce7b42ab4a",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227544,
+      "name": "Candy Apple Shop Clerk",
+      "image": "https://cdn.myanimelist.net/images/characters/11/508020.jpg?s=3861f42622d6e5310f34eb6e508fde94",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 184360,
+      "name": "Hamaguchi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/414009.jpg?s=40e93aa6b5d783af7ec5438b1aa3d201",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227207,
+      "name": "Hiroshi",
+      "image": "https://cdn.myanimelist.net/images/characters/5/507268.jpg?s=4ae0651a7b2107adced43eea8bbce0cf",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173425,
+      "name": "Houjou",
+      "image": "https://cdn.myanimelist.net/images/characters/12/500458.jpg?s=3b2c6436c0f07a41e15be4d9d175d195",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227209,
+      "name": "Iino",
+      "image": "https://cdn.myanimelist.net/images/characters/5/507270.jpg?s=b0b0541b46be0304c4675f8148373416",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227210,
+      "name": "Kitano",
+      "image": "https://cdn.myanimelist.net/images/characters/10/507271.jpg?s=782e9061eb13fdd3867589a85643eb18",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227543,
+      "name": "Mina's Grandmother",
+      "image": "https://cdn.myanimelist.net/images/characters/2/508019.jpg?s=d35a13efd734199ff38d25e231c14cde",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227542,
+      "name": "Mina's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/14/508018.jpg?s=49d2a675395e42ff1cfd13e96c984296",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227541,
+      "name": "Mina's Little Sister",
+      "image": "https://cdn.myanimelist.net/images/characters/6/508017.jpg?s=1adae7d06665c2c9fb79ff7671cb4a4f",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227213,
+      "name": "Misae",
+      "image": "https://cdn.myanimelist.net/images/characters/7/507274.jpg?s=aaf9346eb8caf9a686d1c88c3a7645e8",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227272,
+      "name": "Nishikata's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/3/507437.jpg?s=8b09f64eb41e08b6c80d054f312168ee",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227546,
+      "name": "Older Brother",
+      "image": "https://cdn.myanimelist.net/images/characters/12/508022.jpg?s=e39954a8b9678082a06bd524eca8fa31",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227293,
+      "name": "Owaki",
+      "image": "https://cdn.myanimelist.net/images/characters/15/507529.jpg?s=eeff7066dcf80046028474234659aa0a",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227206,
+      "name": "Patzun",
+      "image": "https://cdn.myanimelist.net/images/characters/3/508004.jpg?s=54eaed2ef2a17d3b2d71d03254003e10",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227326,
+      "name": "Photographer",
+      "image": "https://cdn.myanimelist.net/images/characters/8/507593.jpg?s=9b3d5941f3ed066be2a3a3187e51d3f9",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227464,
+      "name": "Sae",
+      "image": "https://cdn.myanimelist.net/images/characters/11/507873.jpg?s=e10b12e8dfc833243ff4126bf0db155e",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227208,
+      "name": "Shibasaki",
+      "image": "https://cdn.myanimelist.net/images/characters/9/507269.jpg?s=e813c15d30395630541afd8f31fac755",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227211,
+      "name": "Suzuki",
+      "image": "https://cdn.myanimelist.net/images/characters/2/507272.jpg?s=46629ea8f844ef384308f47a100bd4d6",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227212,
+      "name": "Ume",
+      "image": "https://cdn.myanimelist.net/images/characters/13/507273.jpg?s=6167f8e1744c8fd73959d30f47d3ee34",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227214,
+      "name": "Uncle of Candy Store",
+      "image": "https://cdn.myanimelist.net/images/characters/14/507275.jpg?s=19f1946a2d7d111721d9ad76b103e1cd",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227545,
+      "name": "Younger Sister",
+      "image": "https://cdn.myanimelist.net/images/characters/10/508021.jpg?s=9cdf223aeb35214c9ac4ab8e2366d90b",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228643,
+      "name": "Araki",
+      "image": "https://cdn.myanimelist.net/images/characters/5/509984.jpg?s=37aa8f1479095735715d2f9451216123",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 205829,
+      "name": "Boy",
+      "image": "https://cdn.myanimelist.net/images/characters/2/464060.jpg?s=6bac4f6d0d710a3ccbc7767e2f254922",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228646,
+      "name": "Child with Glasses",
+      "image": "https://cdn.myanimelist.net/images/characters/3/509987.jpg?s=a781495f7c914edd12cf38d035f21d83",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273454,
+      "name": "Dandy",
+      "image": "https://cdn.myanimelist.net/images/characters/2/596089.jpg?s=9e2a0c8306728b71d7ed649990b719f2",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228639,
+      "name": "Gariben",
+      "image": "https://cdn.myanimelist.net/images/characters/7/509980.jpg?s=a169a530644398b01aba759f0923831d",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228638,
+      "name": "Gomi",
+      "image": "https://cdn.myanimelist.net/images/characters/14/509979.jpg?s=06ae92c62d037beb51a3c6fc3b558bdb",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228644,
+      "name": "Igaguri",
+      "image": "https://cdn.myanimelist.net/images/characters/16/509985.jpg?s=43615bda3b034dbfa1a319ba19bf3a64",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228642,
+      "name": "Nakajima",
+      "image": "https://cdn.myanimelist.net/images/characters/9/509983.jpg?s=9c2c7c991aa04ce9560b69f09c13b494",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 154176,
+      "name": "Nishikata, Chii",
+      "image": "https://cdn.myanimelist.net/images/characters/15/339114.jpg?s=8d4099a5294c696c9d62fad2f3f8b586",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228641,
+      "name": "Otonashi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/509982.jpg?s=c68423f331326f98825473bfc750e7cb",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228645,
+      "name": "Tsukimoto-sensei",
+      "image": "https://cdn.myanimelist.net/images/characters/14/509986.jpg?s=423e548d933aa21a0111d02d45fa98d9",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228640,
+      "name": "Usui",
+      "image": "https://cdn.myanimelist.net/images/characters/11/509981.jpg?s=8af8b36b8a2cf79ae2560bb44a54a51e",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273460,
+      "name": "Aoki",
+      "image": "https://cdn.myanimelist.net/images/characters/8/596095.jpg?s=db2ae1273775726486584db0dd00c872",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 210529,
+      "name": "Hana",
+      "image": "https://cdn.myanimelist.net/images/characters/2/489141.jpg?s=550565a277c822882ac7b6df1f518d84",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 218030,
+      "name": "Katsuo",
+      "image": "https://cdn.myanimelist.net/images/characters/13/491706.jpg?s=1cd9389eaa1e1bcceedf7c8a1c891295",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 210531,
+      "name": "Oota",
+      "image": "https://cdn.myanimelist.net/images/characters/2/489151.jpg?s=5909475cd2fba03b733696d375b047b0",
+      "anime": "Teasing Master Takagi-san",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

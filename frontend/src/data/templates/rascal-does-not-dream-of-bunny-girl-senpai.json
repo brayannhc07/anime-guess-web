@@ -1,0 +1,104 @@
+{
+  "name": "Rascal Does Not Dream of Bunny Girl Senpai",
+  "characters": [
+    {
+      "id": 239298,
+      "name": "Aya",
+      "image": "https://cdn.myanimelist.net/images/characters/9/531885.jpg?s=fa3ff0a03f37ef3a3b4232d79b0f06e1",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214732,
+      "name": "Boy",
+      "image": "https://cdn.myanimelist.net/images/characters/4/482916.jpg?s=7a87a5febe1e115f0dde5003fc569bbd",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 260737,
+      "name": "Director",
+      "image": "https://cdn.myanimelist.net/images/characters/6/571749.jpg?s=60b5d346d7db10964b4c816ed3b00d50",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239297,
+      "name": "Hinako",
+      "image": "https://cdn.myanimelist.net/images/characters/5/531884.jpg?s=5c1322008689cec82472811ca131258a",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168156,
+      "name": "Kashiba, Rena",
+      "image": "https://cdn.myanimelist.net/images/characters/15/373174.jpg?s=1ff70d5a956b5714880a6aea8f2e9918",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168157,
+      "name": "Maesawa, Yousuke",
+      "image": "https://cdn.myanimelist.net/images/characters/3/373175.jpg?s=be523d07fb469416d6044b9cb768dbff",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214946,
+      "name": "Nodoka's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/16/483298.jpg?s=92df48d7dae6648542c1b61d7509df1d",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214734,
+      "name": "Store Manager",
+      "image": "https://cdn.myanimelist.net/images/characters/10/482940.jpg?s=0dba15a46b4d401f7595d104a2dd955f",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 238629,
+      "name": "Yoneyama, Nana",
+      "image": "https://cdn.myanimelist.net/images/characters/4/530179.jpg?s=60fb81ec11c9d2392d2795fd0634d614",
+      "anime": "Rascal Does Not Dream of Bunny Girl Senpai",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

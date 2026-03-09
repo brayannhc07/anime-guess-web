@@ -1,0 +1,203 @@
+{
+  "name": "Fate/stay night [Unlimited Blade Works]",
+  "characters": [
+    {
+      "id": 2087,
+      "name": "Archer",
+      "image": "https://cdn.myanimelist.net/images/characters/6/502858.jpg?s=e105b81c07d453d8208695b32854d368",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 2585,
+      "name": "Assassin",
+      "image": "https://cdn.myanimelist.net/images/characters/13/268525.jpg?s=a3d57300d15d0ea4cc4b1afad1650218",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Berserker",
+      "image": "https://cdn.myanimelist.net/images/characters/14/31626.jpg?s=129db5068397c58911343a81e023abf3",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 3440,
+      "name": "Caster",
+      "image": "https://cdn.myanimelist.net/images/characters/16/31608.jpg?s=4530d7711dc0949ac32629345cc1deef",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Fujimura, Taiga",
+      "image": "https://cdn.myanimelist.net/images/characters/5/275651.jpg?s=32fd6ec0fc4e87d08cc6b34c01e7dfeb",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 158041,
+      "name": "Gotou, Gai",
+      "image": "https://cdn.myanimelist.net/images/characters/13/348427.jpg?s=e25999f880d587cb159f8931f3c7efc6",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 115265,
+      "name": "Himuro, Kane",
+      "image": "https://cdn.myanimelist.net/images/characters/15/263479.jpg?s=92f6bb9ecec77756a79f3243c4c52a00",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 3439,
+      "name": "Kuzuki, Souichirou",
+      "image": "https://cdn.myanimelist.net/images/characters/4/267891.jpg?s=2d762cd0f14343e32e0df515b6b1ac1a",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 499,
+      "name": "Lancer",
+      "image": "https://cdn.myanimelist.net/images/characters/11/280846.jpg?s=272cc12b325844555dc10f87cc9d7eab",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 115263,
+      "name": "Makidera, Kaede",
+      "image": "https://cdn.myanimelist.net/images/characters/6/263481.jpg?s=c1b0fe9b23067dfa532606131d7d311e",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 501,
+      "name": "Matou, Shinji",
+      "image": "https://cdn.myanimelist.net/images/characters/7/296254.jpg?s=4f08483810514846684e43107f190c03",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21024,
+      "name": "Mitsuzuri, Ayako",
+      "image": "https://cdn.myanimelist.net/images/characters/16/261583.jpg?s=bd5c09563afc59f64402abb7e2319e0e",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 502,
+      "name": "Rider",
+      "image": "https://cdn.myanimelist.net/images/characters/2/31612.jpg?s=16258fd2ed204bf12ce611339c2f8841",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 15937,
+      "name": "Ryuudou, Issei",
+      "image": "https://cdn.myanimelist.net/images/characters/13/261585.jpg?s=4d0247f4deb4c841c7d3a73c8dcb73bc",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 114969,
+      "name": "Saegusa, Yukika",
+      "image": "https://cdn.myanimelist.net/images/characters/2/296250.jpg?s=1d2560d0228de358e5533bb1052f70c4",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 44025,
+      "name": "Sella",
+      "image": "https://cdn.myanimelist.net/images/characters/7/280451.jpg?s=6336d02c3df5821dee94797dea4584b0",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21636,
+      "name": "Edelfelt, Luviagelita",
+      "image": "https://cdn.myanimelist.net/images/characters/15/503811.jpg?s=712814c723bed00a8da77cce32c6400b",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 127216,
+      "name": "Galliasta, Atrum",
+      "image": "https://cdn.myanimelist.net/images/characters/5/280449.jpg?s=a330cd6e3f790d1c8cedfaef5bc9ab30",
+      "anime": "Fate/stay night [Unlimited Blade Works]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

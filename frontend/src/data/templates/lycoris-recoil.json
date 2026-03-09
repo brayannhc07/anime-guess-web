@@ -1,0 +1,225 @@
+{
+  "name": "Lycoris Recoil",
+  "characters": [
+    {
+      "id": 204620,
+      "name": "Inoue, Takina",
+      "image": "https://cdn.myanimelist.net/images/characters/3/486673.jpg?s=3ca2f10e2c681dd6e39c7400a157d7b1",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 204621,
+      "name": "Nishikigi, Chisato",
+      "image": "https://cdn.myanimelist.net/images/characters/5/486674.jpg?s=0608ef72094b43274983a365006865b0",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 215349,
+      "name": "Hacker",
+      "image": "https://cdn.myanimelist.net/images/characters/5/491294.jpg?s=6145dbe0e83d75ef3411b104af4dfa3a",
+      "anime": "Lycoris Recoil",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 213649,
+      "name": "Harukawa, Fuki",
+      "image": "https://cdn.myanimelist.net/images/characters/15/491731.jpg?s=da296d861322da96f662525b921b91c7",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 216126,
+      "name": "Himegama",
+      "image": "https://cdn.myanimelist.net/images/characters/15/485454.jpg?s=3e460bb952965cc78f477b1fe3fe3612",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 235791,
+      "name": "Itou",
+      "image": "https://cdn.myanimelist.net/images/characters/6/524441.jpg?s=efd5bea8b1dc59ecfcf6f7ddd9249096",
+      "anime": "Lycoris Recoil",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214031,
+      "name": "Janome, Erika",
+      "image": "https://cdn.myanimelist.net/images/characters/13/491291.jpg?s=d38a0670b8ddca3c1e295b7c8d854dd0",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 216127,
+      "name": "Jin",
+      "image": "https://cdn.myanimelist.net/images/characters/7/485457.jpg?s=dc9925bb35786ce39809a462f7ffaa78",
+      "anime": "Lycoris Recoil",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214032,
+      "name": "Kagari, Hibana",
+      "image": "https://cdn.myanimelist.net/images/characters/3/491293.jpg?s=600f9dff3df77ed97d39bb8c94317122",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 207492,
+      "name": "Kurumi",
+      "image": "https://cdn.myanimelist.net/images/characters/12/491295.jpg?s=fe57cc75f61a85201599241d0f6be6ca",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 213650,
+      "name": "Kusunoki",
+      "image": "https://cdn.myanimelist.net/images/characters/15/491289.jpg?s=f32c06aef37debeccad0a108bffef4d3",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214579,
+      "name": "Kusunoki's Assistant",
+      "image": "https://cdn.myanimelist.net/images/characters/12/491737.jpg?s=92076a7acd97fe3ced10a3b9a72c4964",
+      "anime": "Lycoris Recoil",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214515,
+      "name": "Majima",
+      "image": "https://cdn.myanimelist.net/images/characters/11/491733.jpg?s=534ca0bb407ef7bc2e039fede364d67a",
+      "anime": "Lycoris Recoil",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 207493,
+      "name": "Mika",
+      "image": "https://cdn.myanimelist.net/images/characters/10/491290.jpg?s=af5aa308c1ca23dbdb174d1a202473a0",
+      "anime": "Lycoris Recoil",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 207491,
+      "name": "Nakahara, Mizuki",
+      "image": "https://cdn.myanimelist.net/images/characters/9/491734.jpg?s=ab4de470322c2f6751596a4471471f39",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214030,
+      "name": "Otome, Sakura",
+      "image": "https://cdn.myanimelist.net/images/characters/9/491735.jpg?s=8de96243aa1a2533314dd3a1a91555cc",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215369,
+      "name": "Robota",
+      "image": "https://cdn.myanimelist.net/images/characters/10/491736.jpg?s=866e6262bc56c81a3960487714d63ea5",
+      "anime": "Lycoris Recoil",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214554,
+      "name": "Shinohara, Saori",
+      "image": "https://cdn.myanimelist.net/images/characters/6/487587.jpg?s=ed4b02bce3b344a7a789d212f74576dd",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 216611,
+      "name": "Yamagishi",
+      "image": "https://cdn.myanimelist.net/images/characters/9/486350.jpg?s=8cf0bb8620209ca79f029b29acb7131c",
+      "anime": "Lycoris Recoil",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 213651,
+      "name": "Yoshimatsu, Shinji",
+      "image": "https://cdn.myanimelist.net/images/characters/6/491292.jpg?s=fbbbf6a1b798c057fab69823b3014a7b",
+      "anime": "Lycoris Recoil",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

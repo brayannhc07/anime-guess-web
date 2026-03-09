@@ -5,31 +5,2113 @@
       "id": 40881,
       "name": "Ackerman, Mikasa",
       "image": "https://cdn.myanimelist.net/images/characters/9/215563.jpg?s=5b0650bb09a7e053afc6bad84ab48947",
-      "anime": "Attack on Titan"
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 46494,
       "name": "Arlert, Armin",
       "image": "https://cdn.myanimelist.net/images/characters/8/220267.jpg?s=afa2751e2201aba1f5179544e787ba1a",
-      "anime": "Attack on Titan"
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
     },
     {
       "id": 40882,
       "name": "Yeager, Eren",
       "image": "https://cdn.myanimelist.net/images/characters/10/216895.jpg?s=ccb6539cbfc5462df97d61a48c52af93",
-      "anime": "Attack on Titan"
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 150717,
+      "name": "Abel",
+      "image": "https://cdn.myanimelist.net/images/characters/4/329189.jpg?s=9d5b3f38b3b94a872a8a10b187faf579",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84339,
+      "name": "Ackerman, Father",
+      "image": "https://cdn.myanimelist.net/images/characters/11/206391.jpg?s=12136b2bd14eb6d8fbfad22e255f14cd",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84341,
+      "name": "Ackerman, Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/15/206389.jpg?s=dc26854a45cdc2a56d852062f77f58bc",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84313,
+      "name": "Arlert, Grandfather",
+      "image": "https://cdn.myanimelist.net/images/characters/7/206359.jpg?s=c86947918d765381f67f94da4ce0f5d1",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84327,
+      "name": "Balto",
+      "image": "https://cdn.myanimelist.net/images/characters/15/206405.jpg?s=a3dc07eb93070c0e403d4b0bc41fb0c5",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 89387,
+      "name": "Berner, Moblit",
+      "image": "https://cdn.myanimelist.net/images/characters/8/215963.jpg?s=9a3917bb9d7f4f66bec1ecbbc2f06262",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 45887,
+      "name": "Blouse, Sasha",
+      "image": "https://cdn.myanimelist.net/images/characters/6/251937.jpg?s=3fa60ed09de9a2a8e46d30099e50e6c4",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 62479,
+      "name": "Bott, Marco",
+      "image": "https://cdn.myanimelist.net/images/characters/7/208125.jpg?s=08d3dee93c0fd370b58190d7df1e553a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92955,
+      "name": "Bozado, Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/3/221737.jpg?s=fdb626f5cf24d0ca053b986b27a6d82e",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71687,
+      "name": "Bozado, Oluo",
+      "image": "https://cdn.myanimelist.net/images/characters/5/215969.jpg?s=7eab21c70736fee43c842ae659fc6893",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92953,
+      "name": "Bozado, Father",
+      "image": "https://cdn.myanimelist.net/images/characters/5/221739.jpg?s=be6f01fc6578b7ce3f944202c6a04f21",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46484,
+      "name": "Braun, Reiner",
+      "image": "https://cdn.myanimelist.net/images/characters/16/206489.jpg?s=e48695a419dc6e71c831d7481a5fc86f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84707,
+      "name": "Brzenska, Riko",
+      "image": "https://cdn.myanimelist.net/images/characters/6/212007.jpg?s=63ac69046e847cac6d6dd17afa15cafa",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 83181,
+      "name": "Carolina, Mina",
+      "image": "https://cdn.myanimelist.net/images/characters/5/204093.jpg?s=fb90a1cf55c1cc79839aff188ef23357",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84321,
+      "name": "Dazz",
+      "image": "https://cdn.myanimelist.net/images/characters/16/206363.jpg?s=0b98f868ed5527fbd501be26b432043f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84319,
+      "name": "Diamant, Hannah",
+      "image": "https://cdn.myanimelist.net/images/characters/13/206445.jpg?s=3a75cd869aab0b86533e977b7f3f3f0e",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92947,
+      "name": "Dieter",
+      "image": "https://cdn.myanimelist.net/images/characters/11/221751.jpg?s=2a4a771509ecfe7b345ea42017b1d31a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84333,
+      "name": "Dietrich, Ian",
+      "image": "https://cdn.myanimelist.net/images/characters/7/206457.jpg?s=b99b60126559ee5de233321d90107cd4",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71123,
+      "name": "Dok, Nile",
+      "image": "https://cdn.myanimelist.net/images/characters/3/213233.jpg?s=016cc4adc473b134164d4bbaf27345b4",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 86017,
+      "name": "Dreyse, Hitch",
+      "image": "https://cdn.myanimelist.net/images/characters/10/220845.jpg?s=7324d39cc7811d8c86267adc4ff10eb0",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92965,
+      "name": "Eibringer, Dennis",
+      "image": "https://cdn.myanimelist.net/images/characters/3/221747.jpg?s=1ad1fbc588e89632aee4230aab37ccf6",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92963,
+      "name": "Eld's lover",
+      "image": "https://cdn.myanimelist.net/images/characters/4/221729.jpg?s=404ab29135d9909f7e93325e5f34f298",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92967,
+      "name": "Feulner, Boris",
+      "image": "https://cdn.myanimelist.net/images/characters/7/221745.jpg?s=e15b7c0445d0ade9b4e44073e70381db",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71457,
+      "name": "Freudenberg, Marlo",
+      "image": "https://cdn.myanimelist.net/images/characters/15/220855.jpg?s=0c8902e27efea4e59e3adbb9a6bd1667",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84329,
+      "name": "Gustav",
+      "image": "https://cdn.myanimelist.net/images/characters/6/206443.jpg?s=a43affcfdb60d2dc4443c01a7cd04ec2",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46492,
+      "name": "Hannes",
+      "image": "https://cdn.myanimelist.net/images/characters/2/206449.jpg?s=fca09021abb72b983ab789c8966ecbcd",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46488,
+      "name": "Hoover, Bertolt",
+      "image": "https://cdn.myanimelist.net/images/characters/2/206409.jpg?s=6dcbabbfc0a2f4a262e550e18c3f3369",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84307,
+      "name": "Hugo",
+      "image": "https://cdn.myanimelist.net/images/characters/5/206455.jpg?s=c9bf955eba499200fe46e914d30b9d29",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84323,
+      "name": "Instructor",
+      "image": "https://cdn.myanimelist.net/images/characters/9/206367.jpg?s=67ec33e561b238cd86fb67e72ef6d1aa",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 87385,
+      "name": "Jarnach, Mitabi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/211983.jpg?s=128186d77cda33b0cd8e72e0fc457bd5",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71689,
+      "name": "Jinn, Eld",
+      "image": "https://cdn.myanimelist.net/images/characters/14/215953.jpg?s=81aea5e9e70a6f40080691530ed6d63f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92961,
+      "name": "Jinn, Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/7/221735.jpg?s=8bd99c0b252371fedd04a5ccb951dcf7",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92949,
+      "name": "Jurgen",
+      "image": "https://cdn.myanimelist.net/images/characters/10/221749.jpg?s=0e2beede7641e1be4a4af7684a77ac14",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84317,
+      "name": "Kefka, Franz",
+      "image": "https://cdn.myanimelist.net/images/characters/6/206435.jpg?s=1df7b6fbf0f0d190960a906407af499f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71455,
+      "name": "Keiji",
+      "image": "https://cdn.myanimelist.net/images/characters/3/331915.jpg?s=a692ccb6df85cf5e16b8f35e4d590b09",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46498,
+      "name": "Kirstein, Jean",
+      "image": "https://cdn.myanimelist.net/images/characters/14/216893.jpg?s=e0558332ed9959c09ddd0c65e90212e9",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
     },
     {
       "id": 62481,
       "name": "Lenz, Krista",
       "image": "https://cdn.myanimelist.net/images/characters/16/216967.jpg?s=2f74a5c6ddaabc40ea15cf562f1d1eab",
-      "anime": "Attack on Titan"
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46490,
+      "name": "Leonhart, Annie",
+      "image": "https://cdn.myanimelist.net/images/characters/9/206357.jpg?s=3a853fc7177a3eeaefbecb530d590a4a",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92969,
+      "name": "Leonhart, Father",
+      "image": "https://cdn.myanimelist.net/images/characters/13/478139.jpg?s=556027e70313340e0a34846e7b44cf5a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
     },
     {
       "id": 45627,
       "name": "Levi",
       "image": "https://cdn.myanimelist.net/images/characters/2/241413.jpg?s=1a789f9d4c7a441881e4b06a75bd91db",
-      "anime": "Attack on Titan"
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84315,
+      "name": "Linke-Jackson, Samuel",
+      "image": "https://cdn.myanimelist.net/images/characters/5/206493.jpg?s=5f6ab91aa4f6f6cbe7a0c95f46dfdf0c",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171380,
+      "name": "Louise",
+      "image": "https://cdn.myanimelist.net/images/characters/14/439658.jpg?s=0adb8717de9929b1850cb1c00b454b88",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84309,
+      "name": "Moses",
+      "image": "https://cdn.myanimelist.net/images/characters/16/206373.jpg?s=1abe768e011292e35ca6f58d22b8a272",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84311,
+      "name": "Moses's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/12/206375.jpg?s=fc815b6938dec291ef5b0272f13a4d2c",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71481,
+      "name": "Nanaba",
+      "image": "https://cdn.myanimelist.net/images/characters/15/220851.jpg?s=1677e7e3d7401fd754f9862c091ade67",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208026,
+      "name": "Narrator",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71459,
+      "name": "Ness, Dita",
+      "image": "https://cdn.myanimelist.net/images/characters/4/215965.jpg?s=483166962ca3abaf0e407eb75734a7f0",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71453,
+      "name": "Nick",
+      "image": "https://cdn.myanimelist.net/images/characters/6/213227.jpg?s=4e5574b570ebc1975d4b7163c67daf12",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92945,
+      "name": "Pere",
+      "image": "https://cdn.myanimelist.net/images/characters/2/221757.jpg?s=b3e0b868e6f5629726b7ea85a8cfe918",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 62485,
+      "name": "Pixis, Dot",
+      "image": "https://cdn.myanimelist.net/images/characters/16/206381.jpg?s=b65811ea6a80ac740cfb5371b05222e8",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92951,
+      "name": "Ral, Father",
+      "image": "https://cdn.myanimelist.net/images/characters/13/221743.jpg?s=313dd0ae5061457d8930d9b76bdaf418",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 62501,
+      "name": "Ral, Petra",
+      "image": "https://cdn.myanimelist.net/images/characters/8/217555.jpg?s=1bba80301ee71b33ea451b359e88099a",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 100947,
+      "name": "Reeves, Dimo",
+      "image": "https://cdn.myanimelist.net/images/characters/8/366877.jpg?s=9125838b3625a7d376ab02431e1e5eea",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84331,
+      "name": "Rheinberger, Anka",
+      "image": "https://cdn.myanimelist.net/images/characters/15/206399.jpg?s=ffc3c1efb584901a1456863d01b3b2ee",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92959,
+      "name": "Schultz, Grandfather",
+      "image": "https://cdn.myanimelist.net/images/characters/3/221733.jpg?s=96809a3e64e52402866aafe99924f425",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92957,
+      "name": "Schultz, Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/7/221731.jpg?s=564265b69f232e1fd25b6d9a0c5bfcb9",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71691,
+      "name": "Schultz, Gunther",
+      "image": "https://cdn.myanimelist.net/images/characters/15/215957.jpg?s=f868226f8a6a0f9943d0c790623e14fa",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84305,
+      "name": "Shadis, Keith",
+      "image": "https://cdn.myanimelist.net/images/characters/13/206467.jpg?s=6861493375e7d3b0f8dd7320e7a9ec25",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71461,
+      "name": "Siss, Luke",
+      "image": "https://cdn.myanimelist.net/images/characters/16/215499.jpg?s=51ab9bc2da70a198e674a66fd0af33bb",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46496,
+      "name": "Smith, Erwin",
+      "image": "https://cdn.myanimelist.net/images/characters/14/559023.jpg?s=148a0689d341e23cae536207d030f3fc",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 46486,
+      "name": "Springer, Connie",
+      "image": "https://cdn.myanimelist.net/images/characters/16/208109.jpg?s=6748b9d5cf3f95e0fd8d93135ac2b20b",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84335,
+      "name": "Tierce, Nack",
+      "image": "https://cdn.myanimelist.net/images/characters/4/206377.jpg?s=1df73879aa1f9b63c89654812fa51680",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 85211,
+      "name": "Tom",
+      "image": "https://cdn.myanimelist.net/images/characters/10/208103.jpg?s=7ff575228dcb180e1af99654324edc88",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 89389,
+      "name": "Varbrun, Darius Baer",
+      "image": "https://cdn.myanimelist.net/images/characters/15/215951.jpg?s=3e7769cd7f395a4483cfd7322f732a2c",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84325,
+      "name": "Verman, Kitts",
+      "image": "https://cdn.myanimelist.net/images/characters/5/206475.jpg?s=4d6ebd0d542ed4f4d0885a4682d161ad",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 62483,
+      "name": "Wagner, Thomas",
+      "image": "https://cdn.myanimelist.net/images/characters/2/206505.jpg?s=e8e2948e75028e929a0ed063f2bcf28e",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 253967,
+      "name": "Waltz",
+      "image": "https://cdn.myanimelist.net/images/characters/7/558617.jpg?s=d47a9488700b0c871e0710b73196d700",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 62475,
+      "name": "Yeager, Carla",
+      "image": "https://cdn.myanimelist.net/images/characters/4/206411.jpg?s=8d33f7dca8fc2bcdb6430a3be7fb50d4",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 62477,
+      "name": "Yeager, Grisha",
+      "image": "https://cdn.myanimelist.net/images/characters/6/206441.jpg?s=9618f66845f0678a8e993d9bd76675c6",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71479,
+      "name": "Ymir",
+      "image": "https://cdn.myanimelist.net/images/characters/9/206385.jpg?s=68df6199c1b4e10d1f95215c87264fb0",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71119,
+      "name": "Zacharias, Mike",
+      "image": "https://cdn.myanimelist.net/images/characters/11/204965.jpg?s=b363057282fc6c6bc6082e2c6366be3c",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71125,
+      "name": "Zackly, Darius",
+      "image": "https://cdn.myanimelist.net/images/characters/7/213239.jpg?s=27cbc3ddc375da5d7bf296d9deda7860",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 84337,
+      "name": "Zermusky, Millius",
+      "image": "https://cdn.myanimelist.net/images/characters/3/206371.jpg?s=41f95f4ec8a115ea3b3cd1e9bb550038",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 71121,
+      "name": "Zoë, Hange",
+      "image": "https://cdn.myanimelist.net/images/characters/15/208637.jpg?s=3cfdcb5ec72bf4fbd01291026f8c955c",
+      "anime": "Attack on Titan",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150319,
+      "name": "Beast Titan",
+      "image": "https://cdn.myanimelist.net/images/characters/5/328280.jpg?s=adda6de352fad499d3970dfecc2304c3",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149926,
+      "name": "Blouse, Arthur",
+      "image": "https://cdn.myanimelist.net/images/characters/5/326958.jpg?s=d5cd007f42afb81da31f3acee305595f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208761,
+      "name": "Connie's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/6/469659.jpg?s=075009de2b53cd2726ec84cf39de9a5e",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150595,
+      "name": "Galliard, Marcel",
+      "image": "https://cdn.myanimelist.net/images/characters/5/435582.jpg?s=8af66e43afa06f104b3127b30728bd5d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 72511,
+      "name": "Gerger",
+      "image": "https://cdn.myanimelist.net/images/characters/5/328275.jpg?s=fd3fa4a8a3afb31c965a380e36a50a0f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 75512,
+      "name": "Henning",
+      "image": "https://cdn.myanimelist.net/images/characters/14/331916.jpg?s=af52f2bedbd642eb516e9ce8559a6ef7",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171377,
+      "name": "Kaya",
+      "image": "https://cdn.myanimelist.net/images/characters/16/466841.jpg?s=18c556709b693ef228cc0496371eaa1f",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 151507,
+      "name": "Lauda",
+      "image": "https://cdn.myanimelist.net/images/characters/5/331215.jpg?s=d3084caaba3d9809e8237a04e9a2ed41",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 110265,
+      "name": "Nifa",
+      "image": "https://cdn.myanimelist.net/images/characters/12/331917.jpg?s=dba77b256d426f7f20f55f0b859b0ced",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150718,
+      "name": "Phil",
+      "image": "https://cdn.myanimelist.net/images/characters/8/331914.jpg?s=1f524163e43267107855a9a33ef6a342",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150911,
+      "name": "Rashad",
+      "image": "https://cdn.myanimelist.net/images/characters/8/329644.jpg?s=fd13622ae5f9cecbe6ad002d9552a845",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 75514,
+      "name": "Rene",
+      "image": "https://cdn.myanimelist.net/images/characters/12/328276.jpg?s=c4abeef6da7da024192462e876f261b4",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149702,
+      "name": "Thoma",
+      "image": "https://cdn.myanimelist.net/images/characters/8/337358.jpg?s=b3fa61074d051871253e115a5bac81f8",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 142314,
+      "name": "Zeke",
+      "image": "https://cdn.myanimelist.net/images/characters/13/489878.jpg?s=7ccd0db326a9e25efd9f88a7a70d8ede",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 106521,
+      "name": "Ackerman, Kenny",
+      "image": "https://cdn.myanimelist.net/images/characters/8/364347.jpg?s=88746aeed29e8f1039409ddc82af780e",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163043,
+      "name": "Alma",
+      "image": "https://cdn.myanimelist.net/images/characters/14/360458.jpg?s=3e774cb306669b007143c166cf084c1f",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163044,
+      "name": "Aurille",
+      "image": "https://cdn.myanimelist.net/images/characters/14/360459.jpg?s=d17a950f8a9cb0057d3562cfab462796",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167082,
+      "name": "Carsten",
+      "image": "https://cdn.myanimelist.net/images/characters/5/370149.jpg?s=c46a5da9eb9a17c929725631d418cbb5",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163038,
+      "name": "Caven, Traute",
+      "image": "https://cdn.myanimelist.net/images/characters/4/365158.jpg?s=3c1657877f7ed8e38892be7c115935d1",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163040,
+      "name": "Deletov",
+      "image": "https://cdn.myanimelist.net/images/characters/8/360455.jpg?s=b597d68838e9e85b592908d76791419f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167081,
+      "name": "Dirk",
+      "image": "https://cdn.myanimelist.net/images/characters/13/370148.jpg?s=5173656e2ec16a7f01cd46a8edb24466",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149624,
+      "name": "Forster, Floch",
+      "image": "https://cdn.myanimelist.net/images/characters/7/434567.jpg?s=4593946c3d7cc61809516fc8f553b353",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 156309,
+      "name": "Fritz, Karl",
+      "image": "https://cdn.myanimelist.net/images/characters/13/565193.jpg?s=6e9ed143ccb0f3d3d33155c167a8d4f3",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163039,
+      "name": "Gerald",
+      "image": "https://cdn.myanimelist.net/images/characters/14/360454.jpg?s=5ce185e9eec2f8f00b4c3394a38ec767",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167078,
+      "name": "Harold",
+      "image": "https://cdn.myanimelist.net/images/characters/15/370144.jpg?s=3f5ee58525dcd9cd5e8c38f30faa40c3",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 166182,
+      "name": "Kenny's Grandfather",
+      "image": "https://cdn.myanimelist.net/images/characters/15/367296.jpg?s=087c142ff0c45cbedc5e3712106b16c1",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 257295,
+      "name": "King Fritz",
+      "image": "https://cdn.myanimelist.net/images/characters/7/565202.jpg?s=bec29f4e70f57859c4ebebc07375fbbf",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167079,
+      "name": "Klaus",
+      "image": "https://cdn.myanimelist.net/images/characters/15/370146.jpg?s=5e3fac064d1dab6cb70bbe409f6d0fa1",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167080,
+      "name": "Marlene",
+      "image": "https://cdn.myanimelist.net/images/characters/6/370147.jpg?s=d0d5b31f2410b8248c2f0e72e17e106a",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 165308,
+      "name": "Peaure",
+      "image": "https://cdn.myanimelist.net/images/characters/5/369105.jpg?s=fc0a8b25c81342f687245e0d7805f54a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163041,
+      "name": "Ralph",
+      "image": "https://cdn.myanimelist.net/images/characters/2/360456.jpg?s=b00fc151c34a41a2295465413a6ffb0b",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 110267,
+      "name": "Reeves, Flegel",
+      "image": "https://cdn.myanimelist.net/images/characters/16/360019.jpg?s=4aa5904f13f75c217c04e2b2f43a1760",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206189,
+      "name": "Reiss, Dirk",
+      "image": "https://cdn.myanimelist.net/images/characters/12/464868.jpg?s=56957cbc4a442d49ba8d51fcadfb887d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212002,
+      "name": "Reiss, Urklyn",
+      "image": "https://cdn.myanimelist.net/images/characters/4/476431.jpg?s=38d2d765149c7cf910f5266ce38163cb",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212022,
+      "name": "Reiss, Florian",
+      "image": "https://cdn.myanimelist.net/images/characters/6/476480.jpg?s=0ae7ba090a2833a8071ad37998421d3a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212019,
+      "name": "Reiss, Abel",
+      "image": "https://cdn.myanimelist.net/images/characters/12/476479.jpg?s=491f0f1cd0fc50b43a5f23070df1a1bb",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 165310,
+      "name": "Reiss, Uri",
+      "image": "https://cdn.myanimelist.net/images/characters/6/369103.jpg?s=f7b6f8bd9721f8bdb6abd26c8aa16826",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 146020,
+      "name": "Reiss, Frieda",
+      "image": "https://cdn.myanimelist.net/images/characters/15/368841.jpg?s=473968d857846ce786c50821390102a1",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 162688,
+      "name": "Reiss, Rodd",
+      "image": "https://cdn.myanimelist.net/images/characters/13/362895.jpg?s=11ccc181c426f409a4490d1c06e3df52",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 253969,
+      "name": "Rodd's Wife",
+      "image": "https://cdn.myanimelist.net/images/characters/3/558625.jpg?s=bb4d9acf05e7f5361f713d2cd92af4f0",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275000,
+      "name": "Roderich",
+      "image": "https://cdn.myanimelist.net/images/characters/5/599254.jpg?s=118824bab44329513a09f4ac11d41483",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163037,
+      "name": "Roger",
+      "image": "https://cdn.myanimelist.net/images/characters/7/360452.jpg?s=8788983a2919cc1966eeb4c790436bfa",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 165309,
+      "name": "Roy",
+      "image": "https://cdn.myanimelist.net/images/characters/16/369104.jpg?s=3e04b9c2019de023108487b918ccc320",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163042,
+      "name": "Sannes, Djel",
+      "image": "https://cdn.myanimelist.net/images/characters/7/360457.jpg?s=63f6997376b33b810ec38808731aa7ae",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 190383,
+      "name": "Azumabito, Kiyomi",
+      "image": "https://cdn.myanimelist.net/images/characters/16/449406.jpg?s=161c55a3aa7c4d5d4e9343da1a38ce3b",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199704,
+      "name": "Blouse, Lisa",
+      "image": "https://cdn.myanimelist.net/images/characters/14/449405.jpg?s=3dbe751ed56d4e449a7cfaad738d6546",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149205,
+      "name": "Braun, Gabi",
+      "image": "https://cdn.myanimelist.net/images/characters/4/431018.jpg?s=2336d0c4f34f69804db63183ee6c242d",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 189311,
+      "name": "Braun, Karina",
+      "image": "https://cdn.myanimelist.net/images/characters/16/467501.jpg?s=4b05114675844ffa8ca662ecb4598d41",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212055,
+      "name": "Cadet #1",
+      "image": "https://cdn.myanimelist.net/images/characters/8/476584.jpg?s=9b66fdd8f7e26b26c2dc9a823280c96e",
+      "anime": "Attack on Titan",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212054,
+      "name": "Cadet #2",
+      "image": "https://cdn.myanimelist.net/images/characters/2/476583.jpg?s=ec7f33d36091b10c9f85ccae3102d5c8",
+      "anime": "Attack on Titan",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171374,
+      "name": "Calvi",
+      "image": "https://cdn.myanimelist.net/images/characters/12/578579.jpg?s=4c0c03d285984a3ee1dfac5b171c9a50",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206663,
+      "name": "Carlo",
+      "image": "https://cdn.myanimelist.net/images/characters/8/465924.jpg?s=cf2a165b9ee04074ae424c8c9242d17a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171979,
+      "name": "Cart Titan",
+      "image": "https://cdn.myanimelist.net/images/characters/5/385131.jpg?s=7522a514d2e484971be06573879339c9",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275050,
+      "name": "Colt's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/13/599338.jpg?s=63de73a4fd34efe7d9647c955d92c801",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219825,
+      "name": "Colt's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/6/558624.jpg?s=6ea5ba761b4ccd562bba1a9849a3e0ba",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206661,
+      "name": "Doctor",
+      "image": "https://cdn.myanimelist.net/images/characters/3/465922.jpg?s=cad4c70fee66b943ced811fc3f7cbda3",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150596,
+      "name": "Finger, Pieck",
+      "image": "https://cdn.myanimelist.net/images/characters/4/425880.jpg?s=a61b0d62e40732be0dace283ba7e7a73",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212092,
+      "name": "Fort Zlava Soldier #1",
+      "image": "https://cdn.myanimelist.net/images/characters/2/476646.jpg?s=d34a7fc92cffb41db0703468e7d27944",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212093,
+      "name": "Fort Zlava Soldier #2",
+      "image": "https://cdn.myanimelist.net/images/characters/9/476649.jpg?s=12cb0b24fd5b2a3b3c71e4c601b5ea6d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 145113,
+      "name": "Fritz, Dina",
+      "image": "https://cdn.myanimelist.net/images/characters/2/384700.jpg?s=c87cfd3eb37b92ae78426043b2e29480",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282904,
+      "name": "Fritz",
+      "image": "https://cdn.myanimelist.net/images/characters/14/611124.jpg?s=acfdc04e1fab962658dcb1f955b17ff2",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206664,
+      "name": "Gabi's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/12/465925.jpg?s=fee77c88585b61c9ba76ef8db8912d0c",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212095,
+      "name": "Gabi's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/9/476653.jpg?s=3ff9cc90a400015a84b9dd669a03c4d4",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150594,
+      "name": "Galliard, Porco",
+      "image": "https://cdn.myanimelist.net/images/characters/15/431179.jpg?s=3dba4c59db68500a8667d1cccf1ee807",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 193837,
+      "name": "Greiz",
+      "image": "https://cdn.myanimelist.net/images/characters/6/451464.jpg?s=2f9524163edea46526b871f26169a9ba",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171976,
+      "name": "Grice",
+      "image": "https://cdn.myanimelist.net/images/characters/8/385091.jpg?s=41186f6144d5051566f92d00ad20e45e",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150103,
+      "name": "Grice, Falco",
+      "image": "https://cdn.myanimelist.net/images/characters/12/431391.jpg?s=de27555d6da41405ce6cff2e67feb60d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150104,
+      "name": "Grice, Colt",
+      "image": "https://cdn.myanimelist.net/images/characters/16/425438.jpg?s=6f20ed0bdf34f6752082dc44a5db56db",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171978,
+      "name": "Grisha's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/2/385130.jpg?s=ebfedd7367be44cfad64be519db97def",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171977,
+      "name": "Grisha's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/9/385128.jpg?s=92682150e8261a41228e752ea252f209",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171373,
+      "name": "Koslow",
+      "image": "https://cdn.myanimelist.net/images/characters/13/478141.jpg?s=125d8122069f2486ac13103769095a89",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171980,
+      "name": "Ksaver, Tom",
+      "image": "https://cdn.myanimelist.net/images/characters/15/437406.jpg?s=2da4d67ef88694920845132dd5185911",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171372,
+      "name": "Lobov",
+      "image": "https://cdn.myanimelist.net/images/characters/12/436247.jpg?s=6af8389731eb241c40af25f2634ec799",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150105,
+      "name": "Magath, Theo",
+      "image": "https://cdn.myanimelist.net/images/characters/5/434577.jpg?s=d62076b8a7a14f004b4ac458f529fd8f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275049,
+      "name": "Marley Ambassador",
+      "image": "https://cdn.myanimelist.net/images/characters/13/599337.jpg?s=0dc4a0cde6a48291462f26025123465f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212094,
+      "name": "Marleyan Citizen #1",
+      "image": "https://cdn.myanimelist.net/images/characters/2/476650.jpg?s=4d4347b9566ad1b46295f38af6c39dfc",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212099,
+      "name": "Marleyan Cleaner",
+      "image": "https://cdn.myanimelist.net/images/characters/16/476680.jpg?s=cc589e9b9638e5beaeea34497d9e9297",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206748,
+      "name": "Marleyan Gatekeeper #2",
+      "image": "https://cdn.myanimelist.net/images/characters/8/466104.jpg?s=b0d97cb114448a3c407bc0ca38495bf3",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212096,
+      "name": "Marleyan Military Strategist",
+      "image": "https://cdn.myanimelist.net/images/characters/8/476663.jpg?s=c23fadbe6bff35d3c705f54500942daa",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275051,
+      "name": "Nambia",
+      "image": "https://cdn.myanimelist.net/images/characters/9/599339.jpg?s=903e51e38b97e63513800eb2d84e5c5f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 166643,
+      "name": "Nicolo",
+      "image": "https://cdn.myanimelist.net/images/characters/4/435401.jpg?s=afac0eae436375ee139ba0f7489b12b9",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206662,
+      "name": "Nurse",
+      "image": "https://cdn.myanimelist.net/images/characters/3/465923.jpg?s=8fb044becad6af9c6e26e42474aef7a1",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275052,
+      "name": "Ogweno",
+      "image": "https://cdn.myanimelist.net/images/characters/3/599340.jpg?s=e83f431e4aa977878c4233a9d19e621d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 187041,
+      "name": "Onyankopon",
+      "image": "https://cdn.myanimelist.net/images/characters/6/434579.jpg?s=64dbfa67d3358ad634d63282d8ab74c2",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212101,
+      "name": "Paradis Civilian",
+      "image": "https://cdn.myanimelist.net/images/characters/6/476681.jpg?s=ceeb29266ea0cefc8153385b360db9c2",
+      "anime": "Attack on Titan",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212097,
+      "name": "Paradis Military Official #2",
+      "image": "https://cdn.myanimelist.net/images/characters/11/476664.jpg?s=c5be65f9c26086f377ce8295bef60930",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 212098,
+      "name": "Paradis Military Official #5",
+      "image": "https://cdn.myanimelist.net/images/characters/7/476665.jpg?s=cebcdc52255640d9e83d20edf8615bfd",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206747,
+      "name": "Paradis Refugee",
+      "image": "https://cdn.myanimelist.net/images/characters/2/466102.jpg?s=534e7192d4befb578929e1eacf5c2d54",
+      "anime": "Attack on Titan",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219826,
+      "name": "Pieck's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/16/530671.jpg?s=4c985e56529710757b254a8b09c7fbd3",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 202421,
+      "name": "Reiner's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/16/455710.jpg?s=658f4888ec1c24d8411a11757de4e557",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206665,
+      "name": "Roeg",
+      "image": "https://cdn.myanimelist.net/images/characters/8/465927.jpg?s=82b7a02d9626b5c89ef7a6d30dea29b8",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199701,
+      "name": "Surma",
+      "image": "https://cdn.myanimelist.net/images/characters/13/449402.jpg?s=249813d2430a67f8fd483c4a7c56ae82",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157315,
+      "name": "Tybur, Willy",
+      "image": "https://cdn.myanimelist.net/images/characters/16/429891.jpg?s=700d21c83e3a495a6f67c9b94d2d84bd",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 191292,
+      "name": "Tybur, Lara",
+      "image": "https://cdn.myanimelist.net/images/characters/2/429893.jpg?s=9b42805b8679315b26ec9827a08f8d76",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206969,
+      "name": "Tybur, Fine",
+      "image": "https://cdn.myanimelist.net/images/characters/9/466521.jpg?s=f9eca0c7592ee7c05a36adf5666af471",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150106,
+      "name": "Udo",
+      "image": "https://cdn.myanimelist.net/images/characters/12/434575.jpg?s=dcc1f8977a9a132c8d3b8333b6c9f19d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 210489,
+      "name": "Varis",
+      "image": "https://cdn.myanimelist.net/images/characters/15/478142.jpg?s=3ac6e6f947744f857c1827e9887320ec",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275053,
+      "name": "Willy's Wife",
+      "image": "https://cdn.myanimelist.net/images/characters/14/599341.jpg?s=433734eeddf0cd7ab91a64a1cf2a4d88",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 161893,
+      "name": "Yelena",
+      "image": "https://cdn.myanimelist.net/images/characters/13/433243.jpg?s=46d8e9f63e23716bc12bdb71cc7f0d6d",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150107,
+      "name": "Zofia",
+      "image": "https://cdn.myanimelist.net/images/characters/11/435587.jpg?s=13da315c10a5bead89f84deb06d8ed06",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 145912,
+      "name": "Gross",
+      "image": "https://cdn.myanimelist.net/images/characters/9/384701.jpg?s=1154b5d8edd25505c838dc18f15bf3fb",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 145911,
+      "name": "Kruger, Eren",
+      "image": "https://cdn.myanimelist.net/images/characters/2/384698.jpg?s=f29b5cfdd607a17799287cb9667f435c",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 232922,
+      "name": "Sandra",
+      "image": "https://cdn.myanimelist.net/images/characters/9/517817.jpg?s=3aea64f41f5396bed7ad8007d3ef5408",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 145111,
+      "name": "Yeager, Fay",
+      "image": "https://cdn.myanimelist.net/images/characters/2/384697.jpg?s=8bdf4e24bcbabfc8acd1857296512264",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 234917,
+      "name": "Armada Captain",
+      "image": "https://cdn.myanimelist.net/images/characters/13/522630.jpg?s=578942f19b6ca2515237065175b34195",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 210361,
+      "name": "Clown",
+      "image": "https://cdn.myanimelist.net/images/characters/15/472672.jpg?s=e335bcd689542846745518dcd9da4daa",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208529,
+      "name": "Fritz, Rose",
+      "image": "https://cdn.myanimelist.net/images/characters/4/469517.jpg?s=26cc10b76f6e2149731231ca2485e578",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208530,
+      "name": "Fritz, Sina",
+      "image": "https://cdn.myanimelist.net/images/characters/16/469518.jpg?s=f99ca60624547d271ef969cf81e557f3",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 192519,
+      "name": "Fritz, Ymir",
+      "image": "https://cdn.myanimelist.net/images/characters/13/502345.jpg?s=67abca663352149aea4c4f7ffacf6ceb",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208528,
+      "name": "Fritz, Maria",
+      "image": "https://cdn.myanimelist.net/images/characters/7/469516.jpg?s=7048dee2b0fb1706f7e883b9c4ed41da",
+      "anime": "Attack on Titan",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 225911,
+      "name": "Grandfather, Ramsey",
+      "image": "https://cdn.myanimelist.net/images/characters/15/522629.jpg?s=30bca4bd21e38b35c893c5ad035802fb",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 234918,
+      "name": "Politician",
+      "image": "https://cdn.myanimelist.net/images/characters/16/522631.jpg?s=2256dd9566946c72d4afdf1a8912913f",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208111,
+      "name": "Ramsey",
+      "image": "https://cdn.myanimelist.net/images/characters/5/480959.jpg?s=aab7cc9337ac9eb2aba90cedf833f46a",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 192230,
+      "name": "Halil",
+      "image": "https://cdn.myanimelist.net/images/characters/10/517468.jpg?s=af3f4f8daec3b70aa45f5fceafb3805d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 225912,
+      "name": "Muller",
+      "image": "https://cdn.myanimelist.net/images/characters/4/504860.jpg?s=35cb0ea2ecaf1b3594de9117d8ebfa6d",
+      "anime": "Attack on Titan",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
     }
   ]
 }

@@ -1,0 +1,346 @@
+{
+  "name": "Blue Box",
+  "characters": [
+    {
+      "id": 197750,
+      "name": "Chouno, Hina",
+      "image": "https://cdn.myanimelist.net/images/characters/11/574759.jpg?s=a2c7b79893c936ce8b0af92593a72950",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 195788,
+      "name": "Inomata, Taiki",
+      "image": "https://cdn.myanimelist.net/images/characters/8/543141.jpg?s=7ceed6ab2594576a8d313b9b67dc8534",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 195787,
+      "name": "Kano, Chinatsu",
+      "image": "https://cdn.myanimelist.net/images/characters/2/571722.jpg?s=d41106c78fc9d4ffb984696283000f57",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 208714,
+      "name": "Funami, Nagisa",
+      "image": "https://cdn.myanimelist.net/images/characters/13/562656.jpg?s=70373e1902a2a208869238904e61ccd4",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 202167,
+      "name": "Haryuu, Kengo",
+      "image": "https://cdn.myanimelist.net/images/characters/11/543140.jpg?s=1188abf0d2ff85a90121e72ce4852476",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208720,
+      "name": "Hyoudou, Shouta",
+      "image": "https://cdn.myanimelist.net/images/characters/16/567822.jpg?s=7f9e1b92366a0e4c1a5b2768ebed556f",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208704,
+      "name": "Inomata, Grandfather",
+      "image": "https://cdn.myanimelist.net/images/characters/15/564127.jpg?s=471229c06ce5522e7b093cc85b76919d",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208703,
+      "name": "Inomata, Father",
+      "image": "https://cdn.myanimelist.net/images/characters/16/564128.jpg?s=75f96f6c7559e3f9cd457288266eaec3",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208702,
+      "name": "Inomata, Yukiko",
+      "image": "https://cdn.myanimelist.net/images/characters/11/563960.jpg?s=ba9882a5bfc6e1a56e5d2e6fc0948f37",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208719,
+      "name": "Itou",
+      "image": "https://cdn.myanimelist.net/images/characters/3/571284.jpg?s=4b1df17df699c260df1426a8e9e89819",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208706,
+      "name": "Kano, Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/15/577288.jpg?s=28aa61bd09216fde6d0ef68d5c77c551",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199813,
+      "name": "Kasahara, Kyou",
+      "image": "https://cdn.myanimelist.net/images/characters/13/543139.jpg?s=93dc0cb98c16ee1dc9572cd78a175e38",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219820,
+      "name": "Kikuchi",
+      "image": "https://cdn.myanimelist.net/images/characters/15/574758.jpg?s=dcc75b2f886c282790dd27672e9c0894",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219817,
+      "name": "Kishi, Shouichirou",
+      "image": "https://cdn.myanimelist.net/images/characters/8/567821.jpg?s=244c8e770d2dc55bad6f99eef8395367",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 272858,
+      "name": "Mariko",
+      "image": "https://cdn.myanimelist.net/images/characters/15/595649.jpg?s=d694cb4114dcac2f544358c319d7a2da",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219819,
+      "name": "Matsuoka, Kazuma",
+      "image": "https://cdn.myanimelist.net/images/characters/4/582197.jpg?s=4b6fbab1f63f2edfbc0aa9b2c0be4399",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 216236,
+      "name": "Moriya, Ayame",
+      "image": "https://cdn.myanimelist.net/images/characters/15/573198.jpg?s=05bc8e5ef262a7cfd4d80cc7cfb0544a",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208729,
+      "name": "Moriya, Karen",
+      "image": "https://cdn.myanimelist.net/images/characters/3/571907.jpg?s=363ab96ac30f33f85c399933a9c23767",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208708,
+      "name": "Nishida, Ryousuke",
+      "image": "https://cdn.myanimelist.net/images/characters/15/562657.jpg?s=9a40ada406df483d1e5cfd55d7f163f6",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219818,
+      "name": "Rhythmic Gymnastics Instructor",
+      "image": "https://cdn.myanimelist.net/images/characters/2/564125.jpg?s=dcfe0b7709167e015e7f364dd6a0054c",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 256083,
+      "name": "Shimazaki, Niina",
+      "image": "https://cdn.myanimelist.net/images/characters/16/562658.jpg?s=690a2ae5fbc6aa0051c2bd04e47fafa8",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208721,
+      "name": "Tateyama, Yuuki",
+      "image": "https://cdn.myanimelist.net/images/characters/3/574792.jpg?s=0d1891a1d0d0fb1b54ed30593ac6495a",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208718,
+      "name": "Vice Principal",
+      "image": "https://cdn.myanimelist.net/images/characters/14/492801.jpg?s=42c6bbdfaf01645346d9ccdb36699742",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219822,
+      "name": "Yakushiji",
+      "image": "https://cdn.myanimelist.net/images/characters/4/578829.jpg?s=140132aa8ee3529184ff1a8808a5676a",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 260104,
+      "name": "Yamaguchi",
+      "image": "https://cdn.myanimelist.net/images/characters/11/587030.jpg?s=d02b59ef138951e9307030bbb12e3a97",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208715,
+      "name": "Yamamoto",
+      "image": "https://cdn.myanimelist.net/images/characters/10/483872.jpg?s=d325200c4c8917ae1db16bdc7924afa1",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208725,
+      "name": "Yokoyama",
+      "image": "https://cdn.myanimelist.net/images/characters/6/576182.jpg?s=98fc8d3bb5921e83739be926ada9bf40",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208717,
+      "name": "Yuasa",
+      "image": "https://cdn.myanimelist.net/images/characters/9/574757.jpg?s=2cc8318d2db9467b1a89edd79b260dfa",
+      "anime": "Blue Box",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219823,
+      "name": "Yume",
+      "image": "https://cdn.myanimelist.net/images/characters/2/571942.jpg?s=dd7a12d3cd71acb7ad118c88f38affda",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 219824,
+      "name": "Yume's Mom",
+      "image": "https://cdn.myanimelist.net/images/characters/5/492813.jpg?s=993a63a5481fbf7c172f30e01d80f45f",
+      "anime": "Blue Box",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 258386,
+      "name": "Yusa, Shuuji",
+      "image": "https://cdn.myanimelist.net/images/characters/3/567823.jpg?s=91a848674f3a393dcf862426453113fa",
+      "anime": "Blue Box",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

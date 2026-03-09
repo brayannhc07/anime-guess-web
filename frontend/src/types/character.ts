@@ -3,6 +3,8 @@ export interface AnimeCharacter {
   name: string;
   image: string;
   anime: string;
+  gender?: "male" | "female" | "unknown";
+  tags?: string[];
 }
 
 export interface CharacterTemplate {

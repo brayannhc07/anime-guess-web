@@ -1,0 +1,38 @@
+{
+  "name": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+  "characters": [
+    {
+      "id": 223482,
+      "name": "Horaki, Bunzaemon",
+      "image": "https://cdn.myanimelist.net/images/characters/8/502790.jpg?s=051db985f6b0152b3f4bab8a2c58f065",
+      "anime": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 223234,
+      "name": "Kaji Jr., Ryouji",
+      "image": "https://cdn.myanimelist.net/images/characters/6/548954.jpg?s=4809dcb992be3e0653b3b4ed86f59c63",
+      "anime": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 224860,
+      "name": "Suzuhara, Tsubame",
+      "image": "https://cdn.myanimelist.net/images/characters/4/502859.jpg?s=811123165cf636a45f9b5f7f4e0e0dd8",
+      "anime": "Evangelion: 3.0+1.0 Thrice Upon a Time",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

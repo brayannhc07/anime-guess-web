@@ -5,31 +5,815 @@
       "id": 188038,
       "name": "Arima, Kana",
       "image": "https://cdn.myanimelist.net/images/characters/6/503733.jpg?s=6dddc82129535b664f8d5f0ba1e5b14b",
-      "anime": "[Oshi No Ko]"
-    },
-    {
-      "id": 186921,
-      "name": "Hoshino, Ruby",
-      "image": "https://cdn.myanimelist.net/images/characters/5/496454.jpg?s=0bdb7d58a99eab12eb3de20b5a79033d",
-      "anime": "[Oshi No Ko]"
-    },
-    {
-      "id": 185313,
-      "name": "Hoshino, Aquamarine",
-      "image": "https://cdn.myanimelist.net/images/characters/8/512509.jpg?s=0fbc9c40821bab48c922aa336708bb33",
-      "anime": "[Oshi No Ko]"
-    },
-    {
-      "id": 195178,
-      "name": "Kurokawa, Akane",
-      "image": "https://cdn.myanimelist.net/images/characters/6/592737.jpg?s=602e780d91b34622645cf66e520d7ba6",
-      "anime": "[Oshi No Ko]"
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 188037,
       "name": "Hoshino, Ai",
       "image": "https://cdn.myanimelist.net/images/characters/6/496453.jpg?s=586f73ec11e59e6a6acc659afe9fb660",
-      "anime": "[Oshi No Ko]"
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 186921,
+      "name": "Hoshino, Ruby",
+      "image": "https://cdn.myanimelist.net/images/characters/5/496454.jpg?s=0bdb7d58a99eab12eb3de20b5a79033d",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 185313,
+      "name": "Hoshino, Aquamarine",
+      "image": "https://cdn.myanimelist.net/images/characters/8/512509.jpg?s=0fbc9c40821bab48c922aa336708bb33",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 271125,
+      "name": "Agency President",
+      "image": "https://cdn.myanimelist.net/images/characters/6/592190.jpg?s=d53680989678dad0378394aeb6d8a312",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271126,
+      "name": "Akane's Manager",
+      "image": "https://cdn.myanimelist.net/images/characters/13/592194.jpg?s=4fef590ea9246f9942b90297eddaf430",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251112,
+      "name": "Akane's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/10/553664.jpg?s=002a68bd0a85091d8e33a7a040f30f54",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227224,
+      "name": "Amamiya, Gorou",
+      "image": "https://cdn.myanimelist.net/images/characters/12/507962.jpg?s=82f23d87d027baf006993e6f49bfc11f",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 246171,
+      "name": "Director",
+      "image": "https://cdn.myanimelist.net/images/characters/14/544378.jpg?s=d53480218af05c5ee49695f93ce8ba57",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251493,
+      "name": "Drama Director",
+      "image": "https://cdn.myanimelist.net/images/characters/11/554125.jpg?s=2fadacaa9dd461025817e160fa3d02cd",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 189840,
+      "name": "Gotanda, Taishi",
+      "image": "https://cdn.myanimelist.net/images/characters/7/508843.jpg?s=8809255852a70776b5c6daf40771b3ee",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 234197,
+      "name": "Himekawa, Airi",
+      "image": "https://cdn.myanimelist.net/images/characters/14/562470.jpg?s=53adc4430f01e13f4d7136670d49efee",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208889,
+      "name": "Kaburagi, Masaya",
+      "image": "https://cdn.myanimelist.net/images/characters/11/510751.jpg?s=3a2a370ab71e68d5abf7fefced7aea5d",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251498,
+      "name": "Kana's Child Actor Agency Manager",
+      "image": "https://cdn.myanimelist.net/images/characters/14/554130.jpg?s=cf7ffbe5fa35fdb3407e61005cd0b9ce",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251487,
+      "name": "Kana's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/14/554119.jpg?s=d4351dd662a65aaa439b07f445ccec55",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251499,
+      "name": "Kana's Music Producer",
+      "image": "https://cdn.myanimelist.net/images/characters/8/554131.jpg?s=841919819b38aead0bee88bdf0ac2f75",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251489,
+      "name": "Kanzaki, Hikaru",
+      "image": "https://cdn.myanimelist.net/images/characters/13/554121.jpg?s=2f3cb6377c157d43e8ea723488ff7b38",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 229178,
+      "name": "Kichijouji, Yoriko",
+      "image": "https://cdn.myanimelist.net/images/characters/7/510753.jpg?s=04bb53f34af665a9bd19eb914d3539fa",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208887,
+      "name": "Kotobuki, Minami",
+      "image": "https://cdn.myanimelist.net/images/characters/15/510752.jpg?s=95b46592cdc1ec372d36b3f121e6037a",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208885,
+      "name": "Kumano, Nobuyuki",
+      "image": "https://cdn.myanimelist.net/images/characters/15/511319.jpg?s=d367983c20068af2fea4b4cd4a737eab",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 195178,
+      "name": "Kurokawa, Akane",
+      "image": "https://cdn.myanimelist.net/images/characters/6/592737.jpg?s=602e780d91b34622645cf66e520d7ba6",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251110,
+      "name": "Kyun",
+      "image": "https://cdn.myanimelist.net/images/characters/16/553660.jpg?s=e2c9f84e386f487569555cb8fe72aa71",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228294,
+      "name": "Lala",
+      "image": "https://cdn.myanimelist.net/images/characters/8/509534.jpg?s=e1c0ce445c1cf1d8677703dec80a5ba7",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199940,
+      "name": "Mem-Cho",
+      "image": "https://cdn.myanimelist.net/images/characters/8/507015.jpg?s=f23b090cf9b829ca58b7b01d32638caf",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251111,
+      "name": "Mem-Cho's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/10/553661.jpg?s=b8ca90c20197974d242426e74687dac3",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208886,
+      "name": "Morimoto, Kengo",
+      "image": "https://cdn.myanimelist.net/images/characters/3/511320.jpg?s=ae3b0702456e3944b99d8ead51eb966b",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 201315,
+      "name": "Narushima, Melt",
+      "image": "https://cdn.myanimelist.net/images/characters/12/555874.jpg?s=708bc5ea120a29039c5e27483589791b",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251496,
+      "name": "Nurse",
+      "image": "https://cdn.myanimelist.net/images/characters/9/554128.jpg?s=c32a7a993ac374b6fd3d243e27016332",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251828,
+      "name": "Otaku Fan",
+      "image": "https://cdn.myanimelist.net/images/characters/14/554699.jpg?s=6269b0440baa56fe47022c5ff9f490e5",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 203201,
+      "name": "Pieyon",
+      "image": "https://cdn.myanimelist.net/images/characters/8/511318.jpg?s=3e5d9b32f30ed84bfde3e3a41f43e6bc",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 251497,
+      "name": "Policeman",
+      "image": "https://cdn.myanimelist.net/images/characters/14/554129.jpg?s=106d6c4a19ead4df460da93d9c36f892",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 204643,
+      "name": "Raida, Sumiaki",
+      "image": "https://cdn.myanimelist.net/images/characters/5/515648.jpg?s=3f2662903006c378c0db8d0751f0daa3",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 189839,
+      "name": "Saitou, Miyako",
+      "image": "https://cdn.myanimelist.net/images/characters/3/622304.jpg?s=aaa9b3f3f7ae02eb371138f1d8063a2a",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 188154,
+      "name": "Saitou, Ichigo",
+      "image": "https://cdn.myanimelist.net/images/characters/12/508844.jpg?s=ab4abf1ed981d730af8bf30ebe77ff41",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 208888,
+      "name": "Shiranui, Frill",
+      "image": "https://cdn.myanimelist.net/images/characters/6/510750.jpg?s=60caf495a67352318f563b18b9ed0b39",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228344,
+      "name": "Sugano, Ryousuke",
+      "image": "https://cdn.myanimelist.net/images/characters/9/564230.jpg?s=c5e6cde0232aebc9a3e1993e2e8cd65c",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 229629,
+      "name": "Sumi, Yuki",
+      "image": "https://cdn.myanimelist.net/images/characters/4/512399.jpg?s=ba0d658e41247584d90c97de07d1468c",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 231692,
+      "name": "Suzushiro, Mana",
+      "image": "https://cdn.myanimelist.net/images/characters/16/515674.jpg?s=2b390ac4a2d03d16fb011c20ba6d35fb",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228798,
+      "name": "Taishi's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/8/510252.jpg?s=eaaef725f8f5be26b875974711bd609c",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227225,
+      "name": "Tendouji, Sarina",
+      "image": "https://cdn.myanimelist.net/images/characters/7/512492.jpg?s=6e69e70a6a9762221fd699eaf9739aa5",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 290042,
+      "name": "Azami, Mako",
+      "image": "https://cdn.myanimelist.net/images/characters/15/622306.jpg?s=8939df6f54fbf78a72fc0798a4bc21b1",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291827,
+      "name": "Honda, Mio",
+      "image": "https://cdn.myanimelist.net/images/characters/14/624866.jpg?s=242ac280eaef2f3cc3d39ea76844cdf4",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 290532,
+      "name": "Itano, Kazuhiko",
+      "image": "https://cdn.myanimelist.net/images/characters/9/624028.jpg?s=72bb5bc102a331823843a1fc55d680ac",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 225342,
+      "name": "Kamiki, Hikaru",
+      "image": "https://cdn.myanimelist.net/images/characters/12/562745.jpg?s=e4dbbd1b83874a5068c91fbd0255cece",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 256746,
+      "name": "Katayose, Yura",
+      "image": "https://cdn.myanimelist.net/images/characters/7/624857.jpg?s=c8e1d4a3f8cdaf980cfd63cce6733783",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 249461,
+      "name": "Kindaichi, Toshirou",
+      "image": "https://cdn.myanimelist.net/images/characters/6/555141.jpg?s=15da6ae9069acb2ed64850360936bb09",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288992,
+      "name": "Kote, Mimoji",
+      "image": "https://cdn.myanimelist.net/images/characters/7/620736.jpg?s=5bcba8db3cd072193d742fce241e048d",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288991,
+      "name": "Meiya",
+      "image": "https://cdn.myanimelist.net/images/characters/14/620738.jpg?s=e9ecc9e9b27049b03cf991c0eea2dc80",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 202179,
+      "name": "Samejima, Abiko",
+      "image": "https://cdn.myanimelist.net/images/characters/12/555875.jpg?s=7766d60238f8df055e8a108941691fe6",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288993,
+      "name": "Sawa",
+      "image": "https://cdn.myanimelist.net/images/characters/9/620737.jpg?s=c12e4cf94d56d553901b1cfad5bed79d",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 290041,
+      "name": "Shima, Masanori",
+      "image": "https://cdn.myanimelist.net/images/characters/10/622305.jpg?s=ce528deec05f392fa5a80c0565b5379a",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 235318,
+      "name": "Tsukuyomi",
+      "image": "https://cdn.myanimelist.net/images/characters/7/558252.jpg?s=987217372abb016778ba5ed214143fb8",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 279299,
+      "name": "Urushibara, Tetsu",
+      "image": "https://cdn.myanimelist.net/images/characters/9/616138.jpg?s=21d53af6bd249704d8796c60ca75caa8",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 259075,
+      "name": "Yoshizumi, Shun",
+      "image": "https://cdn.myanimelist.net/images/characters/5/619937.jpg?s=fd0ffec2d25e737722b298bbd8b06a39",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288447,
+      "name": "Yoshizumi, Mimi",
+      "image": "https://cdn.myanimelist.net/images/characters/2/619938.jpg?s=11bc07b913daca3fe67821603ab4aacf",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 252088,
+      "name": "Adashino, Mei",
+      "image": "https://cdn.myanimelist.net/images/characters/9/555135.jpg?s=d3a3a86b56df8fdc1d3c3a0c4d5e646c",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 254189,
+      "name": "Akane's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/6/570434.jpg?s=e5611e5fca5e4aacc726e4e8b1f2e2fc",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 256292,
+      "name": "Anemone, Monemone",
+      "image": "https://cdn.myanimelist.net/images/characters/15/563145.jpg?s=9f63484e50299f5c8dbaadb3c9b00380",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271221,
+      "name": "Bartender",
+      "image": "https://cdn.myanimelist.net/images/characters/4/592305.jpg?s=e33d2496b4ca54f26bb1b853b5e92f28",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271212,
+      "name": "Editor",
+      "image": "https://cdn.myanimelist.net/images/characters/4/592294.jpg?s=99f913d9fe15b1ad8b40ad322cc7bc90",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 252092,
+      "name": "Funato, Ryouma",
+      "image": "https://cdn.myanimelist.net/images/characters/6/555139.jpg?s=347fe34ad014f557d89f00c1f6dfb754",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 249455,
+      "name": "GOA",
+      "image": "https://cdn.myanimelist.net/images/characters/16/550409.jpg?s=c349fc51fd2ae3b03f92b79ce8d9d651",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 252091,
+      "name": "Hayashibara, Kiiro",
+      "image": "https://cdn.myanimelist.net/images/characters/7/555138.jpg?s=37371c968240d99748d9ac95714e5633",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 205365,
+      "name": "Himekawa, Taiki",
+      "image": "https://cdn.myanimelist.net/images/characters/11/555140.jpg?s=68329a1bde19f37d82e58d2519706507",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271215,
+      "name": "Himekawa’s Manager",
+      "image": "https://cdn.myanimelist.net/images/characters/6/592299.jpg?s=ebaf90435c582f6dda6d4886c1b7b96a",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 255657,
+      "name": "Himura",
+      "image": "https://cdn.myanimelist.net/images/characters/16/561819.jpg?s=abbabe1d82ad12898d885e67deddffd5",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271219,
+      "name": "Hostess",
+      "image": "https://cdn.myanimelist.net/images/characters/5/592303.jpg?s=53f824b9cbd8b9b3128cc610302e355d",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 245593,
+      "name": "Kamoshida, Sakuya",
+      "image": "https://cdn.myanimelist.net/images/characters/14/555142.jpg?s=655cf05b6ed547f1e76650f573ca9c2d",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271218,
+      "name": "Make-Up Artist",
+      "image": "https://cdn.myanimelist.net/images/characters/9/592302.jpg?s=5e8b2e1ef312fdee531d3ef7f6c22be7",
+      "anime": "[Oshi No Ko]",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 252090,
+      "name": "Mita, Norio",
+      "image": "https://cdn.myanimelist.net/images/characters/16/555137.jpg?s=87ec782e4b62b972f93d045de05b82e0",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271226,
+      "name": "Rights Manager",
+      "image": "https://cdn.myanimelist.net/images/characters/16/592310.jpg?s=02f04fde4a25272a77767682acab4398",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271224,
+      "name": "Runa",
+      "image": "https://cdn.myanimelist.net/images/characters/13/592308.jpg?s=3fd24a72742952cfb19c8da890f5e188",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271214,
+      "name": "Yamanaka",
+      "image": "https://cdn.myanimelist.net/images/characters/16/592296.jpg?s=ee52633177fbe962bff90b6f25f5558d",
+      "anime": "[Oshi No Ko]",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 252089,
+      "name": "Yoshidomi, Koyuki",
+      "image": "https://cdn.myanimelist.net/images/characters/14/555136.jpg?s=c9ea5d256e11ccbffb57b834d836ccc5",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
     }
   ]
 }

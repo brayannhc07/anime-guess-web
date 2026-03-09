@@ -5,31 +5,199 @@
       "id": 238271,
       "name": "Himekawa, Nene",
       "image": "https://cdn.myanimelist.net/images/characters/15/585242.jpg?s=6ef3b9e7042ed99778f6eefe984db1e8",
-      "anime": "Tune In to the Midnight Heart"
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 238268,
       "name": "Inohana, Rikka",
       "image": "https://cdn.myanimelist.net/images/characters/2/585240.jpg?s=2668c6f424381da4b0c692f89a4214ea",
-      "anime": "Tune In to the Midnight Heart"
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 238273,
       "name": "Kirino, Iko",
       "image": "https://cdn.myanimelist.net/images/characters/11/585243.jpg?s=3cf89c320d87d7cfba6eeb29260bdd8b",
-      "anime": "Tune In to the Midnight Heart"
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 238272,
       "name": "Uzuki, Shinobu",
       "image": "https://cdn.myanimelist.net/images/characters/9/585241.jpg?s=8f8cd36e9ea164968a1fb489b32d7bd8",
-      "anime": "Tune In to the Midnight Heart"
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 238263,
       "name": "Yamabuki, Arisu",
       "image": "https://cdn.myanimelist.net/images/characters/8/603732.jpg?s=8ca56b337c53902387e0b70a5e12076d",
-      "anime": "Tune In to the Midnight Heart"
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 287351,
+      "name": "Aiko",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 254978,
+      "name": "Andou, Lemon",
+      "image": "https://cdn.myanimelist.net/images/characters/3/621482.jpg?s=4d02780e52fa7734ba3d8f7926448667",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291891,
+      "name": "Edano",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291894,
+      "name": "Maro",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 287350,
+      "name": "Momotose, Ao",
+      "image": "https://cdn.myanimelist.net/images/characters/8/624755.jpg?s=dd1b5941653e17cdbc2bfc94763d3540",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291896,
+      "name": "Nene's Father",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291068,
+      "name": "Ooizumi, Seira",
+      "image": "https://cdn.myanimelist.net/images/characters/7/624217.jpg?s=985ad65c785c5f12aa2da77166d79bc8",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 289546,
+      "name": "Samejima",
+      "image": "https://cdn.myanimelist.net/images/characters/6/621483.jpg?s=d99238983161f38aaa27a071ee75b60c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291895,
+      "name": "Shinagawa",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291897,
+      "name": "Shindou",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291893,
+      "name": "Takahashi",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291892,
+      "name": "Tanaka",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291890,
+      "name": "Wakao",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Tune In to the Midnight Heart",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
     }
   ]
 }

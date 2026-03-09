@@ -1,52 +1,122 @@
 import type { CharacterTemplate } from "@/types/character";
-import attackOnTitan from "./attack-on-titan.json";
-import aveMujica from "./ave-mujica-the-die-is-cast.json";
-import chainsawMan from "./chainsaw-man.json";
-import dragonBall from "./dragon-ball.json";
-import evangelion from "./evangelion.json";
-import fate from "./fate.json";
-import higurashi from "./higurashi-when-they-cry.json";
-import jojo from "./jojo.json";
-import jujutsuKaisen from "./jujutsu-kaisen.json";
-import kOn from "./k-on.json";
-import kaguya from "./kaguya.json";
-import kaijuNo8 from "./kaiju-no-8.json";
-import mix from "./mix.json";
-import mushokuTensei from "./mushoku-tensei-jobless-reincarnation.json";
-import nichijou from "./nichijou-my-ordinary-life.json";
-import oshiNoKo from "./oshi-no-ko.json";
-import pokemon from "./pok-mon-the-movie-i-choose-you.json";
-import prisonSchool from "./prison-school.json";
-import rascal from "./rascal.json";
-import reZero from "./re-zero.json";
-import quintuplets from "./the-quintessential-quintuplets.json";
-import tuneIn from "./tune-in-to-the-midnight-heart.json";
-import umamusume from "./umamusume.json";
+import template0 from "./erased.json";
+import template1 from "./blue-box.json";
+import template2 from "./fate-zero.json";
+import template3 from "./dan-da-dan.json";
+import template4 from "./death-note.json";
+import template5 from "./kaiju-no-8.json";
+import template6 from "./chainsaw-man.json";
+import template7 from "./kill-la-kill.json";
+import template8 from "./oshi-no-ko.json";
+import template9 from "./86-eighty-six.json";
+import template10 from "./a-silent-voice.json";
+import template11 from "./girls-band-cry.json";
+import template12 from "./jujutsu-kaisen.json";
+import template13 from "./lycoris-recoil.json";
+import template14 from "./attack-on-titan.json";
+import template15 from "./bocchi-the-rock.json";
+import template16 from "./pok-mon-origins.json";
+import template17 from "./fate-strange-fake.json";
+import template18 from "./violet-evergarden.json";
+import template19 from "./your-lie-in-april.json";
+import template20 from "./my-dress-up-darling.json";
+import template21 from "./parasyte-the-maxim.json";
+import template22 from "./weathering-with-you.json";
+import template23 from "./little-witch-academia.json";
+import template24 from "./classroom-of-the-elite.json";
+import template25 from "./cyberpunk-edgerunners.json";
+import template26 from "./evangelion-3-0-46h.json";
+import template27 from "./insomniacs-after-school.json";
+import template28 from "./neon-genesis-evangelion.json";
+import template29 from "./the-dangers-in-my-heart.json";
+import template30 from "./umamusume-pretty-derby.json";
+import template31 from "./kaguya-sama-love-is-war.json";
+import template32 from "./teasing-master-takagi-san.json";
+import template33 from "./umamusume-cinderella-gray.json";
+import template34 from "./ave-mujica-the-die-is-cast.json";
+import template35 from "./this-monster-wants-to-eat-me.json";
+import template36 from "./tune-in-to-the-midnight-heart.json";
+import template37 from "./frieren-beyond-journey-s-end.json";
+import template38 from "./my-teen-romantic-comedy-snafu.json";
+import template39 from "./the-quintessential-quintuplets.json";
+import template40 from "./jojo-s-bizarre-adventure-2012.json";
+import template41 from "./pok-mon-the-movie-i-choose-you.json";
+import template42 from "./evangelion-3-0-you-can-not-redo.json";
+import template43 from "./makeine-too-many-losing-heroines.json";
+import template44 from "./code-geass-lelouch-of-the-rebellion.json";
+import template45 from "./rascal-does-not-dream-of-santa-claus.json";
+import template46 from "./the-angel-next-door-spoils-me-rotten.json";
+import template47 from "./mushoku-tensei-jobless-reincarnation.json";
+import template48 from "./evangelion-3-0-1-0-thrice-upon-a-time.json";
+import template49 from "./fate-stay-night-unlimited-blade-works.json";
+import template50 from "./rascal-does-not-dream-of-a-knapsack-kid.json";
+import template51 from "./the-fragrant-flower-blooms-with-dignity.json";
+import template52 from "./rascal-does-not-dream-of-a-dreaming-girl.json";
+import template53 from "./re-zero-starting-life-in-another-world.json";
+import template54 from "./rascal-does-not-dream-of-bunny-girl-senpai.json";
+import template55 from "./alya-sometimes-hides-her-feelings-in-russian.json";
+import template56 from "./kaguya-sama-love-is-war-stairway-to-adulthood.json";
+import template57 from "./fate-stay-night-heaven-s-feel-iii-spring-song.json";
 
 const templates: Record<string, CharacterTemplate> = {
-  "mix": mix as CharacterTemplate,
-  "re-zero": reZero as CharacterTemplate,
-  "jojo": jojo as CharacterTemplate,
-  "dragon-ball": dragonBall as CharacterTemplate,
-  "fate": fate as CharacterTemplate,
-  "jujutsu-kaisen": jujutsuKaisen as CharacterTemplate,
-  "umamusume": umamusume as CharacterTemplate,
-  "pokemon": pokemon as CharacterTemplate,
-  "mushoku-tensei": mushokuTensei as CharacterTemplate,
-  "quintuplets": quintuplets as CharacterTemplate,
-  "nichijou": nichijou as CharacterTemplate,
-  "k-on": kOn as CharacterTemplate,
-  "higurashi": higurashi as CharacterTemplate,
-  "evangelion": evangelion as CharacterTemplate,
-  "attack-on-titan": attackOnTitan as CharacterTemplate,
-  "kaguya": kaguya as CharacterTemplate,
-  "kaiju-no-8": kaijuNo8 as CharacterTemplate,
-  "chainsaw-man": chainsawMan as CharacterTemplate,
-  "oshi-no-ko": oshiNoKo as CharacterTemplate,
-  "prison-school": prisonSchool as CharacterTemplate,
-  "ave-mujica": aveMujica as CharacterTemplate,
-  "tune-in": tuneIn as CharacterTemplate,
-  "rascal": rascal as CharacterTemplate,
+  "erased": template0 as CharacterTemplate,
+  "blue-box": template1 as CharacterTemplate,
+  "fate-zero": template2 as CharacterTemplate,
+  "dan-da-dan": template3 as CharacterTemplate,
+  "death-note": template4 as CharacterTemplate,
+  "kaiju-no-8": template5 as CharacterTemplate,
+  "chainsaw-man": template6 as CharacterTemplate,
+  "kill-la-kill": template7 as CharacterTemplate,
+  "oshi-no-ko": template8 as CharacterTemplate,
+  "86-eighty-six": template9 as CharacterTemplate,
+  "a-silent-voice": template10 as CharacterTemplate,
+  "girls-band-cry": template11 as CharacterTemplate,
+  "jujutsu-kaisen": template12 as CharacterTemplate,
+  "lycoris-recoil": template13 as CharacterTemplate,
+  "attack-on-titan": template14 as CharacterTemplate,
+  "bocchi-the-rock": template15 as CharacterTemplate,
+  "pok-mon-origins": template16 as CharacterTemplate,
+  "fate-strange-fake": template17 as CharacterTemplate,
+  "violet-evergarden": template18 as CharacterTemplate,
+  "your-lie-in-april": template19 as CharacterTemplate,
+  "my-dress-up-darling": template20 as CharacterTemplate,
+  "parasyte-the-maxim": template21 as CharacterTemplate,
+  "weathering-with-you": template22 as CharacterTemplate,
+  "little-witch-academia": template23 as CharacterTemplate,
+  "classroom-of-the-elite": template24 as CharacterTemplate,
+  "cyberpunk-edgerunners": template25 as CharacterTemplate,
+  "evangelion-3-0-46h": template26 as CharacterTemplate,
+  "insomniacs-after-school": template27 as CharacterTemplate,
+  "neon-genesis-evangelion": template28 as CharacterTemplate,
+  "the-dangers-in-my-heart": template29 as CharacterTemplate,
+  "umamusume-pretty-derby": template30 as CharacterTemplate,
+  "kaguya-sama-love-is-war": template31 as CharacterTemplate,
+  "teasing-master-takagi-san": template32 as CharacterTemplate,
+  "umamusume-cinderella-gray": template33 as CharacterTemplate,
+  "ave-mujica-the-die-is-cast": template34 as CharacterTemplate,
+  "this-monster-wants-to-eat-me": template35 as CharacterTemplate,
+  "tune-in-to-the-midnight-heart": template36 as CharacterTemplate,
+  "frieren-beyond-journey-s-end": template37 as CharacterTemplate,
+  "my-teen-romantic-comedy-snafu": template38 as CharacterTemplate,
+  "the-quintessential-quintuplets": template39 as CharacterTemplate,
+  "jojo-s-bizarre-adventure-2012": template40 as CharacterTemplate,
+  "pok-mon-the-movie-i-choose-you": template41 as CharacterTemplate,
+  "evangelion-3-0-you-can-not-redo": template42 as CharacterTemplate,
+  "makeine-too-many-losing-heroines": template43 as CharacterTemplate,
+  "code-geass-lelouch-of-the-rebellion": template44 as CharacterTemplate,
+  "rascal-does-not-dream-of-santa-claus": template45 as CharacterTemplate,
+  "the-angel-next-door-spoils-me-rotten": template46 as CharacterTemplate,
+  "mushoku-tensei-jobless-reincarnation": template47 as CharacterTemplate,
+  "evangelion-3-0-1-0-thrice-upon-a-time": template48 as CharacterTemplate,
+  "fate-stay-night-unlimited-blade-works": template49 as CharacterTemplate,
+  "rascal-does-not-dream-of-a-knapsack-kid": template50 as CharacterTemplate,
+  "the-fragrant-flower-blooms-with-dignity": template51 as CharacterTemplate,
+  "rascal-does-not-dream-of-a-dreaming-girl": template52 as CharacterTemplate,
+  "re-zero-starting-life-in-another-world": template53 as CharacterTemplate,
+  "rascal-does-not-dream-of-bunny-girl-senpai": template54 as CharacterTemplate,
+  "alya-sometimes-hides-her-feelings-in-russian": template55 as CharacterTemplate,
+  "kaguya-sama-love-is-war-stairway-to-adulthood": template56 as CharacterTemplate,
+  "fate-stay-night-heaven-s-feel-iii-spring-song": template57 as CharacterTemplate,
 };
 
 export default templates;

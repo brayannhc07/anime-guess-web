@@ -1,0 +1,830 @@
+{
+  "name": "Frieren: Beyond Journey's End",
+  "characters": [
+    {
+      "id": 188176,
+      "name": "Fern",
+      "image": "https://cdn.myanimelist.net/images/characters/12/619183.jpg?s=15f45c66440c0e9843e2f0109f0c1aef",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 184947,
+      "name": "Frieren",
+      "image": "https://cdn.myanimelist.net/images/characters/7/525105.jpg?s=1706604ec2ca141a172526b8dedf3177",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 188177,
+      "name": "Stark",
+      "image": "https://cdn.myanimelist.net/images/characters/7/621924.jpg?s=ff623ff40dde15a769f879d87d6e7dcd",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 206722,
+      "name": "Aura",
+      "image": "https://cdn.myanimelist.net/images/characters/10/524719.jpg?s=4048eff20f4b708dcb207e42dcf350a2",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271503,
+      "name": "Bartender",
+      "image": "https://cdn.myanimelist.net/images/characters/14/592621.jpg?s=48007cef02263c989a6d3b480198b0f6",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215341,
+      "name": "Blei",
+      "image": "https://cdn.myanimelist.net/images/characters/2/538684.jpg?s=b83dd6639d65b46ab3256b061d87e7de",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215302,
+      "name": "Burg",
+      "image": "https://cdn.myanimelist.net/images/characters/4/541583.jpg?s=c6660924d50b96b013b2f3bb9a94f8f1",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271502,
+      "name": "Captain of the Guard",
+      "image": "https://cdn.myanimelist.net/images/characters/5/592620.jpg?s=3520a53a4ed07bdc9d812a227c698d43",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271501,
+      "name": "Castellan",
+      "image": "https://cdn.myanimelist.net/images/characters/7/592619.jpg?s=ae7a5307905907f983ea0e8341477c1a",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 238061,
+      "name": "Chief of the Village of the Sword",
+      "image": "https://cdn.myanimelist.net/images/characters/8/529122.jpg?s=98882954f80644deaac5e2cc026b79be",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271507,
+      "name": "Church Father",
+      "image": "https://cdn.myanimelist.net/images/characters/5/592625.jpg?s=5faf9bd6c873ec19341d6787bc822dbe",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 236472,
+      "name": "Demon Child",
+      "image": "https://cdn.myanimelist.net/images/characters/12/566312.jpg?s=a3827334dc81b38e2079ccd7c97880eb",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215250,
+      "name": "Denken",
+      "image": "https://cdn.myanimelist.net/images/characters/6/538686.jpg?s=2595c67e00559959d93b18367f1c278e",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215255,
+      "name": "Draht",
+      "image": "https://cdn.myanimelist.net/images/characters/8/524720.jpg?s=59c45b3a7141d2c9d6aadd10bf4fc6e4",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215304,
+      "name": "Dünste",
+      "image": "https://cdn.myanimelist.net/images/characters/10/538691.jpg?s=3df85500b7a4b245497ceb044d935b90",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206724,
+      "name": "Edel",
+      "image": "https://cdn.myanimelist.net/images/characters/4/538690.jpg?s=03d416c7ce340935d05159d14f3de3ad",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215263,
+      "name": "Ehre",
+      "image": "https://cdn.myanimelist.net/images/characters/12/531661.jpg?s=0828bb0cd56cf54305a4ba8d01b84e49",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196825,
+      "name": "Eisen",
+      "image": "https://cdn.myanimelist.net/images/characters/13/523293.jpg?s=10921d054b41f3e5dd2ab5d6b46e2a2c",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 252054,
+      "name": "Elder",
+      "image": "https://cdn.myanimelist.net/images/characters/2/555061.jpg?s=de63bef39f7758c1c6b388adb38e64b9",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215353,
+      "name": "Falsch",
+      "image": "https://cdn.myanimelist.net/images/characters/7/535534.jpg?s=288c2d33b08269c142f2bde4d53a9be7",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 187307,
+      "name": "Flamme",
+      "image": "https://cdn.myanimelist.net/images/characters/10/528177.jpg?s=8b3a2d8085f11194c19344fe11e9605c",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215354,
+      "name": "Gabel",
+      "image": "https://cdn.myanimelist.net/images/characters/8/531109.jpg?s=cc6bc49c9009ebd1f58076f330a8881a",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215261,
+      "name": "Genau",
+      "image": "https://cdn.myanimelist.net/images/characters/7/537235.jpg?s=bc4d06ed3e396ab82897a5e911fc99f4",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215257,
+      "name": "Granat",
+      "image": "https://cdn.myanimelist.net/images/characters/10/525426.jpg?s=4c85add66dff2e7234bf425b86cc7791",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 270789,
+      "name": "Granny",
+      "image": "https://cdn.myanimelist.net/images/characters/5/591524.jpg?s=c1d83cfa2a740114a4b17ac23deab6c5",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196826,
+      "name": "Heiter",
+      "image": "https://cdn.myanimelist.net/images/characters/16/523294.jpg?s=5830ad246444e8b775737db4304b6de6",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 236199,
+      "name": "Herbalist",
+      "image": "https://cdn.myanimelist.net/images/characters/11/525485.jpg?s=fa7df0d93eab405dcbed036f01603b38",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 186854,
+      "name": "Himmel",
+      "image": "https://cdn.myanimelist.net/images/characters/16/621925.jpg?s=5faec0afd8c70ec30faa16d5e256baa6",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215293,
+      "name": "Kanne",
+      "image": "https://cdn.myanimelist.net/images/characters/13/534108.jpg?s=be4fe511fac0690affc1da8a4d563ce9",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206723,
+      "name": "Kraft",
+      "image": "https://cdn.myanimelist.net/images/characters/6/566320.jpg?s=7e73d94e58b816f3de445663f8587329",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215248,
+      "name": "Land",
+      "image": "https://cdn.myanimelist.net/images/characters/8/541623.jpg?s=241af2e6f17f7325866aaf582ab5037d",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 232166,
+      "name": "Laufen",
+      "image": "https://cdn.myanimelist.net/images/characters/15/533517.jpg?s=ad4488b7e1acdccdbed1a7c17c298a58",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215295,
+      "name": "Lawine",
+      "image": "https://cdn.myanimelist.net/images/characters/10/537013.jpg?s=43671c1246de40b213900d9c64da64ef",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215275,
+      "name": "Lecker",
+      "image": "https://cdn.myanimelist.net/images/characters/8/538001.jpg?s=5cb9c8528b5409da387a1c580a8e5201",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215352,
+      "name": "Lernen",
+      "image": "https://cdn.myanimelist.net/images/characters/2/535549.jpg?s=5027d7956a64e29588235bfc0f69013a",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215254,
+      "name": "Linie",
+      "image": "https://cdn.myanimelist.net/images/characters/13/524721.jpg?s=fe4ee2fae67fec5662a43252cc7c4b16",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215342,
+      "name": "Länge",
+      "image": "https://cdn.myanimelist.net/images/characters/13/538694.jpg?s=6bb0cf0666e8f036c47eae7949ea1589",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215253,
+      "name": "Lügner",
+      "image": "https://cdn.myanimelist.net/images/characters/15/524722.jpg?s=189962f2723938d61b61eb4f5bfb5b8b",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 270788,
+      "name": "Magic Store Owner",
+      "image": "https://cdn.myanimelist.net/images/characters/9/591523.jpg?s=08c13bacb393abd9c591acfd7afaed73",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 259176,
+      "name": "Merchant",
+      "image": "https://cdn.myanimelist.net/images/characters/14/569091.jpg?s=0ad413daf94d79ab5637b8fdc550f342",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215303,
+      "name": "Methode",
+      "image": "https://cdn.myanimelist.net/images/characters/14/538692.jpg?s=f37ee4e5b0f8584cd9d60a1e079ab5ee",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 238973,
+      "name": "Mut",
+      "image": "https://cdn.myanimelist.net/images/characters/4/531110.jpg?s=3171a73fa3bb94351ddaeafb57c74e99",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215259,
+      "name": "Orden",
+      "image": "https://cdn.myanimelist.net/images/characters/4/531108.jpg?s=f664472c83647c656befaacb1ca02f24",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 187308,
+      "name": "Qual",
+      "image": "https://cdn.myanimelist.net/images/characters/16/523394.jpg?s=49f8c897512c67c26e8d12fb26fbe84d",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215251,
+      "name": "Richter",
+      "image": "https://cdn.myanimelist.net/images/characters/11/535517.jpg?s=2e03fd196dfe4cc241c5c987d14e8801",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215264,
+      "name": "Scharf",
+      "image": "https://cdn.myanimelist.net/images/characters/14/619184.jpg?s=a2610702273435ccbdfebd734f622f30",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196912,
+      "name": "Sein",
+      "image": "https://cdn.myanimelist.net/images/characters/12/529669.jpg?s=01af13a5fcead2e03a913022f5ece346",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 238328,
+      "name": "Sein's Older Brother",
+      "image": "https://cdn.myanimelist.net/images/characters/12/529731.jpg?s=5e34f73a46eb000fe99bf1f73b709a1d",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215301,
+      "name": "Sense",
+      "image": "https://cdn.myanimelist.net/images/characters/14/538685.jpg?s=d9d0f7381ce0482b0ec823f13f50c445",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 211285,
+      "name": "Serie",
+      "image": "https://cdn.myanimelist.net/images/characters/4/536851.jpg?s=bc2d816ac437e368cc7b7b7cb94922d0",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215271,
+      "name": "Stark's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/16/529449.jpg?s=172edf967c0776d22674084d506e14ce",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215256,
+      "name": "Stoltz",
+      "image": "https://cdn.myanimelist.net/images/characters/6/529121.jpg?s=edbdb45eab4f0d6da92d6c34e7c3ea91",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 270891,
+      "name": "Stubborn Old Woman",
+      "image": "https://cdn.myanimelist.net/images/characters/9/591675.jpg?s=2658a2bf2c40046a3945e0cf5c9e4de1",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 270787,
+      "name": "The King",
+      "image": "https://cdn.myanimelist.net/images/characters/6/591522.jpg?s=997fbe49ae5b6561067c9737b6d70954",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215260,
+      "name": "Ton",
+      "image": "https://cdn.myanimelist.net/images/characters/11/538789.jpg?s=982cc4316aee0f6e0dd44fbc9a13ce8d",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 250295,
+      "name": "Uff",
+      "image": "https://cdn.myanimelist.net/images/characters/7/552133.jpg?s=d5e4f56aa3d36ed99d71f659a19528f3",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215273,
+      "name": "Voll",
+      "image": "https://cdn.myanimelist.net/images/characters/9/535528.jpg?s=4703eba900e83fbf7266e859171ffab7",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215252,
+      "name": "Warrior Gorilla",
+      "image": "https://cdn.myanimelist.net/images/characters/4/530186.jpg?s=dd8ca0ef3a68aae02afa7d063f109df7",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215249,
+      "name": "Wirbel",
+      "image": "https://cdn.myanimelist.net/images/characters/4/619383.jpg?s=1bdccb12da283b98814b1ef32b4b8ed4",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215258,
+      "name": "Wirt",
+      "image": "https://cdn.myanimelist.net/images/characters/5/531107.jpg?s=b1164536454617e4a5de91572c8fbc7c",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206725,
+      "name": "Übel",
+      "image": "https://cdn.myanimelist.net/images/characters/9/543072.jpg?s=8a1e7b1b5acb4d902a9f39147e4209af",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215300,
+      "name": "Übel's Sister",
+      "image": "https://cdn.myanimelist.net/images/characters/12/483809.jpg?s=766461cfbac4e5343136ffdb2d7bbe90",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288260,
+      "name": "Adventurer",
+      "image": "https://cdn.myanimelist.net/images/characters/10/619646.jpg?s=457346e77b525627097f6b5df1651218",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288261,
+      "name": "Boatman",
+      "image": "https://cdn.myanimelist.net/images/characters/16/619648.jpg?s=259dfe2d398354948f1f58aa3104a829",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 257414,
+      "name": "Dach",
+      "image": "https://cdn.myanimelist.net/images/characters/5/620164.jpg?s=af56d604919b7cda247a5d4e35f8acd4",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 257416,
+      "name": "Fass",
+      "image": "https://cdn.myanimelist.net/images/characters/13/622525.jpg?s=e115a07b02a1e8701dfffb75b48fdeed",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291330,
+      "name": "Genau's Childhood Friend",
+      "image": "https://cdn.myanimelist.net/images/characters/13/624248.jpg?s=755e1b48ded51d827faca5fb89002858",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291992,
+      "name": "Hermon",
+      "image": "https://cdn.myanimelist.net/images/characters/10/625052.jpg?s=cc34adc5e4ce17ad761ab24de6c90cd7",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 226663,
+      "name": "Hero of the South",
+      "image": "https://cdn.myanimelist.net/images/characters/3/620163.jpg?s=c17408b03af0638642e3649e22e88451",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 257418,
+      "name": "Milliarde",
+      "image": "https://cdn.myanimelist.net/images/characters/16/622526.jpg?s=5bc38500e73ef37d41ab6ed457ed4555",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 257419,
+      "name": "Norm",
+      "image": "https://cdn.myanimelist.net/images/characters/12/622527.jpg?s=63fb2f11ef9d9f8f03c1dfea06b33934",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 237674,
+      "name": "Revolte",
+      "image": "https://cdn.myanimelist.net/images/characters/8/622533.jpg?s=89c6f6dbbe8bf49e46851712f0104d5b",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288591,
+      "name": "Sword Demon",
+      "image": "https://cdn.myanimelist.net/images/characters/8/620165.jpg?s=d25e7648c556edd5f8064a445be86992",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291994,
+      "name": "Yun",
+      "image": "https://cdn.myanimelist.net/images/characters/14/625054.jpg?s=da0fc2379b57305df5aea9a9b5824283",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 291993,
+      "name": "Zorida",
+      "image": "https://cdn.myanimelist.net/images/characters/5/625053.jpg?s=bfc6d4b627e9f39752dfa6a1913f0d7b",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

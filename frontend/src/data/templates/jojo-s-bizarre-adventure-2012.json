@@ -1,0 +1,456 @@
+{
+  "name": "JoJo's Bizarre Adventure (2012)",
+  "characters": [
+    {
+      "id": 4004,
+      "name": "Brando, Dio",
+      "image": "https://cdn.myanimelist.net/images/characters/8/330539.jpg?s=2e40251bbb48a09a41d2c89016da80f4",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 8087,
+      "name": "Joestar, Jonathan",
+      "image": "https://cdn.myanimelist.net/images/characters/10/182715.jpg?s=d87c934286168a792851f4c46effc8e5",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 6356,
+      "name": "Joestar, Joseph",
+      "image": "https://cdn.myanimelist.net/images/characters/7/316615.jpg?s=c52eb11c56af357b8775e288bd5bd13e",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 21966,
+      "name": "Kars",
+      "image": "https://cdn.myanimelist.net/images/characters/12/615607.jpg?s=fb8021bd67110d42f20e2e09addb91a7",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 21960,
+      "name": "Lisa Lisa",
+      "image": "https://cdn.myanimelist.net/images/characters/6/196391.jpg?s=d4ae9b7d78b30c4d6031d04e0a99c941",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 21938,
+      "name": "Speedwagon, Robert E. O.",
+      "image": "https://cdn.myanimelist.net/images/characters/7/196031.jpg?s=fa364d3f051a2a73e4c7c4726182a687",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 18062,
+      "name": "Zeppeli, Will A.",
+      "image": "https://cdn.myanimelist.net/images/characters/15/275118.jpg?s=9f95016c3c4ef0ea7968c6917bc21064",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 21959,
+      "name": "Zeppeli, Caesar Anthonio",
+      "image": "https://cdn.myanimelist.net/images/characters/16/372612.jpg?s=2f2faeab6ed57598879fa6a5cb053481",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 227953,
+      "name": "Adams",
+      "image": "https://cdn.myanimelist.net/images/characters/4/508944.jpg?s=1f7934a68ca0d801b8567bde36e917be",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 94141,
+      "name": "Beck, Wired",
+      "image": "https://cdn.myanimelist.net/images/characters/3/240659.jpg?s=cbf3da3b03efcacc1b46eb2da86d7376",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74099,
+      "name": "Brando, Dario",
+      "image": "https://cdn.myanimelist.net/images/characters/16/251721.jpg?s=5e184059260cfff45bc483f1d73690dc",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21957,
+      "name": "Brown, Smokey",
+      "image": "https://cdn.myanimelist.net/images/characters/12/259713.jpg?s=8604d6898cb1fe955f61569c9c5bdbf1",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74113,
+      "name": "Bruford",
+      "image": "https://cdn.myanimelist.net/images/characters/8/251727.jpg?s=f69521c70ee8819eac72145d6a67d06f",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 101395,
+      "name": "Butler",
+      "image": "https://cdn.myanimelist.net/images/characters/7/236927.jpg?s=40d583ecf925cf73aa5ccc4efe31e555",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74101,
+      "name": "Chan, Wang",
+      "image": "https://cdn.myanimelist.net/images/characters/11/251717.jpg?s=0dd9c508b8ea48ef703682d871835f2d",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74057,
+      "name": "Dire",
+      "image": "https://cdn.myanimelist.net/images/characters/12/251663.jpg?s=e12544c7d42bb1eebd292d275b9ebe19",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175928,
+      "name": "Donovan",
+      "image": "https://cdn.myanimelist.net/images/characters/16/394597.jpg?s=ec706a532ed2661f703f4c5245aed059",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 227954,
+      "name": "Doobie",
+      "image": "https://cdn.myanimelist.net/images/characters/4/508945.jpg?s=086a2bef3aa1e29e1a5d450f397ffa7a",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21964,
+      "name": "Esidisi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/251667.jpg?s=84b60c337c6fe56d73e6520aef27c98e",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228316,
+      "name": "Father Styx",
+      "image": "https://cdn.myanimelist.net/images/characters/7/509579.jpg?s=445b74f123ae4d40bf4932c4e60b74d5",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74105,
+      "name": "Jack",
+      "image": "https://cdn.myanimelist.net/images/characters/13/251731.jpg?s=2817fdb1f45ad2bef44bf06bf57d2f9f",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21956,
+      "name": "Joestar, George I",
+      "image": "https://cdn.myanimelist.net/images/characters/14/205119.jpg?s=ae07f01094724d85b91f2c892282224b",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 123847,
+      "name": "Joestar II, George",
+      "image": "https://cdn.myanimelist.net/images/characters/2/275060.jpg?s=7c8330e801bbbbbdee6b26b0b91c5b0a",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228477,
+      "name": "Kempo Fighter",
+      "image": "https://cdn.myanimelist.net/images/characters/6/509844.jpg?s=9baf3e971b7d6cfb9c17335479106a45",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 89435,
+      "name": "Kuujou, Holy",
+      "image": "https://cdn.myanimelist.net/images/characters/13/521134.jpg?s=74ca6d433a70db5a4e9823a28bfdd866",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153054,
+      "name": "Loggins",
+      "image": "https://cdn.myanimelist.net/images/characters/13/366001.jpg?s=0fd1b5b0bcf55d264c88a4da98777eb4",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 93339,
+      "name": "Mark",
+      "image": "https://cdn.myanimelist.net/images/characters/11/251699.jpg?s=5a61be27f31576fe219375dffe014722",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 101393,
+      "name": "Messina",
+      "image": "https://cdn.myanimelist.net/images/characters/16/236925.jpg?s=374d3c6c1f5f034e407192fd3adf6d33",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 79901,
+      "name": "Narrator",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21937,
+      "name": "Pendleton, Erina",
+      "image": "https://cdn.myanimelist.net/images/characters/9/451236.jpg?s=c6bf4e31485bdf9bb8be80351dd792d5",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 92741,
+      "name": "Poco",
+      "image": "https://cdn.myanimelist.net/images/characters/13/251695.jpg?s=f326d7f4c3c8ccbf6458a795f7e3abd6",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228475,
+      "name": "Poco's Sister",
+      "image": "https://cdn.myanimelist.net/images/characters/12/509838.jpg?s=0e46cb90c6b4d39e3925ac931e410200",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21962,
+      "name": "Q, Suzie",
+      "image": "https://cdn.myanimelist.net/images/characters/14/211527.jpg?s=fc4b72c58a7a7b4ce328ea4083070063",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21963,
+      "name": "Santana",
+      "image": "https://cdn.myanimelist.net/images/characters/15/260121.jpg?s=120b23bf117f724a4328e8c9025fe217",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21961,
+      "name": "Straizo",
+      "image": "https://cdn.myanimelist.net/images/characters/6/251693.jpg?s=8af1f193f0d62e0a39a077f3193d06c0",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74109,
+      "name": "Tarkus",
+      "image": "https://cdn.myanimelist.net/images/characters/13/251729.jpg?s=82ff9b739f2688410341ea19397311c3",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 228476,
+      "name": "Tattoo",
+      "image": "https://cdn.myanimelist.net/images/characters/13/509843.jpg?s=913017832974f4560ecfddf196821cd2",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 74097,
+      "name": "Tonpeti",
+      "image": "https://cdn.myanimelist.net/images/characters/16/251661.jpg?s=feea9552a3230025b5eb25dec1fb8384",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21958,
+      "name": "von Stroheim, Rudol",
+      "image": "https://cdn.myanimelist.net/images/characters/15/191600.jpg?s=6240bd9323a2d8801679a0e7f7e043cd",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 21965,
+      "name": "Wamuu",
+      "image": "https://cdn.myanimelist.net/images/characters/7/251665.jpg?s=ddbaa413e4c31a526532a95f2ba97b24",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 194729,
+      "name": "Zeppeli, Mario",
+      "image": "https://cdn.myanimelist.net/images/characters/16/437639.jpg?s=521b9e04ec0583c4a02591c054ee1a4d",
+      "anime": "JoJo's Bizarre Adventure (2012)",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

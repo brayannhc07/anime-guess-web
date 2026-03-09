@@ -1,0 +1,687 @@
+{
+  "name": "Umamusume: Cinderella Gray",
+  "characters": [
+    {
+      "id": 287055,
+      "name": "Ai-chan",
+      "image": "https://cdn.myanimelist.net/images/characters/7/617631.jpg?s=5a948090b1260fd50fab91f653a881ac",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273333,
+      "name": "Akitsu Teio",
+      "image": "https://cdn.myanimelist.net/images/characters/10/595827.jpg?s=8dbec728d15221de40ea4981eb800c56",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199040,
+      "name": "Belno Light",
+      "image": "https://cdn.myanimelist.net/images/characters/8/582041.jpg?s=9c2db5b180dee03f7986c3f6df9a0e03",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271992,
+      "name": "Blacky Ale",
+      "image": "https://cdn.myanimelist.net/images/characters/13/593527.jpg?s=91bea78ddf12f81a60c2176c6426edde",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 254038,
+      "name": "Dicta Striker",
+      "image": "https://cdn.myanimelist.net/images/characters/10/592828.jpg?s=da4a02eb6f035a340edd817546befd4b",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273615,
+      "name": "Dynam Heroine",
+      "image": "https://cdn.myanimelist.net/images/characters/6/596503.jpg?s=83e1648f78647dac4a5d29b48df68c80",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271996,
+      "name": "Fujii, Sensuke",
+      "image": "https://cdn.myanimelist.net/images/characters/16/593531.jpg?s=bf4082fc6b36d42b18dd66195adff575",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 254039,
+      "name": "Fujimasa March",
+      "image": "https://cdn.myanimelist.net/images/characters/10/582042.jpg?s=190983367ad230ba8d4eef0f31929270",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271995,
+      "name": "God Hannibal",
+      "image": "https://cdn.myanimelist.net/images/characters/11/593530.jpg?s=1b729f9082c77872e20bdc9c5e30de9f",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 287056,
+      "name": "Igawa",
+      "image": "https://cdn.myanimelist.net/images/characters/3/617632.jpg?s=a56585fef40e0f48ad56800d9f4f14d1",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269331,
+      "name": "Iwao, Yuuichi",
+      "image": "https://cdn.myanimelist.net/images/characters/3/588034.jpg?s=cea493d387b0a1705802eef787046354",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269330,
+      "name": "Kawamura, Hiyori",
+      "image": "https://cdn.myanimelist.net/images/characters/15/588033.jpg?s=e8926b4b3f4192498a258ffd2b8b3cc9",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199041,
+      "name": "Kitahara, Jou",
+      "image": "https://cdn.myanimelist.net/images/characters/10/582040.jpg?s=75105f87b805de6cfbc1414c7cc3dcc1",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273332,
+      "name": "Komiyama, Masami",
+      "image": "https://cdn.myanimelist.net/images/characters/7/595826.jpg?s=5967b04ccdb7a9f482e5b7ca7b9bf3fc",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271994,
+      "name": "Kraft Univer",
+      "image": "https://cdn.myanimelist.net/images/characters/3/593529.jpg?s=b3b2045754664bcb95a5fc07a580c0a7",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282677,
+      "name": "Long Live Free",
+      "image": "https://cdn.myanimelist.net/images/characters/11/610725.jpg?s=c09908480ab352c74320216cb1ff8ea2",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273616,
+      "name": "Lord Royal",
+      "image": "https://cdn.myanimelist.net/images/characters/14/597174.jpg?s=4295de86155cd7e86c928bcb16782fde",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269327,
+      "name": "Luna Swallow",
+      "image": "https://cdn.myanimelist.net/images/characters/3/598583.jpg?s=64932307340e9ef73abe15beb8ab2069",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282678,
+      "name": "Massive Viking",
+      "image": "https://cdn.myanimelist.net/images/characters/11/610726.jpg?s=649783323cb0b305fd4215911ce614e4",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271993,
+      "name": "Meiken Tsukasa",
+      "image": "https://cdn.myanimelist.net/images/characters/10/593528.jpg?s=a296b161d3de99588fcc8e8c886146f5",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 253157,
+      "name": "Mejiro Ardan",
+      "image": "https://cdn.myanimelist.net/images/characters/6/577276.jpg?s=84b950395129daf236b090a5c436f2e0",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269328,
+      "name": "Merry Beauty",
+      "image": "https://cdn.myanimelist.net/images/characters/7/613459.jpg?s=11cf08b6e11971307a7a573d5f382c53",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 265952,
+      "name": "Mini the Lady",
+      "image": "https://cdn.myanimelist.net/images/characters/13/582038.jpg?s=16b9a798d2d54e58ea690ba539fd112a",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 254036,
+      "name": "Mr. C.B.",
+      "image": "https://cdn.myanimelist.net/images/characters/10/577279.jpg?s=954f77a7516b4c47edfaf67bcd11abf7",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 265953,
+      "name": "Musaka, Ginjirou",
+      "image": "https://cdn.myanimelist.net/images/characters/4/582039.jpg?s=72ee3db126f4ee16c1a26bc023745ee6",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269326,
+      "name": "Nantou Ichiban",
+      "image": "https://cdn.myanimelist.net/images/characters/14/598585.jpg?s=70762a80982087ad8110e4e3900eeb9f",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 265950,
+      "name": "Norn Ace",
+      "image": "https://cdn.myanimelist.net/images/characters/9/582036.jpg?s=1204515b70224377b2499ffda1ebe3bc",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273977,
+      "name": "Oguri Cap's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/3/615117.jpg?s=ed4b8a05ecd1e3713057e8dec85c6b6f",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 265951,
+      "name": "Rudy Lemono",
+      "image": "https://cdn.myanimelist.net/images/characters/9/582037.jpg?s=d0251f05e7cc2e7e1d31aac12a04dc15",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 236211,
+      "name": "Sakura Chiyono O",
+      "image": "https://cdn.myanimelist.net/images/characters/10/577274.jpg?s=f881a941de4bf4249822c2eb1dc7dd3c",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269745,
+      "name": "Sekai Toha",
+      "image": "https://cdn.myanimelist.net/images/characters/5/590330.jpg?s=de7a4a3423395b7b369983d2d49cf166",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269329,
+      "name": "Shibasaki, Kouichi",
+      "image": "https://cdn.myanimelist.net/images/characters/5/588032.jpg?s=2f32c724f6ff012c11a4876d8cccb573",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 220228,
+      "name": "Sirius Symboli",
+      "image": "https://cdn.myanimelist.net/images/characters/5/574475.jpg?s=fe6cb0f62ff4139c13059542fecfcb90",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269742,
+      "name": "South Heroine",
+      "image": "https://cdn.myanimelist.net/images/characters/7/590331.jpg?s=5ba1aaffe56111dee7f13c61606104d7",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 273979,
+      "name": "Tamamo Cross' Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/14/597240.jpg?s=0c3adb2c2df19274cb2e2a94f5286c35",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285670,
+      "name": "Top Shunbetsu",
+      "image": "https://cdn.myanimelist.net/images/characters/12/615660.jpg?s=1a921abba96c524b8bcded736d25f17b",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 269744,
+      "name": "Walk Dancer",
+      "image": "https://cdn.myanimelist.net/images/characters/14/590332.jpg?s=c66e4d7a2667bedf8a5af4bb30e22ad6",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 253190,
+      "name": "Yaeno Muteki",
+      "image": "https://cdn.myanimelist.net/images/characters/4/577273.jpg?s=d65b14b3f6c971af3bcaec9dd545e116",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 280805,
+      "name": "Yaeno Muteki's Trainer",
+      "image": "https://cdn.myanimelist.net/images/characters/6/612187.jpg?s=539b5073fd217e0efe66685b37bb44bc",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282671,
+      "name": "American Uma Musume",
+      "image": "https://cdn.myanimelist.net/images/characters/11/610719.jpg?s=5787a249b4fd1a15b74c655baa7d3393",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 277295,
+      "name": "Ellerslie Pride",
+      "image": "https://cdn.myanimelist.net/images/characters/11/603049.jpg?s=e3826db3ec5fa40fd3ab3ba2c4719f04",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 286047,
+      "name": "Faith No More",
+      "image": "https://cdn.myanimelist.net/images/characters/8/616168.jpg?s=0696e33f73abc912d512de767ed9be7c",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 271664,
+      "name": "Folkqueen",
+      "image": "https://cdn.myanimelist.net/images/characters/10/614324.jpg?s=757af527254e453e1b3a3c936998afb5",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 286049,
+      "name": "Fuyuno Nakasumi",
+      "image": "https://cdn.myanimelist.net/images/characters/11/616170.jpg?s=a565a3ee5f8345a30225df2f594e51ff",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 286051,
+      "name": "Hinode Boxer",
+      "image": "https://cdn.myanimelist.net/images/characters/16/616181.jpg?s=cf43de42033a927d7e7dec3385862ddf",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 287179,
+      "name": "Katsuragi Ace",
+      "image": "https://cdn.myanimelist.net/images/characters/13/617864.jpg?s=a9c9aebf1be489aae849fd3b67d7d014",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 284269,
+      "name": "Kouchi, Tadashi",
+      "image": "https://cdn.myanimelist.net/images/characters/3/613456.jpg?s=4a0297980c63c63b3742068079ed3a86",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285669,
+      "name": "Maui Sango",
+      "image": "https://cdn.myanimelist.net/images/characters/9/615659.jpg?s=97809dd5405eb29a0ed25e05aea828a6",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 277297,
+      "name": "Michelle My Baby",
+      "image": "https://cdn.myanimelist.net/images/characters/3/603047.jpg?s=a71a5295279f386dc159e6f8929cacdf",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 277296,
+      "name": "Moonlight Lunacy",
+      "image": "https://cdn.myanimelist.net/images/characters/16/603048.jpg?s=ca487a0757a5bec3f310b31868aaf068",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 280790,
+      "name": "Nase, Fumino",
+      "image": "https://cdn.myanimelist.net/images/characters/12/607913.jpg?s=3c1219e542c195336b8d5d80acf5eda3",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 224427,
+      "name": "Obey Your Master",
+      "image": "https://cdn.myanimelist.net/images/characters/3/603046.jpg?s=fa1468fa04bc8c9b7fe37b8876785ad2",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282683,
+      "name": "Obey Your Master's Trainer",
+      "image": "https://cdn.myanimelist.net/images/characters/7/610768.jpg?s=a557041bea934bc9f1a23b2de21a64dc",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 286048,
+      "name": "Romance Bubbly",
+      "image": "https://cdn.myanimelist.net/images/characters/10/616169.jpg?s=593094a00f0fb4f51dc1336f7f0826a5",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285667,
+      "name": "School Road",
+      "image": "https://cdn.myanimelist.net/images/characters/8/615657.jpg?s=0cbb86eeb63725a57ceadf38a35aeb6e",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285668,
+      "name": "Shirley Sky",
+      "image": "https://cdn.myanimelist.net/images/characters/11/615658.jpg?s=d17825badf3feb271fd43ab55dc5cdd8",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285246,
+      "name": "Shirogane Adieu",
+      "image": "https://cdn.myanimelist.net/images/characters/16/615121.jpg?s=c5ba9dd681717194124d8e4a89fef574",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 280422,
+      "name": "Spring Sing",
+      "image": "https://cdn.myanimelist.net/images/characters/13/607407.jpg?s=137eae9199bc1ff1e00d1b1092d2d2bb",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 277294,
+      "name": "Toni Bianca",
+      "image": "https://cdn.myanimelist.net/images/characters/13/603050.jpg?s=d5f59a2bcb5c5043f5cb96078223ee57",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 280421,
+      "name": "Yamano Southern",
+      "image": "https://cdn.myanimelist.net/images/characters/8/607406.jpg?s=efe43d4a79f3afa09d821276fc585aa9",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 286046,
+      "name": "Yusuhara, Ryuuko",
+      "image": "https://cdn.myanimelist.net/images/characters/5/616167.jpg?s=3361763b060b1fe20ef126bb706de19d",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 286065,
+      "name": "Yusuhara, Tarou",
+      "image": "https://cdn.myanimelist.net/images/characters/7/616194.jpg?s=bfea17f1ab19b5557fed025490a21a4f",
+      "anime": "Umamusume: Cinderella Gray",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

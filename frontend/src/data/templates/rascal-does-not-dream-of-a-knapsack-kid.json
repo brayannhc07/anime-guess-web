@@ -1,0 +1,38 @@
+{
+  "name": "Rascal Does Not Dream of a Knapsack Kid",
+  "characters": [
+    {
+      "id": 260736,
+      "name": "Japanese Language Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/15/571748.jpg?s=959e2a5fd68bd3cfa3475759c83b8f9c",
+      "anime": "Rascal Does Not Dream of a Knapsack Kid",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168158,
+      "name": "Mai's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/5/373176.jpg?s=c3297f6ec3a566ac4c71f9c4d779ae4e",
+      "anime": "Rascal Does Not Dream of a Knapsack Kid",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 260738,
+      "name": "Math Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/8/571750.jpg?s=cc1c96f3cd5dbe46ce0859e18cef20c8",
+      "anime": "Rascal Does Not Dream of a Knapsack Kid",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    }
+  ]
+}

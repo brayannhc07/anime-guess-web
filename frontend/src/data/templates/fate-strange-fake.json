@@ -1,0 +1,555 @@
+{
+  "name": "Fate/strange Fake",
+  "characters": [
+    {
+      "id": 76520,
+      "name": "Assassin",
+      "image": "https://cdn.myanimelist.net/images/characters/10/580968.jpg?s=8864336afbeec9c4effddf0b6bfe15c3",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
+    },
+    {
+      "id": 164766,
+      "name": "Caster",
+      "image": "https://cdn.myanimelist.net/images/characters/12/580440.jpg?s=b077125941191958bdd3194629414271",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 87307,
+      "name": "Chelc, Tine",
+      "image": "https://cdn.myanimelist.net/images/characters/13/562224.jpg?s=ef144fe8c072aba49ad7e99a6e7ad12a",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 60059,
+      "name": "Enkidu",
+      "image": "https://cdn.myanimelist.net/images/characters/15/428532.jpg?s=56925a7b3feb702f55925ea7538febc9",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
+    },
+    {
+      "id": 87319,
+      "name": "Escardos, Flatt",
+      "image": "https://cdn.myanimelist.net/images/characters/6/586630.jpg?s=8e6409bd6673340c729368e3606af26c",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 87321,
+      "name": "Jack the Ripper",
+      "image": "https://cdn.myanimelist.net/images/characters/9/586629.jpg?s=a13fb185af8802e92dee466cc9c83da1",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
+    },
+    {
+      "id": 87313,
+      "name": "Reeve, Orlando",
+      "image": "https://cdn.myanimelist.net/images/characters/7/623522.jpg?s=02e6c2a68aa4cccefd977df13583855e",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 287561,
+      "name": "Saber",
+      "image": "https://cdn.myanimelist.net/images/characters/10/618385.jpg?s=724891d9c0927e852a22554cc1d29237",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 54223,
+      "name": "Sajou, Ayaka",
+      "image": "https://cdn.myanimelist.net/images/characters/14/618176.jpg?s=fba3824cfc66d45dacdb33d613652988",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 147262,
+      "name": "Sigma",
+      "image": "https://cdn.myanimelist.net/images/characters/9/586631.jpg?s=a15db334383f123aecd566985fb816ec",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 262029,
+      "name": "Aldora",
+      "image": "https://cdn.myanimelist.net/images/characters/16/622705.jpg?s=dba39647d944fdc123c6b4f95bd1aac3",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 230785,
+      "name": "Asclepius",
+      "image": "https://cdn.myanimelist.net/images/characters/6/623517.jpg?s=000340bf860fa9b061ae80faa6b0e873",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 231891,
+      "name": "Beilman, Christophel",
+      "image": "https://cdn.myanimelist.net/images/characters/11/516109.jpg?s=23b72d448512d8afc0838edf00781479",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152484,
+      "name": "Belfeban, Rocco",
+      "image": "https://cdn.myanimelist.net/images/characters/4/334236.jpg?s=8b1e76f3720aa183fa9ea3314ad179f9",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 290830,
+      "name": "Captain",
+      "image": "https://cdn.myanimelist.net/images/characters/16/623518.jpg?s=45b8f013af62028a5b867c795c15c6b9",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 262080,
+      "name": "Cashura",
+      "image": "https://cdn.myanimelist.net/images/characters/11/575731.jpg?s=0f5ddc29f1394bcfd921b087be8cfada",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 262028,
+      "name": "Cervantes, Delmio",
+      "image": "https://cdn.myanimelist.net/images/characters/5/575732.jpg?s=678f0527a6c750481cabeb06c50ba0ad",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 159585,
+      "name": "Cervantes, Hansa",
+      "image": "https://cdn.myanimelist.net/images/characters/4/574490.jpg?s=4b9090e5b04c8c9b4f44446facf10dda",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 147260,
+      "name": "Cordelion, Bazdilot",
+      "image": "https://cdn.myanimelist.net/images/characters/15/622712.jpg?s=ab258ae778ef59cc404172a2e41fa49d",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 87297,
+      "name": "Dioland, Faldeus",
+      "image": "https://cdn.myanimelist.net/images/characters/7/591415.jpg?s=5c2215063e8188fd07489292d275412e",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 164650,
+      "name": "Gin Ookami",
+      "image": "https://cdn.myanimelist.net/images/characters/2/363743.jpg?s=4e7930d13131b1d4c6b29885e3b8622f",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 147242,
+      "name": "Gray",
+      "image": "https://cdn.myanimelist.net/images/characters/5/384237.jpg?s=8e9b3f09c35d1058b0bf383398b20abe",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 290831,
+      "name": "Icarus",
+      "image": "https://cdn.myanimelist.net/images/characters/3/623519.jpg?s=ae869865c9705d29c01a8c6994280181",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 157442,
+      "name": "Ishtar",
+      "image": "https://cdn.myanimelist.net/images/characters/16/428303.jpg?s=c86c4b5a6d6bc046391ec27265ee1c5c",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 194701,
+      "name": "Jason",
+      "image": "https://cdn.myanimelist.net/images/characters/4/512791.jpg?s=c5034326b4819634652c0527400bfe31",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 261758,
+      "name": "Kambanellis, Katya",
+      "image": "https://cdn.myanimelist.net/images/characters/12/574491.jpg?s=efb39da2f6fa1f8971059cde6ec57263",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 87315,
+      "name": "Karturei, Jester",
+      "image": "https://cdn.myanimelist.net/images/characters/5/618574.jpg?s=f5e842ba4bf4e4eb4f8143f4b155bafa",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 76522,
+      "name": "Kuruoka, Tsubaki",
+      "image": "https://cdn.myanimelist.net/images/characters/9/611546.jpg?s=9fb55e3bf39f76aafbdcb5a0980869a1",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 232011,
+      "name": "Kuruoka, Yuukaku",
+      "image": "https://cdn.myanimelist.net/images/characters/13/516268.jpg?s=2e9d678fd77f90debc1d2d36236bd990",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 261760,
+      "name": "Kwo, Maysia",
+      "image": "https://cdn.myanimelist.net/images/characters/2/574493.jpg?s=cd6bd13cc62afaa7cbf9b41e119067fe",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 87299,
+      "name": "Langal",
+      "image": "https://cdn.myanimelist.net/images/characters/9/286689.jpg?s=abcb64dc6321a92afd595ba3f68e61c4",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 164794,
+      "name": "Levitt, Vera",
+      "image": "https://cdn.myanimelist.net/images/characters/6/618575.jpg?s=3f832d48db435c79aba5a7b653ea5605",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 289277,
+      "name": "Levitt, Amelia",
+      "image": "https://cdn.myanimelist.net/images/characters/8/623521.jpg?s=6b964bf10d1937366bea56354b574f73",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 232012,
+      "name": "Mrs. Kuruoka",
+      "image": "https://cdn.myanimelist.net/images/characters/15/516269.jpg?s=5162444ec9433c97ec99b24f0eb4640a",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 261761,
+      "name": "Mukherjee, Shanti",
+      "image": "https://cdn.myanimelist.net/images/characters/12/574494.jpg?s=0676ecc44e7f67fa2a6636712eee3cfe",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 190703,
+      "name": "Orion",
+      "image": "https://cdn.myanimelist.net/images/characters/12/458007.jpg?s=5a229f987d6bf174cd6f62af52e3a6da",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 223492,
+      "name": "Pale Rider",
+      "image": "https://cdn.myanimelist.net/images/characters/10/611545.jpg?s=82208e38607ae9d0131dcf7ff5043933",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 147259,
+      "name": "Philia",
+      "image": "https://cdn.myanimelist.net/images/characters/2/363326.jpg?s=212a1bd1a0fd9401b79712e3338d291d",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 159580,
+      "name": "Prelati, Francesca",
+      "image": "https://cdn.myanimelist.net/images/characters/13/600736.jpg?s=e920065bb068bbdeb7373abadfb0c9cb",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 159584,
+      "name": "Saint Germain",
+      "image": "https://cdn.myanimelist.net/images/characters/16/622052.jpg?s=21e21640b569c2f3ad1fe64c05469b27",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 289832,
+      "name": "Southwick, Ashley",
+      "image": "https://cdn.myanimelist.net/images/characters/15/622053.jpg?s=cd70b7dee65585e7acd7202968329f91",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 184052,
+      "name": "True Archer",
+      "image": "https://cdn.myanimelist.net/images/characters/9/620309.jpg?s=9fca084cc672c7eacf868cf455c4abf5",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 288691,
+      "name": "True Assassin",
+      "image": "https://cdn.myanimelist.net/images/characters/15/623649.jpg?s=010ead794b28550fa0a191edcf87f61e",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 292033,
+      "name": "True Berserker",
+      "image": "https://cdn.myanimelist.net/images/characters/5/625120.jpg?s=bb047905dd2a839d67afab237d9f63e1",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 289898,
+      "name": "True Caster",
+      "image": "https://cdn.myanimelist.net/images/characters/16/623651.jpg?s=4562fcc0625deddaa1f51c65c718a2ef",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 184028,
+      "name": "True Rider",
+      "image": "https://cdn.myanimelist.net/images/characters/3/620310.jpg?s=16e6f0c64a4b031b1572fcd411900b09",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 159582,
+      "name": "Vorzak, Halri",
+      "image": "https://cdn.myanimelist.net/images/characters/2/622711.jpg?s=4ea34d58c5f86be60ceba66eeb8e665f",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 261759,
+      "name": "Wahlstrom, Viola",
+      "image": "https://cdn.myanimelist.net/images/characters/7/574492.jpg?s=6bcf5942987d15c142e864dad1dd9d85",
+      "anime": "Fate/strange Fake",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 147261,
+      "name": "Watcher",
+      "image": "https://cdn.myanimelist.net/images/characters/14/621192.jpg?s=c2142ec0207d0e895648b843171cad4d",
+      "anime": "Fate/strange Fake",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 287684,
+      "name": "Wingard, John",
+      "image": "https://cdn.myanimelist.net/images/characters/12/618576.jpg?s=a9a862b79150e93f656b3d8776a42858",
+      "anime": "Fate/strange Fake",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

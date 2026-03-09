@@ -1,0 +1,181 @@
+{
+  "name": "Weathering with You",
+  "characters": [
+    {
+      "id": 167172,
+      "name": "Amano, Hina",
+      "image": "https://cdn.myanimelist.net/images/characters/9/408525.jpg?s=ac94c1770c9964f0b87c8d076c64e786",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 167173,
+      "name": "Morishima, Hodaka",
+      "image": "https://cdn.myanimelist.net/images/characters/13/441133.jpg?s=b1c7b8cadbcbb21b68e7ed4b310c2bf7",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 171313,
+      "name": "Amano, Nagi",
+      "image": "https://cdn.myanimelist.net/images/characters/6/392090.jpg?s=5facfdc72d451dede15ae3a495be34a7",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 210373,
+      "name": "Araki, Kentarou",
+      "image": "https://cdn.myanimelist.net/images/characters/2/472696.jpg?s=bc2b748f25032ddfd1e2ea0440806eca",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 193802,
+      "name": "Fortune Teller",
+      "image": "https://cdn.myanimelist.net/images/characters/16/435234.jpg?s=c230518a843b3493dd48a23509ed3a79",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171750,
+      "name": "Hanazawa, Ayane",
+      "image": "https://cdn.myanimelist.net/images/characters/6/410421.jpg?s=075858e450226476e974f2d70e422b87",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 193803,
+      "name": "Kimura",
+      "image": "https://cdn.myanimelist.net/images/characters/8/435235.jpg?s=91d04ce2c85dd5038095a6074c1aa39b",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 193801,
+      "name": "Mrs. Mamiya",
+      "image": "https://cdn.myanimelist.net/images/characters/15/435233.jpg?s=dfff07908a58876492851594352ec2d4",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 193800,
+      "name": "Priest",
+      "image": "https://cdn.myanimelist.net/images/characters/13/435232.jpg?s=9a18e4e189e6f26c27202c363a19a1f0",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173327,
+      "name": "Sakura, Kana",
+      "image": "https://cdn.myanimelist.net/images/characters/4/410422.jpg?s=ddbad55fc9fa0689459e9933d246a31a",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 193799,
+      "name": "Sasaki",
+      "image": "https://cdn.myanimelist.net/images/characters/16/435231.jpg?s=38da7ae5f1656c0e2889c74ee7e809fd",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171310,
+      "name": "Suga, Keisuke",
+      "image": "https://cdn.myanimelist.net/images/characters/16/441156.jpg?s=e7e9d7ac666068330d78eb0f70617e4c",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171311,
+      "name": "Suga, Natsumi",
+      "image": "https://cdn.myanimelist.net/images/characters/10/484547.jpg?s=646c20db945566ad174284b12540bfed",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171312,
+      "name": "Tachibana, Fumi",
+      "image": "https://cdn.myanimelist.net/images/characters/13/403666.jpg?s=15b666d6dccb35b1a02361d3968dd731",
+      "anime": "Weathering with You",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171315,
+      "name": "Takai",
+      "image": "https://cdn.myanimelist.net/images/characters/10/484545.jpg?s=d3f0aa26bab385c998a25a98ce5e9329",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 171314,
+      "name": "Yasui",
+      "image": "https://cdn.myanimelist.net/images/characters/15/435229.jpg?s=305b3bcad47457d45c0b516733227ebc",
+      "anime": "Weathering with You",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

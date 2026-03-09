@@ -5,49 +5,749 @@
       "id": 222765,
       "name": "Houou",
       "image": "https://cdn.myanimelist.net/images/characters/6/498325.jpg?s=244b949a48461ccbddf6937c883b5851",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
     },
     {
       "id": 8364,
       "name": "Lucario",
       "image": "https://cdn.myanimelist.net/images/characters/16/472877.jpg?s=212f1dd46cb5945a1671db3bc2fc32f8",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
     },
     {
       "id": 149931,
       "name": "Makoto",
       "image": "https://cdn.myanimelist.net/images/characters/14/326974.jpg?s=a1e3fa39f4db32b859ae98ca060c736c",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
     },
     {
       "id": 160115,
       "name": "Marshadow",
       "image": "https://cdn.myanimelist.net/images/characters/6/595097.jpg?s=bc8dc9dfcf0c598d356c6e67dd770a35",
-      "anime": "Pokémon the Movie: I Choose You!"
-    },
-    {
-      "id": 3891,
-      "name": "Pikachu",
-      "image": "https://cdn.myanimelist.net/images/characters/10/289627.jpg?s=b97db39e3126c4cc184a764059abe0f6",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
     },
     {
       "id": 199750,
       "name": "Pochama",
       "image": "https://cdn.myanimelist.net/images/characters/12/449497.jpg?s=c2298c5226083be5dcf2738c78036bb8",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "main"
+      ]
     },
     {
       "id": 2473,
       "name": "Satoshi",
       "image": "https://cdn.myanimelist.net/images/characters/10/100701.jpg?s=e0c6afbdb021ec02343675ebb587d488",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
     },
     {
       "id": 149932,
       "name": "Souji",
       "image": "https://cdn.myanimelist.net/images/characters/5/326977.jpg?s=14be8faec4a71e2171a9f2db281e5ece",
-      "anime": "Pokémon the Movie: I Choose You!"
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 160291,
+      "name": "Announcer",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222898,
+      "name": "Ashimari",
+      "image": "https://cdn.myanimelist.net/images/characters/5/498783.jpg?s=39d57e79402da84c584cecb52dd287df",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 160277,
+      "name": "Baron Alberto",
+      "image": "https://cdn.myanimelist.net/images/characters/2/354012.jpg?s=f734d7f7e514fca9ccf7fc74f17a93d7",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222835,
+      "name": "Betbeter",
+      "image": "https://cdn.myanimelist.net/images/characters/2/498611.jpg?s=e3991e33b9d709396c17e2ba1ea41763",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222483,
+      "name": "Betbeton",
+      "image": "https://cdn.myanimelist.net/images/characters/13/498079.jpg?s=394c256329e54b6751d046cc86137735",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149930,
+      "name": "Bonjii",
+      "image": "https://cdn.myanimelist.net/images/characters/11/326973.jpg?s=eac8698be7634dde57dd2971d8ff893e",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 221932,
+      "name": "Chikorita",
+      "image": "https://cdn.myanimelist.net/images/characters/13/528618.jpg?s=00c32ca6835ad3eb5a11f78b730596c5",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 91977,
+      "name": "Citron",
+      "image": "https://cdn.myanimelist.net/images/characters/6/469116.jpg?s=dda0a9c0fdfb3574516610c0070e93d1",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149953,
+      "name": "Cross",
+      "image": "https://cdn.myanimelist.net/images/characters/3/327053.jpg?s=6ec99e626a8899bebfae7b4dc034246f",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 35525,
+      "name": "Dent",
+      "image": "https://cdn.myanimelist.net/images/characters/9/102325.jpg?s=00d320c31ffb50faa79bf2d75cbc7614",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215506,
+      "name": "Diguda",
+      "image": "https://cdn.myanimelist.net/images/characters/5/484756.jpg?s=932bbf90709df207050b91d376212f28",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222874,
+      "name": "Eipam",
+      "image": "https://cdn.myanimelist.net/images/characters/2/498766.jpg?s=51accefc8c98a045e37f7e991f5ceb7d",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 250963,
+      "name": "Emperte",
+      "image": "https://cdn.myanimelist.net/images/characters/9/553425.jpg?s=6083edcc62fa890e42e68efb90d929a7",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 26525,
+      "name": "Entei",
+      "image": "https://cdn.myanimelist.net/images/characters/6/254423.jpg?s=2c7bf7ebfe47cd735429de74d8664114",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 91979,
+      "name": "Eureka",
+      "image": "https://cdn.myanimelist.net/images/characters/2/469117.jpg?s=c75b7e2d4ff78acecc15f78cb34839e2",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282305,
+      "name": "Garura",
+      "image": "https://cdn.myanimelist.net/images/characters/16/610205.jpg?s=7f1f17a50f495bdc43a8085fee9584ea",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 256890,
+      "name": "Gogoat",
+      "image": "https://cdn.myanimelist.net/images/characters/15/564518.jpg?s=2496da497dda4a9e3e6a407a051a6bdd",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222830,
+      "name": "Golone",
+      "image": "https://cdn.myanimelist.net/images/characters/11/498603.jpg?s=4a83582c3498521bd08eb3be6afa6423",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285723,
+      "name": "Gothimu",
+      "image": "https://cdn.myanimelist.net/images/characters/13/615688.jpg?s=3055dd79832d2730b555177005189f41",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 270947,
+      "name": "Gothiruselle",
+      "image": "https://cdn.myanimelist.net/images/characters/13/591797.jpg?s=567b684989f204574c5fa7abe8d83042",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 223702,
+      "name": "Graena",
+      "image": "https://cdn.myanimelist.net/images/characters/5/500159.jpg?s=d00a3061d666068f71743713c3dfe736",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222121,
+      "name": "Gyarados",
+      "image": "https://cdn.myanimelist.net/images/characters/10/528249.jpg?s=a62ca3c62d1d023218389e1337abb3ec",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 29184,
+      "name": "Hanako",
+      "image": "https://cdn.myanimelist.net/images/characters/6/506992.jpg?s=0229e1b6818ea34136d09d24e8e744f6",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 6841,
+      "name": "Haruka",
+      "image": "https://cdn.myanimelist.net/images/characters/16/110076.jpg?s=c88321436d309e1f12ce49393bec883c",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222394,
+      "name": "Heracross",
+      "image": "https://cdn.myanimelist.net/images/characters/13/497650.jpg?s=d92b43d4c8edba36914b6c4858eae4ed",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 3966,
+      "name": "Hikari",
+      "image": "https://cdn.myanimelist.net/images/characters/4/110073.jpg?s=9b0c3fe671617f02124a7d18d35eac8c",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222350,
+      "name": "Hitodeman",
+      "image": "https://cdn.myanimelist.net/images/characters/7/497608.jpg?s=b9b711e1d756ad2d944a211e97a6d3c0",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 35524,
+      "name": "Iris",
+      "image": "https://cdn.myanimelist.net/images/characters/4/442059.jpg?s=242500cdb747f0b8a2b0ba80fa7b532b",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 7558,
+      "name": "Joy",
+      "image": "https://cdn.myanimelist.net/images/characters/14/215001.jpg?s=4709a6ce2788588427805e93172b07e7",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222353,
+      "name": "Kamonegi",
+      "image": "https://cdn.myanimelist.net/images/characters/5/497611.jpg?s=09b34b0bf0b66ace21f1fac9cfe0e947",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 60273,
+      "name": "Karita",
+      "image": "https://cdn.myanimelist.net/images/characters/16/161177.jpg?s=1eefb2ae745b80e29d5c85d2fa39f144",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 19852,
+      "name": "Kenji",
+      "image": "https://cdn.myanimelist.net/images/characters/5/482712.jpg?s=9b37963e99d23b79355ad732da574ab8",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 7039,
+      "name": "Kikuko",
+      "image": "https://cdn.myanimelist.net/images/characters/14/336001.jpg?s=1e574900cba1315c42fe12c0afc89052",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 3936,
+      "name": "Kojirou",
+      "image": "https://cdn.myanimelist.net/images/characters/8/502950.jpg?s=c2fd0729a93d9635e946946b3d49e5b2",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 225499,
+      "name": "Lugarugan",
+      "image": "https://cdn.myanimelist.net/images/characters/15/504282.jpg?s=c05babafaa6a9ecafa062b0aae84e4ed",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 35805,
+      "name": "Lugia",
+      "image": "https://cdn.myanimelist.net/images/characters/15/394888.jpg?s=42c5de5026403386739b0a3d1615251e",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 6842,
+      "name": "Masato",
+      "image": "https://cdn.myanimelist.net/images/characters/8/69304.jpg?s=cbd19ab24eb9c0f1e322fb7a1d22a814",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 206583,
+      "name": "Metamon",
+      "image": "https://cdn.myanimelist.net/images/characters/2/470442.jpg?s=94010b7b906e181f316030be0e5132ec",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 222876,
+      "name": "Mijumaru",
+      "image": "https://cdn.myanimelist.net/images/characters/15/498764.jpg?s=b565811ee8d234328532ade4d51df8d1",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 200449,
+      "name": "Mokurou",
+      "image": "https://cdn.myanimelist.net/images/characters/16/465741.jpg?s=dd6dbe12b37f8cdc8b6f50868f07343a",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 223178,
+      "name": "Muchul",
+      "image": "https://cdn.myanimelist.net/images/characters/7/499404.jpg?s=3bcc8c61b1a5695c1c1a4c64861e962e",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 3935,
+      "name": "Musashi",
+      "image": "https://cdn.myanimelist.net/images/characters/4/278096.jpg?s=051ae458066175cfe4bf0f07bb2df11d",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 36309,
+      "name": "Narrator",
+      "image": "https://cdn.myanimelist.net/images/characters/4/511553.jpg?s=a57d2a41fe40f1e203b06d3d9218f4b5",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 3937,
+      "name": "Nyarth",
+      "image": "https://cdn.myanimelist.net/images/characters/11/131981.jpg?s=d7734d4cd42e72435749110ba1953798",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 256398,
+      "name": "Okorizaru",
+      "image": "https://cdn.myanimelist.net/images/characters/9/563379.jpg?s=643f86d932ab0beeffbca998f8d29134",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 4848,
+      "name": "Ookido, Shigeru",
+      "image": "https://cdn.myanimelist.net/images/characters/12/258075.jpg?s=14562df0f54cb88a5d1c5996ee35b1fb",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282628,
+      "name": "Paras",
+      "image": "https://cdn.myanimelist.net/images/characters/7/610652.jpg?s=ef26371e68e7cf8270ded2f412d612ee",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 282629,
+      "name": "Parasect",
+      "image": "https://cdn.myanimelist.net/images/characters/14/610653.jpg?s=fd384d88c019d2173af0706cbbbc9d1e",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 189269,
+      "name": "Pichu",
+      "image": "https://cdn.myanimelist.net/images/characters/8/467734.jpg?s=8cb55141a528a6728e076756031f6d11",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 223701,
+      "name": "Pochiena",
+      "image": "https://cdn.myanimelist.net/images/characters/10/500158.jpg?s=b36b08861ebfc9b3e600e48cbcf4da5e",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 26548,
+      "name": "Raikou",
+      "image": "https://cdn.myanimelist.net/images/characters/7/101497.jpg?s=313c05226fed67601ebf9357e9a9f3ff",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 225495,
+      "name": "Roubushin",
+      "image": "https://cdn.myanimelist.net/images/characters/12/504278.jpg?s=544afff76b13628d97d99e100efab934",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 91975,
+      "name": "Serena",
+      "image": "https://cdn.myanimelist.net/images/characters/7/469818.jpg?s=9973fb7048371f212ca7756c6e4becf1",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 35797,
+      "name": "Sorao",
+      "image": "https://cdn.myanimelist.net/images/characters/6/255773.jpg?s=b1b44e75ce35509b01bdb4a32ea8c2ad",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 176722,
+      "name": "Suicune",
+      "image": "https://cdn.myanimelist.net/images/characters/9/471479.jpg?s=1c8c89fad83457a5b4348d69f5a20577",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 35798,
+      "name": "Sweet",
+      "image": "https://cdn.myanimelist.net/images/characters/8/257467.jpg?s=72e24d664467db3a7cc1fd4472ae6afc",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 110703,
+      "name": "Tierno",
+      "image": "https://cdn.myanimelist.net/images/characters/7/254669.jpg?s=5e7e9d86c3e0971cc1ad0fa0b6ee41b3",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 53521,
+      "name": "Togepi",
+      "image": "https://cdn.myanimelist.net/images/characters/9/183991.jpg?s=e36ee409c2579368c510b7b6d632bed6",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 254834,
+      "name": "Wanriki",
+      "image": "https://cdn.myanimelist.net/images/characters/7/560251.jpg?s=909d0cd0f891d7b6fd9cb31f403eee8f",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 205649,
+      "name": "Xerneas",
+      "image": "https://cdn.myanimelist.net/images/characters/5/463668.jpg?s=b4d8fa2576199297c843aa134782413b",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 234564,
+      "name": "Yanappu",
+      "image": "https://cdn.myanimelist.net/images/characters/2/521892.jpg?s=95e38a6fb6dd70afcc87ee235b553d2e",
+      "anime": "Pokémon the Movie: I Choose You!",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
     }
   ]
 }

@@ -1,0 +1,874 @@
+{
+  "name": "Classroom of the Elite",
+  "characters": [
+    {
+      "id": 128909,
+      "name": "Ayanokouji, Kiyotaka",
+      "image": "https://cdn.myanimelist.net/images/characters/4/539058.jpg?s=b3479dd539992cf50ab1bfd6f38dd0c4",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 128910,
+      "name": "Horikita, Suzune",
+      "image": "https://cdn.myanimelist.net/images/characters/12/539069.jpg?s=8b77b3263167fc69f6f65c9daae121da",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 173275,
+      "name": "Amikura, Mako",
+      "image": "https://cdn.myanimelist.net/images/characters/14/539060.jpg?s=9c31fd420c1b0bb5ca2a4ea848d69d0d",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 195967,
+      "name": "Ayanokouji, Atsuomi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/490417.jpg?s=f8dc3af41f91977a2f599801f02ef699",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128918,
+      "name": "Chabashira, Sae",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539063.jpg?s=786b0ea1b5890e682128cbb3c91d8faa",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214429,
+      "name": "Class-C Student A",
+      "image": "https://cdn.myanimelist.net/images/characters/5/482355.jpg?s=eba6aae8e2f03b32425df4611d6ebf1d",
+      "anime": "Classroom of the Elite",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214430,
+      "name": "Class-C Student B",
+      "image": "https://cdn.myanimelist.net/images/characters/16/482356.jpg?s=4de6cbc39a2bac41af89eb2a81d16daf",
+      "anime": "Classroom of the Elite",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214507,
+      "name": "Class-C Student C",
+      "image": "https://cdn.myanimelist.net/images/characters/15/482357.jpg?s=6981acd914ee4fdeccdedf8cac856ef0",
+      "anime": "Classroom of the Elite",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153520,
+      "name": "Hasebe, Haruka",
+      "image": "https://cdn.myanimelist.net/images/characters/16/336292.jpg?s=756ef6a0b251e5e2f4d81f6d4156fd41",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173276,
+      "name": "Hashimoto, Masayoshi",
+      "image": "https://cdn.myanimelist.net/images/characters/10/539066.jpg?s=9499a6aeeedf07d744de636272ee5138",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128916,
+      "name": "Hirata, Yousuke",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539068.jpg?s=3133801e7aa4727799d4ce937aeb2b4c",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196013,
+      "name": "Hondou, Ryoutarou",
+      "image": "https://cdn.myanimelist.net/images/characters/3/440523.jpg?s=155b8defce1d802411d90254b6e2f616",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152157,
+      "name": "Horikita, Manabu",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539127.jpg?s=f83a66bdd28242a82d7472e97a105195",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152159,
+      "name": "Hoshinomiya, Chie",
+      "image": "https://cdn.myanimelist.net/images/characters/2/539072.jpg?s=7408605d131ee168e798752abe5312ad",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152156,
+      "name": "Ibuki, Mio",
+      "image": "https://cdn.myanimelist.net/images/characters/6/539073.jpg?s=8e817f409f509943e16ede1011f43fb2",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128917,
+      "name": "Ichinose, Honami",
+      "image": "https://cdn.myanimelist.net/images/characters/14/539075.jpg?s=aaf912b879f194fa9e37655992cfc1d5",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128914,
+      "name": "Ike, Kanji",
+      "image": "https://cdn.myanimelist.net/images/characters/11/444320.jpg?s=857a9828be15a2426dfd59a8e6310eee",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153504,
+      "name": "Inogashira, Kokoro",
+      "image": "https://cdn.myanimelist.net/images/characters/4/336752.jpg?s=78ddc889138ec4473f7c3d8012d97ea1",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153505,
+      "name": "Ishizaki, Daichi",
+      "image": "https://cdn.myanimelist.net/images/characters/10/539078.jpg?s=257e33bcb8f74e4d03b82828456e38b7",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 156363,
+      "name": "Kamuro, Masumi",
+      "image": "https://cdn.myanimelist.net/images/characters/6/539080.jpg?s=bfdae61379718abc1b993286ce9d04b6",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 195971,
+      "name": "Kaneda, Satoru",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539081.jpg?s=08789338c7eb0ad8a219a6336e1f2fcf",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175123,
+      "name": "Kanzaki, Ryuuji",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539082.jpg?s=6c667bbbe6de5e6c1866e90e21d8e5bd",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152098,
+      "name": "Karuizawa, Kei",
+      "image": "https://cdn.myanimelist.net/images/characters/7/539083.jpg?s=83aea38bdb29a47e0945705307804de7",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152153,
+      "name": "Katsuragi, Kouhei",
+      "image": "https://cdn.myanimelist.net/images/characters/16/539085.jpg?s=c60152d273efde0ad6b50dcf11a4aaee",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196006,
+      "name": "Kitou, Hayato",
+      "image": "https://cdn.myanimelist.net/images/characters/14/440509.jpg?s=563f0fa5da2e54ba437d91fe1126fd87",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153510,
+      "name": "Kobashi, Yume",
+      "image": "https://cdn.myanimelist.net/images/characters/7/387854.jpg?s=50d7a6c49545bfa4e4795faa8cc246df",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173277,
+      "name": "Komiya, Kyougo",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539089.jpg?s=1fbb768c4987b0e3af31eead3cf83fd5",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215979,
+      "name": "Kondou, Reo",
+      "image": "https://cdn.myanimelist.net/images/characters/5/485295.jpg?s=ab0f006939753d34dea1ac61107d5c09",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128915,
+      "name": "Kouenji, Rokusuke",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539090.jpg?s=531d2bef0e88d81f7140776dd49a6b85",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128911,
+      "name": "Kushida, Kikyou",
+      "image": "https://cdn.myanimelist.net/images/characters/10/539091.jpg?s=c2a47f5459a4a3660826f1eb5a588f6f",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173278,
+      "name": "Kusuda, Yukitsu",
+      "image": "https://cdn.myanimelist.net/images/characters/16/388124.jpg?s=da04b66f3d09fb13a82b4c2a53c49d79",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173279,
+      "name": "Mashima, Tomonari",
+      "image": "https://cdn.myanimelist.net/images/characters/12/539128.jpg?s=cbe6dc757a9fa929d5c55f0db38c59f9",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153503,
+      "name": "Matsushita, Chiaki",
+      "image": "https://cdn.myanimelist.net/images/characters/2/539092.jpg?s=9b2e1a44b5f927c2df4cc5847547881e",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153519,
+      "name": "Miyake, Akito",
+      "image": "https://cdn.myanimelist.net/images/characters/8/539094.jpg?s=8123e8a15783f5ee1acc55acb0f24670",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 243946,
+      "name": "Miyamoto, Soushi",
+      "image": "https://cdn.myanimelist.net/images/characters/5/539884.jpg?s=0f230ec0cd00a85bae74db48ca3e6634",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 198580,
+      "name": "Mori, Nene",
+      "image": "https://cdn.myanimelist.net/images/characters/11/446691.jpg?s=ba39a7e5ed8162522651c66a6890abf6",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196014,
+      "name": "Okitani, Kyousuke",
+      "image": "https://cdn.myanimelist.net/images/characters/2/440524.jpg?s=a717acbde4080ac4b2114e29be5356be",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 186698,
+      "name": "Onodera, Kayano",
+      "image": "https://cdn.myanimelist.net/images/characters/5/539100.jpg?s=22ab5169f756340a991a587f53744f5f",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152155,
+      "name": "Ryuuen, Kakeru",
+      "image": "https://cdn.myanimelist.net/images/characters/16/538283.jpg?s=106b68557add821650ca9bd12dd80431",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173280,
+      "name": "Sakagami, Kazuma",
+      "image": "https://cdn.myanimelist.net/images/characters/6/388126.jpg?s=50327ee1d685b38d88c7c4ec3f482a46",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152154,
+      "name": "Sakayanagi, Arisu",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539103.jpg?s=d718c90b9c9bd8ad789d50c467185094",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152151,
+      "name": "Sakura, Airi",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539106.jpg?s=d4230120afa771b2646d26954f391bbb",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153500,
+      "name": "Satou, Maya",
+      "image": "https://cdn.myanimelist.net/images/characters/7/402092.jpg?s=b95ae1c56cb518a6b15d83885a83b472",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 197951,
+      "name": "Shibata, Sou",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539110.jpg?s=1be825bd21202358a63c4c94171e592e",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153502,
+      "name": "Shinohara, Satsuki",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539112.jpg?s=863b16d4151891c1462ae249ca50ca6f",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153506,
+      "name": "Shiranami, Chihiro",
+      "image": "https://cdn.myanimelist.net/images/characters/6/388127.jpg?s=4d2c78485bb724bf45dcebc211a1a5d3",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153501,
+      "name": "Sotomura, Hideo",
+      "image": "https://cdn.myanimelist.net/images/characters/12/387851.jpg?s=dd2fe8fe938928fe0111c3134f7b9009",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128912,
+      "name": "Sudou, Ken",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539113.jpg?s=73485b939f304966195604a03d01b667",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152158,
+      "name": "Tachibana, Akane",
+      "image": "https://cdn.myanimelist.net/images/characters/3/539129.jpg?s=dfffa22600eba114f9ec475b35fad025",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215017,
+      "name": "Third-Year Boy",
+      "image": "https://cdn.myanimelist.net/images/characters/11/483421.jpg?s=042a450242d1ba16e8d4d30b8ea3b9d6",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 173281,
+      "name": "Totsuka, Yahiko",
+      "image": "https://cdn.myanimelist.net/images/characters/9/388128.jpg?s=de281247ac4ecc9427205934863c70ab",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153521,
+      "name": "Wang, Mei Yu",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539117.jpg?s=1c7ca4d0c62fbe186b5327d33125cd45",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 153507,
+      "name": "Yamada, Albert",
+      "image": "https://cdn.myanimelist.net/images/characters/4/539121.jpg?s=efa1f5496a2aa38e089b3b85ac8ae50b",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 128913,
+      "name": "Yamauchi, Haruki",
+      "image": "https://cdn.myanimelist.net/images/characters/12/492387.jpg?s=b5370f725bf2fe171264d123aa76b95b",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 152152,
+      "name": "Yukimura, Teruhiko",
+      "image": "https://cdn.myanimelist.net/images/characters/11/539126.jpg?s=209c81aa92fb7a8db6b1fa2c2335d377",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 247418,
+      "name": "Beppu, Ryouta",
+      "image": "https://cdn.myanimelist.net/images/characters/15/546855.jpg?s=42e90904acb44ba77c56f6ebb42f4f46",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 197982,
+      "name": "Hamaguchi, Tetsuya",
+      "image": "https://cdn.myanimelist.net/images/characters/14/492373.jpg?s=622816c3cd8f729ba01a620d0eb63902",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 215082,
+      "name": "Kinoshita, Minori",
+      "image": "https://cdn.myanimelist.net/images/characters/5/486394.jpg?s=e00553dad3ea8a2515f43ab1390b35e0",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 213282,
+      "name": "Machida, Kouji",
+      "image": "https://cdn.myanimelist.net/images/characters/10/481424.jpg?s=41343e72dbdbf5ca4ec662f753059a28",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 179039,
+      "name": "Manabe, Shiho",
+      "image": "https://cdn.myanimelist.net/images/characters/12/481422.jpg?s=4e19db8081de59a708092846414d190d",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214815,
+      "name": "Morofuji, Rika",
+      "image": "https://cdn.myanimelist.net/images/characters/7/484837.jpg?s=849d149686fb22f02a46a14fb7d65ac9",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 177632,
+      "name": "Nagumo, Miyabi",
+      "image": "https://cdn.myanimelist.net/images/characters/4/539096.jpg?s=0e88b3326cc86ac5be6ac171d6026f90",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 196015,
+      "name": "Nishino, Takeko",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539099.jpg?s=058c22693537a22864905b24a6aaabc2",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 217128,
+      "name": "Sakayanagi, Narumori",
+      "image": "https://cdn.myanimelist.net/images/characters/13/487767.jpg?s=b91783db5482ce36b96b65020f700f20",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163119,
+      "name": "Shiina, Hiyori",
+      "image": "https://cdn.myanimelist.net/images/characters/9/539111.jpg?s=895afb531b08f507b20bbeaee4b41583",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 213593,
+      "name": "Yabu, Nanami",
+      "image": "https://cdn.myanimelist.net/images/characters/7/539119.jpg?s=204d502b691cfc9a953f3c63746b7cd0",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 213594,
+      "name": "Yamashita, Saki",
+      "image": "https://cdn.myanimelist.net/images/characters/12/481427.jpg?s=ce6c4745dd5f08bc6be306740d487a1f",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175137,
+      "name": "Amasawa, Ichika",
+      "image": "https://cdn.myanimelist.net/images/characters/14/539059.jpg?s=df65193f833c7d2435535a7a04782da1",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175134,
+      "name": "Housen, Kazuomi",
+      "image": "https://cdn.myanimelist.net/images/characters/15/539071.jpg?s=6d3cd1669040e10b1c9fe6c1393989f2",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175132,
+      "name": "Nanase, Tsubasa",
+      "image": "https://cdn.myanimelist.net/images/characters/15/402556.jpg?s=88ab0819e8d8b8e9d708b6adacfd25a5",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175135,
+      "name": "Tsubaki, Sakurako",
+      "image": "https://cdn.myanimelist.net/images/characters/3/539115.jpg?s=baf0b4da64271f5847794b54592d0a50",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175136,
+      "name": "Utomiya, Riku",
+      "image": "https://cdn.myanimelist.net/images/characters/5/539116.jpg?s=3f5b5fad8ed1dd954e06e079f1380ee1",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175133,
+      "name": "Yagami, Takuya",
+      "image": "https://cdn.myanimelist.net/images/characters/13/539120.jpg?s=3acdd8f09814636a944bbf98615671b1",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 177633,
+      "name": "Asahina, Nazuna",
+      "image": "https://cdn.myanimelist.net/images/characters/15/539062.jpg?s=9995f9b258bd67b0f153e7b5895cf911",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 241164,
+      "name": "Ikari, Momoko",
+      "image": "https://cdn.myanimelist.net/images/characters/13/535107.jpg?s=5b3d5c135d063d8ccef5ab5b01e3dd74",
+      "anime": "Classroom of the Elite",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 175125,
+      "name": "Kiriyama, Ikuto",
+      "image": "https://cdn.myanimelist.net/images/characters/7/539086.jpg?s=007a9410ee02acdda25d6cab7d1dfcf8",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239910,
+      "name": "Moriyama, Susumu",
+      "image": "https://cdn.myanimelist.net/images/characters/4/532967.jpg?s=5c26f38f86d570a00b90efb20f8f71b3",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239911,
+      "name": "Sumida, Makoto",
+      "image": "https://cdn.myanimelist.net/images/characters/10/532968.jpg?s=7bc2167f5d8e47606af936e384d26ce6",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 177641,
+      "name": "Tsukishiro, Tokinari",
+      "image": "https://cdn.myanimelist.net/images/characters/6/540536.jpg?s=ae5b1d852775927dacb5c6eaa0ad9a41",
+      "anime": "Classroom of the Elite",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    }
+  ]
+}

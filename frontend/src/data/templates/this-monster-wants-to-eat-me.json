@@ -1,0 +1,126 @@
+{
+  "name": "This Monster Wants to Eat Me",
+  "characters": [
+    {
+      "id": 222248,
+      "name": "Oumi, Shiori",
+      "image": "https://cdn.myanimelist.net/images/characters/16/583509.jpg?s=90ff4c2694c8a32080cfb75296cc3202",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 222247,
+      "name": "Yaotose, Hinako",
+      "image": "https://cdn.myanimelist.net/images/characters/2/583508.jpg?s=dbf6b856b21c5b62d564b195cdf58575",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 222249,
+      "name": "Yashiro, Miko",
+      "image": "https://cdn.myanimelist.net/images/characters/7/583507.jpg?s=b8aa61f1e474dcc729a1dc4c11affab2",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 229991,
+      "name": "Chiba, Ayame",
+      "image": "https://cdn.myanimelist.net/images/characters/16/611175.jpg?s=d4df73ba1d4ae5bdeafc0906305f5c2f",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285013,
+      "name": "Fuyuka",
+      "image": "https://cdn.myanimelist.net/images/characters/11/617205.jpg?s=667c7699680ad75fbd139d9577b1ea75",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285017,
+      "name": "Noyama-sensei",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285019,
+      "name": "Oi-sensei",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285018,
+      "name": "Risa",
+      "image": "https://cdn.myanimelist.net/images/characters/16/617206.jpg?s=21db6d2c3f1362a785dfe1df1ed549f4",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285015,
+      "name": "Yaotose, Daichi",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285010,
+      "name": "Yaotose, Mutsuki",
+      "image": "https://cdn.myanimelist.net/images/questionmark_23.gif?s=f7dcbc4a4603d18356d3dfef8abd655c",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 285012,
+      "name": "Yaotose, Yuri",
+      "image": "https://cdn.myanimelist.net/images/characters/10/617204.jpg?s=725efdc480f82ffeb70c28bdf8fd9b9b",
+      "anime": "This Monster Wants to Eat Me",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

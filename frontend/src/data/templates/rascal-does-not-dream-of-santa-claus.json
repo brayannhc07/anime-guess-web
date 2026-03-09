@@ -1,0 +1,401 @@
+{
+  "name": "Rascal Does Not Dream of Santa Claus",
+  "characters": [
+    {
+      "id": 118733,
+      "name": "Azusagawa, Sakuta",
+      "image": "https://cdn.myanimelist.net/images/characters/11/398261.jpg?s=7d388c5e74f80277e1cc1457cfba07e0",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "main"
+      ]
+    },
+    {
+      "id": 259398,
+      "name": "Miniskirt Santa",
+      "image": "https://cdn.myanimelist.net/images/characters/6/599592.jpg?s=3a7d5a65427e4ee314ffbaa40fc2f2cc",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 118739,
+      "name": "Sakurajima, Mai",
+      "image": "https://cdn.myanimelist.net/images/characters/2/366639.jpg?s=cfb308a21fca8c573e6bfa0cb6d9b867",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 241930,
+      "name": "Akagi, Ikumi",
+      "image": "https://cdn.myanimelist.net/images/characters/15/554771.jpg?s=d6a078928c663b1d125be4574bfda50c",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239457,
+      "name": "Anou, Yae",
+      "image": "https://cdn.myanimelist.net/images/characters/12/532224.jpg?s=443ca0fa617d2051e5a079785293e9d2",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275522,
+      "name": "Asuka",
+      "image": "https://cdn.myanimelist.net/images/characters/10/600169.jpg?s=247ca321c07b9aa7017f2d1e133d97c0",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 151021,
+      "name": "Azusagawa, Kaede",
+      "image": "https://cdn.myanimelist.net/images/characters/7/366710.jpg?s=f170dbb4d5cf6c3086ac7ef1b3d576fb",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275521,
+      "name": "Chiharu",
+      "image": "https://cdn.myanimelist.net/images/characters/2/600168.jpg?s=1257669c18b9da47d6d01536d51803b3",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 274568,
+      "name": "Fukuyama, Takumi",
+      "image": "https://cdn.myanimelist.net/images/characters/15/598441.jpg?s=51615644edaeb26b9bb1c234fc76d86e",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163452,
+      "name": "Futaba, Rio",
+      "image": "https://cdn.myanimelist.net/images/characters/9/598439.jpg?s=12e4bb72dc02ba24c1c034c3fe69f136",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168153,
+      "name": "Hanawa, Ryouko",
+      "image": "https://cdn.myanimelist.net/images/characters/8/604638.jpg?s=030463f0f46a67f42b9fa7e870e4c826",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 268476,
+      "name": "Himeji, Sara",
+      "image": "https://cdn.myanimelist.net/images/characters/9/586421.jpg?s=81ae73ae0d7d7dde1d45e891760f7fee",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168154,
+      "name": "Hirokawa, Uzuki",
+      "image": "https://cdn.myanimelist.net/images/characters/4/373171.jpg?s=1d040a4bbee16910c5db5534100194f8",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167531,
+      "name": "Kamisato, Saki",
+      "image": "https://cdn.myanimelist.net/images/characters/15/373250.jpg?s=400798ff905ce2cfae52ed23197db44e",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168155,
+      "name": "Kano, Kotomi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/601550.jpg?s=c73242cd0a5ff462eb0e1e3cb247ec3f",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275877,
+      "name": "Kasai, Toranosuke",
+      "image": "https://cdn.myanimelist.net/images/characters/3/600703.jpg?s=563fb271293600cfe35af3fab1495336",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 274569,
+      "name": "Kodani, Youhei",
+      "image": "https://cdn.myanimelist.net/images/characters/12/600167.jpg?s=efe10d43f88114f87c1392457633f35b",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163451,
+      "name": "Koga, Tomoe",
+      "image": "https://cdn.myanimelist.net/images/characters/4/366709.jpg?s=03580e3bf1439483a8f12c4afd1fc8cd",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 167272,
+      "name": "Kunimi, Yuuma",
+      "image": "https://cdn.myanimelist.net/images/characters/11/373251.jpg?s=ec34f41e9649827075d1875aacfe744a",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 149616,
+      "name": "Makinohara, Shouko",
+      "image": "https://cdn.myanimelist.net/images/characters/11/598437.jpg?s=1904b57b363bcbb35bb55ed43bc16753",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 275183,
+      "name": "Manager",
+      "image": "https://cdn.myanimelist.net/images/characters/13/599594.jpg?s=7b6e48e1ee5426d2d633f51e4e77b00e",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 268475,
+      "name": "Mitou, Miori",
+      "image": "https://cdn.myanimelist.net/images/characters/9/586422.jpg?s=61cd712af0df97a5bef7001a4cbca1a2",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239455,
+      "name": "Nakago, Ranko",
+      "image": "https://cdn.myanimelist.net/images/characters/8/532222.jpg?s=73a68c42f1126cd496a67b95fd35dbac",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 168159,
+      "name": "Nanjou, Fumika",
+      "image": "https://cdn.myanimelist.net/images/characters/6/373177.jpg?s=ea22e4c7b5ddf22ac36f672777fe9927",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239456,
+      "name": "Okazaki, Hotaru",
+      "image": "https://cdn.myanimelist.net/images/characters/9/532223.jpg?s=9cfa3f5e71fec654a1c827a723e0269c",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 276728,
+      "name": "Rina",
+      "image": "https://cdn.myanimelist.net/images/characters/16/602276.jpg?s=3e48f86bdfe5b3fbc6a3a13c6490fe74",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214733,
+      "name": "Sakuta's Father",
+      "image": "https://cdn.myanimelist.net/images/characters/7/482939.jpg?s=670ea28028bd2b42e58391e55a01278c",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 214999,
+      "name": "Sakuta's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/9/483400.jpg?s=01d0267ce85cb6e0795400abfd0989c3",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 279391,
+      "name": "Sekimoto",
+      "image": "https://cdn.myanimelist.net/images/characters/2/605764.jpg?s=ee62c27464a445f5aed02d3711dc9136",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 276352,
+      "name": "Takasaka, Seiichi",
+      "image": "https://cdn.myanimelist.net/images/characters/7/601552.jpg?s=3faf0b96c4a01e07fbfd72668241e3be",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 278379,
+      "name": "Teacher",
+      "image": "https://cdn.myanimelist.net/images/characters/16/604415.jpg?s=b884c91786e1db936482ae8386b45062",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "unknown",
+      "tags": [
+        "unknown",
+        "supporting"
+      ]
+    },
+    {
+      "id": 238628,
+      "name": "Tomobe, Miwako",
+      "image": "https://cdn.myanimelist.net/images/characters/15/601551.jpg?s=1c8487b9e49ba36c95dbd6bba52bb382",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 163453,
+      "name": "Toyohama, Nodoka",
+      "image": "https://cdn.myanimelist.net/images/characters/4/598438.jpg?s=ded44299f9c070c72ea22b8e01f56f7d",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 239454,
+      "name": "Uzuki's Mother",
+      "image": "https://cdn.myanimelist.net/images/characters/11/532221.jpg?s=6ab040daa575949345916bb0b1ca9770",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 274567,
+      "name": "Yamada, Kento",
+      "image": "https://cdn.myanimelist.net/images/characters/10/598440.jpg?s=e473913ac0ee0d879fbc6147c1fc52e6",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "male",
+      "tags": [
+        "male",
+        "supporting"
+      ]
+    },
+    {
+      "id": 274891,
+      "name": "Yoshiwa, Juri",
+      "image": "https://cdn.myanimelist.net/images/characters/15/599035.jpg?s=fd697eafd420ed825bac47e7a4b0e74a",
+      "anime": "Rascal Does Not Dream of Santa Claus",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}
