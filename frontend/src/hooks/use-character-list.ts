@@ -4,6 +4,7 @@ import { useQuery } from "@tanstack/react-query";
 import type { AnimeCharacter } from "@/types/character";
 import templates from "@/data/templates";
 import { GRID_SIZE } from "@/lib/constants";
+import { getSpriteUrl, pokemonToAnimeCharacter } from "@/lib/pokemon";
 
 // --------------- Template functions (sync) ---------------
 
@@ -135,6 +136,53 @@ export function useAnimeCharacters(animeId: number | null) {
   });
 }
 
+// --------------- Pokemon functions (async, PokeAPI) ---------------
+
+async function fetchPokemonByIds(ids: number[]): Promise<AnimeCharacter[]> {
+  const results = await Promise.all(
+    ids.map(async (id) => {
+      const res = await fetch(`https://pokeapi.co/api/v2/pokemon/${id}`);
+      if (!res.ok) throw new Error(`Failed to fetch pokemon ${id}`);
+      const data = await res.json();
+      return pokemonToAnimeCharacter(id, data.name);
+    })
+  );
+  return results;
+}
+
+async function fetchAllPokemonNames(): Promise<AnimeCharacter[]> {
+  const res = await fetch("https://pokeapi.co/api/v2/pokemon?limit=1025");
+  if (!res.ok) throw new Error("Failed to fetch pokemon list");
+  const data = await res.json();
+  return (data.results as { name: string; url: string }[]).map((p, i) =>
+    pokemonToAnimeCharacter(i + 1, p.name)
+  );
+}
+
+export function usePokemonByIds(ids: number[], enabled: boolean) {
+  return useQuery({
+    queryKey: ["pokemon-by-ids", ids],
+    queryFn: () => fetchPokemonByIds(ids),
+    enabled: enabled && ids.length > 0,
+    staleTime: Infinity,
+  });
+}
+
+export function usePokemonSearch(query: string, enabled: boolean) {
+  const { data: allPokemon, isLoading } = useQuery({
+    queryKey: ["all-pokemon-names"],
+    queryFn: fetchAllPokemonNames,
+    enabled,
+    staleTime: Infinity,
+  });
+
+  const filtered = query.trim().length >= 2
+    ? allPokemon?.filter((p) => p.name.includes(query.trim().toLowerCase()))
+    : allPokemon;
+
+  return { data: filtered, isLoading };
+}
+
 // --------------- Unified game hook ---------------
 
 import { useGameStore } from "@/stores/game-store";
@@ -146,10 +194,18 @@ export function useGameCharacters() {
     characterSource === "search" ? searchAnimeId : null
   );
 
+  const { data: pokemonCharacters, isLoading: pokemonLoading } = usePokemonByIds(
+    characterIds,
+    characterSource === "pokemon"
+  );
+
   if (characterSource === "template") {
-    // Sync: look up characters by IDs from all templates
     const characters = getCharactersByIds(characterIds);
     return { data: characters, isLoading: false };
+  }
+
+  if (characterSource === "pokemon") {
+    return { data: pokemonCharacters, isLoading: pokemonLoading };
   }
 
   // Search mode: filter fetched characters to only those in characterIds
@@ -163,13 +219,24 @@ export function useGameCharacters() {
 export function useAllCharacters() {
   const { characterSource, templateKeys, searchAnimeId } = useGameStore();
 
-  const { data: searchCharacters, isLoading } = useAnimeCharacters(
+  const { data: searchCharacters, isLoading: searchLoading } = useAnimeCharacters(
     characterSource === "search" ? searchAnimeId : null
   );
+
+  const { data: allPokemon, isLoading: pokemonLoading } = useQuery({
+    queryKey: ["all-pokemon-names"],
+    queryFn: fetchAllPokemonNames,
+    enabled: characterSource === "pokemon",
+    staleTime: Infinity,
+  });
 
   if (characterSource === "template") {
     return { data: getMultiTemplateCharacters(templateKeys), isLoading: false };
   }
 
-  return { data: searchCharacters, isLoading };
+  if (characterSource === "pokemon") {
+    return { data: allPokemon, isLoading: pokemonLoading };
+  }
+
+  return { data: searchCharacters, isLoading: searchLoading };
 }

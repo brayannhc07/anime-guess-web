@@ -17,6 +17,7 @@ export function createRoom(hostName: string, hostId: string): RoomState {
     characterSource: "template",
     templateKeys: [],
     searchAnimeId: null,
+    pokemonGeneration: null,
     players: [
       {
         id: hostId,
@@ -98,7 +99,8 @@ export function startGame(
   mode: GameMode,
   characterSource: CharacterSource,
   templateKeys: string[],
-  searchAnimeId: number | null
+  searchAnimeId: number | null,
+  pokemonGeneration: string | null
 ): RoomState | null {
   const room = rooms.get(code);
   if (!room) return null;
@@ -108,6 +110,7 @@ export function startGame(
   room.characterSource = characterSource;
   room.templateKeys = templateKeys;
   room.searchAnimeId = searchAnimeId;
+  room.pokemonGeneration = pokemonGeneration;
   room.winner = null;
   room.guessResult = null;
   room.currentTurn = null;

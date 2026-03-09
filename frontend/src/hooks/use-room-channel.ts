@@ -27,6 +27,7 @@ export function useRoomChannel(roomCode: string) {
     setCharacterSource,
     setTemplateKeys,
     setSearchAnimeId,
+    setPokemonGeneration,
     setCharacterIds,
     setPlayers,
     updatePlayerLocked,
@@ -74,6 +75,7 @@ export function useRoomChannel(roomCode: string) {
       setCharacterSource(data.characterSource);
       setTemplateKeys(data.templateKeys);
       setSearchAnimeId(data.searchAnimeId);
+      setPokemonGeneration(data.pokemonGeneration);
       setPhase("selection");
       clearEliminated();
       setCurrentTurn(null);

@@ -32,12 +32,13 @@ export function useGameActions() {
     mode: string,
     characterSource: CharacterSource,
     templateKeys: string[],
-    searchAnimeId: number | null
+    searchAnimeId: number | null,
+    pokemonGeneration: string | null = null
   ) {
     const res = await fetch("/api/room/start", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ code, characterIds, mode, characterSource, templateKeys, searchAnimeId }),
+      body: JSON.stringify({ code, characterIds, mode, characterSource, templateKeys, searchAnimeId, pokemonGeneration }),
     });
     if (!res.ok) throw new Error("Failed to start game");
     return res.json();

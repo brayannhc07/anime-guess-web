@@ -2,7 +2,7 @@ export type GamePhase = "lobby" | "selection" | "playing" | "finished";
 
 export type GameMode = "classic" | "rule-master";
 
-export type CharacterSource = "template" | "search";
+export type CharacterSource = "template" | "search" | "pokemon";
 
 export interface Player {
   id: string;
@@ -29,6 +29,7 @@ export interface RoomState {
   characterSource: CharacterSource;
   templateKeys: string[];
   searchAnimeId: number | null;
+  pokemonGeneration: string | null;
   players: Player[];
   characterIds: number[];
   winner: string | null;

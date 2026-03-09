@@ -11,6 +11,7 @@ interface GameState {
   characterSource: CharacterSource;
   templateKeys: string[];
   searchAnimeId: number | null;
+  pokemonGeneration: string | null;
   players: Player[];
   characterIds: number[];
   eliminated: Set<number>;
@@ -29,6 +30,7 @@ interface GameState {
   setCharacterSource: (source: CharacterSource) => void;
   setTemplateKeys: (keys: string[]) => void;
   setSearchAnimeId: (id: number | null) => void;
+  setPokemonGeneration: (gen: string | null) => void;
   setPlayers: (players: Player[]) => void;
   setCharacterIds: (ids: number[]) => void;
   toggleEliminated: (id: number) => void;
@@ -55,6 +57,7 @@ export const useGameStore = create<GameState>((set) => ({
   characterSource: "template",
   templateKeys: [],
   searchAnimeId: null,
+  pokemonGeneration: null,
   players: [],
   characterIds: [],
   eliminated: new Set(),
@@ -77,6 +80,7 @@ export const useGameStore = create<GameState>((set) => ({
   setCharacterSource: (source) => set({ characterSource: source }),
   setTemplateKeys: (keys) => set({ templateKeys: keys }),
   setSearchAnimeId: (id) => set({ searchAnimeId: id }),
+  setPokemonGeneration: (gen) => set({ pokemonGeneration: gen }),
   setPlayers: (players) => set({ players }),
   setCharacterIds: (ids) => set({ characterIds: ids }),
   toggleEliminated: (id) =>
@@ -124,6 +128,7 @@ export const useGameStore = create<GameState>((set) => ({
       characterSource: "template",
       templateKeys: [],
       searchAnimeId: null,
+      pokemonGeneration: null,
       players: [],
       characterIds: [],
       eliminated: new Set(),

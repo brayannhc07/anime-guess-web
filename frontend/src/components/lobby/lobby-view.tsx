@@ -6,11 +6,13 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { TemplatePicker } from "./template-picker";
 import { AnimeSearchPicker } from "./anime-search-picker";
+import { GenerationPicker } from "./generation-picker";
 import { ModePicker } from "./mode-picker";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { pickRandomFromTemplates, getMultiTemplatePoolSize, useAnimeCharacters } from "@/hooks/use-character-list";
 import { GRID_SIZE } from "@/lib/constants";
+import { pickRandomPokemonIds, getGenerationSize } from "@/lib/pokemon";
 import type { GameMode, CharacterSource } from "@/types/room";
 
 export function LobbyView() {
@@ -21,6 +23,7 @@ export function LobbyView() {
   const [templateKeys, setTemplateKeys] = useState<string[]>([]);
   const [searchAnimeId, setSearchAnimeId] = useState<number | null>(null);
   const [searchAnimeName, setSearchAnimeName] = useState("");
+  const [pokemonGeneration, setPokemonGeneration] = useState("gen1");
   const [mode, setMode] = useState<GameMode>("classic");
   const [loading, setLoading] = useState(false);
 
@@ -33,7 +36,9 @@ export function LobbyView() {
 
   const poolSize = characterSource === "template"
     ? getMultiTemplatePoolSize(templateKeys)
-    : (searchCharacters?.length ?? 0);
+    : characterSource === "pokemon"
+      ? getGenerationSize(pokemonGeneration)
+      : (searchCharacters?.length ?? 0);
   const canStart = hasTwoPlayers && poolSize >= GRID_SIZE;
 
   async function handleStart() {
@@ -44,6 +49,8 @@ export function LobbyView() {
       if (characterSource === "template") {
         const picked = pickRandomFromTemplates(templateKeys, GRID_SIZE);
         characterIds = picked.map((c) => c.id);
+      } else if (characterSource === "pokemon") {
+        characterIds = pickRandomPokemonIds(pokemonGeneration, GRID_SIZE);
       } else {
         // Search mode: pick 24 random from fetched characters
         const chars = [...(searchCharacters ?? [])];
@@ -54,7 +61,8 @@ export function LobbyView() {
         characterIds = chars.slice(0, GRID_SIZE).map((c) => c.id);
       }
 
-      await startGame(roomCode, characterIds, mode, characterSource, templateKeys, searchAnimeId);
+      const genParam = characterSource === "pokemon" ? pokemonGeneration : null;
+      await startGame(roomCode, characterIds, mode, characterSource, templateKeys, searchAnimeId, genParam);
     } catch {
       alert("Failed to start game");
     } finally {
@@ -121,11 +129,21 @@ export function LobbyView() {
               >
                 Search Anime
               </Button>
+              <Button
+                variant={characterSource === "pokemon" ? "default" : "outline"}
+                size="sm"
+                onClick={() => setCharacterSource("pokemon")}
+                disabled={!isHost}
+              >
+                Pokemon
+              </Button>
             </div>
           </div>
 
           {characterSource === "template" ? (
             <TemplatePicker value={templateKeys} onChange={setTemplateKeys} disabled={!isHost} />
+          ) : characterSource === "pokemon" ? (
+            <GenerationPicker value={pokemonGeneration} onChange={setPokemonGeneration} disabled={!isHost} />
           ) : (
             <AnimeSearchPicker
               selectedAnimeId={searchAnimeId}

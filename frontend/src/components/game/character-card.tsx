@@ -2,6 +2,7 @@
 
 import type { AnimeCharacter } from "@/types/character";
 import { cn } from "@/lib/utils";
+import { isPokemonSprite } from "@/lib/pokemon";
 
 interface CharacterCardProps {
   character: AnimeCharacter;
@@ -12,6 +13,8 @@ interface CharacterCardProps {
 }
 
 export function CharacterCard({ character, eliminated, selected, selectable, onClick }: CharacterCardProps) {
+  const isPokemon = isPokemonSprite(character.image);
+
   return (
     <button
       onClick={onClick}
@@ -28,10 +31,15 @@ export function CharacterCard({ character, eliminated, selected, selectable, onC
       <img
         src={character.image}
         alt={character.name}
-        className="aspect-[3/4] w-full object-cover rounded"
+        className={cn(
+          "w-full rounded",
+          isPokemon
+            ? "aspect-square object-contain [image-rendering:pixelated]"
+            : "aspect-[3/4] object-cover"
+        )}
         loading="lazy"
       />
-      <span className="text-xs font-medium truncate w-full text-center">
+      <span className={cn("text-xs font-medium truncate w-full text-center", isPokemon && "capitalize")}>
         {character.name}
       </span>
       {eliminated && (

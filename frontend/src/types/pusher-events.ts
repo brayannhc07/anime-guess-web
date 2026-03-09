@@ -32,6 +32,7 @@ export interface GameStartedPayload {
   characterSource: CharacterSource;
   templateKeys: string[];
   searchAnimeId: number | null;
+  pokemonGeneration: string | null;
 }
 
 export interface PlayerLockedInPayload {
