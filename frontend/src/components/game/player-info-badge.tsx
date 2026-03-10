@@ -3,29 +3,57 @@
 import { Badge } from "@/components/ui/badge";
 import { useGameStore } from "@/stores/game-store";
 import { useGameCharacters } from "@/hooks/use-character-list";
+import { isPokemonSprite } from "@/lib/pokemon";
+import { cn } from "@/lib/utils";
 
 export function PlayerInfoBadge() {
-  const { playerId, players, mode } = useGameStore();
+  const { playerId, players, mode, phase } = useGameStore();
   const { data: characterList } = useGameCharacters();
 
   const me = players.find((p) => p.id === playerId);
   if (!me || !me.lockedIn) return null;
+  if (phase !== "playing" && phase !== "finished") return null;
 
-  let displayText: string;
   if (mode === "classic" && me.selection && characterList) {
     const character = characterList.find((c) => c.id === me.selection);
-    displayText = `Your pick: ${character?.name ?? `#${me.selection}`}`;
-  } else if (mode === "rule-master" && me.rule) {
-    displayText = `Rule you set: "${me.rule}"`;
-  } else {
-    return null;
+    if (!character) return null;
+
+    const pokemon = isPokemonSprite(character.image);
+
+    return (
+      <div className="fixed bottom-4 right-4 z-50 flex flex-col items-center gap-1">
+        <div className="rounded-lg border-2 border-yellow-400 bg-background shadow-lg p-1.5 w-20">
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src={character.image}
+            alt={character.name}
+            className={cn(
+              "w-full rounded",
+              pokemon
+                ? "aspect-square object-contain [image-rendering:pixelated]"
+                : "aspect-[3/4] object-cover"
+            )}
+          />
+          <p className={cn("text-[10px] font-medium text-center truncate mt-0.5", pokemon && "capitalize")}>
+            {character.name}
+          </p>
+        </div>
+        <Badge variant="default" className="text-[10px] px-2 py-0.5 shadow-lg">
+          Your pick
+        </Badge>
+      </div>
+    );
   }
 
-  return (
-    <div className="fixed bottom-4 right-4 z-50">
-      <Badge variant="default" className="text-sm px-3 py-1.5 shadow-lg">
-        {displayText}
-      </Badge>
-    </div>
-  );
+  if (mode === "rule-master" && me.rule) {
+    return (
+      <div className="fixed bottom-4 right-4 z-50">
+        <Badge variant="default" className="text-sm px-3 py-1.5 shadow-lg max-w-48">
+          Rule you set: &quot;{me.rule}&quot;
+        </Badge>
+      </div>
+    );
+  }
+
+  return null;
 }

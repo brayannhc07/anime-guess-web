@@ -20,26 +20,30 @@ export function getTemplateCharacters(key: string): AnimeCharacter[] {
   return templates[key]?.characters ?? [];
 }
 
-export function getMultiTemplateCharacters(keys: string[]): AnimeCharacter[] {
+export type GenderFilter = "all" | "male" | "female";
+
+export function getMultiTemplateCharacters(keys: string[], genderFilter: GenderFilter = "all"): AnimeCharacter[] {
   const seen = new Set<number>();
   const result: AnimeCharacter[] = [];
   for (const key of keys) {
     for (const c of (templates[key]?.characters ?? [])) {
       if (!seen.has(c.id)) {
         seen.add(c.id);
-        result.push(c);
+        if (genderFilter === "all" || c.gender === genderFilter) {
+          result.push(c);
+        }
       }
     }
   }
   return result;
 }
 
-export function getMultiTemplatePoolSize(keys: string[]): number {
-  return getMultiTemplateCharacters(keys).length;
+export function getMultiTemplatePoolSize(keys: string[], genderFilter: GenderFilter = "all"): number {
+  return getMultiTemplateCharacters(keys, genderFilter).length;
 }
 
-export function pickRandomFromTemplates(keys: string[], count: number): AnimeCharacter[] {
-  const chars = getMultiTemplateCharacters(keys);
+export function pickRandomFromTemplates(keys: string[], count: number, genderFilter: GenderFilter = "all"): AnimeCharacter[] {
+  const chars = getMultiTemplateCharacters(keys, genderFilter);
   // Fisher-Yates shuffle
   for (let i = chars.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));

@@ -10,7 +10,7 @@ import { GenerationPicker } from "./generation-picker";
 import { ModePicker } from "./mode-picker";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
-import { pickRandomFromTemplates, getMultiTemplatePoolSize, useAnimeCharacters } from "@/hooks/use-character-list";
+import { pickRandomFromTemplates, getMultiTemplatePoolSize, useAnimeCharacters, type GenderFilter } from "@/hooks/use-character-list";
 import { GRID_SIZE } from "@/lib/constants";
 import { pickRandomPokemonIds, getGenerationSize } from "@/lib/pokemon";
 import type { GameMode, CharacterSource } from "@/types/room";
@@ -23,6 +23,7 @@ export function LobbyView() {
   const [templateKeys, setTemplateKeys] = useState<string[]>([]);
   const [searchAnimeId, setSearchAnimeId] = useState<number | null>(null);
   const [searchAnimeName, setSearchAnimeName] = useState("");
+  const [genderFilter, setGenderFilter] = useState<GenderFilter>("all");
   const [pokemonGeneration, setPokemonGeneration] = useState("gen1");
   const [mode, setMode] = useState<GameMode>("classic");
   const [loading, setLoading] = useState(false);
@@ -35,7 +36,7 @@ export function LobbyView() {
   const hasTwoPlayers = players.length === 2;
 
   const poolSize = characterSource === "template"
-    ? getMultiTemplatePoolSize(templateKeys)
+    ? getMultiTemplatePoolSize(templateKeys, genderFilter)
     : characterSource === "pokemon"
       ? getGenerationSize(pokemonGeneration)
       : (searchCharacters?.length ?? 0);
@@ -47,7 +48,7 @@ export function LobbyView() {
     try {
       let characterIds: number[];
       if (characterSource === "template") {
-        const picked = pickRandomFromTemplates(templateKeys, GRID_SIZE);
+        const picked = pickRandomFromTemplates(templateKeys, GRID_SIZE, genderFilter);
         characterIds = picked.map((c) => c.id);
       } else if (characterSource === "pokemon") {
         characterIds = pickRandomPokemonIds(pokemonGeneration, GRID_SIZE);
@@ -154,6 +155,25 @@ export function LobbyView() {
               }}
               disabled={!isHost}
             />
+          )}
+
+          {characterSource === "template" && templateKeys.length > 0 && (
+            <div className="space-y-2">
+              <p className="text-sm font-medium">Gender Filter</p>
+              <div className="flex gap-2">
+                {(["all", "male", "female"] as const).map((g) => (
+                  <Button
+                    key={g}
+                    variant={genderFilter === g ? "default" : "outline"}
+                    size="sm"
+                    onClick={() => setGenderFilter(g)}
+                    disabled={!isHost}
+                  >
+                    {g === "all" ? "All" : g === "male" ? "Male" : "Female"}
+                  </Button>
+                ))}
+              </div>
+            </div>
           )}
 
           {poolSize > 0 && (
