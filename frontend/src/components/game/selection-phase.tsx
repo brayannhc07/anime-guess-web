@@ -9,7 +9,7 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 
 export function SelectionPhase() {
-  const { mode, roomCode, playerId, players, setPlayers, setAskedCharacters, clearEliminated } = useGameStore();
+  const { mode, roomCode, playerId, players, characterIds, setPlayers, setAskedCharacters, clearEliminated } = useGameStore();
   const { selectCharacter } = useGameActions();
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [rule, setRule] = useState("");
@@ -83,7 +83,7 @@ export function SelectionPhase() {
         <CardContent className="space-y-4">
           {mode === "classic" ? (
             <p className="text-sm text-muted-foreground">
-              Click a character below to select it. Your opponent will try to guess which one you picked.
+              Click a character below or pick randomly. Your opponent will try to guess which one you picked.
             </p>
           ) : (
             <div className="space-y-2">
@@ -101,17 +101,32 @@ export function SelectionPhase() {
               />
             </div>
           )}
-          <Button
-            onClick={handleLockIn}
-            disabled={
-              loading ||
-              (mode === "classic" && !selectedId) ||
-              (mode === "rule-master" && !rule.trim())
-            }
-            className="w-full"
-          >
-            {loading ? "Locking in..." : "Lock In"}
-          </Button>
+          <div className="flex gap-2">
+            {mode === "classic" && (
+              <Button
+                variant="outline"
+                onClick={() => {
+                  const randomId = characterIds[Math.floor(Math.random() * characterIds.length)];
+                  setSelectedId(randomId);
+                }}
+                disabled={loading}
+                className="shrink-0"
+              >
+                Random
+              </Button>
+            )}
+            <Button
+              onClick={handleLockIn}
+              disabled={
+                loading ||
+                (mode === "classic" && !selectedId) ||
+                (mode === "rule-master" && !rule.trim())
+              }
+              className="w-full"
+            >
+              {loading ? "Locking in..." : "Lock In"}
+            </Button>
+          </div>
         </CardContent>
       </Card>
 
