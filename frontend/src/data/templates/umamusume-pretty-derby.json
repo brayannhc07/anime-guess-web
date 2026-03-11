@@ -35,28 +35,6 @@
       ]
     },
     {
-      "id": 243784,
-      "name": "Dantsu Flame",
-      "image": "https://cdn.myanimelist.net/images/characters/3/574417.jpg?s=11b62d9bd312b739d9f831646d8670cd",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "main"
-      ]
-    },
-    {
-      "id": 239395,
-      "name": "Jungle Pocket",
-      "image": "https://cdn.myanimelist.net/images/characters/5/574412.jpg?s=25948ce324a846a6db567ca7e7865017",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "main"
-      ]
-    },
-    {
       "id": 168199,
       "name": "Manhattan Cafe",
       "image": "https://cdn.myanimelist.net/images/characters/5/574422.jpg?s=3fbc94dd2230d757a0af057eba977a88",
@@ -65,17 +43,6 @@
       "tags": [
         "female",
         "main"
-      ]
-    },
-    {
-      "id": 163817,
-      "name": "Air Groove",
-      "image": "https://cdn.myanimelist.net/images/characters/4/574446.jpg?s=ef658af21a553d92061aa779c4052c50",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
       ]
     },
     {
@@ -101,53 +68,9 @@
       ]
     },
     {
-      "id": 165822,
-      "name": "Broye",
-      "image": "https://cdn.myanimelist.net/images/characters/11/411877.jpg?s=c7e2a8178477bb462f924a24b040f063",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 159640,
-      "name": "Daiwa Scarlet",
-      "image": "https://cdn.myanimelist.net/images/characters/7/574416.jpg?s=2b0bcf29618d9442ac8e5e956d4e2fd1",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 183373,
-      "name": "Eishin Flash",
-      "image": "https://cdn.myanimelist.net/images/characters/5/574477.jpg?s=267556d77e9dd3576b64be95fc52fc0f",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 160315,
       "name": "El Condor Pasa",
       "image": "https://cdn.myanimelist.net/images/characters/4/574468.jpg?s=a6c6e52fe8241f47d5c9595b5a466ade",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 150735,
-      "name": "Fuji Kiseki",
-      "image": "https://cdn.myanimelist.net/images/characters/9/574884.jpg?s=8d825a213b521479da2123df54a174ea",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -200,86 +123,9 @@
       ]
     },
     {
-      "id": 163812,
-      "name": "Hishi Amazon",
-      "image": "https://cdn.myanimelist.net/images/characters/3/574478.jpg?s=9b460bd81ff4d37d16242c205ed2cc40",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 269455,
-      "name": "Hosoe, Junko",
-      "image": "https://cdn.myanimelist.net/images/characters/12/588365.jpg?s=d61bea8282a2befe00ac259fb30cf115",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190925,
-      "name": "Inari One",
-      "image": "https://cdn.myanimelist.net/images/characters/2/574472.jpg?s=ef1e2c0aac8663d834bd9d603f69a907",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 183371,
-      "name": "King Halo",
-      "image": "https://cdn.myanimelist.net/images/characters/12/574421.jpg?s=e0e8401156878f3f43399b0f4daf4c30",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 163816,
       "name": "Maruzensky",
       "image": "https://cdn.myanimelist.net/images/characters/16/574473.jpg?s=93eebcc6a102ed3978e1a3fabbc771f6",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 210378,
-      "name": "Matikanefukukitaru",
-      "image": "https://cdn.myanimelist.net/images/characters/8/574455.jpg?s=589d2080bd372e0cbd16c3db1a0ffb68",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190932,
-      "name": "Meishou Dotou",
-      "image": "https://cdn.myanimelist.net/images/characters/15/574423.jpg?s=6403521b07d48f70ff009be556ffbb27",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 214724,
-      "name": "Mejiro Dober",
-      "image": "https://cdn.myanimelist.net/images/characters/12/574483.jpg?s=05735268f459af94c982574554e873c2",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -299,50 +145,6 @@
       ]
     },
     {
-      "id": 190923,
-      "name": "Mejiro Ryan",
-      "image": "https://cdn.myanimelist.net/images/characters/5/574480.jpg?s=c20dca8db9ad626dd51a35fd64764558",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 163813,
-      "name": "Narita Brian",
-      "image": "https://cdn.myanimelist.net/images/characters/4/574437.jpg?s=9cba0906baf6d65288ae9478ab69e3b6",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 199096,
-      "name": "Narita Taishin",
-      "image": "https://cdn.myanimelist.net/images/characters/14/574432.jpg?s=c4fe287542bcd931f7e79dcbe8a2445c",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190818,
-      "name": "Nice Nature",
-      "image": "https://cdn.myanimelist.net/images/characters/16/574458.jpg?s=85f1e5622c8e781b4d8e1b47f4a2ffdc",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 162150,
       "name": "Oguri Cap",
       "image": "https://cdn.myanimelist.net/images/characters/13/613451.jpg?s=694de64508d9483a22afcd54376c9c67",
@@ -354,97 +156,9 @@
       ]
     },
     {
-      "id": 160678,
-      "name": "Queen Berry",
-      "image": "https://cdn.myanimelist.net/images/characters/11/472636.jpg?s=8e0a3c6598869176a916a1c16825db58",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 160317,
-      "name": "Seiun Sky",
-      "image": "https://cdn.myanimelist.net/images/characters/16/574428.jpg?s=20942b23751a18d7805cbc9071f94565",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 269453,
-      "name": "Special Week's Birth Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/16/588363.jpg?s=3811e0779e5b6af81f8a8f5819e43ad2",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 269454,
-      "name": "Special Week's Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/2/588364.jpg?s=f88114fa7a3c393e54b7a2f39f49abda",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 170741,
-      "name": "Sun Visor",
-      "image": "https://cdn.myanimelist.net/images/characters/5/450349.jpg?s=d8c9cb7570ff190d683bcbdb7a55af8e",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 214725,
-      "name": "Super Creek",
-      "image": "https://cdn.myanimelist.net/images/characters/6/574482.jpg?s=1c3e48d47365c7410813e997b8ce3b83",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 150734,
-      "name": "Symboli Rudolf",
-      "image": "https://cdn.myanimelist.net/images/characters/4/574440.jpg?s=50c704859a3016113a2693c330233583",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 163814,
       "name": "T.M. Opera O",
       "image": "https://cdn.myanimelist.net/images/characters/10/574425.jpg?s=98a8675e46a9667ebcb970650c7332f9",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 163815,
-      "name": "Taiki Shuttle",
-      "image": "https://cdn.myanimelist.net/images/characters/3/574484.jpg?s=f723e27c52323261aab30a79529fc5c3",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -486,130 +200,9 @@
       ]
     },
     {
-      "id": 159643,
-      "name": "Trainer",
-      "image": "https://cdn.myanimelist.net/images/characters/16/352173.jpg?s=9dfd30fae9dc2500f77cfc5c8117a382",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
       "id": 159639,
       "name": "Vodka",
       "image": "https://cdn.myanimelist.net/images/characters/2/574465.jpg?s=053a50701f8fc1e98ab21dbfa452b42f",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 217254,
-      "name": "Winning Ticket",
-      "image": "https://cdn.myanimelist.net/images/characters/7/574433.jpg?s=b39fed4b4ee5220182a9e3d965ce94db",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270766,
-      "name": "Butler",
-      "image": "https://cdn.myanimelist.net/images/characters/12/591462.jpg?s=320d22a436b4f04dfb077236d88f7b1c",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270763,
-      "name": "Carnia Terracion",
-      "image": "https://cdn.myanimelist.net/images/characters/15/591456.jpg?s=ed6fcbbf16c982afa1fccaad60491a1a",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270764,
-      "name": "Daisangen",
-      "image": "https://cdn.myanimelist.net/images/characters/15/591457.jpg?s=9285dd12dd5137439cd39cd7d709a809",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190819,
-      "name": "Daitaku Helios",
-      "image": "https://cdn.myanimelist.net/images/characters/2/574450.jpg?s=b831f666081cf0a115c6bdbf4c007639",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270767,
-      "name": "Doctor",
-      "image": "https://cdn.myanimelist.net/images/characters/12/591464.jpg?s=2ea1784cc26a9decaa28e6ccc275f6db",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190930,
-      "name": "Gold City",
-      "image": "https://cdn.myanimelist.net/images/characters/10/574419.jpg?s=cbc7accb46b4a11338803585a8ece73d",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270765,
-      "name": "Grandma",
-      "image": "https://cdn.myanimelist.net/images/characters/4/591460.jpg?s=8f225590b8dcf0a292328d0c429c1c56",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190929,
-      "name": "Hishi Akebono",
-      "image": "https://cdn.myanimelist.net/images/characters/4/574486.jpg?s=6253cee6a94775a1d476d5ddadb30ca7",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190814,
-      "name": "Ikuno Dictus",
-      "image": "https://cdn.myanimelist.net/images/characters/16/574453.jpg?s=04692c4b4807f1565581568eddcdcb4b",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -629,105 +222,6 @@
       ]
     },
     {
-      "id": 239770,
-      "name": "Kuronuma",
-      "image": "https://cdn.myanimelist.net/images/characters/8/532745.jpg?s=5fa5aa453f49783228e5cf920d414129",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270758,
-      "name": "Masuo",
-      "image": "https://cdn.myanimelist.net/images/characters/2/591445.jpg?s=ec9aaabb8a68cfacc0f0087243e7910a",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190815,
-      "name": "Matikanetannhauser",
-      "image": "https://cdn.myanimelist.net/images/characters/7/574454.jpg?s=32326cb75e5e15843709035bd5a241a0",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 197824,
-      "name": "Mayano Top Gun",
-      "image": "https://cdn.myanimelist.net/images/characters/13/574435.jpg?s=2a5e2843c9ffe54cf6bc15b04a93bf2b",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 194869,
-      "name": "Mejiro Palmer",
-      "image": "https://cdn.myanimelist.net/images/characters/13/574457.jpg?s=0b798dfa0ab94c52f7c71bead5c56dba",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 193638,
-      "name": "Mihono Bourbon",
-      "image": "https://cdn.myanimelist.net/images/characters/5/574436.jpg?s=0e6cfc24694bde58d5163254f91d1121",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270759,
-      "name": "Minami",
-      "image": "https://cdn.myanimelist.net/images/characters/16/591452.jpg?s=a16c015812458e7748319e0640e3e427",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 269992,
-      "name": "Minamisaka",
-      "image": "https://cdn.myanimelist.net/images/characters/14/589892.jpg?s=e48c3d7993616395fd1c37fdb2e5162d",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 270760,
-      "name": "Relic Earth",
-      "image": "https://cdn.myanimelist.net/images/characters/9/591453.jpg?s=581157b5783cade23d13addf31778612",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 194879,
       "name": "Rice Shower",
       "image": "https://cdn.myanimelist.net/images/characters/10/574424.jpg?s=861693a7b060f55faf6abdeaa9b34126",
@@ -738,127 +232,7 @@
         "supporting"
       ]
     },
-    {
-      "id": 270757,
-      "name": "Rio Natal",
-      "image": "https://cdn.myanimelist.net/images/characters/9/591444.jpg?s=2f325c4d56f9b30bdcb5448f6c4c8642",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 195160,
-      "name": "Sakura Bakushin O",
-      "image": "https://cdn.myanimelist.net/images/characters/13/574438.jpg?s=19661182118bd2b935c035019af592cc",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190817,
-      "name": "Satono Diamond",
-      "image": "https://cdn.myanimelist.net/images/characters/10/574445.jpg?s=d819aa4e1d534e545be7cbda26b6f9a8",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190926,
-      "name": "Sweep Tosho",
-      "image": "https://cdn.myanimelist.net/images/characters/9/574487.jpg?s=4ba84ed5494d9823a3a350b9de8623db",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190813,
-      "name": "Twin Turbo",
-      "image": "https://cdn.myanimelist.net/images/characters/11/574462.jpg?s=dcdc8efd03b56fd943903c85760d342f",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 210367,
-      "name": "Admire Vega",
-      "image": "https://cdn.myanimelist.net/images/characters/6/574413.jpg?s=83f56c810fa911eef749b629439430fb",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 222484,
-      "name": "Agnes Digital",
-      "image": "https://cdn.myanimelist.net/images/characters/15/574414.jpg?s=baaf1bc7ea9c6b7a491335ef5f36ecb6",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 220844,
-      "name": "Air Shakur",
-      "image": "https://cdn.myanimelist.net/images/characters/13/574415.jpg?s=4c436a842e4210b63d066347bbeab97c",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 225336,
-      "name": "Curren Chan",
-      "image": "https://cdn.myanimelist.net/images/characters/3/574886.jpg?s=b34a90e574172198adf09d85f3836bd4",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 261670,
-      "name": "Hishi Miracle",
-      "image": "https://cdn.myanimelist.net/images/characters/9/574325.jpg?s=b7f66b3047932c83aab1973777f0badb",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 245423,
-      "name": "Izumoto, Nana",
-      "image": "https://cdn.myanimelist.net/images/characters/15/543027.jpg?s=954a2fe88adacd4ba9cc09358ab921db",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
+
     {
       "id": 261672,
       "name": "Kashimoto, Riko",
@@ -867,39 +241,6 @@
       "gender": "female",
       "tags": [
         "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 261671,
-      "name": "Kiryuin, Aoi",
-      "image": "https://cdn.myanimelist.net/images/characters/9/574326.jpg?s=d14a4457a698deb4d8b3fdaca8c54913",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 245426,
-      "name": "Mai",
-      "image": "https://cdn.myanimelist.net/images/characters/2/543030.jpg?s=3774dd1c4e242ab2cb47abec7a80f1c3",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 239614,
-      "name": "Male Announcer",
-      "image": "https://cdn.myanimelist.net/images/characters/10/532452.jpg?s=5da7d0d239845c01c412cbbd278edcdd",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "male",
-      "tags": [
-        "male",
         "supporting"
       ]
     },
@@ -915,108 +256,9 @@
       ]
     },
     {
-      "id": 225337,
-      "name": "Okita Trainer",
-      "image": "https://cdn.myanimelist.net/images/characters/12/504045.jpg?s=8856f51751aca6c7f68c53b9826a7014",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 220491,
-      "name": "Otonashi, Etsuko",
-      "image": "https://cdn.myanimelist.net/images/characters/10/494187.jpg?s=c7b297802c415df2fecfbaa74191721a",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 287110,
       "name": "Perry Steam",
       "image": "https://cdn.myanimelist.net/images/characters/2/617709.jpg?s=d9227fd13983cd6da499fd33d38987d2",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 245424,
-      "name": "Ru",
-      "image": "https://cdn.myanimelist.net/images/characters/13/543028.jpg?s=b4a31d17e723a5f4c1d8bb898ed2ba01",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 269993,
-      "name": "Saitou, Shinji",
-      "image": "https://cdn.myanimelist.net/images/characters/8/589893.jpg?s=872f29d0d90dae6110aa648657db066f",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 245425,
-      "name": "Shima",
-      "image": "https://cdn.myanimelist.net/images/characters/16/543029.jpg?s=b4d5ce78897a0bf05e3a5587d63b0443",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 218887,
-      "name": "Tosen Jordan",
-      "image": "https://cdn.myanimelist.net/images/characters/14/574426.jpg?s=ebddd685755f7d59735ce09e82322dee",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 245422,
-      "name": "Trainer Tanabe",
-      "image": "https://cdn.myanimelist.net/images/characters/16/543026.jpg?s=71af01f3ae3e2df40fc2f8b095883b0f",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 269994,
-      "name": "Yokichi, Okubo",
-      "image": "https://cdn.myanimelist.net/images/characters/4/589896.jpg?s=80c853b61e56ee93f411fd7d8ab66656",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 216379,
-      "name": "Yukino Bijin",
-      "image": "https://cdn.myanimelist.net/images/characters/7/574427.jpg?s=39fa4da69385fbb441e24e76915d49a9",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [

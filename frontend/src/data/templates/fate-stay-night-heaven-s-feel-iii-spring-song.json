@@ -1,65 +1,10 @@
 {
   "name": "Fate/stay night: Heaven's Feel - III. Spring Song",
   "characters": [
-    {
-      "id": 5266,
-      "name": "Aozaki, Touko",
-      "image": "https://cdn.myanimelist.net/images/characters/2/35111.jpg?s=56c8bae98fd8243170c5183b4338a284",
-      "anime": "Fate/stay night: Heaven's Feel - III. Spring Song",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 156314,
-      "name": "Hassan of the Cursed Arm",
-      "image": "https://cdn.myanimelist.net/images/characters/11/403932.jpg?s=1921bd6998605fa6ff11648e5be6a29f",
-      "anime": "Fate/stay night: Heaven's Feel - III. Spring Song",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 209544,
-      "name": "Hortensia, Claudia",
-      "image": "https://cdn.myanimelist.net/images/characters/7/470562.jpg?s=20ebe0237704563710c50bded8212234",
-      "anime": "Fate/stay night: Heaven's Feel - III. Spring Song",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 164135,
-      "name": "Schweinorg, Kischur Zelretch",
-      "image": "https://cdn.myanimelist.net/images/characters/2/516103.jpg?s=ab9a01831355dde2120d1d8e002be3bf",
-      "anime": "Fate/stay night: Heaven's Feel - III. Spring Song",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 209545,
-      "name": "Toosaka, Nagato",
-      "image": "https://cdn.myanimelist.net/images/characters/2/470565.jpg?s=fdc47d6152182e831c0a612e6013ca0a",
-      "anime": "Fate/stay night: Heaven's Feel - III. Spring Song",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 157725,
-      "name": "von Einzbern, Justeaze Lizrich",
-      "image": "https://cdn.myanimelist.net/images/characters/11/350546.jpg?s=48639c79245bd3587a51dcf8d830d1a4",
+  {
+      "id": 500,
+      "name": "Matou, Sakura",
+      "image": "https://cdn.myanimelist.net/images/characters/14/294277.jpg?s=68459ba6411dcb45bd908138f664cf0f",
       "anime": "Fate/stay night: Heaven's Feel - III. Spring Song",
       "gender": "female",
       "tags": [

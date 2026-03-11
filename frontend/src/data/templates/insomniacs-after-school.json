@@ -13,86 +13,9 @@
       ]
     },
     {
-      "id": 178410,
-      "name": "Nakami, Ganta",
-      "image": "https://cdn.myanimelist.net/images/characters/2/476476.jpg?s=0f3ae130628c533b8988b145bac4f0cb",
-      "anime": "Insomniacs After School",
-      "gender": "male",
-      "tags": [
-        "male",
-        "main"
-      ]
-    },
-    {
-      "id": 190253,
-      "name": "Anamizu, Kanami",
-      "image": "https://cdn.myanimelist.net/images/characters/2/499068.jpg?s=15cfb6d4d8bac5f774844ddc002185a3",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190252,
-      "name": "Haida, Rui",
-      "image": "https://cdn.myanimelist.net/images/characters/14/499072.jpg?s=fec73bf0901f8bc8ef145aa085b59a15",
-      "anime": "Insomniacs After School",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265009,
-      "name": "Haida's Girlfriend",
-      "image": "https://cdn.myanimelist.net/images/characters/5/580274.jpg?s=9d9b94484c34c4fd389fef0ff4bcc621",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190256,
-      "name": "Hakui, Ken",
-      "image": "https://cdn.myanimelist.net/images/characters/11/509416.jpg?s=7b93676c5a01372dcb045c8097c1e352",
-      "anime": "Insomniacs After School",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265007,
-      "name": "Home Economics Teacher",
-      "image": "https://cdn.myanimelist.net/images/characters/11/580272.jpg?s=a1585a49da55c0539b82bb93cb154f56",
-      "anime": "Insomniacs After School",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
       "id": 190249,
       "name": "Kanikawa, Motoko",
       "image": "https://cdn.myanimelist.net/images/characters/15/499069.jpg?s=3367e94b9a476c44b4ccf825a38c96ae",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265002,
-      "name": "Kanikawa's Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/9/580267.jpg?s=5152540e540b13aa2725388f36a645c1",
       "anime": "Insomniacs After School",
       "gender": "female",
       "tags": [
@@ -112,17 +35,6 @@
       ]
     },
     {
-      "id": 227503,
-      "name": "Magari, Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/3/508443.jpg?s=928368f5e4bfd4074946eda70dbcf8d7",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 190326,
       "name": "Magari, Haya",
       "image": "https://cdn.myanimelist.net/images/characters/4/512982.jpg?s=4c0fe30b14e220a9f37be176eaa5deb2",
@@ -130,116 +42,6 @@
       "gender": "female",
       "tags": [
         "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190409,
-      "name": "Nakami, Father",
-      "image": "https://cdn.myanimelist.net/images/characters/9/586328.jpg?s=5819e89204177b67b841ed8168e60243",
-      "anime": "Insomniacs After School",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265004,
-      "name": "Nakami's Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/13/580269.jpg?s=5deb0069f88c8c7dec5163982d6a7541",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190250,
-      "name": "Nono, Mina",
-      "image": "https://cdn.myanimelist.net/images/characters/9/499070.jpg?s=2116551b1595c604e6734743e1f316ad",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265005,
-      "name": "Police",
-      "image": "https://cdn.myanimelist.net/images/characters/8/580270.jpg?s=b3f279c4f34c0e5e014abd8754c51874",
-      "anime": "Insomniacs After School",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265010,
-      "name": "Principal",
-      "image": "https://cdn.myanimelist.net/images/characters/9/580275.jpg?s=40bb9c0a61c41ffcb57522ece7392206",
-      "anime": "Insomniacs After School",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190255,
-      "name": "Shiromaru, Yui",
-      "image": "https://cdn.myanimelist.net/images/characters/9/499066.jpg?s=25123357b5d54ccb59f8add129941eef",
-      "anime": "Insomniacs After School",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265008,
-      "name": "Softball Club Advisor",
-      "image": "https://cdn.myanimelist.net/images/characters/8/580273.jpg?s=929243e0f60b573d92217abb559cb965",
-      "anime": "Insomniacs After School",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190408,
-      "name": "Student Council President",
-      "image": "https://cdn.myanimelist.net/images/characters/15/586329.jpg?s=cffa8f0b60066c53a7010cfec337b152",
-      "anime": "Insomniacs After School",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
-        "supporting"
-      ]
-    },
-    {
-      "id": 190251,
-      "name": "Ukegawa, Tao",
-      "image": "https://cdn.myanimelist.net/images/characters/5/499067.jpg?s=e63ed1078b8b558802be887701d65327",
-      "anime": "Insomniacs After School",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265001,
-      "name": "Vice Principal",
-      "image": "https://cdn.myanimelist.net/images/characters/9/580266.jpg?s=87aec87ada839a78926ff0b40db28a60",
-      "anime": "Insomniacs After School",
-      "gender": "unknown",
-      "tags": [
-        "unknown",
         "supporting"
       ]
     }

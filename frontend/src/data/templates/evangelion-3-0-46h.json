@@ -2,17 +2,6 @@
   "name": "Evangelion: 3.0 (-46h)",
   "characters": [
     {
-      "id": 75214,
-      "name": "Kitakami, Midori",
-      "image": "https://cdn.myanimelist.net/images/characters/7/206201.jpg?s=522414530389bb85423352c177db1057",
-      "anime": "Evangelion: 3.0 (-46h)",
-      "gender": "female",
-      "tags": [
-        "female",
-        "main"
-      ]
-    },
-    {
       "id": 94,
       "name": "Souryuu, Asuka Langley",
       "image": "https://cdn.myanimelist.net/images/characters/12/79465.jpg?s=9551d38debcab623eaf0b633be75e9b9",
@@ -31,28 +20,6 @@
       "gender": "female",
       "tags": [
         "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 74137,
-      "name": "Nagara, Sumire",
-      "image": "https://cdn.myanimelist.net/images/characters/16/206199.jpg?s=d1beee49309d5fd465eb9fc0767183d9",
-      "anime": "Evangelion: 3.0 (-46h)",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 74141,
-      "name": "Tama, Hideki",
-      "image": "https://cdn.myanimelist.net/images/characters/8/206205.jpg?s=7c70602dcaba152d525727d22a53bdba",
-      "anime": "Evangelion: 3.0 (-46h)",
-      "gender": "male",
-      "tags": [
-        "male",
         "supporting"
       ]
     }

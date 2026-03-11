@@ -1,0 +1,60 @@
+{
+  "name": "BanG Dream! It's MyGO!!!!!",
+  "characters": [
+    {
+      "id": 227731,
+      "name": "Chihaya, Anon",
+      "image": "https://cdn.myanimelist.net/images/characters/15/512384.jpg?s=375b50ce2d418713020c233d1ee3df27",
+      "anime": "BanG Dream! It's MyGO!!!!!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+{
+      "id": 227732,
+      "name": "Kaname, Raana",
+      "image": "https://cdn.myanimelist.net/images/characters/8/596932.jpg?s=b4682649a377375700c5964571faa270",
+      "anime": "BanG Dream! It's MyGO!!!!!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+ {
+      "id": 227734,
+      "name": "Nagasaki, Soyo",
+      "image": "https://cdn.myanimelist.net/images/characters/7/512381.jpg?s=0432067842f0c23571df945459fa06f0",
+      "anime": "BanG Dream! It's MyGO!!!!!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 227735,
+      "name": "Shiina, Taki",
+      "image": "https://cdn.myanimelist.net/images/characters/3/512383.jpg?s=c3f479e00c89d1cf4b4508a382375605",
+      "anime": "BanG Dream! It's MyGO!!!!!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 227730,
+      "name": "Takamatsu, Tomori",
+      "image": "https://cdn.myanimelist.net/images/characters/9/512382.jpg?s=b5f7ac4f297485a74a2e648748e99a25",
+      "anime": "BanG Dream! It's MyGO!!!!!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    }
+   ]
+}

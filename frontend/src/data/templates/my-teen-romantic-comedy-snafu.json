@@ -2,17 +2,6 @@
   "name": "My Teen Romantic Comedy SNAFU",
   "characters": [
     {
-      "id": 67065,
-      "name": "Hikigaya, Hachiman",
-      "image": "https://cdn.myanimelist.net/images/characters/4/203555.jpg?s=fa652f8f982d9707d99f2f91081e5ece",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "main"
-      ]
-    },
-    {
       "id": 67069,
       "name": "Yuigahama, Yui",
       "image": "https://cdn.myanimelist.net/images/characters/2/332632.jpg?s=41983b93107db6162ff67c1757681644",
@@ -35,75 +24,9 @@
       ]
     },
     {
-      "id": 83657,
-      "name": "Atsugi",
-      "image": "https://cdn.myanimelist.net/images/characters/11/205947.jpg?s=01200fcbb2f8e1e6da1bc6cd7c6ca0f5",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 79595,
-      "name": "Ebina, Hina",
-      "image": "https://cdn.myanimelist.net/images/characters/12/453617.jpg?s=178cad5f6160b01a55c43fcef2b13773",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 88585,
-      "name": "Haruka",
-      "image": "https://cdn.myanimelist.net/images/characters/4/491613.jpg?s=4526ce026e7906772fbde851a3bb18e0",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 79591,
-      "name": "Hayama, Hayato",
-      "image": "https://cdn.myanimelist.net/images/characters/4/205967.jpg?s=ab8394d4acb618177aebda583da5d6fa",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 67075,
-      "name": "Hikigaya, Komachi",
-      "image": "https://cdn.myanimelist.net/images/characters/12/208819.jpg?s=dc45c02c3a787bbf3cbc0de517c8b64f",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 67077,
       "name": "Hiratsuka, Shizuka",
       "image": "https://cdn.myanimelist.net/images/characters/9/282861.jpg?s=dc595e5b893d9c3bc796715d13114c2c",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 85215,
-      "name": "Hitomi",
-      "image": "https://cdn.myanimelist.net/images/characters/5/208091.jpg?s=649fb3204229b3de7841d6f4fafce293",
       "anime": "My Teen Romantic Comedy SNAFU",
       "gender": "female",
       "tags": [
@@ -123,17 +46,6 @@
       ]
     },
     {
-      "id": 74589,
-      "name": "Kawasaki, Taishi",
-      "image": "https://cdn.myanimelist.net/images/characters/11/205957.jpg?s=58362dad4ec232aa7af91d0bb9a276ea",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
       "id": 79593,
       "name": "Miura, Yumiko",
       "image": "https://cdn.myanimelist.net/images/characters/5/203539.jpg?s=33f75a3ab91e8f4488b34743506b5809",
@@ -141,61 +53,6 @@
       "gender": "female",
       "tags": [
         "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 85217,
-      "name": "Mori",
-      "image": "https://cdn.myanimelist.net/images/characters/12/208095.jpg?s=9f2a59b17fbe2293fd3bab8e1306836a",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 82547,
-      "name": "Oooka",
-      "image": "https://cdn.myanimelist.net/images/characters/12/205951.jpg?s=6147c5ae06d8f15dd702f8a020d9bdb5",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 85283,
-      "name": "Sagami, Minami",
-      "image": "https://cdn.myanimelist.net/images/characters/15/209387.jpg?s=5d254b9b5240ccb3b9c7db3f01682cae",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 86015,
-      "name": "Shiromeguri, Meguri",
-      "image": "https://cdn.myanimelist.net/images/characters/10/209385.jpg?s=aa2c2115cb43a63896c6dd9d7350001b",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 82543,
-      "name": "Tobe, Kakeru",
-      "image": "https://cdn.myanimelist.net/images/characters/9/205955.jpg?s=37cfc23037ec5066390b04de8340db00",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
         "supporting"
       ]
     },
@@ -211,50 +68,6 @@
       ]
     },
     {
-      "id": 84613,
-      "name": "Tsurumi, Rumi",
-      "image": "https://cdn.myanimelist.net/images/characters/6/206775.jpg?s=358fb3bb1cee725080f12a3a1a01bcff",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 82545,
-      "name": "Yamato",
-      "image": "https://cdn.myanimelist.net/images/characters/12/205953.jpg?s=4432cd3f6b1edb6e6a5755e42290ff22",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 85219,
-      "name": "Yokko",
-      "image": "https://cdn.myanimelist.net/images/characters/6/208097.jpg?s=cb0ed05b07d68cd47a034ebec26a15c7",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 85213,
-      "name": "Yuka",
-      "image": "https://cdn.myanimelist.net/images/characters/14/208089.jpg?s=d53f33baa3d83cffc6b0f6a8b6cc408f",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 79589,
       "name": "Yukinoshita, Haruno",
       "image": "https://cdn.myanimelist.net/images/characters/2/205961.jpg?s=a4c0e40e77ef34782a5cc61a0b06d93b",
@@ -262,50 +75,6 @@
       "gender": "female",
       "tags": [
         "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 88583,
-      "name": "Yukko",
-      "image": "https://cdn.myanimelist.net/images/characters/15/491614.jpg?s=a53f6186ebfa53f98b54bcb8c16228d7",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 67073,
-      "name": "Zaimokuza, Yoshiteru",
-      "image": "https://cdn.myanimelist.net/images/characters/15/203529.jpg?s=260d6282e1c2d65b06bf88ff7376430f",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 179980,
-      "name": "Fujisawa, Sawako",
-      "image": "https://cdn.myanimelist.net/images/characters/12/576071.jpg?s=c03890b98ebeb65aca1213862c31add3",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 179979,
-      "name": "Honmoku, Makito",
-      "image": "https://cdn.myanimelist.net/images/characters/5/576072.jpg?s=be8039ca644e95ee256fe4967988c876",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
         "supporting"
       ]
     },
@@ -321,50 +90,6 @@
       ]
     },
     {
-      "id": 130327,
-      "name": "Kawasaki, Keika",
-      "image": "https://cdn.myanimelist.net/images/characters/12/286154.jpg?s=bc4b79aac092085bb5dc166d16120897",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 127545,
-      "name": "Nakamachi, Chika",
-      "image": "https://cdn.myanimelist.net/images/characters/11/280797.jpg?s=6e619bf7261c8725f3036fb845d5c26f",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 118395,
-      "name": "Orimoto, Kaori",
-      "image": "https://cdn.myanimelist.net/images/characters/4/282521.jpg?s=42929e8fb820943c6c98b206cdf720f0",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 128295,
-      "name": "Tamanawa",
-      "image": "https://cdn.myanimelist.net/images/characters/15/283300.jpg?s=1b988824315d284638ab11d62c901152",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
       "id": 130520,
       "name": "Yuigahama, Mother",
       "image": "https://cdn.myanimelist.net/images/characters/2/285624.jpg?s=862e8e3645dd7d00bbd63204c967aae0",
@@ -374,39 +99,6 @@
         "female",
         "supporting"
       ]
-    },
-    {
-      "id": 130326,
-      "name": "Yukinoshita, Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/4/453616.jpg?s=b99e526e2c519b7b0a1d121a937cf28e",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 186224,
-      "name": "Hatano",
-      "image": "https://cdn.myanimelist.net/images/characters/16/469072.jpg?s=0d7e098d0c59f283f57889ea4e293101",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "male",
-      "tags": [
-        "male",
-        "supporting"
-      ]
-    },
-    {
-      "id": 186223,
-      "name": "Sagami",
-      "image": "https://cdn.myanimelist.net/images/characters/9/469071.jpg?s=f465fe4d6f10bef826830a9334afd20a",
-      "anime": "My Teen Romantic Comedy SNAFU",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
     }
-  ]
+   ]
 }
