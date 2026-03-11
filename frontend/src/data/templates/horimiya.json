@@ -1,0 +1,49 @@
+{
+  "name": "Horimiya",
+  "characters": [
+    {
+      "id": 66171,
+      "name": "Hori, Kyouko",
+      "image": "https://cdn.myanimelist.net/images/characters/16/318188.jpg?s=b96036b045851e8e00ef1d29bc20d7fe",
+      "anime": "Horimiya",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 66965,
+      "name": "Ayasaki, Remi",
+      "image": "https://cdn.myanimelist.net/images/characters/8/422261.jpg?s=42a79f715821de79fe3ce60300a4a818",
+      "anime": "Horimiya",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 72449,
+      "name": "Kouno, Sakura",
+      "image": "https://cdn.myanimelist.net/images/characters/6/424146.jpg?s=a368479c494e766c927bb1b98c09ddd5",
+      "anime": "Horimiya",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 66963,
+      "name": "Yoshikawa, Yuki",
+      "image": "https://cdn.myanimelist.net/images/characters/9/424143.jpg?s=4bfe7c10353726bcb594b751dbe10152",
+      "anime": "Horimiya",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}
