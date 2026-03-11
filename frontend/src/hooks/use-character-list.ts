@@ -53,18 +53,16 @@ export function pickRandomFromTemplates(keys: string[], count: number, genderFil
 }
 
 export function getCharactersByIds(ids: number[]): AnimeCharacter[] {
-  const idSet = new Set(ids);
-  const result: AnimeCharacter[] = [];
-  const found = new Set<number>();
+  const lookup = new Map<number, AnimeCharacter>();
   for (const t of Object.values(templates)) {
     for (const c of t.characters) {
-      if (idSet.has(c.id) && !found.has(c.id)) {
-        result.push(c);
-        found.add(c.id);
+      if (!lookup.has(c.id)) {
+        lookup.set(c.id, c);
       }
     }
   }
-  return result;
+  // Preserve the order of the input ids (which is already shuffled)
+  return ids.map((id) => lookup.get(id)).filter((c): c is AnimeCharacter => c !== undefined);
 }
 
 // --------------- Search mode (async, Jikan API) ---------------
