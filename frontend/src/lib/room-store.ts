@@ -218,13 +218,16 @@ export function makeGuess(
   const correct = guess === opponent.selection;
   const actualValue = opponent.selection!;
 
-  room.phase = "finished";
-  room.winner = correct ? guesserId : opponent.id;
-  room.guessResult = {
-    correct,
-    guesserId,
-    actual: actualValue,
-  };
+  if (correct) {
+    room.phase = "finished";
+    room.winner = guesserId;
+    room.guessResult = {
+      correct,
+      guesserId,
+      actual: actualValue,
+    };
+  }
+  // Wrong guess: game continues — don't change phase or set winner
 
   return { room, correct, guesserName: guesser.name, actualValue };
 }

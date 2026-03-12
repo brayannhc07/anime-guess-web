@@ -40,14 +40,26 @@ export function LobbyView() {
     : characterSource === "pokemon"
       ? getGenerationSize(pokemonGeneration)
       : (searchCharacters?.length ?? 0);
-  const canStart = hasTwoPlayers && poolSize >= GRID_SIZE;
+
+  const ruleMasterSourceReady =
+    characterSource === "pokemon" ||
+    (characterSource === "search" && searchAnimeId !== null) ||
+    (characterSource === "template" && templateKeys.length > 0);
+
+  const canStart = mode === "classic"
+    ? hasTwoPlayers && poolSize >= GRID_SIZE
+    : hasTwoPlayers && ruleMasterSourceReady;
 
   async function handleStart() {
     if (!isHost || !canStart) return;
     setLoading(true);
     try {
       let characterIds: number[];
-      if (characterSource === "template") {
+
+      if (mode === "rule-master") {
+        // Rule Master doesn't need a pre-built grid — characters are searched live
+        characterIds = [];
+      } else if (characterSource === "template") {
         const picked = pickRandomFromTemplates(templateKeys, GRID_SIZE, genderFilter);
         characterIds = picked.map((c) => c.id);
       } else if (characterSource === "pokemon") {
@@ -110,6 +122,8 @@ export function LobbyView() {
           <CardTitle>Game Settings</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
+          <ModePicker value={mode} onChange={setMode} disabled={!isHost} />
+
           {/* Source toggle */}
           <div className="space-y-2">
             <p className="text-sm font-medium">Character Source</p>
@@ -144,7 +158,13 @@ export function LobbyView() {
           {characterSource === "template" ? (
             <TemplatePicker value={templateKeys} onChange={setTemplateKeys} disabled={!isHost} />
           ) : characterSource === "pokemon" ? (
-            <GenerationPicker value={pokemonGeneration} onChange={setPokemonGeneration} disabled={!isHost} />
+            mode === "rule-master" ? (
+              <p className="text-sm text-muted-foreground">
+                Search any Pokémon during gameplay.
+              </p>
+            ) : (
+              <GenerationPicker value={pokemonGeneration} onChange={setPokemonGeneration} disabled={!isHost} />
+            )
           ) : (
             <AnimeSearchPicker
               selectedAnimeId={searchAnimeId}
@@ -157,7 +177,7 @@ export function LobbyView() {
             />
           )}
 
-          {characterSource === "template" && templateKeys.length > 0 && (
+          {mode === "classic" && characterSource === "template" && templateKeys.length > 0 && (
             <div className="space-y-2">
               <p className="text-sm font-medium">Gender Filter</p>
               <div className="flex gap-2">
@@ -176,7 +196,7 @@ export function LobbyView() {
             </div>
           )}
 
-          {poolSize > 0 && (
+          {mode === "classic" && poolSize > 0 && (
             <p className="text-sm text-muted-foreground">
               {poolSize} unique characters available ({GRID_SIZE} randomly picked per game)
               {poolSize < GRID_SIZE && (
@@ -187,11 +207,19 @@ export function LobbyView() {
             </p>
           )}
 
-          <ModePicker value={mode} onChange={setMode} disabled={!isHost} />
-
           {isHost ? (
             <Button onClick={handleStart} disabled={!canStart || loading} className="w-full">
-              {loading ? "Starting..." : canStart ? "Start Game" : hasTwoPlayers ? `Need ${GRID_SIZE}+ characters` : "Waiting for opponent..."}
+              {loading
+                ? "Starting..."
+                : canStart
+                  ? "Start Game"
+                  : hasTwoPlayers
+                    ? mode === "classic"
+                      ? `Need ${GRID_SIZE}+ characters`
+                      : characterSource === "search"
+                        ? "Select an anime first"
+                        : "Select templates first"
+                    : "Waiting for opponent..."}
             </Button>
           ) : (
             <p className="text-center text-muted-foreground text-sm">

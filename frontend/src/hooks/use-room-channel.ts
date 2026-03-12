@@ -169,9 +169,19 @@ export function useRoomChannel(roomCode: string) {
     });
 
     channel.bind(PUSHER_EVENTS.GUESS_RESULT, (data: GuessResultPayload) => {
-      setGuessResult(data);
-      setWinner(data.winnerId);
-      setPhase("finished");
+      if (data.correct) {
+        setGuessResult(data);
+        setWinner(data.winnerId);
+        setPhase("finished");
+      } else {
+        // Wrong guess — game continues, show feedback
+        const isMe = data.guesserId === playerId;
+        toast(
+          isMe
+            ? "Wrong guess! Game continues."
+            : `${data.guesserName} guessed wrong! Game continues.`
+        );
+      }
     });
 
     channel.bind(PUSHER_EVENTS.REMATCH_REQUESTED, (data: RematchRequestedPayload) => {

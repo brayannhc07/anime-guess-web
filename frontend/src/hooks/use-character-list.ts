@@ -242,3 +242,4 @@ export function useAllCharacters() {
 
   return { data: searchCharacters, isLoading: searchLoading };
 }
+
