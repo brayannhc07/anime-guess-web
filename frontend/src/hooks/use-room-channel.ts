@@ -5,6 +5,7 @@ import type { Channel } from "pusher-js";
 import { getPusherClient } from "@/lib/pusher-client";
 import { useGameStore } from "@/stores/game-store";
 import { PUSHER_EVENTS } from "@/types/pusher-events";
+import type { RoomState } from "@/types/room";
 import type {
   GameStartedPayload,
   PlayerJoinedPayload,
@@ -203,8 +204,47 @@ export function useRoomChannel(roomCode: string) {
       toast("Rematch accepted! Back to lobby.");
     });
 
+    // Re-sync room state when Pusher reconnects after a disconnection
+    // This catches any events missed while disconnected (common in Classic mode)
+    const handleConnected = () => {
+      const currentPlayerId = useGameStore.getState().playerId;
+      if (!currentPlayerId) return;
+      fetch(`/api/room/get?code=${roomCode}&playerId=${currentPlayerId}`)
+        .then((res) => {
+          if (!res.ok) return;
+          return res.json() as Promise<RoomState>;
+        })
+        .then((room) => {
+          if (!room) return;
+          const store = useGameStore.getState();
+          // Only sync if the server phase is ahead of ours
+          if (room.phase !== store.phase) {
+            setPhase(room.phase);
+            setMode(room.mode);
+            setPlayers(room.players);
+            setCharacterIds(room.characterIds);
+            setCurrentTurn(room.currentTurn);
+            setWinner(room.winner);
+            if (room.guessResult) {
+              setGuessResult({
+                correct: room.guessResult.correct,
+                guesserId: room.guessResult.guesserId,
+                guesserName: room.players.find((p) => p.id === room.guessResult!.guesserId)?.name ?? "",
+                guessedValue: room.guessResult.actual,
+                actualValue: room.guessResult.actual,
+                winnerId: room.winner,
+              });
+            }
+          }
+        })
+        .catch(() => {});
+    };
+
+    pusher.connection.bind("connected", handleConnected);
+
     return () => {
       channel.unbind_all();
+      pusher.connection.unbind("connected", handleConnected);
       pusher.unsubscribe(channelName);
       channelRef.current = null;
     };

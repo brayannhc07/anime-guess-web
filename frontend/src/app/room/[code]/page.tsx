@@ -3,6 +3,7 @@
 import { use, useEffect, useState } from "react";
 import { useGameStore } from "@/stores/game-store";
 import { useRoomChannel } from "@/hooks/use-room-channel";
+import { useKeepAlive } from "@/hooks/use-keepalive";
 import { LobbyView } from "@/components/lobby/lobby-view";
 import { SelectionPhase } from "@/components/game/selection-phase";
 import { GameBoard } from "@/components/game/game-board";
@@ -113,6 +114,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   }, [code]);
 
   useRoomChannel(code);
+  useKeepAlive(code);
 
   if (loading || !playerId) return null;
 
