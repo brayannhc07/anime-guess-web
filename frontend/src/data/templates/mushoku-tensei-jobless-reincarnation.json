@@ -1,0 +1,117 @@
+{
+  "name": "Mushoku Tensei: Jobless Reincarnation",
+  "characters": [
+    {
+      "id": 111335,
+      "name": "Greyrat, Eris Boreas",
+      "image": "https://cdn.myanimelist.net/images/characters/14/324594.jpg?s=3648ce18134882a5f934130607f69548",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 111341,
+      "name": "Migurdia, Roxy",
+      "image": "https://cdn.myanimelist.net/images/characters/16/552605.jpg?s=77b5b2dfd526c9ec5563c372a4dac111",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 111337,
+      "name": "Sylphiette",
+      "image": "https://cdn.myanimelist.net/images/characters/10/423669.jpg?s=858da1787027ca0290e9833fc9b32e02",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 111741,
+      "name": "Dedoldia, Ghislaine",
+      "image": "https://cdn.myanimelist.net/images/characters/14/591401.jpg?s=ff2e630d395a4adc3e58c879a33a5f44",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 111735,
+      "name": "Greyrat, Zenith",
+      "image": "https://cdn.myanimelist.net/images/characters/13/591596.jpg?s=80b6fa727346eb6101353960f90f5627",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 111737,
+      "name": "Greyrat, Lilia",
+      "image": "https://cdn.myanimelist.net/images/characters/14/437038.jpg?s=90e7b007c8cdbc4eb72218dae2da8d38",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+   
+    {
+      "id": 115069,
+      "name": "Nanahoshi, Shizuka",
+      "image": "https://cdn.myanimelist.net/images/characters/6/545654.jpg?s=fcb8c40a6e9d9475f8a2ba81fba2bbde",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+  
+    {
+      "id": 118207,
+      "name": "Asura, Ariel Anemoi",
+      "image": "https://cdn.myanimelist.net/images/characters/12/591402.jpg?s=92b73205e86b8b1aee83056d41f947ae",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 118251,
+      "name": "Adoldia, Pursena",
+      "image": "https://cdn.myanimelist.net/images/characters/15/518422.jpg?s=d76c77a5d77cb63fe901750bb197aeff",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 115185,
+      "name": "Dedoldia, Rinia",
+      "image": "https://cdn.myanimelist.net/images/characters/11/518421.jpg?s=0ba4cf21109d0c4a9a09f100b15b2bd9",
+      "anime": "Mushoku Tensei: Jobless Reincarnation",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

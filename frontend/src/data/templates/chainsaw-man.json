@@ -1,0 +1,60 @@
+{
+  "name": "Chainsaw Man",
+  "characters": [
+    {
+      "id": 170734,
+      "name": "Makima",
+      "image": "https://cdn.myanimelist.net/images/characters/4/489561.jpg?s=6593bd49704ffb415d3fd9d40e5dc183",
+      "anime": "Chainsaw Man",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 170733,
+      "name": "Power",
+      "image": "https://cdn.myanimelist.net/images/characters/7/494969.jpg?s=02622d6ffa487b8d6d7503af4792a106",
+      "anime": "Chainsaw Man",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 174749,
+      "name": "Higashiyama, Kobeni",
+      "image": "https://cdn.myanimelist.net/images/characters/3/467961.jpg?s=62b404edd1edcea21a0fb16f230f3916",
+      "anime": "Chainsaw Man",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 170765,
+      "name": "Himeno",
+      "image": "https://cdn.myanimelist.net/images/characters/12/386392.jpg?s=587b426444b95d23293c9b8f1aa38450",
+      "anime": "Chainsaw Man",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 174751,
+      "name": "Reze",
+      "image": "https://cdn.myanimelist.net/images/characters/10/618421.jpg?s=f4e6085be8336c1c8224e9a636a7b3c2",
+      "anime": "Chainsaw Man",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

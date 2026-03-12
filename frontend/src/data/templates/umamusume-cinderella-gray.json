@@ -2,31 +2,9 @@
   "name": "Umamusume: Cinderella Gray",
   "characters": [
     {
-      "id": 287055,
-      "name": "Ai-chan",
-      "image": "https://cdn.myanimelist.net/images/characters/7/617631.jpg?s=5a948090b1260fd50fab91f653a881ac",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 199040,
       "name": "Belno Light",
       "image": "https://cdn.myanimelist.net/images/characters/8/582041.jpg?s=9c2db5b180dee03f7986c3f6df9a0e03",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 271992,
-      "name": "Blacky Ale",
-      "image": "https://cdn.myanimelist.net/images/characters/13/593527.jpg?s=91bea78ddf12f81a60c2176c6426edde",
       "anime": "Umamusume: Cinderella Gray",
       "gender": "female",
       "tags": [
@@ -57,45 +35,6 @@
       ]
     },
     {
-      "id": 269330,
-      "name": "Kawamura, Hiyori",
-      "image": "https://cdn.myanimelist.net/images/characters/15/588033.jpg?s=e8926b4b3f4192498a258ffd2b8b3cc9",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 273616,
-      "name": "Lord Royal",
-      "image": "https://cdn.myanimelist.net/images/characters/14/597174.jpg?s=4295de86155cd7e86c928bcb16782fde",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-
-
-
-
-
- 
-    {
-      "id": 265952,
-      "name": "Mini the Lady",
-      "image": "https://cdn.myanimelist.net/images/characters/13/582038.jpg?s=16b9a798d2d54e58ea690ba539fd112a",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
       "id": 265950,
       "name": "Norn Ace",
       "image": "https://cdn.myanimelist.net/images/characters/9/582036.jpg?s=1204515b70224377b2499ffda1ebe3bc",
@@ -106,62 +45,6 @@
         "supporting"
       ]
     },
-    {
-      "id": 273977,
-      "name": "Oguri Cap's Mother",
-      "image": "https://cdn.myanimelist.net/images/characters/3/615117.jpg?s=ed4b8a05ecd1e3713057e8dec85c6b6f",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 265951,
-      "name": "Rudy Lemono",
-      "image": "https://cdn.myanimelist.net/images/characters/9/582037.jpg?s=d0251f05e7cc2e7e1d31aac12a04dc15",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 220228,
-      "name": "Sirius Symboli",
-      "image": "https://cdn.myanimelist.net/images/characters/5/574475.jpg?s=fe6cb0f62ff4139c13059542fecfcb90",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 277295,
-      "name": "Ellerslie Pride",
-      "image": "https://cdn.myanimelist.net/images/characters/11/603049.jpg?s=e3826db3ec5fa40fd3ab3ba2c4719f04",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 286051,
-      "name": "Hinode Boxer",
-      "image": "https://cdn.myanimelist.net/images/characters/16/616181.jpg?s=cf43de42033a927d7e7dec3385862ddf",
-      "anime": "Umamusume: Cinderella Gray",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-
     {
       "id": 280790,
       "name": "Nase, Fumino",

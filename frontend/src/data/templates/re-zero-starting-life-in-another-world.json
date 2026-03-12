@@ -1,0 +1,82 @@
+{
+  "name": "Re:ZERO -Starting Life in Another World-",
+  "characters": [
+    {
+      "id": 118737,
+      "name": "Emilia",
+      "image": "https://cdn.myanimelist.net/images/characters/16/551926.jpg?s=22728d0269f40fb353a31a54545ded00",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 118771,
+      "name": "Barielle, Priscilla",
+      "image": "https://cdn.myanimelist.net/images/characters/16/563865.jpg?s=29783ad5f42c00511a4c4d2f9266e696",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 118781,
+      "name": "Hoshin, Anastasia",
+      "image": "https://cdn.myanimelist.net/images/characters/15/316407.jpg?s=fef1ce5f3639b48b8e69700a3447b79a",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 118775,
+      "name": "Karsten, Crusch",
+      "image": "https://cdn.myanimelist.net/images/characters/10/477333.jpg?s=906c6aacc5a8dc5db4cf6c0312c12127",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 118765,
+      "name": "Ram",
+      "image": "https://cdn.myanimelist.net/images/characters/15/306390.jpg?s=c627953e35df76da593d931548b7e646",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 118763,
+      "name": "Rem",
+      "image": "https://cdn.myanimelist.net/images/characters/9/311327.jpg?s=3246595cd08261824d0dbf11a44c7229",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 145877,
+      "name": "Echidna",
+      "image": "https://cdn.myanimelist.net/images/characters/8/591059.jpg?s=2ba68642a6ad942a6e3df7ce2d987636",
+      "anime": "Re:ZERO -Starting Life in Another World-",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

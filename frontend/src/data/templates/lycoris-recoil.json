@@ -1,0 +1,27 @@
+{
+  "name": "Lycoris Recoil",
+  "characters": [
+    {
+      "id": 204620,
+      "name": "Inoue, Takina",
+      "image": "https://cdn.myanimelist.net/images/characters/3/486673.jpg?s=3ca2f10e2c681dd6e39c7400a157d7b1",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 204621,
+      "name": "Nishikigi, Chisato",
+      "image": "https://cdn.myanimelist.net/images/characters/5/486674.jpg?s=0608ef72094b43274983a365006865b0",
+      "anime": "Lycoris Recoil",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    }
+  ]
+}

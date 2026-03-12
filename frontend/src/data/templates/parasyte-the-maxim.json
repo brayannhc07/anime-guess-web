@@ -1,0 +1,27 @@
+{
+  "name": "Parasyte: The Maxim",
+  "characters": [
+    {
+      "id": 19215,
+      "name": "Kimishima, Kana",
+      "image": "https://cdn.myanimelist.net/images/characters/9/270587.jpg?s=31423bf402448af63297c8d8e8737c80",
+      "anime": "Parasyte: The Maxim",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 19436,
+      "name": "Murano, Satomi",
+      "image": "https://cdn.myanimelist.net/images/characters/14/268977.jpg?s=a38ff4a415be79ea273b70d004f34c1d",
+      "anime": "Parasyte: The Maxim",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    } 
+  ]
+}

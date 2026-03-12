@@ -1,0 +1,49 @@
+{
+  "name": "My Dress-Up Darling",
+  "characters": [
+    {
+      "id": 166439,
+      "name": "Kitagawa, Marin",
+      "image": "https://cdn.myanimelist.net/images/characters/3/514695.jpg?s=1329d7f8ba38cd453b5ee46cc6dff32c",
+      "anime": "My Dress-Up Darling",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 193037,
+      "name": "Inui, Sajuna",
+      "image": "https://cdn.myanimelist.net/images/characters/6/459774.jpg?s=e8c0d2818f8a9c2a75ce073e7c98d35f",
+      "anime": "My Dress-Up Darling",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 195814,
+      "name": "Inui, Shinju",
+      "image": "https://cdn.myanimelist.net/images/characters/12/458726.jpg?s=52594020ee374eab8064c134708dc3aa",
+      "anime": "My Dress-Up Darling",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 205322,
+      "name": "Sugaya, Nowa",
+      "image": "https://cdn.myanimelist.net/images/characters/11/464449.jpg?s=398ec6d1e65806d5485b5c2789e22870",
+      "anime": "My Dress-Up Darling",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

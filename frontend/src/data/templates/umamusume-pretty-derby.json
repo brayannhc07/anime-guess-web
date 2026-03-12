@@ -35,6 +35,17 @@
       ]
     },
     {
+      "id": 239395,
+      "name": "Jungle Pocket",
+      "image": "https://cdn.myanimelist.net/images/characters/5/574412.jpg?s=25948ce324a846a6db567ca7e7865017",
+      "anime": "Umamusume: Pretty Derby",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
       "id": 168199,
       "name": "Manhattan Cafe",
       "image": "https://cdn.myanimelist.net/images/characters/5/574422.jpg?s=3fbc94dd2230d757a0af057eba977a88",
@@ -46,9 +57,9 @@
       ]
     },
     {
-      "id": 182657,
-      "name": "Akasaka, Misato",
-      "image": "https://cdn.myanimelist.net/images/characters/11/588042.jpg?s=2c425466d3d67b64dff75bea3fdcdc22",
+      "id": 183372,
+      "name": "Biwa Hayahide",
+      "image": "https://cdn.myanimelist.net/images/characters/5/574431.jpg?s=eb791679d2e507189b9db37d051f3d0a",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -57,9 +68,9 @@
       ]
     },
     {
-      "id": 183372,
-      "name": "Biwa Hayahide",
-      "image": "https://cdn.myanimelist.net/images/characters/5/574431.jpg?s=eb791679d2e507189b9db37d051f3d0a",
+      "id": 159640,
+      "name": "Daiwa Scarlet",
+      "image": "https://cdn.myanimelist.net/images/characters/7/574416.jpg?s=2b0bcf29618d9442ac8e5e956d4e2fd1",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -156,6 +167,28 @@
       ]
     },
     {
+      "id": 214725,
+      "name": "Super Creek",
+      "image": "https://cdn.myanimelist.net/images/characters/6/574482.jpg?s=1c3e48d47365c7410813e997b8ce3b83",
+      "anime": "Umamusume: Pretty Derby",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 150734,
+      "name": "Symboli Rudolf",
+      "image": "https://cdn.myanimelist.net/images/characters/4/574440.jpg?s=50c704859a3016113a2693c330233583",
+      "anime": "Umamusume: Pretty Derby",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
       "id": 163814,
       "name": "T.M. Opera O",
       "image": "https://cdn.myanimelist.net/images/characters/10/574425.jpg?s=98a8675e46a9667ebcb970650c7332f9",
@@ -211,9 +244,31 @@
       ]
     },
     {
+      "id": 190819,
+      "name": "Daitaku Helios",
+      "image": "https://cdn.myanimelist.net/images/characters/2/574450.jpg?s=b831f666081cf0a115c6bdbf4c007639",
+      "anime": "Umamusume: Pretty Derby",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
       "id": 190816,
       "name": "Kitasan Black",
       "image": "https://cdn.myanimelist.net/images/characters/4/574443.jpg?s=9700a215455a236d35978f078ea42e76",
+      "anime": "Umamusume: Pretty Derby",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 190815,
+      "name": "Matikanetannhauser",
+      "image": "https://cdn.myanimelist.net/images/characters/7/574454.jpg?s=32326cb75e5e15843709035bd5a241a0",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [
@@ -248,17 +303,6 @@
       "id": 210368,
       "name": "Narita Top Road",
       "image": "https://cdn.myanimelist.net/images/characters/3/574885.jpg?s=c8c35b5d24ba0bb14ad840735e648efe",
-      "anime": "Umamusume: Pretty Derby",
-      "gender": "female",
-      "tags": [
-        "female",
-        "supporting"
-      ]
-    },
-    {
-      "id": 287110,
-      "name": "Perry Steam",
-      "image": "https://cdn.myanimelist.net/images/characters/2/617709.jpg?s=d9227fd13983cd6da499fd33d38987d2",
       "anime": "Umamusume: Pretty Derby",
       "gender": "female",
       "tags": [

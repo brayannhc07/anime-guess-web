@@ -1,0 +1,38 @@
+{
+  "name": "86 Eighty-Six",
+  "characters": [
+    {
+      "id": 150824,
+      "name": "Milizé, Vladilena",
+      "image": "https://cdn.myanimelist.net/images/characters/15/428175.jpg?s=478448b23f60ae7db0e89def84a8b145",
+      "anime": "86 Eighty-Six",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 185972,
+      "name": "Emma, Anju",
+      "image": "https://cdn.myanimelist.net/images/characters/5/453259.jpg?s=9554f6289c237cea0d263bc278818c73",
+      "anime": "86 Eighty-Six",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 185970,
+      "name": "Kukumila, Kurena",
+      "image": "https://cdn.myanimelist.net/images/characters/9/453260.jpg?s=026d0f66df8409cdd609a80465223294",
+      "anime": "86 Eighty-Six",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}
