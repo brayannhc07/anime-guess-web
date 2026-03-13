@@ -1,0 +1,27 @@
+{
+  "name": "Cyberpunk: Edgerunners",
+  "characters": [
+    {
+      "id": 213159,
+      "name": "Lucy",
+      "image": "https://cdn.myanimelist.net/images/characters/11/486620.jpg?s=d008a3c1ab486c0ff734d8b7ca080c3d",
+      "anime": "Cyberpunk: Edgerunners",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 215035,
+      "name": "Rebecca",
+      "image": "https://cdn.myanimelist.net/images/characters/16/547499.jpg?s=cd514780a0b93dd5365d280a8a51cdce",
+      "anime": "Cyberpunk: Edgerunners",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

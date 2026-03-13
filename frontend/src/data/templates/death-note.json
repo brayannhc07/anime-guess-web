@@ -1,0 +1,16 @@
+{
+  "name": "Death Note",
+  "characters": [
+    {
+      "id": 835,
+      "name": "Amane, Misa",
+      "image": "https://cdn.myanimelist.net/images/characters/5/30971.jpg?s=0af596d087b34f6e05942dcae60aebae",
+      "anime": "Death Note",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

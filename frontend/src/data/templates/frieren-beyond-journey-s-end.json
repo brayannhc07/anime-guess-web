@@ -1,0 +1,50 @@
+{
+  "name": "Frieren: Beyond Journey's End",
+  "characters": [
+    {
+      "id": 188176,
+      "name": "Fern",
+      "image": "https://cdn.myanimelist.net/images/characters/12/619183.jpg?s=15f45c66440c0e9843e2f0109f0c1aef",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 184947,
+      "name": "Frieren",
+      "image": "https://cdn.myanimelist.net/images/characters/7/525105.jpg?s=1706604ec2ca141a172526b8dedf3177",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 215303,
+      "name": "Methode",
+      "image": "https://cdn.myanimelist.net/images/characters/14/538692.jpg?s=f37ee4e5b0f8584cd9d60a1e079ab5ee",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+   
+    {
+      "id": 206725,
+      "name": "Übel",
+      "image": "https://cdn.myanimelist.net/images/characters/9/543072.jpg?s=8a1e7b1b5acb4d902a9f39147e4209af",
+      "anime": "Frieren: Beyond Journey's End",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

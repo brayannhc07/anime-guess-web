@@ -1,0 +1,27 @@
+{
+  "name": "Kaiju No. 8",
+  "characters": [
+    {
+      "id": 187498,
+      "name": "Shinomiya, Kikoru",
+      "image": "https://cdn.myanimelist.net/images/characters/14/549659.jpg?s=bf095bc41d8a6ddf6628cee6f270c5ea",
+      "anime": "Kaiju No. 8",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 187500,
+      "name": "Ashiro, Mina",
+      "image": "https://cdn.myanimelist.net/images/characters/14/531193.jpg?s=536427c275efc8e9aeea8ca6759e3603",
+      "anime": "Kaiju No. 8",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

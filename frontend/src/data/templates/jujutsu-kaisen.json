@@ -1,0 +1,94 @@
+{
+  "name": "Jujutsu Kaisen",
+  "characters": [
+    {
+      "id": 164472,
+      "name": "Kugisaki, Nobara",
+      "image": "https://cdn.myanimelist.net/images/characters/12/422313.jpg?s=053db48815610ce7fdc280f62a3499ce",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 164477,
+      "name": "Ieiri, Shouko",
+      "image": "https://cdn.myanimelist.net/images/characters/13/423951.jpg?s=5287a63c8b798f195d1db973df2351de",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 177253,
+      "name": "Iori, Utahime",
+      "image": "https://cdn.myanimelist.net/images/characters/3/435404.jpg?s=1627d13c26f9f395bd3c4f286c743bfc",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 180766,
+      "name": "Mei Mei",
+      "image": "https://cdn.myanimelist.net/images/characters/8/435405.jpg?s=59faccb30565d838c66cc66b88d96272",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 164485,
+      "name": "Miwa, Kasumi",
+      "image": "https://cdn.myanimelist.net/images/characters/5/431905.jpg?s=5baf76ca4b20bd7e4997b80689fda24f",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    
+    {
+      "id": 164482,
+      "name": "Zenin, Maki",
+      "image": "https://cdn.myanimelist.net/images/characters/15/423949.jpg?s=72edfa936ac89421e8d16970762d8b5b",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 189228,
+      "name": "Amanai, Riko",
+      "image": "https://cdn.myanimelist.net/images/characters/9/505519.jpg?s=d7ba45fcd7f375a88b9cdd1517c763cf",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 178998,
+      "name": "Tsukumo, Yuki",
+      "image": "https://cdn.myanimelist.net/images/characters/5/531741.jpg?s=4d1059a04269c9d0e6213c9a268633ea",
+      "anime": "Jujutsu Kaisen",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

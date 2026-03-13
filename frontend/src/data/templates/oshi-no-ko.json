@@ -1,0 +1,82 @@
+{
+  "name": "[Oshi No Ko]",
+  "characters": [
+    {
+      "id": 188038,
+      "name": "Arima, Kana",
+      "image": "https://cdn.myanimelist.net/images/characters/6/503733.jpg?s=6dddc82129535b664f8d5f0ba1e5b14b",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 188037,
+      "name": "Hoshino, Ai",
+      "image": "https://cdn.myanimelist.net/images/characters/6/496453.jpg?s=586f73ec11e59e6a6acc659afe9fb660",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 186921,
+      "name": "Hoshino, Ruby",
+      "image": "https://cdn.myanimelist.net/images/characters/5/496454.jpg?s=0bdb7d58a99eab12eb3de20b5a79033d",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 208887,
+      "name": "Kotobuki, Minami",
+      "image": "https://cdn.myanimelist.net/images/characters/15/510752.jpg?s=95b46592cdc1ec372d36b3f121e6037a",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 195178,
+      "name": "Kurokawa, Akane",
+      "image": "https://cdn.myanimelist.net/images/characters/6/592737.jpg?s=602e780d91b34622645cf66e520d7ba6",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 199940,
+      "name": "Mem-Cho",
+      "image": "https://cdn.myanimelist.net/images/characters/8/507015.jpg?s=f23b090cf9b829ca58b7b01d32638caf",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 189839,
+      "name": "Saitou, Miyako",
+      "image": "https://cdn.myanimelist.net/images/characters/3/622304.jpg?s=aaa9b3f3f7ae02eb371138f1d8063a2a",
+      "anime": "[Oshi No Ko]",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}

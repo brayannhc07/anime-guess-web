@@ -1,0 +1,60 @@
+{
+  "name": "Makeine: Too Many Losing Heroines!",
+  "characters": [
+    {
+      "id": 213638,
+      "name": "Komari, Chika",
+      "image": "https://cdn.myanimelist.net/images/characters/15/542561.jpg?s=f6757570931335c0601cc63cc325dbd7",
+      "anime": "Makeine: Too Many Losing Heroines!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 213639,
+      "name": "Yakishio, Lemon",
+      "image": "https://cdn.myanimelist.net/images/characters/11/542562.jpg?s=8e508ba08aefaf27fec99e9a968bf36a",
+      "anime": "Makeine: Too Many Losing Heroines!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 213637,
+      "name": "Yanami, Anna",
+      "image": "https://cdn.myanimelist.net/images/characters/16/542560.jpg?s=5968a3e87e79412d45a757fc5ab3d4d2",
+      "anime": "Makeine: Too Many Losing Heroines!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "main"
+      ]
+    },
+    {
+      "id": 255180,
+      "name": "Basori, Tiara",
+      "image": "https://cdn.myanimelist.net/images/characters/16/593450.jpg?s=11288376a6be2cb605c6d589b44f0f0a",
+      "anime": "Makeine: Too Many Losing Heroines!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    },
+    {
+      "id": 253400,
+      "name": "Shikiya, Yumeko",
+      "image": "https://cdn.myanimelist.net/images/characters/9/557519.jpg?s=062aa1e1cc740c4401b58feab9ef9281",
+      "anime": "Makeine: Too Many Losing Heroines!",
+      "gender": "female",
+      "tags": [
+        "female",
+        "supporting"
+      ]
+    }
+  ]
+}
