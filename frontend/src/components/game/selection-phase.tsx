@@ -80,7 +80,7 @@ export function SelectionPhase() {
               : `Set a Rule for ${opponent?.name ?? "Opponent"}`}
           </CardTitle>
         </CardHeader>
-        <CardContent className="space-y-4">
+        <CardContent className="flex flex-col gap-4">
           {mode === "classic" ? (
             <p className="text-sm text-muted-foreground">
               Click a character below or pick randomly. Your opponent will try to guess which one you picked.
@@ -110,7 +110,7 @@ export function SelectionPhase() {
               />
             </div>
           )}
-          <div className="flex gap-2">
+          <div className="flex gap-2 w-full">
             {mode === "classic" && (
               <Button
                 variant="outline"
@@ -119,7 +119,7 @@ export function SelectionPhase() {
                   setSelectedId(randomId);
                 }}
                 disabled={loading}
-                className="shrink-0"
+                className="flex-none"
               >
                 Random
               </Button>
@@ -131,7 +131,7 @@ export function SelectionPhase() {
                 (mode === "classic" && !selectedId) ||
                 (mode === "rule-master" && !rule.trim())
               }
-              className="w-full"
+              className="flex-1"
             >
               {loading ? "Locking in..." : "Lock In"}
             </Button>
