@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
+import { resetStats } from "@/lib/game-stats";
 
 export function CreateRoomForm() {
   const [name, setName] = useState("");
@@ -34,6 +35,7 @@ export function CreateRoomForm() {
       const room = await res.json();
       setRoomCode(room.code);
       setPlayers(room.players);
+      resetStats();
       router.push(`/room/${room.code}`);
     } catch {
       alert("Failed to create room");

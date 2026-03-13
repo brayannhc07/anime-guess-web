@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from "next/server";
-import { getRoom } from "@/lib/room-store";
+import { fetchRoom } from "@/lib/room-store";
 
 export async function GET(req: NextRequest) {
   const code = req.nextUrl.searchParams.get("code");
@@ -9,7 +9,7 @@ export async function GET(req: NextRequest) {
     return NextResponse.json({ error: "Missing code or playerId" }, { status: 400 });
   }
 
-  const room = getRoom(code.toUpperCase());
+  const room = await fetchRoom(code.toUpperCase());
   if (!room) {
     return NextResponse.json({ error: "Room not found" }, { status: 404 });
   }

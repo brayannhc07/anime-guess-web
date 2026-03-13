@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { useGameStore } from "@/stores/game-store";
+import { resetStats } from "@/lib/game-stats";
 
 export function JoinRoomForm() {
   const [name, setName] = useState("");
@@ -34,6 +35,7 @@ export function JoinRoomForm() {
       const room = await res.json();
       setRoomCode(room.code);
       setPlayers(room.players);
+      resetStats();
       router.push(`/room/${room.code}`);
     } catch {
       alert("Room not found or full");

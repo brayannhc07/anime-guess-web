@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useGameCharacters } from "@/hooks/use-character-list";
-import { getStats } from "@/lib/game-stats";
+import { getStats, resetStats } from "@/lib/game-stats";
 import { useState } from "react";
 
 export function GameOverBanner() {
@@ -64,6 +64,7 @@ export function GameOverBanner() {
 }
 
 function StatsDisplay() {
+  const [, forceUpdate] = useState(0);
   const stats = getStats();
   if (stats.wins === 0 && stats.losses === 0) return null;
 
@@ -78,6 +79,12 @@ function StatsDisplay() {
     <p className="text-xs text-muted-foreground">
       {stats.wins}W - {stats.losses}L
       {streakText && <span className="ml-1.5 font-medium">{streakText}</span>}
+      <button
+        onClick={() => { resetStats(); forceUpdate((n) => n + 1); }}
+        className="ml-2 underline hover:text-foreground transition-colors"
+      >
+        reset
+      </button>
     </p>
   );
 }

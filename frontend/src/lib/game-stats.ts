@@ -32,3 +32,9 @@ export function recordLoss(): GameStats {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(stats));
   return stats;
 }
+
+export function resetStats(): void {
+  if (typeof window !== "undefined") {
+    localStorage.removeItem(STORAGE_KEY);
+  }
+}

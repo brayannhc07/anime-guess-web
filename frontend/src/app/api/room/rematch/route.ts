@@ -6,7 +6,7 @@ import { PUSHER_EVENTS } from "@/types/pusher-events";
 export async function POST(req: NextRequest) {
   const { code, playerId } = await req.json();
 
-  const result = requestRematch(code, playerId);
+  const result = await requestRematch(code, playerId);
   if (!result) {
     return NextResponse.json({ error: "Room or player not found" }, { status: 404 });
   }

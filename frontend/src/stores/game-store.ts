@@ -122,6 +122,7 @@ export const useGameStore = create<GameState>((set) => ({
   leaveRoom: () => {
     if (typeof window !== "undefined") {
       sessionStorage.removeItem("animeguess-player");
+      localStorage.removeItem("animeguess-stats");
     }
     set({
       playerId: "",

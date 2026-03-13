@@ -6,7 +6,7 @@ import { PUSHER_EVENTS } from "@/types/pusher-events";
 export async function POST(req: NextRequest) {
   const { code, playerId, guess } = await req.json();
 
-  const result = submitRuleGuess(code, playerId, guess);
+  const result = await submitRuleGuess(code, playerId, guess);
   if (!result) {
     return NextResponse.json({ error: "Cannot submit guess right now" }, { status: 400 });
   }

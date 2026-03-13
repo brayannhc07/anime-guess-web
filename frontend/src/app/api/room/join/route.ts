@@ -8,7 +8,7 @@ export async function POST(req: NextRequest) {
   if (!code || !playerName || !playerId) {
     return NextResponse.json({ error: "Missing fields" }, { status: 400 });
   }
-  const room = joinRoom(code.toUpperCase(), playerName, playerId);
+  const room = await joinRoom(code.toUpperCase(), playerName, playerId);
   if (!room) {
     return NextResponse.json({ error: "Room not found or full" }, { status: 404 });
   }

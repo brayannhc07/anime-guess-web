@@ -6,7 +6,7 @@ import { PUSHER_EVENTS } from "@/types/pusher-events";
 export async function POST(req: NextRequest) {
   const { code, playerId } = await req.json();
 
-  const room = cancelGame(code, playerId);
+  const room = await cancelGame(code, playerId);
   if (!room) {
     return NextResponse.json({ error: "Only the host can cancel" }, { status: 403 });
   }

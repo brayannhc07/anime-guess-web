@@ -6,7 +6,7 @@ import { PUSHER_EVENTS } from "@/types/pusher-events";
 export async function POST(req: NextRequest) {
   const { code, playerId, characterId, characterName, characterImage } = await req.json();
 
-  const room = askCharacter(code, playerId, characterId, characterName, characterImage);
+  const room = await askCharacter(code, playerId, characterId, characterName, characterImage);
   if (!room) {
     return NextResponse.json({ error: "Cannot ask right now" }, { status: 400 });
   }

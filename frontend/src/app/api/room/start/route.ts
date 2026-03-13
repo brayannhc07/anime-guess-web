@@ -15,7 +15,7 @@ export async function POST(req: NextRequest) {
     pokemonGeneration: string[] | null;
   };
 
-  const room = startGame(code, characterIds, mode, characterSource, templateKeys, searchAnimeId, pokemonGeneration);
+  const room = await startGame(code, characterIds, mode, characterSource, templateKeys, searchAnimeId, pokemonGeneration);
   if (!room) {
     return NextResponse.json({ error: "Room not found" }, { status: 404 });
   }

@@ -6,7 +6,7 @@ import { PUSHER_EVENTS } from "@/types/pusher-events";
 export async function POST(req: NextRequest) {
   const { code, playerId, valid } = await req.json();
 
-  const result = answerCharacter(code, playerId, valid);
+  const result = await answerCharacter(code, playerId, valid);
   if (!result) {
     return NextResponse.json({ error: "Cannot answer right now" }, { status: 400 });
   }

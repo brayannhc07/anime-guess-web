@@ -6,7 +6,7 @@ import { PUSHER_EVENTS } from "@/types/pusher-events";
 export async function POST(req: NextRequest) {
   const { code, playerId, correct } = await req.json();
 
-  const result = judgeRuleGuess(code, playerId, correct);
+  const result = await judgeRuleGuess(code, playerId, correct);
   if (!result) {
     return NextResponse.json({ error: "Cannot judge right now" }, { status: 400 });
   }
