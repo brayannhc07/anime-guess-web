@@ -25,6 +25,15 @@ export default function HomePage() {
         <CreateRoomForm />
         <JoinRoomForm />
       </div>
+      <div className="w-full max-w-md text-center space-y-3">
+        <h2 className="text-sm font-semibold text-muted-foreground">{t("home.howToPlay")}</h2>
+        <ol className="text-sm text-muted-foreground space-y-1.5 text-left list-decimal list-inside">
+          <li>{t("home.step1")}</li>
+          <li>{t("home.step2")}</li>
+          <li>{t("home.step3")}</li>
+          <li>{t("home.step4")}</li>
+        </ol>
+      </div>
     </main>
   );
 }

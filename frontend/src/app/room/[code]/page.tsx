@@ -20,6 +20,7 @@ import { Badge } from "@/components/ui/badge";
 import { useRemainingBroadcast } from "@/hooks/use-remaining-broadcast";
 import { useTitleFlash } from "@/hooks/use-title-flash";
 import { useLanguage } from "@/contexts/language-context";
+import { InlineJoinForm } from "@/components/game/inline-join-form";
 import type { RoomState } from "@/types/room";
 
 export default function RoomPage({ params }: { params: Promise<{ code: string }> }) {
@@ -27,6 +28,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const router = useRouter();
   const { t } = useLanguage();
   const [loading, setLoading] = useState(true);
+  const [needsJoin, setNeedsJoin] = useState(false);
   const {
     phase, playerId, mode, currentTurn, pendingAsk, pendingRuleGuess, players, opponentRemainingCount,
     setRoomCode, setPhase, setMode, setCharacterSource, setTemplateKeys, setSearchAnimeId, setPokemonGeneration,
@@ -45,7 +47,9 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   useEffect(() => {
     const currentPlayerId = useGameStore.getState().playerId;
     if (!currentPlayerId) {
-      router.push("/");
+      // Show inline join form instead of redirecting
+      setNeedsJoin(true);
+      setLoading(false);
       return;
     }
 
@@ -129,7 +133,8 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   );
   useTitleFlash(needsMyAttention ? "Your turn! - Adivinamon" : null);
 
-  if (loading || !playerId) return null;
+  if (loading) return null;
+  if (needsJoin || !playerId) return <InlineJoinForm roomCode={code} />;
 
   const me = players.find((p) => p.id === playerId);
   const isSpectator = me?.isSpectator ?? false;

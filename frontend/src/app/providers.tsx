@@ -3,15 +3,18 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { ThemeProvider } from "next-themes";
 import { LanguageProvider } from "@/contexts/language-context";
+import { ErrorBoundary } from "@/components/shared/error-boundary";
 import { useState } from "react";
 
 export function Providers({ children }: { children: React.ReactNode }) {
   const [queryClient] = useState(() => new QueryClient());
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
-      <LanguageProvider>
-        <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
-      </LanguageProvider>
+      <ErrorBoundary>
+        <LanguageProvider>
+          <QueryClientProvider client={queryClient}>{children}</QueryClientProvider>
+        </LanguageProvider>
+      </ErrorBoundary>
     </ThemeProvider>
   );
 }

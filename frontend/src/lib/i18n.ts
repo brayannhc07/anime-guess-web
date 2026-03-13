@@ -13,6 +13,11 @@ const translations = {
     "home.codePlaceholder": "Enter 5-character code",
     "home.creating": "Creating...",
     "home.joining": "Joining...",
+    "home.howToPlay": "How to Play",
+    "home.step1": "Create a room or join with a code",
+    "home.step2": "Pick your character source (anime templates, search, or Pokemon)",
+    "home.step3": "Choose Classic mode (guess the character) or Rule Master (guess the secret rule)",
+    "home.step4": "Eliminate characters and make your guess to win!",
 
     // Lobby
     "lobby.room": "Room",
@@ -201,6 +206,11 @@ const translations = {
     "home.codePlaceholder": "Ingresa código de 5 caracteres",
     "home.creating": "Creando...",
     "home.joining": "Uniéndose...",
+    "home.howToPlay": "Cómo Jugar",
+    "home.step1": "Crea una sala o únete con un código",
+    "home.step2": "Elige tu fuente de personajes (plantillas de anime, búsqueda o Pokemon)",
+    "home.step3": "Elige modo Clásico (adivina el personaje) o Maestro de Reglas (adivina la regla secreta)",
+    "home.step4": "¡Elimina personajes y haz tu adivinanza para ganar!",
 
     // Lobby
     "lobby.room": "Sala",
