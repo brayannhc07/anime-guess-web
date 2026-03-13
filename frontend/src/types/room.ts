@@ -25,6 +25,7 @@ export interface AskedCharacter {
 
 export interface RoomState {
   code: string;
+  lastActivity: number; // Date.now() timestamp
   phase: GamePhase;
   mode: GameMode;
   characterSource: CharacterSource;

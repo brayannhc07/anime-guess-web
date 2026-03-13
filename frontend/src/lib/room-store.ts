@@ -1,6 +1,8 @@
 import type { GameMode, CharacterSource, RoomState } from "@/types/room";
 import { generateCode } from "./generate-code";
 
+const ROOM_TTL_MS = 2 * 60 * 60 * 1000; // 2 hours
+
 const globalForRooms = globalThis as unknown as {
   __rooms?: Map<string, RoomState>;
 };
@@ -8,10 +10,31 @@ const globalForRooms = globalThis as unknown as {
 const rooms = globalForRooms.__rooms ?? new Map<string, RoomState>();
 globalForRooms.__rooms = rooms;
 
+/** Remove rooms inactive for longer than ROOM_TTL_MS */
+function purgeStaleRooms() {
+  const now = Date.now();
+  for (const [code, room] of rooms) {
+    if (now - room.lastActivity > ROOM_TTL_MS) {
+      rooms.delete(code);
+    }
+  }
+}
+
+function generateUniqueCode(): string {
+  purgeStaleRooms();
+  for (let attempt = 0; attempt < 20; attempt++) {
+    const code = generateCode();
+    if (!rooms.has(code)) return code;
+  }
+  // Extremely unlikely fallback
+  return generateCode() + generateCode().slice(0, 1);
+}
+
 export function createRoom(hostName: string, hostId: string): RoomState {
-  const code = generateCode();
+  const code = generateUniqueCode();
   const room: RoomState = {
     code,
+    lastActivity: Date.now(),
     phase: "lobby",
     mode: "classic",
     characterSource: "template",
@@ -42,6 +65,10 @@ export function createRoom(hostName: string, hostId: string): RoomState {
   return room;
 }
 
+function touch(room: RoomState) {
+  room.lastActivity = Date.now();
+}
+
 export function joinRoom(code: string, playerName: string, playerId: string): RoomState | null {
   const room = rooms.get(code);
   if (!room) return null;
@@ -60,6 +87,7 @@ export function joinRoom(code: string, playerName: string, playerId: string): Ro
     lockedIn: false,
     rematchRequested: false,
   });
+  touch(room);
   return room;
 }
 
@@ -108,6 +136,7 @@ export function startGame(
 ): RoomState | null {
   const room = rooms.get(code);
   if (!room) return null;
+  touch(room);
   room.phase = "selection";
   room.characterIds = characterIds;
   room.mode = mode;
@@ -141,6 +170,7 @@ export function setPlayerSelection(
   const player = room.players.find((p) => p.id === playerId);
   if (!player) return null;
 
+  touch(room);
   player.selection = selection;
   player.rule = rule;
   player.lockedIn = true;
@@ -171,6 +201,7 @@ export function askCharacter(
   if (room.pendingAsk) return null; // already waiting for an answer
 
   room.pendingAsk = { askerId, characterId, characterName, characterImage };
+  touch(room);
   return room;
 }
 
@@ -198,6 +229,7 @@ export function answerCharacter(
   const nextTurn = room.players.find((p) => p.id !== pending.askerId && !p.isSpectator)!.id;
   room.currentTurn = nextTurn;
   room.pendingAsk = null;
+  touch(room);
 
   return { room, askedCharacter: pending, nextTurn };
 }
@@ -233,6 +265,7 @@ export function makeGuess(
     };
   }
   // Wrong guess: game continues — don't change phase or set winner
+  touch(room);
 
   return { room, correct, guesserName: guesser.name, actualValue };
 }
@@ -250,6 +283,7 @@ export function submitRuleGuess(
 
   room.pendingRuleGuess = { guesserId, guess };
   room.pendingAsk = null;
+  touch(room);
   return { room, guesserName: guesser.name };
 }
 
@@ -286,6 +320,7 @@ export function judgeRuleGuess(
   }
 
   room.pendingRuleGuess = null;
+  touch(room);
   return { room, guesserName: guesser.name, guess, actualRule };
 }
 
@@ -296,6 +331,7 @@ export function requestRematch(code: string, playerId: string): { room: RoomStat
   if (!player) return null;
 
   player.rematchRequested = true;
+  touch(room);
 
   const gamePlayers = room.players.filter((p) => !p.isSpectator);
   const bothRequested = gamePlayers.length === 2 && gamePlayers.every((p) => p.rematchRequested);
