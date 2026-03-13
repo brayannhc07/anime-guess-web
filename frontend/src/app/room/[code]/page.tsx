@@ -18,6 +18,7 @@ import { RuleGuessPrompt } from "@/components/game/rule-guess-prompt";
 import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { useRemainingBroadcast } from "@/hooks/use-remaining-broadcast";
+import { useTitleFlash } from "@/hooks/use-title-flash";
 import type { RoomState } from "@/types/room";
 
 export default function RoomPage({ params }: { params: Promise<{ code: string }> }) {
@@ -118,9 +119,16 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   useKeepAlive(code);
   useRemainingBroadcast();
 
+  const isMyTurn = currentTurn === playerId;
+  const needsMyAttention = phase === "playing" && mode === "rule-master" && (
+    isMyTurn ||
+    (pendingAsk !== null && pendingAsk.askerId !== playerId) ||
+    (pendingRuleGuess !== null && pendingRuleGuess.guesserId !== playerId)
+  );
+  useTitleFlash(needsMyAttention ? "Your turn! - Adivinamon" : null);
+
   if (loading || !playerId) return null;
 
-  const isMyTurn = currentTurn === playerId;
   const isWaitingForAnswer = pendingAsk !== null && pendingAsk.askerId === playerId;
   const isWaitingForRuleJudgment = pendingRuleGuess !== null && pendingRuleGuess.guesserId === playerId;
   const isJudgingRuleGuess = pendingRuleGuess !== null && pendingRuleGuess.guesserId !== playerId;

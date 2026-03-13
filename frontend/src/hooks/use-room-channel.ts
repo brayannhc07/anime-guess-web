@@ -20,6 +20,7 @@ import type {
   RemainingCountPayload,
 } from "@/types/pusher-events";
 import { toast } from "sonner";
+import { playJoinSound, playStartSound, playTurnSound, playCorrectSound, playWrongSound, playNotificationSound } from "@/lib/sounds";
 
 export function useRoomChannel(roomCode: string) {
   const channelRef = useRef<Channel | null>(null);
@@ -56,6 +57,7 @@ export function useRoomChannel(roomCode: string) {
     channel.bind(PUSHER_EVENTS.PLAYER_JOINED, (data: PlayerJoinedPayload) => {
       if (data.playerId !== playerId) {
         toast(`${data.playerName} joined the room!`);
+        playJoinSound();
       }
       setPlayers([
         ...players,
@@ -91,6 +93,7 @@ export function useRoomChannel(roomCode: string) {
       updatePlayerLocked(data.playerId);
       if (data.playerId !== playerId) {
         toast("Opponent has locked in!");
+        playNotificationSound();
       }
     });
 
@@ -98,6 +101,7 @@ export function useRoomChannel(roomCode: string) {
       setPhase("playing");
       setCurrentTurn(data.currentTurn ?? null);
       toast("Both players locked in! Game on!");
+      playStartSound();
     });
 
     channel.bind(PUSHER_EVENTS.GAME_CANCELLED, () => {
@@ -127,6 +131,7 @@ export function useRoomChannel(roomCode: string) {
       setPendingAsk(data);
       if (data.askerId !== playerId) {
         toast(`${data.askerName} asks: "Does ${data.characterName} fit?"`);
+        playNotificationSound();
       }
     });
 
@@ -142,12 +147,14 @@ export function useRoomChannel(roomCode: string) {
       setCurrentTurn(data.nextTurn);
       const status = data.valid ? "Yes!" : "No!";
       toast(`${data.answererName} says ${status} (${data.characterName})`);
+      if (data.nextTurn === playerId) playTurnSound();
     });
 
     channel.bind(PUSHER_EVENTS.RULE_GUESS_SUBMITTED, (data: RuleGuessSubmittedPayload) => {
       setPendingRuleGuess(data);
       if (data.guesserId !== playerId) {
         toast(`${data.guesserName} is guessing your rule: "${data.guess}"`);
+        playNotificationSound();
       }
     });
 
@@ -164,9 +171,12 @@ export function useRoomChannel(roomCode: string) {
         });
         setWinner(data.winnerId);
         setPhase("finished");
+        data.winnerId === playerId ? playCorrectSound() : playWrongSound();
       } else {
         setCurrentTurn(data.nextTurn);
         toast(`Wrong guess! "${data.guess}" is not the rule.`);
+        playWrongSound();
+        if (data.nextTurn === playerId) setTimeout(playTurnSound, 500);
       }
     });
 
@@ -175,6 +185,7 @@ export function useRoomChannel(roomCode: string) {
         setGuessResult(data);
         setWinner(data.winnerId);
         setPhase("finished");
+        data.winnerId === playerId ? playCorrectSound() : playWrongSound();
       } else {
         // Wrong guess — game continues, auto-eliminate the wrong guess
         const isMe = data.guesserId === playerId;
@@ -189,6 +200,7 @@ export function useRoomChannel(roomCode: string) {
             ? "Wrong guess! Game continues."
             : `${data.guesserName} guessed wrong! Game continues.`
         );
+        playWrongSound();
       }
     });
 
