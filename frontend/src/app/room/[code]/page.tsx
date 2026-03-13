@@ -137,54 +137,56 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     <main className="min-h-screen p-4 max-w-4xl mx-auto space-y-4">
       <RoomHeader />
 
-      {phase === "lobby" && <LobbyView />}
-      {phase === "selection" && <SelectionPhase />}
+      <div key={phase} className="animate-in fade-in slide-in-from-bottom-4 duration-300">
+        {phase === "lobby" && <LobbyView />}
+        {phase === "selection" && <SelectionPhase />}
 
-      {phase === "playing" && mode === "classic" && (
-        <div className="space-y-4">
-          <div className="flex items-center justify-between">
-            {opponentRemainingCount !== null && opponentRemainingCount <= 3 ? (
-              <Badge variant="destructive" className="text-sm px-3 py-1.5 animate-pulse">
-                Opponent has {opponentRemainingCount} left!
+        {phase === "playing" && mode === "classic" && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              {opponentRemainingCount !== null && opponentRemainingCount <= 3 ? (
+                <Badge variant="destructive" className="text-sm px-3 py-1.5 animate-pulse">
+                  Opponent has {opponentRemainingCount} left!
+                </Badge>
+              ) : (
+                <div />
+              )}
+              <GuessDialog />
+            </div>
+            <GameBoard />
+          </div>
+        )}
+
+        {phase === "playing" && mode === "rule-master" && (
+          <div className="space-y-4">
+            <div className="flex items-center justify-between">
+              <Badge variant={isMyTurn ? "default" : "secondary"} className="text-sm px-3 py-1.5">
+                {isWaitingForRuleJudgment
+                  ? "Waiting for opponent to judge your guess..."
+                  : isJudgingRuleGuess
+                    ? "Judge your opponent's rule guess!"
+                    : isWaitingForAnswer
+                      ? "Waiting for opponent's answer..."
+                      : isMyTurn
+                        ? "Your turn - search for a character!"
+                        : "Opponent's turn..."}
               </Badge>
-            ) : (
-              <div />
-            )}
-            <GuessDialog />
+              <GuessDialog />
+            </div>
+            <RuleGuessPrompt />
+            <AnswerPrompt />
+            <CharacterSearch />
+            <RuleMasterBoard />
           </div>
-          <GameBoard />
-        </div>
-      )}
+        )}
 
-      {phase === "playing" && mode === "rule-master" && (
-        <div className="space-y-4">
-          <div className="flex items-center justify-between">
-            <Badge variant={isMyTurn ? "default" : "secondary"} className="text-sm px-3 py-1.5">
-              {isWaitingForRuleJudgment
-                ? "Waiting for opponent to judge your guess..."
-                : isJudgingRuleGuess
-                  ? "Judge your opponent's rule guess!"
-                  : isWaitingForAnswer
-                    ? "Waiting for opponent's answer..."
-                    : isMyTurn
-                      ? "Your turn - search for a character!"
-                      : "Opponent's turn..."}
-            </Badge>
-            <GuessDialog />
+        {phase === "finished" && (
+          <div className="space-y-4">
+            <GameOverBanner />
+            {mode === "classic" ? <GameBoard /> : <RuleMasterBoard />}
           </div>
-          <RuleGuessPrompt />
-          <AnswerPrompt />
-          <CharacterSearch />
-          <RuleMasterBoard />
-        </div>
-      )}
-
-      {phase === "finished" && (
-        <div className="space-y-4">
-          <GameOverBanner />
-          {mode === "classic" ? <GameBoard /> : <RuleMasterBoard />}
-        </div>
-      )}
+        )}
+      </div>
 
       <PlayerInfoBadge />
     </main>
