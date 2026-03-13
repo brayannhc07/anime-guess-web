@@ -28,19 +28,19 @@ export function RuleGuessPrompt() {
   }
 
   return (
-    <Card className="border-purple-400 bg-purple-50">
+    <Card className="border-purple-400 bg-purple-50 dark:bg-purple-950/60">
       <CardHeader>
-        <CardTitle className="text-base text-foreground dark:text-gray-900">
+        <CardTitle className="text-base">
           {guesser?.name ?? "Opponent"} is guessing your rule!
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="space-y-2">
           <p className="text-sm text-muted-foreground">
-            Your rule: <span className="font-semibold text-foreground dark:text-gray-900">&quot;{me?.rule}&quot;</span>
+            Your rule: <span className="font-semibold text-foreground">&quot;{me?.rule}&quot;</span>
           </p>
-          <p className="text-lg font-medium text-foreground dark:text-gray-900">
-            Their guess: <span className="text-purple-700">&quot;{pendingRuleGuess.guess}&quot;</span>
+          <p className="text-lg font-medium">
+            Their guess: <span className="text-purple-700 dark:text-purple-300">&quot;{pendingRuleGuess.guess}&quot;</span>
           </p>
         </div>
         <p className="text-sm text-muted-foreground">

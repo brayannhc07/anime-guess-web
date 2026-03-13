@@ -25,7 +25,7 @@ export function CharacterCard({ character, eliminated, selected, selectable, onC
         "relative rounded-lg border-2 p-2 transition-all flex flex-col items-center gap-1",
         "hover:border-primary/50 hover:shadow-md focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary",
         eliminated && "opacity-40 grayscale",
-        selected && "border-yellow-400 ring-2 ring-yellow-400 bg-yellow-50",
+        selected && "border-yellow-400 ring-2 ring-yellow-400 bg-yellow-50 dark:bg-yellow-950/60",
         selectable && !selected && "border-blue-300 cursor-pointer",
         !selectable && !eliminated && "border-border"
       )}

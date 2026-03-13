@@ -29,14 +29,14 @@ export function AnswerPrompt() {
   }
 
   return (
-    <Card className="border-yellow-400 bg-yellow-50">
+    <Card className="border-yellow-400 bg-yellow-50 dark:bg-yellow-950/60">
       <CardHeader>
-        <CardTitle className="text-base text-foreground dark:text-gray-900">
+        <CardTitle className="text-base">
           {asker?.name ?? "Opponent"} asks:
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
-        <div className="flex items-center gap-4 text-foreground dark:text-gray-900">
+        <div className="flex items-center gap-4">
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
             src={pendingAsk.characterImage}
@@ -49,7 +49,7 @@ export function AnswerPrompt() {
           </p>
         </div>
         <p className="text-sm text-muted-foreground">
-          Your rule: <span className="font-semibold text-foreground dark:text-gray-900">&quot;{me?.rule}&quot;</span>
+          Your rule: <span className="font-semibold text-foreground">&quot;{me?.rule}&quot;</span>
           — does this character fit?
         </p>
         <div className="flex gap-3">

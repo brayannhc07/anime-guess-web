@@ -42,7 +42,7 @@ export function LobbyView() {
       : (searchCharacters?.length ?? 0);
 
   const ruleMasterSourceReady =
-    (characterSource === "pokemon" && pokemonGenerations.length > 0) ||
+    characterSource === "pokemon" ||
     (characterSource === "search" && searchAnimeId !== null) ||
     (characterSource === "template" && templateKeys.length > 0);
 

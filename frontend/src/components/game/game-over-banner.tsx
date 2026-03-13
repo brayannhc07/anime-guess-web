@@ -39,9 +39,9 @@ export function GameOverBanner() {
   }
 
   return (
-    <Card className={isWinner ? "border-green-500 bg-green-50" : "border-red-500 bg-red-50"}>
+    <Card className={isWinner ? "border-green-500 bg-green-50 dark:bg-green-950/60" : "border-red-500 bg-red-50 dark:bg-red-950/60"}>
       <CardContent className="py-6 text-center space-y-3">
-        <h2 className="text-2xl font-bold text-foreground dark:text-gray-800">
+        <h2 className="text-2xl font-bold">
           {isWinner ? "You Win!" : "You Lose!"}
         </h2>
         <p className="text-muted-foreground">

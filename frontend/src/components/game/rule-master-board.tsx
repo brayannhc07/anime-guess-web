@@ -78,9 +78,9 @@ function BoardSection({
             key={`${c.id}-${c.valid}`}
             className={cn(
               "relative rounded-lg border-2 p-2 flex flex-col items-center gap-1",
-              c.valid === true && "border-green-400 bg-green-50",
-              c.valid === false && "border-red-300 bg-red-50 opacity-50 grayscale",
-              c.valid === null && "border-yellow-300 bg-yellow-50 animate-pulse"
+              c.valid === true && "border-green-400 bg-green-50 dark:bg-green-950/60",
+              c.valid === false && "border-red-300 bg-red-50 dark:bg-red-950/60 opacity-50 grayscale",
+              c.valid === null && "border-yellow-300 bg-yellow-50 dark:bg-yellow-950/60 animate-pulse"
             )}
           >
             {/* eslint-disable-next-line @next/next/no-img-element */}
