@@ -141,6 +141,7 @@ const translations = {
     "gameOver.reset": "reset",
 
     // Room header
+    "header.undo": "Undo",
     "header.resetBoard": "Reset Board",
     "header.backToLobby": "Back to Lobby",
     "header.cancelling": "Cancelling...",
@@ -314,6 +315,7 @@ const translations = {
     "gameOver.reset": "reiniciar",
 
     // Room header
+    "header.undo": "Deshacer",
     "header.resetBoard": "Reiniciar Tablero",
     "header.backToLobby": "Volver al Lobby",
     "header.cancelling": "Cancelando...",

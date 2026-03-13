@@ -35,16 +35,17 @@ export function CharacterSearch() {
   }, [allCharacters, query, askedCharacters, playerId]);
 
   async function handleAsk(character: { id: number; name: string; image: string }) {
+    // Optimistic: immediately show as pending on the board
+    const { addAskedCharacter, setPendingAsk } = useGameStore.getState();
+    addAskedCharacter({ id: character.id, name: character.name, image: character.image, valid: null, askerId: playerId });
+    setQuery("");
     setAsking(true);
     try {
-      await askCharacter(
-        roomCode,
-        character.id,
-        character.name,
-        character.image
-      );
-      setQuery("");
+      await askCharacter(roomCode, character.id, character.name, character.image);
     } catch {
+      // Rollback: remove the optimistic entry
+      const { askedCharacters, setAskedCharacters } = useGameStore.getState();
+      setAskedCharacters(askedCharacters.filter((c) => !(c.id === character.id && c.askerId === playerId && c.valid === null)));
       alert("Failed to ask");
     } finally {
       setAsking(false);

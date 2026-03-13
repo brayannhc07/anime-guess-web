@@ -75,7 +75,10 @@ export function CharacterCard({ character, eliminated, selected, selectable, onC
           loading="lazy"
           onError={(e) => { e.currentTarget.src = PLACEHOLDER_IMAGE; }}
         />
-        <span className={cn("text-xs font-medium truncate w-full text-center", isPokemon && "capitalize")}>
+        <span
+          title={character.name}
+          className={cn("text-xs font-medium truncate w-full text-center", isPokemon && "capitalize")}
+        >
           {character.name}
         </span>
         {eliminated && (

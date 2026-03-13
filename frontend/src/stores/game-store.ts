@@ -15,6 +15,7 @@ interface GameState {
   players: Player[];
   characterIds: number[];
   eliminated: Set<number>;
+  eliminatedHistory: number[];
   winner: string | null;
   guessResult: GuessResultPayload | null;
   // Rule Master state
@@ -35,6 +36,7 @@ interface GameState {
   setPlayers: (players: Player[]) => void;
   setCharacterIds: (ids: number[]) => void;
   toggleEliminated: (id: number) => void;
+  undoEliminated: () => void;
   clearEliminated: () => void;
   setWinner: (winnerId: string | null) => void;
   setGuessResult: (result: GuessResultPayload | null) => void;
@@ -63,6 +65,7 @@ export const useGameStore = create<GameState>((set) => ({
   players: [],
   characterIds: [],
   eliminated: new Set(),
+  eliminatedHistory: [],
   winner: null,
   guessResult: null,
   currentTurn: null,
@@ -89,11 +92,28 @@ export const useGameStore = create<GameState>((set) => ({
   toggleEliminated: (id) =>
     set((state) => {
       const next = new Set(state.eliminated);
-      if (next.has(id)) next.delete(id);
-      else next.add(id);
-      return { eliminated: next };
+      const history = [...state.eliminatedHistory];
+      if (next.has(id)) {
+        next.delete(id);
+        // Remove from history
+        const idx = history.lastIndexOf(id);
+        if (idx !== -1) history.splice(idx, 1);
+      } else {
+        next.add(id);
+        history.push(id);
+      }
+      return { eliminated: next, eliminatedHistory: history };
     }),
-  clearEliminated: () => set({ eliminated: new Set() }),
+  undoEliminated: () =>
+    set((state) => {
+      if (state.eliminatedHistory.length === 0) return state;
+      const history = [...state.eliminatedHistory];
+      const lastId = history.pop()!;
+      const next = new Set(state.eliminated);
+      next.delete(lastId);
+      return { eliminated: next, eliminatedHistory: history };
+    }),
+  clearEliminated: () => set({ eliminated: new Set(), eliminatedHistory: [] }),
   setWinner: (winnerId) => set({ winner: winnerId }),
   setGuessResult: (result) => set({ guessResult: result }),
   updatePlayerLocked: (playerId) =>
@@ -137,6 +157,7 @@ export const useGameStore = create<GameState>((set) => ({
       players: [],
       characterIds: [],
       eliminated: new Set(),
+      eliminatedHistory: [],
       winner: null,
       guessResult: null,
       currentTurn: null,
@@ -151,6 +172,7 @@ export const useGameStore = create<GameState>((set) => ({
       phase: "lobby",
       characterIds: [],
       eliminated: new Set(),
+      eliminatedHistory: [],
       winner: null,
       guessResult: null,
       players: [],

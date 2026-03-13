@@ -11,7 +11,7 @@ import { ThemeToggle } from "./theme-toggle";
 import { LanguageToggle } from "./language-toggle";
 
 export function RoomHeader() {
-  const { roomCode, players, playerId, clearEliminated, phase, mode, leaveRoom } = useGameStore();
+  const { roomCode, players, playerId, clearEliminated, undoEliminated, eliminatedHistory, phase, mode, leaveRoom } = useGameStore();
   const { cancelGame, leaveRoomServer } = useGameActions();
   const { t } = useLanguage();
   const router = useRouter();
@@ -63,9 +63,16 @@ export function RoomHeader() {
         <LanguageToggle />
         <ThemeToggle />
         {!isSpectator && (phase === "playing" || phase === "selection") && mode === "classic" && (
-          <Button variant="outline" size="sm" onClick={clearEliminated}>
-            {t("header.resetBoard")}
-          </Button>
+          <>
+            {eliminatedHistory.length > 0 && (
+              <Button variant="outline" size="sm" onClick={undoEliminated}>
+                {t("header.undo")}
+              </Button>
+            )}
+            <Button variant="outline" size="sm" onClick={clearEliminated}>
+              {t("header.resetBoard")}
+            </Button>
+          </>
         )}
         {showCancel && (
           <Button variant="ghost" size="sm" onClick={handleCancel} disabled={cancelling}>

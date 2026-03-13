@@ -174,13 +174,18 @@ export function useRoomChannel(roomCode: string, t: TFunc) {
     });
 
     channel.bind(PUSHER_EVENTS.CHARACTER_ANSWERED, (data: CharacterAnsweredPayload) => {
-      addAskedCharacter({
-        id: data.characterId,
-        name: data.characterName,
-        image: data.characterImage,
-        valid: data.valid,
-        askerId: data.askerId,
-      });
+      // Replace optimistic entry (valid: null) with actual answer, or add if not present
+      const current = useGameStore.getState().askedCharacters;
+      const optimisticIdx = current.findIndex(
+        (c) => c.id === data.characterId && c.askerId === data.askerId && c.valid === null
+      );
+      if (optimisticIdx !== -1) {
+        const updated = [...current];
+        updated[optimisticIdx] = { id: data.characterId, name: data.characterName, image: data.characterImage, valid: data.valid, askerId: data.askerId };
+        setAskedCharacters(updated);
+      } else {
+        addAskedCharacter({ id: data.characterId, name: data.characterName, image: data.characterImage, valid: data.valid, askerId: data.askerId });
+      }
       setPendingAsk(null);
       setCurrentTurn(data.nextTurn);
       toast(data.valid

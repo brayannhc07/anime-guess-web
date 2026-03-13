@@ -6,8 +6,9 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useGameCharacters } from "@/hooks/use-character-list";
 import { getStats, resetStats } from "@/lib/game-stats";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/language-context";
+import confetti from "canvas-confetti";
 
 export function GameOverBanner() {
   const { winner, playerId, guessResult, mode, roomCode, players } = useGameStore();
@@ -17,6 +18,13 @@ export function GameOverBanner() {
   const { t } = useLanguage();
 
   const isWinner = winner === playerId;
+
+  useEffect(() => {
+    if (isWinner) {
+      confetti({ particleCount: 100, spread: 70, origin: { y: 0.6 } });
+      setTimeout(() => confetti({ particleCount: 50, spread: 100, origin: { y: 0.5 } }), 300);
+    }
+  }, [isWinner]);
   const guesser = players.find((p) => p.id === guessResult?.guesserId);
   const opponent = players.find((p) => p.id !== playerId);
 

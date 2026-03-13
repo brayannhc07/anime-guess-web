@@ -222,8 +222,10 @@ export async function setPlayerSelection(
   if (bothLocked) {
     room.phase = "playing";
     if (room.mode === "rule-master") {
-      const host = room.players.find((p) => p.isHost);
-      room.currentTurn = host?.id ?? room.players[0].id;
+      // Random first turn between the two game players
+      const gamePlayers = room.players.filter((p) => !p.isSpectator);
+      const randomIndex = Math.floor(Math.random() * gamePlayers.length);
+      room.currentTurn = gamePlayers[randomIndex]?.id ?? room.players[0].id;
     }
   }
   await saveRoom(room);

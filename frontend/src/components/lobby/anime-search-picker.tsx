@@ -29,7 +29,14 @@ export function AnimeSearchPicker({ selectedAnimeId, selectedAnimeName, onChange
       />
 
       {searching && (
-        <p className="text-sm text-muted-foreground">Searching...</p>
+        <div className="space-y-1.5">
+          {Array.from({ length: 3 }).map((_, i) => (
+            <div key={i} className="flex items-center gap-2 h-12 rounded-lg border border-border px-3">
+              <div className="w-8 h-10 rounded bg-muted animate-pulse shrink-0" />
+              <div className="h-3 w-32 rounded bg-muted animate-pulse" />
+            </div>
+          ))}
+        </div>
       )}
 
       {searchResults && searchResults.length > 0 && (
