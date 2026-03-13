@@ -5,6 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useGameCharacters } from "@/hooks/use-character-list";
+import { getStats } from "@/lib/game-stats";
 import { useState } from "react";
 
 export function GameOverBanner() {
@@ -51,10 +52,32 @@ export function GameOverBanner() {
             ? ` The answer was ${actualDisplay}.`
             : ` The rule ${opponent?.name} set was "${actualDisplay}".`}
         </p>
-        <Button onClick={handleRematch} disabled={loading}>
-          {loading ? "Requesting..." : "Rematch"}
-        </Button>
+        <div className="flex items-center justify-center gap-3">
+          <Button onClick={handleRematch} disabled={loading}>
+            {loading ? "Requesting..." : "Rematch"}
+          </Button>
+        </div>
+        <StatsDisplay />
       </CardContent>
     </Card>
+  );
+}
+
+function StatsDisplay() {
+  const stats = getStats();
+  if (stats.wins === 0 && stats.losses === 0) return null;
+
+  const streakText =
+    stats.streak > 1
+      ? `${stats.streak}W streak`
+      : stats.streak < -1
+        ? `${Math.abs(stats.streak)}L streak`
+        : null;
+
+  return (
+    <p className="text-xs text-muted-foreground">
+      {stats.wins}W - {stats.losses}L
+      {streakText && <span className="ml-1.5 font-medium">{streakText}</span>}
+    </p>
   );
 }

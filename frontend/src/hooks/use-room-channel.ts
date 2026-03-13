@@ -21,6 +21,7 @@ import type {
 } from "@/types/pusher-events";
 import { toast } from "sonner";
 import { playJoinSound, playStartSound, playTurnSound, playCorrectSound, playWrongSound, playNotificationSound } from "@/lib/sounds";
+import { recordWin, recordLoss } from "@/lib/game-stats";
 
 export function useRoomChannel(roomCode: string) {
   const channelRef = useRef<Channel | null>(null);
@@ -171,7 +172,8 @@ export function useRoomChannel(roomCode: string) {
         });
         setWinner(data.winnerId);
         setPhase("finished");
-        data.winnerId === playerId ? playCorrectSound() : playWrongSound();
+        if (data.winnerId === playerId) { playCorrectSound(); recordWin(); }
+        else { playWrongSound(); recordLoss(); }
       } else {
         setCurrentTurn(data.nextTurn);
         toast(`Wrong guess! "${data.guess}" is not the rule.`);
@@ -185,7 +187,8 @@ export function useRoomChannel(roomCode: string) {
         setGuessResult(data);
         setWinner(data.winnerId);
         setPhase("finished");
-        data.winnerId === playerId ? playCorrectSound() : playWrongSound();
+        if (data.winnerId === playerId) { playCorrectSound(); recordWin(); }
+        else { playWrongSound(); recordLoss(); }
       } else {
         // Wrong guess — game continues, auto-eliminate the wrong guess
         const isMe = data.guesserId === playerId;
