@@ -8,6 +8,7 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useAllCharacters } from "@/hooks/use-character-list";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
+import { useLanguage } from "@/contexts/language-context";
 
 export function CharacterSearch() {
   const { roomCode, playerId, currentTurn, pendingAsk, askedCharacters } = useGameStore();
@@ -15,6 +16,7 @@ export function CharacterSearch() {
   const { data: allCharacters } = useAllCharacters();
   const [query, setQuery] = useState("");
   const [asking, setAsking] = useState(false);
+  const { t } = useLanguage();
 
   const isMyTurn = currentTurn === playerId;
   const isWaitingForAnswer = pendingAsk !== null;
@@ -58,7 +60,7 @@ export function CharacterSearch() {
       </CardHeader>
       <CardContent className="space-y-3">
         <Input
-          placeholder="Search for a character..."
+          placeholder={t("ruleMaster.searchCharacter")}
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           disabled={asking}

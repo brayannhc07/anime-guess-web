@@ -7,10 +7,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { GameBoard } from "./game-board";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
+import { useLanguage } from "@/contexts/language-context";
 
 export function SelectionPhase() {
   const { mode, roomCode, playerId, players, characterIds, setPlayers, setAskedCharacters, clearEliminated } = useGameStore();
   const { selectCharacter } = useGameActions();
+  const { t } = useLanguage();
   const [selectedId, setSelectedId] = useState<number | null>(null);
   const [rule, setRule] = useState("");
   const [loading, setLoading] = useState(false);
@@ -61,8 +63,7 @@ export function SelectionPhase() {
       <div className="space-y-4">
         <Card>
           <CardContent className="py-6 text-center">
-            <p className="text-lg font-medium">You&apos;re locked in!</p>
-            <p className="text-muted-foreground">Waiting for opponent...</p>
+            <p className="text-lg font-medium">{t("selection.lockedIn")}</p>
           </CardContent>
         </Card>
         {mode === "classic" && <GameBoard />}
@@ -76,7 +77,7 @@ export function SelectionPhase() {
         <CardHeader>
           <CardTitle>
             {mode === "classic"
-              ? "Pick Your Character"
+              ? t("selection.pickCharacter")
               : `Set a Rule for ${opponent?.name ?? "Opponent"}`}
           </CardTitle>
         </CardHeader>
@@ -92,19 +93,18 @@ export function SelectionPhase() {
                 characters and you&apos;ll answer yes/no based on whether each one fits your rule.
               </p>
               <div className="rounded-lg bg-muted/50 p-3 space-y-1.5">
-                <p className="text-xs font-medium">Tips for good rules:</p>
+                <p className="text-xs font-medium">{t("selection.tipsTitle")}</p>
                 <ul className="text-xs text-muted-foreground space-y-1 list-disc pl-4">
-                  <li>Be specific enough that your opponent can guess it</li>
-                  <li>Make sure multiple characters can match (not just one)</li>
-                  <li>Base it on visible traits, story roles, or well-known facts</li>
+                  <li>{t("selection.tip1")}</li>
+                  <li>{t("selection.tip2")}</li>
+                  <li>{t("selection.tip3")}</li>
                 </ul>
                 <p className="text-xs text-muted-foreground mt-2">
-                  Examples: &quot;Has blue hair&quot;, &quot;Is a villain&quot;, &quot;Uses a sword&quot;,
-                  &quot;Female character&quot;, &quot;From a shonen anime&quot;
+                  {t("selection.examples")}
                 </p>
               </div>
               <Input
-                placeholder="Enter a rule for your opponent..."
+                placeholder={t("selection.enterRule")}
                 value={rule}
                 onChange={(e) => setRule(e.target.value)}
               />
@@ -121,7 +121,7 @@ export function SelectionPhase() {
                 disabled={loading}
                 className="flex-none"
               >
-                Random
+                {t("selection.random")}
               </Button>
             )}
             <Button
@@ -133,7 +133,7 @@ export function SelectionPhase() {
               }
               className="flex-1"
             >
-              {loading ? "Locking in..." : "Lock In"}
+              {loading ? "Locking in..." : t("selection.lockIn")}
             </Button>
           </div>
         </CardContent>

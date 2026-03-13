@@ -6,6 +6,7 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameCharacters } from "@/hooks/use-character-list";
 import { Input } from "@/components/ui/input";
 import { GRID_SIZE } from "@/lib/constants";
+import { useLanguage } from "@/contexts/language-context";
 
 interface GameBoardProps {
   selectable?: boolean;
@@ -18,6 +19,7 @@ export function GameBoard({ selectable, selectedId, onSelectCharacter }: GameBoa
   const isSpectator = players.find((p) => p.id === playerId)?.isSpectator ?? false;
   const { data: characterList, isLoading } = useGameCharacters();
   const [filter, setFilter] = useState("");
+  const { t } = useLanguage();
 
   if (isLoading || !characterList) {
     return (
@@ -47,13 +49,13 @@ export function GameBoard({ selectable, selectedId, onSelectCharacter }: GameBoa
       {showControls && (
         <div className="flex items-center gap-3">
           <Input
-            placeholder="Filter characters..."
+            placeholder={t("board.filter")}
             value={filter}
             onChange={(e) => setFilter(e.target.value)}
             className="max-w-xs h-8 text-sm"
           />
           <span className="text-sm text-muted-foreground whitespace-nowrap">
-            {remaining}/{GRID_SIZE} remaining
+            {t("board.remaining", { remaining, total: GRID_SIZE })}
           </span>
         </div>
       )}

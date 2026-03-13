@@ -6,11 +6,13 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
+import { useLanguage } from "@/contexts/language-context";
 
 export function AnswerPrompt() {
   const { roomCode, playerId, pendingAsk, players } = useGameStore();
   const { answerCharacter } = useGameActions();
   const [loading, setLoading] = useState(false);
+  const { t } = useLanguage();
 
   if (!pendingAsk || pendingAsk.askerId === playerId) return null;
 
@@ -32,7 +34,7 @@ export function AnswerPrompt() {
     <Card className="border-yellow-400 bg-yellow-50 dark:bg-yellow-950/60">
       <CardHeader>
         <CardTitle className="text-base">
-          {asker?.name ?? "Opponent"} asks:
+          {t("answer.asks", { name: asker?.name ?? "Opponent" })}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -45,12 +47,12 @@ export function AnswerPrompt() {
             onError={(e) => { e.currentTarget.src = PLACEHOLDER_IMAGE; }}
           />
           <p className="text-lg font-medium">
-            &quot;Does {pendingAsk.characterName} fit?&quot;
+            {t("answer.doesFit", { name: pendingAsk.characterName })}
           </p>
         </div>
         <p className="text-sm text-muted-foreground">
-          Your rule: <span className="font-semibold text-foreground">&quot;{me?.rule}&quot;</span>
-          — does this character fit?
+          {t("answer.yourRule")} <span className="font-semibold text-foreground">&quot;{me?.rule}&quot;</span>
+          {t("answer.doesCharacterFit")}
         </p>
         <div className="flex gap-3">
           <Button
@@ -58,7 +60,7 @@ export function AnswerPrompt() {
             disabled={loading}
             className="flex-1 bg-green-600 hover:bg-green-700"
           >
-            Yes
+            {t("answer.yes")}
           </Button>
           <Button
             onClick={() => handleAnswer(false)}
@@ -66,7 +68,7 @@ export function AnswerPrompt() {
             variant="destructive"
             className="flex-1"
           >
-            No
+            {t("answer.no")}
           </Button>
         </div>
       </CardContent>

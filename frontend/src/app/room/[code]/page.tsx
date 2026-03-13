@@ -19,11 +19,13 @@ import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
 import { useRemainingBroadcast } from "@/hooks/use-remaining-broadcast";
 import { useTitleFlash } from "@/hooks/use-title-flash";
+import { useLanguage } from "@/contexts/language-context";
 import type { RoomState } from "@/types/room";
 
 export default function RoomPage({ params }: { params: Promise<{ code: string }> }) {
   const { code } = use(params);
   const router = useRouter();
+  const { t } = useLanguage();
   const [loading, setLoading] = useState(true);
   const {
     phase, playerId, mode, currentTurn, pendingAsk, pendingRuleGuess, players, opponentRemainingCount,
@@ -115,7 +117,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [code]);
 
-  useRoomChannel(code);
+  useRoomChannel(code, t);
   useKeepAlive(code);
   useRemainingBroadcast();
 
@@ -141,7 +143,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
 
       {isSpectator && phase !== "lobby" && (
         <Badge variant="outline" className="text-sm px-3 py-1.5">
-          Spectating
+          {t("spectator.badge")}
         </Badge>
       )}
 
@@ -150,7 +152,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
         {phase === "selection" && !isSpectator && <SelectionPhase />}
         {phase === "selection" && isSpectator && (
           <div className="text-center text-muted-foreground py-8">
-            Players are making their selections...
+            {t("selection.spectatorWaiting")}
           </div>
         )}
 
@@ -160,7 +162,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
               <div className="flex items-center justify-between">
                 {opponentRemainingCount !== null && opponentRemainingCount <= 3 ? (
                   <Badge variant="destructive" className="text-sm px-3 py-1.5 animate-pulse">
-                    Opponent has {opponentRemainingCount} left!
+                    {t("classic.opponentLeft", { count: opponentRemainingCount })}
                   </Badge>
                 ) : (
                   <div />
@@ -179,14 +181,14 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
                 <div className="flex items-center justify-between">
                   <Badge variant={isMyTurn ? "default" : "secondary"} className="text-sm px-3 py-1.5">
                     {isWaitingForRuleJudgment
-                      ? "Waiting for opponent to judge your guess..."
+                      ? t("ruleMaster.waitingJudge")
                       : isJudgingRuleGuess
-                        ? "Judge your opponent's rule guess!"
+                        ? t("ruleMaster.judgeGuess")
                         : isWaitingForAnswer
-                          ? "Waiting for opponent's answer..."
+                          ? t("ruleMaster.waitingAnswer")
                           : isMyTurn
-                            ? "Your turn - search for a character!"
-                            : "Opponent's turn..."}
+                            ? t("ruleMaster.yourTurn")
+                            : t("ruleMaster.opponentTurn")}
                   </Badge>
                   <GuessDialog />
                 </div>

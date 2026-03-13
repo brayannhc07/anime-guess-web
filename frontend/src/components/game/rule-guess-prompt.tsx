@@ -5,11 +5,13 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
+import { useLanguage } from "@/contexts/language-context";
 
 export function RuleGuessPrompt() {
   const { roomCode, playerId, pendingRuleGuess, players } = useGameStore();
   const { judgeRuleGuess } = useGameActions();
   const [loading, setLoading] = useState(false);
+  const { t } = useLanguage();
 
   if (!pendingRuleGuess || pendingRuleGuess.guesserId === playerId) return null;
 
@@ -31,20 +33,20 @@ export function RuleGuessPrompt() {
     <Card className="border-purple-400 bg-purple-50 dark:bg-purple-950/60">
       <CardHeader>
         <CardTitle className="text-base">
-          {guesser?.name ?? "Opponent"} is guessing your rule!
+          {t("ruleGuess.guessing", { name: guesser?.name ?? "Opponent" })}
         </CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="space-y-2">
           <p className="text-sm text-muted-foreground">
-            Your rule: <span className="font-semibold text-foreground">&quot;{me?.rule}&quot;</span>
+            {t("ruleGuess.yourRule")} <span className="font-semibold text-foreground">&quot;{me?.rule}&quot;</span>
           </p>
           <p className="text-lg font-medium">
-            Their guess: <span className="text-purple-700 dark:text-purple-300">&quot;{pendingRuleGuess.guess}&quot;</span>
+            {t("ruleGuess.theirGuess")} <span className="text-purple-700 dark:text-purple-300">&quot;{pendingRuleGuess.guess}&quot;</span>
           </p>
         </div>
         <p className="text-sm text-muted-foreground">
-          Is this guess close enough to your rule?
+          {t("ruleGuess.closeEnough")}
         </p>
         <div className="flex gap-3">
           <Button
@@ -52,7 +54,7 @@ export function RuleGuessPrompt() {
             disabled={loading}
             className="flex-1 bg-green-600 hover:bg-green-700"
           >
-            Correct
+            {t("ruleGuess.correct")}
           </Button>
           <Button
             onClick={() => handleJudge(false)}
@@ -60,7 +62,7 @@ export function RuleGuessPrompt() {
             variant="destructive"
             className="flex-1"
           >
-            Wrong
+            {t("ruleGuess.wrong")}
           </Button>
         </div>
       </CardContent>

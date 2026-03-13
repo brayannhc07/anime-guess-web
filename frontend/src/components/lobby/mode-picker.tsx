@@ -3,6 +3,7 @@
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
 import { Label } from "@/components/ui/label";
 import type { GameMode } from "@/types/room";
+import { useLanguage } from "@/contexts/language-context";
 
 interface ModePickerProps {
   value: GameMode;
@@ -11,9 +12,11 @@ interface ModePickerProps {
 }
 
 export function ModePicker({ value, onChange, disabled }: ModePickerProps) {
+  const { t } = useLanguage();
+
   return (
     <div className="space-y-2">
-      <Label className="text-sm font-medium">Game Mode</Label>
+      <Label className="text-sm font-medium">{t("mode.gameMode")}</Label>
       <RadioGroup
         value={value}
         onValueChange={(v) => onChange(v as GameMode)}
@@ -23,18 +26,18 @@ export function ModePicker({ value, onChange, disabled }: ModePickerProps) {
         <div className="flex items-center space-x-2">
           <RadioGroupItem value="classic" id="mode-classic" />
           <Label htmlFor="mode-classic" className="cursor-pointer">
-            <span className="font-medium">Classic</span>
+            <span className="font-medium">{t("mode.classic")}</span>
             <span className="text-muted-foreground text-sm ml-2">
-              Pick a character, opponent guesses which one
+              {t("mode.classicDesc")}
             </span>
           </Label>
         </div>
         <div className="flex items-center space-x-2">
           <RadioGroupItem value="rule-master" id="mode-rule" />
           <Label htmlFor="mode-rule" className="cursor-pointer">
-            <span className="font-medium">Rule Master</span>
+            <span className="font-medium">{t("mode.ruleMaster")}</span>
             <span className="text-muted-foreground text-sm ml-2">
-              Set a rule for your opponent, they ask about characters to figure it out
+              {t("mode.ruleMasterDesc")}
             </span>
           </Label>
         </div>

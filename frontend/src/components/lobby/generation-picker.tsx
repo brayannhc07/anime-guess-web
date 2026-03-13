@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { GENERATION_LABELS, getGenerationSize } from "@/lib/pokemon";
+import { useLanguage } from "@/contexts/language-context";
 
 interface GenerationPickerProps {
   value: string[];
@@ -11,6 +12,7 @@ interface GenerationPickerProps {
 }
 
 export function GenerationPicker({ value, onChange, disabled }: GenerationPickerProps) {
+  const { t } = useLanguage();
   const allKeys = Object.keys(GENERATION_LABELS);
   const allSelected = allKeys.length > 0 && allKeys.every((k) => value.includes(k));
 
@@ -29,7 +31,7 @@ export function GenerationPicker({ value, onChange, disabled }: GenerationPicker
   return (
     <div className="space-y-2">
       <div className="flex items-center justify-between">
-        <Label className="text-sm font-medium">Generations (select one or more)</Label>
+        <Label className="text-sm font-medium">{t("gen.title")}</Label>
         <Button
           type="button"
           variant="ghost"
@@ -38,7 +40,7 @@ export function GenerationPicker({ value, onChange, disabled }: GenerationPicker
           disabled={disabled}
           onClick={toggleAll}
         >
-          {allSelected ? "Deselect All" : "Select All"}
+          {allSelected ? t("gen.deselectAll") : t("gen.selectAll")}
         </Button>
       </div>
       <div className="grid grid-cols-1 gap-1.5">

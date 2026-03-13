@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Label } from "@/components/ui/label";
 import { useGameStore } from "@/stores/game-store";
 import { resetStats } from "@/lib/game-stats";
+import { useLanguage } from "@/contexts/language-context";
 
 export function JoinRoomForm() {
   const [name, setName] = useState("");
@@ -15,6 +16,7 @@ export function JoinRoomForm() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const { setPlayer, setRoomCode, setPlayers } = useGameStore();
+  const { t } = useLanguage();
 
   async function handleJoin() {
     if (!name.trim() || !code.trim()) return;
@@ -47,23 +49,23 @@ export function JoinRoomForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Join Room</CardTitle>
+        <CardTitle>{t("home.joinRoom")}</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="space-y-2">
-          <Label htmlFor="join-name">Your Name</Label>
+          <Label htmlFor="join-name">{t("home.yourName")}</Label>
           <Input
             id="join-name"
-            placeholder="Enter your name"
+            placeholder={t("home.namePlaceholder")}
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
         </div>
         <div className="space-y-2">
-          <Label htmlFor="join-code">Room Code</Label>
+          <Label htmlFor="join-code">{t("home.roomCode")}</Label>
           <Input
             id="join-code"
-            placeholder="ABC12"
+            placeholder={t("home.codePlaceholder")}
             value={code}
             onChange={(e) => setCode(e.target.value.toUpperCase())}
             maxLength={5}
@@ -75,7 +77,7 @@ export function JoinRoomForm() {
           disabled={!name.trim() || !code.trim() || loading}
           className="w-full"
         >
-          {loading ? "Joining..." : "Join Room"}
+          {loading ? t("home.joining") : t("home.joinRoom")}
         </Button>
       </CardContent>
     </Card>

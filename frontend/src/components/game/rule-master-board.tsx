@@ -3,9 +3,12 @@
 import { useGameStore } from "@/stores/game-store";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/contexts/language-context";
+import type { TranslationKey } from "@/lib/i18n";
 
 export function RuleMasterBoard() {
   const { playerId, askedCharacters, players } = useGameStore();
+  const { t } = useLanguage();
   const me = players.find((p) => p.id === playerId);
   const isSpectator = me?.isSpectator ?? false;
   const gamePlayers = players.filter((p) => !p.isSpectator);
@@ -18,6 +21,7 @@ export function RuleMasterBoard() {
             key={p.id}
             title={`${p.name}'s Board`}
             characters={askedCharacters.filter((c) => c.askerId === p.id)}
+            t={t}
           />
         ))}
       </div>
@@ -31,12 +35,14 @@ export function RuleMasterBoard() {
   return (
     <div className="space-y-6">
       <BoardSection
-        title="Your Board"
+        title={t("rmBoard.yourBoard")}
         characters={myCharacters}
+        t={t}
       />
       <BoardSection
         title={`${opponent?.name ?? "Opponent"}'s Board`}
         characters={opponentCharacters}
+        t={t}
       />
     </div>
   );
@@ -45,9 +51,11 @@ export function RuleMasterBoard() {
 function BoardSection({
   title,
   characters,
+  t,
 }: {
   title: string;
   characters: { id: number; name: string; image: string; valid: boolean | null }[];
+  t: (key: TranslationKey, params?: Record<string, string | number>) => string;
 }) {
   const validCount = characters.filter((c) => c.valid === true).length;
   const invalidCount = characters.filter((c) => c.valid === false).length;
@@ -56,7 +64,7 @@ function BoardSection({
     return (
       <div>
         <h3 className="text-sm font-medium mb-2">{title}</h3>
-        <p className="text-sm text-muted-foreground">No characters asked yet.</p>
+        <p className="text-sm text-muted-foreground">{t("rmBoard.noCharacters")}</p>
       </div>
     );
   }
@@ -64,13 +72,13 @@ function BoardSection({
   return (
     <div>
       <h3 className="text-sm font-medium mb-2">
-        {title} ({validCount} valid, {invalidCount} invalid)
+        {title} ({validCount} {t("rmBoard.valid")}, {invalidCount} {t("rmBoard.invalid")})
       </h3>
 
       {/* Compact ask history */}
       <details className="mb-3 text-xs">
         <summary className="cursor-pointer text-muted-foreground hover:text-foreground transition-colors">
-          Quick history ({characters.length} asked)
+          {t("rmBoard.quickHistory", { count: characters.length })}
         </summary>
         <ul className="mt-1.5 space-y-0.5 pl-4">
           {characters.map((c) => (

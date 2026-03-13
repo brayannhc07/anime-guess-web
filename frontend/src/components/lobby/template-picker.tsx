@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
 import { getTemplateList } from "@/hooks/use-character-list";
+import { useLanguage } from "@/contexts/language-context";
 
 interface TemplatePickerProps {
   value: string[];
@@ -11,6 +12,7 @@ interface TemplatePickerProps {
 }
 
 export function TemplatePicker({ value, onChange, disabled }: TemplatePickerProps) {
+  const { t } = useLanguage();
   const templates = getTemplateList();
 
   function toggle(key: string) {
@@ -31,7 +33,7 @@ export function TemplatePicker({ value, onChange, disabled }: TemplatePickerProp
   return (
     <div className="space-y-2">
       <div className="flex items-center justify-between">
-        <Label className="text-sm font-medium">Character Packs (select one or more)</Label>
+        <Label className="text-sm font-medium">{t("template.title")}</Label>
         <Button
           type="button"
           variant="ghost"
@@ -40,7 +42,7 @@ export function TemplatePicker({ value, onChange, disabled }: TemplatePickerProp
           disabled={disabled}
           onClick={toggleAll}
         >
-          {allSelected ? "Deselect All" : "Select All"}
+          {allSelected ? t("template.deselectAll") : t("template.selectAll")}
         </Button>
       </div>
       <div className="grid grid-cols-1 gap-1.5">

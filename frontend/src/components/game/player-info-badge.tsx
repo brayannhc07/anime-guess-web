@@ -6,10 +6,12 @@ import { useGameCharacters } from "@/hooks/use-character-list";
 import { isPokemonSprite } from "@/lib/pokemon";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/contexts/language-context";
 
 export function PlayerInfoBadge() {
   const { playerId, players, mode, phase } = useGameStore();
   const { data: characterList } = useGameCharacters();
+  const { t } = useLanguage();
 
   const me = players.find((p) => p.id === playerId);
   if (!me || !me.lockedIn) return null;
@@ -42,7 +44,7 @@ export function PlayerInfoBadge() {
             </p>
           </div>
           <Badge variant="default" className="text-[10px] px-2 py-0.5 shadow-lg">
-            Your pick
+            {t("player.yourPick")}
           </Badge>
         </div>
       </div>
@@ -54,7 +56,7 @@ export function PlayerInfoBadge() {
       <div className="sticky bottom-4 mt-4 flex justify-end pointer-events-none">
         <div className="pointer-events-auto">
           <Badge variant="default" className="text-sm px-3 py-1.5 shadow-lg max-w-48">
-            Rule you set: &quot;{me.rule}&quot;
+            {t("player.yourRule")} &quot;{me.rule}&quot;
           </Badge>
         </div>
       </div>

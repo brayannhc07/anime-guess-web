@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { resetStats } from "@/lib/game-stats";
+import { useLanguage } from "@/contexts/language-context";
 
 export function CreateRoomForm() {
   const [name, setName] = useState("");
@@ -16,6 +17,7 @@ export function CreateRoomForm() {
   const router = useRouter();
   const { setPlayer, setRoomCode, setPlayers } = useGameStore();
   const { createRoom } = useGameActions();
+  const { t } = useLanguage();
 
   async function handleCreate() {
     if (!name.trim()) return;
@@ -47,21 +49,21 @@ export function CreateRoomForm() {
   return (
     <Card className="w-full max-w-sm">
       <CardHeader>
-        <CardTitle>Create Room</CardTitle>
+        <CardTitle>{t("home.createRoom")}</CardTitle>
       </CardHeader>
       <CardContent className="space-y-4">
         <div className="space-y-2">
-          <Label htmlFor="create-name">Your Name</Label>
+          <Label htmlFor="create-name">{t("home.yourName")}</Label>
           <Input
             id="create-name"
-            placeholder="Enter your name"
+            placeholder={t("home.namePlaceholder")}
             value={name}
             onChange={(e) => setName(e.target.value)}
             onKeyDown={(e) => e.key === "Enter" && handleCreate()}
           />
         </div>
         <Button onClick={handleCreate} disabled={!name.trim() || loading} className="w-full">
-          {loading ? "Creating..." : "Create Room"}
+          {loading ? t("home.creating") : t("home.createRoom")}
         </Button>
       </CardContent>
     </Card>

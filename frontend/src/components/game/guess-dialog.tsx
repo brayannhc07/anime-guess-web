@@ -17,11 +17,13 @@ import { useGameCharacters } from "@/hooks/use-character-list";
 import { isPokemonSprite } from "@/lib/pokemon";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 import { cn } from "@/lib/utils";
+import { useLanguage } from "@/contexts/language-context";
 
 export function GuessDialog() {
   const { mode, roomCode, eliminated, pendingRuleGuess } = useGameStore();
   const { makeGuess, submitRuleGuess } = useGameActions();
   const { data: characterList } = useGameCharacters();
+  const { t } = useLanguage();
   const [open, setOpen] = useState(false);
   const [ruleGuess, setRuleGuess] = useState("");
   const [loading, setLoading] = useState(false);
@@ -63,16 +65,16 @@ export function GuessDialog() {
       <DialogTrigger
         render={<Button variant="destructive" size="lg" disabled={isWaitingForJudgment} />}
       >
-        {mode === "classic" ? "Make Final Guess" : isWaitingForJudgment ? "Waiting for judgment..." : "Guess the Rule"}
+        {mode === "classic" ? t("guess.makeGuess") : isWaitingForJudgment ? t("guess.waitingJudgment") : t("guess.guessRule")}
       </DialogTrigger>
       <DialogContent className="max-w-lg max-h-[80vh] overflow-y-auto">
         <DialogHeader>
           <DialogTitle>
             {mode === "classic"
               ? confirmCharacter
-                ? "Confirm your guess"
-                : "Which character did they pick?"
-              : "What rule did your opponent set for you?"}
+                ? t("guess.confirmTitle")
+                : t("guess.whichCharacter")
+              : t("guess.whatRule")}
           </DialogTitle>
         </DialogHeader>
 
@@ -93,14 +95,14 @@ export function GuessDialog() {
                   onError={(e) => { e.currentTarget.src = PLACEHOLDER_IMAGE; }}
                 />
                 <p className="text-lg font-medium">{confirmCharacter.name}</p>
-                <p className="text-sm text-muted-foreground">Are you sure this is their pick?</p>
+                <p className="text-sm text-muted-foreground">{t("guess.areYouSure")}</p>
               </div>
               <DialogFooter>
                 <Button variant="outline" onClick={() => setConfirmCharacter(null)} disabled={loading}>
-                  Go Back
+                  {t("guess.goBack")}
                 </Button>
                 <Button variant="destructive" onClick={handleClassicGuess} disabled={loading}>
-                  {loading ? "Guessing..." : "Confirm Guess"}
+                  {loading ? t("guess.guessing") : t("guess.confirmGuess")}
                 </Button>
               </DialogFooter>
             </div>
@@ -134,11 +136,10 @@ export function GuessDialog() {
         ) : (
           <div className="space-y-4">
             <p className="text-sm text-muted-foreground">
-              Based on the characters your opponent approved/rejected, guess what rule they set for you.
-              Your opponent will judge if your guess is correct.
+              {t("guess.ruleHint")}
             </p>
             <Input
-              placeholder='e.g. "Has blue hair", "Female character"...'
+              placeholder={t("guess.rulePlaceholder")}
               value={ruleGuess}
               onChange={(e) => setRuleGuess(e.target.value)}
               onKeyDown={(e) => e.key === "Enter" && handleRuleGuess()}
@@ -148,7 +149,7 @@ export function GuessDialog() {
               disabled={!ruleGuess.trim() || loading}
               className="w-full"
             >
-              {loading ? "Submitting..." : "Submit Guess"}
+              {loading ? t("guess.submitting") : t("guess.submitGuess")}
             </Button>
           </div>
         )}

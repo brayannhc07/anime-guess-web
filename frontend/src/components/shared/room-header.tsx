@@ -6,11 +6,14 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
+import { useLanguage } from "@/contexts/language-context";
 import { ThemeToggle } from "./theme-toggle";
+import { LanguageToggle } from "./language-toggle";
 
 export function RoomHeader() {
   const { roomCode, players, playerId, clearEliminated, phase, mode, leaveRoom } = useGameStore();
   const { cancelGame, leaveRoomServer } = useGameActions();
+  const { t } = useLanguage();
   const router = useRouter();
   const [cancelling, setCancelling] = useState(false);
 
@@ -21,7 +24,7 @@ export function RoomHeader() {
   const showCancel = isHost && phase !== "lobby";
 
   async function handleCancel() {
-    if (phase !== "lobby" && !window.confirm("This will end the current game and return both players to the lobby. Continue?")) return;
+    if (phase !== "lobby" && !window.confirm(t("header.confirmCancel"))) return;
     setCancelling(true);
     try {
       await cancelGame(roomCode);
@@ -33,7 +36,7 @@ export function RoomHeader() {
   }
 
   async function handleLeave() {
-    if (phase !== "lobby" && !window.confirm("You'll leave the room and lose your current game. Continue?")) return;
+    if (phase !== "lobby" && !window.confirm(t("header.confirmLeave"))) return;
     await leaveRoomServer(roomCode);
     leaveRoom();
     router.push("/");
@@ -42,7 +45,7 @@ export function RoomHeader() {
   return (
     <div className="flex items-center justify-between flex-wrap gap-2">
       <div className="flex items-center gap-3">
-        <h1 className="text-lg font-bold">Room: {roomCode}</h1>
+        <h1 className="text-lg font-bold">{t("lobby.room")}: {roomCode}</h1>
         <div className="flex gap-1 flex-wrap">
           {players.filter((p) => !p.isSpectator).map((p) => (
             <Badge key={p.id} variant={p.isHost ? "default" : "secondary"} className="text-xs">
@@ -51,25 +54,26 @@ export function RoomHeader() {
           ))}
           {spectatorCount > 0 && (
             <Badge variant="outline" className="text-xs">
-              {spectatorCount} watching
+              {t("header.watching", { count: spectatorCount })}
             </Badge>
           )}
         </div>
       </div>
       <div className="flex items-center gap-2">
+        <LanguageToggle />
         <ThemeToggle />
         {!isSpectator && (phase === "playing" || phase === "selection") && mode === "classic" && (
           <Button variant="outline" size="sm" onClick={clearEliminated}>
-            Reset Board
+            {t("header.resetBoard")}
           </Button>
         )}
         {showCancel && (
           <Button variant="ghost" size="sm" onClick={handleCancel} disabled={cancelling}>
-            {cancelling ? "Cancelling..." : "Back to Lobby"}
+            {cancelling ? t("header.cancelling") : t("header.backToLobby")}
           </Button>
         )}
         <Button variant="ghost" size="sm" onClick={handleLeave}>
-          Leave Room
+          {t("header.leaveRoom")}
         </Button>
       </div>
     </div>

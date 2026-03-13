@@ -14,10 +14,12 @@ import { pickRandomFromTemplates, getMultiTemplatePoolSize, useAnimeCharacters, 
 import { GRID_SIZE } from "@/lib/constants";
 import { pickRandomPokemonIdsMultiGen, getMultiGenerationSize } from "@/lib/pokemon";
 import type { GameMode, CharacterSource } from "@/types/room";
+import { useLanguage } from "@/contexts/language-context";
 
 export function LobbyView() {
   const { roomCode, players, playerId } = useGameStore();
   const { startGame } = useGameActions();
+  const { t } = useLanguage();
 
   const [characterSource, setCharacterSource] = useState<CharacterSource>("template");
   const [templateKeys, setTemplateKeys] = useState<string[]>([]);
@@ -92,19 +94,19 @@ export function LobbyView() {
       <Card>
         <CardHeader>
           <CardTitle className="flex items-center justify-between">
-            <span>Room: {roomCode}</span>
+            <span>{t("lobby.room")}: {roomCode}</span>
             <Button
               variant="outline"
               size="sm"
               onClick={() => navigator.clipboard.writeText(roomCode)}
             >
-              Copy Code
+              {t("lobby.copyCode")}
             </Button>
           </CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
           <div className="space-y-2">
-            <p className="text-sm font-medium">Players</p>
+            <p className="text-sm font-medium">{t("lobby.players")}</p>
             <div className="flex gap-2 flex-wrap">
               {gamePlayers.map((p) => (
                 <Badge key={p.id} variant={p.isHost ? "default" : "secondary"}>
@@ -113,14 +115,14 @@ export function LobbyView() {
               ))}
               {gamePlayers.length < 2 && (
                 <Badge variant="outline" className="text-muted-foreground">
-                  Waiting for opponent...
+                  {t("lobby.waitingOpponent")}
                 </Badge>
               )}
             </div>
           </div>
           {spectators.length > 0 && (
             <div className="space-y-2">
-              <p className="text-sm font-medium text-muted-foreground">Spectators</p>
+              <p className="text-sm font-medium text-muted-foreground">{t("lobby.spectators")}</p>
               <div className="flex gap-2 flex-wrap">
                 {spectators.map((p) => (
                   <Badge key={p.id} variant="outline">
@@ -135,14 +137,14 @@ export function LobbyView() {
 
       <Card>
         <CardHeader>
-          <CardTitle>Game Settings</CardTitle>
+          <CardTitle>{t("lobby.gameSettings")}</CardTitle>
         </CardHeader>
         <CardContent className="space-y-6">
           <ModePicker value={mode} onChange={setMode} disabled={!isHost} />
 
           {/* Source toggle */}
           <div className="space-y-2">
-            <p className="text-sm font-medium">Character Source</p>
+            <p className="text-sm font-medium">{t("lobby.characterSource")}</p>
             <div className="flex gap-2">
               <Button
                 variant={characterSource === "template" ? "default" : "outline"}
@@ -150,7 +152,7 @@ export function LobbyView() {
                 onClick={() => setCharacterSource("template")}
                 disabled={!isHost}
               >
-                Templates
+                {t("lobby.templates")}
               </Button>
               <Button
                 variant={characterSource === "search" ? "default" : "outline"}
@@ -158,7 +160,7 @@ export function LobbyView() {
                 onClick={() => setCharacterSource("search")}
                 disabled={!isHost}
               >
-                Search Anime
+                {t("lobby.searchAnime")}
               </Button>
               <Button
                 variant={characterSource === "pokemon" ? "default" : "outline"}
@@ -166,7 +168,7 @@ export function LobbyView() {
                 onClick={() => setCharacterSource("pokemon")}
                 disabled={!isHost}
               >
-                Pokemon
+                {t("lobby.pokemon")}
               </Button>
             </div>
           </div>
@@ -176,7 +178,7 @@ export function LobbyView() {
           ) : characterSource === "pokemon" ? (
             mode === "rule-master" ? (
               <p className="text-sm text-muted-foreground">
-                Search any Pokémon during gameplay.
+                {t("lobby.searchAllPokemon")}
               </p>
             ) : (
               <GenerationPicker value={pokemonGenerations} onChange={setPokemonGenerations} disabled={!isHost} />
@@ -195,7 +197,7 @@ export function LobbyView() {
 
           {mode === "classic" && characterSource === "template" && templateKeys.length > 0 && (
             <div className="space-y-2">
-              <p className="text-sm font-medium">Gender Filter</p>
+              <p className="text-sm font-medium">{t("lobby.genderFilter")}</p>
               <div className="flex gap-2">
                 {(["all", "male", "female"] as const).map((g) => (
                   <Button
@@ -205,7 +207,7 @@ export function LobbyView() {
                     onClick={() => setGenderFilter(g)}
                     disabled={!isHost}
                   >
-                    {g === "all" ? "All" : g === "male" ? "Male" : "Female"}
+                    {g === "all" ? t("lobby.genderAll") : g === "male" ? t("lobby.genderMale") : t("lobby.genderFemale")}
                   </Button>
                 ))}
               </div>
@@ -214,10 +216,10 @@ export function LobbyView() {
 
           {mode === "classic" && poolSize > 0 && (
             <p className="text-sm text-muted-foreground">
-              {poolSize} unique characters available ({GRID_SIZE} randomly picked per game)
+              {t("lobby.poolSize", { count: poolSize, grid: GRID_SIZE })}
               {poolSize < GRID_SIZE && (
                 <span className="text-red-500 ml-1">
-                  — need at least {GRID_SIZE}, select more {characterSource === "pokemon" ? "generations" : "packs"}
+                  — {t("lobby.needMore", { grid: GRID_SIZE, type: t(characterSource === "pokemon" ? "lobby.generations" : "lobby.packs") })}
                 </span>
               )}
             </p>
@@ -225,27 +227,27 @@ export function LobbyView() {
 
           {isSpectator ? (
             <p className="text-center text-muted-foreground text-sm">
-              You are spectating this game.
+              {t("lobby.spectating")}
             </p>
           ) : isHost ? (
             <Button onClick={handleStart} disabled={!canStart || loading} className="w-full">
               {loading
-                ? "Starting..."
+                ? t("lobby.starting")
                 : canStart
-                  ? "Start Game"
+                  ? t("lobby.startGame")
                   : hasTwoPlayers
                     ? mode === "classic"
-                      ? `Need ${GRID_SIZE}+ characters`
+                      ? t("lobby.needCharacters", { grid: GRID_SIZE })
                       : characterSource === "search"
-                        ? "Select an anime first"
+                        ? t("lobby.selectAnime")
                         : characterSource === "pokemon"
-                          ? "Select generations first"
-                          : "Select templates first"
-                    : "Waiting for opponent..."}
+                          ? t("lobby.selectGenerations")
+                          : t("lobby.selectTemplates")
+                    : t("lobby.waitingOpponent")}
             </Button>
           ) : (
             <p className="text-center text-muted-foreground text-sm">
-              Waiting for host to start the game...
+              {t("lobby.waitingHost")}
             </p>
           )}
         </CardContent>

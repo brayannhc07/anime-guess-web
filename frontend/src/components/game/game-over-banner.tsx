@@ -7,12 +7,14 @@ import { useGameActions } from "@/hooks/use-game-actions";
 import { useGameCharacters } from "@/hooks/use-character-list";
 import { getStats, resetStats } from "@/lib/game-stats";
 import { useState } from "react";
+import { useLanguage } from "@/contexts/language-context";
 
 export function GameOverBanner() {
   const { winner, playerId, guessResult, mode, roomCode, players } = useGameStore();
   const { requestRematch } = useGameActions();
   const { data: characterList } = useGameCharacters();
   const [loading, setLoading] = useState(false);
+  const { t } = useLanguage();
 
   const isWinner = winner === playerId;
   const guesser = players.find((p) => p.id === guessResult?.guesserId);
@@ -43,18 +45,18 @@ export function GameOverBanner() {
     <Card className={isWinner ? "border-green-500 bg-green-50 dark:bg-green-950/60" : "border-red-500 bg-red-50 dark:bg-red-950/60"}>
       <CardContent className="py-6 text-center space-y-3">
         <h2 className="text-2xl font-bold">
-          {isWinner ? "You Win!" : "You Lose!"}
+          {isWinner ? t("gameOver.youWin") : t("gameOver.youLose")}
         </h2>
         <p className="text-muted-foreground">
-          {guesser?.name} guessed{" "}
-          {guessResult?.correct ? "correctly" : "incorrectly"}.
+          {t(guessResult?.correct ? "gameOver.guessedCorrectly" : "gameOver.guessedIncorrectly", { name: guesser?.name ?? "" })}
+          {" "}
           {mode === "classic"
-            ? ` The answer was ${actualDisplay}.`
-            : ` The rule ${opponent?.name} set was "${actualDisplay}".`}
+            ? t("gameOver.answerWas", { answer: actualDisplay })
+            : t("gameOver.ruleWas", { name: opponent?.name ?? "", rule: actualDisplay })}
         </p>
         <div className="flex items-center justify-center gap-3">
           <Button onClick={handleRematch} disabled={loading}>
-            {loading ? "Requesting..." : "Rematch"}
+            {loading ? t("gameOver.requesting") : t("gameOver.rematch")}
           </Button>
         </div>
         <StatsDisplay />
@@ -65,6 +67,7 @@ export function GameOverBanner() {
 
 function StatsDisplay() {
   const [, forceUpdate] = useState(0);
+  const { t } = useLanguage();
   const stats = getStats();
   if (stats.wins === 0 && stats.losses === 0) return null;
 
@@ -83,7 +86,7 @@ function StatsDisplay() {
         onClick={() => { resetStats(); forceUpdate((n) => n + 1); }}
         className="ml-2 underline hover:text-foreground transition-colors"
       >
-        reset
+        {t("gameOver.reset")}
       </button>
     </p>
   );
