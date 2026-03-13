@@ -33,7 +33,7 @@ export function useGameActions() {
     characterSource: CharacterSource,
     templateKeys: string[],
     searchAnimeId: number | null,
-    pokemonGeneration: string | null = null
+    pokemonGeneration: string[] | null = null
   ) {
     const res = await fetch("/api/room/start", {
       method: "POST",

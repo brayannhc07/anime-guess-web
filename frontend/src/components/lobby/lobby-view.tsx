@@ -12,7 +12,7 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { pickRandomFromTemplates, getMultiTemplatePoolSize, useAnimeCharacters, type GenderFilter } from "@/hooks/use-character-list";
 import { GRID_SIZE } from "@/lib/constants";
-import { pickRandomPokemonIds, getGenerationSize } from "@/lib/pokemon";
+import { pickRandomPokemonIdsMultiGen, getMultiGenerationSize } from "@/lib/pokemon";
 import type { GameMode, CharacterSource } from "@/types/room";
 
 export function LobbyView() {
@@ -24,7 +24,7 @@ export function LobbyView() {
   const [searchAnimeId, setSearchAnimeId] = useState<number | null>(null);
   const [searchAnimeName, setSearchAnimeName] = useState("");
   const [genderFilter, setGenderFilter] = useState<GenderFilter>("all");
-  const [pokemonGeneration, setPokemonGeneration] = useState("gen1");
+  const [pokemonGenerations, setPokemonGenerations] = useState<string[]>([]);
   const [mode, setMode] = useState<GameMode>("classic");
   const [loading, setLoading] = useState(false);
 
@@ -38,11 +38,11 @@ export function LobbyView() {
   const poolSize = characterSource === "template"
     ? getMultiTemplatePoolSize(templateKeys, genderFilter)
     : characterSource === "pokemon"
-      ? getGenerationSize(pokemonGeneration)
+      ? getMultiGenerationSize(pokemonGenerations)
       : (searchCharacters?.length ?? 0);
 
   const ruleMasterSourceReady =
-    characterSource === "pokemon" ||
+    (characterSource === "pokemon" && pokemonGenerations.length > 0) ||
     (characterSource === "search" && searchAnimeId !== null) ||
     (characterSource === "template" && templateKeys.length > 0);
 
@@ -63,7 +63,7 @@ export function LobbyView() {
         const picked = pickRandomFromTemplates(templateKeys, GRID_SIZE, genderFilter);
         characterIds = picked.map((c) => c.id);
       } else if (characterSource === "pokemon") {
-        characterIds = pickRandomPokemonIds(pokemonGeneration, GRID_SIZE);
+        characterIds = pickRandomPokemonIdsMultiGen(pokemonGenerations, GRID_SIZE);
       } else {
         // Search mode: pick 24 random from fetched characters
         const chars = [...(searchCharacters ?? [])];
@@ -74,7 +74,7 @@ export function LobbyView() {
         characterIds = chars.slice(0, GRID_SIZE).map((c) => c.id);
       }
 
-      const genParam = characterSource === "pokemon" ? pokemonGeneration : null;
+      const genParam = characterSource === "pokemon" ? pokemonGenerations : null;
       await startGame(roomCode, characterIds, mode, characterSource, templateKeys, searchAnimeId, genParam);
     } catch {
       alert("Failed to start game");
@@ -163,7 +163,7 @@ export function LobbyView() {
                 Search any Pokémon during gameplay.
               </p>
             ) : (
-              <GenerationPicker value={pokemonGeneration} onChange={setPokemonGeneration} disabled={!isHost} />
+              <GenerationPicker value={pokemonGenerations} onChange={setPokemonGenerations} disabled={!isHost} />
             )
           ) : (
             <AnimeSearchPicker
@@ -201,7 +201,7 @@ export function LobbyView() {
               {poolSize} unique characters available ({GRID_SIZE} randomly picked per game)
               {poolSize < GRID_SIZE && (
                 <span className="text-red-500 ml-1">
-                  — need at least {GRID_SIZE}, select more packs
+                  — need at least {GRID_SIZE}, select more {characterSource === "pokemon" ? "generations" : "packs"}
                 </span>
               )}
             </p>
@@ -218,7 +218,9 @@ export function LobbyView() {
                       ? `Need ${GRID_SIZE}+ characters`
                       : characterSource === "search"
                         ? "Select an anime first"
-                        : "Select templates first"
+                        : characterSource === "pokemon"
+                          ? "Select generations first"
+                          : "Select templates first"
                     : "Waiting for opponent..."}
             </Button>
           ) : (

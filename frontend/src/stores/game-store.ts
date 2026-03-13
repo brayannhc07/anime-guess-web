@@ -11,7 +11,7 @@ interface GameState {
   characterSource: CharacterSource;
   templateKeys: string[];
   searchAnimeId: number | null;
-  pokemonGeneration: string | null;
+  pokemonGeneration: string[] | null;
   players: Player[];
   characterIds: number[];
   eliminated: Set<number>;
@@ -31,7 +31,7 @@ interface GameState {
   setCharacterSource: (source: CharacterSource) => void;
   setTemplateKeys: (keys: string[]) => void;
   setSearchAnimeId: (id: number | null) => void;
-  setPokemonGeneration: (gen: string | null) => void;
+  setPokemonGeneration: (gen: string[] | null) => void;
   setPlayers: (players: Player[]) => void;
   setCharacterIds: (ids: number[]) => void;
   toggleEliminated: (id: number) => void;

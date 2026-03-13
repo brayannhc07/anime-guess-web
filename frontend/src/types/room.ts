@@ -29,7 +29,7 @@ export interface RoomState {
   characterSource: CharacterSource;
   templateKeys: string[];
   searchAnimeId: number | null;
-  pokemonGeneration: string | null;
+  pokemonGeneration: string[] | null;
   players: Player[];
   characterIds: number[];
   winner: string | null;

@@ -12,7 +12,7 @@ export async function POST(req: NextRequest) {
     characterSource: CharacterSource;
     templateKeys: string[];
     searchAnimeId: number | null;
-    pokemonGeneration: string | null;
+    pokemonGeneration: string[] | null;
   };
 
   const room = startGame(code, characterIds, mode, characterSource, templateKeys, searchAnimeId, pokemonGeneration);

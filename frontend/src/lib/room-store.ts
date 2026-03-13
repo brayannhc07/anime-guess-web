@@ -100,7 +100,7 @@ export function startGame(
   characterSource: CharacterSource,
   templateKeys: string[],
   searchAnimeId: number | null,
-  pokemonGeneration: string | null
+  pokemonGeneration: string[] | null
 ): RoomState | null {
   const room = rooms.get(code);
   if (!room) return null;

@@ -10,7 +10,6 @@ export const GENERATION_RANGES: Record<string, [number, number]> = {
   gen7: [722, 809],
   gen8: [810, 905],
   gen9: [906, 1025],
-  all: [1, 1025],
 };
 
 export const GENERATION_LABELS: Record<string, string> = {
@@ -23,13 +22,18 @@ export const GENERATION_LABELS: Record<string, string> = {
   gen7: "Gen 7 — Alola (88)",
   gen8: "Gen 8 — Galar (96)",
   gen9: "Gen 9 — Paldea (120)",
-  all: "All Generations (1025)",
 };
 
 export function getGenerationSize(generation: string): number {
   const range = GENERATION_RANGES[generation];
   if (!range) return 0;
   return range[1] - range[0] + 1;
+}
+
+export function getMultiGenerationSize(generations: string[]): number {
+  let total = 0;
+  for (const gen of generations) total += getGenerationSize(gen);
+  return total;
 }
 
 export function pickRandomPokemonIds(generation: string, count: number): number[] {
@@ -41,6 +45,22 @@ export function pickRandomPokemonIds(generation: string, count: number): number[
   for (let i = min; i <= max; i++) allIds.push(i);
 
   // Fisher-Yates shuffle
+  for (let i = allIds.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [allIds[i], allIds[j]] = [allIds[j], allIds[i]];
+  }
+
+  return allIds.slice(0, count);
+}
+
+export function pickRandomPokemonIdsMultiGen(generations: string[], count: number): number[] {
+  const allIds: number[] = [];
+  for (const gen of generations) {
+    const range = GENERATION_RANGES[gen];
+    if (!range) continue;
+    for (let i = range[0]; i <= range[1]; i++) allIds.push(i);
+  }
+
   for (let i = allIds.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [allIds[i], allIds[j]] = [allIds[j], allIds[i]];

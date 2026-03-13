@@ -1,29 +1,64 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label";
-import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { GENERATION_LABELS } from "@/lib/pokemon";
+import { GENERATION_LABELS, getGenerationSize } from "@/lib/pokemon";
 
 interface GenerationPickerProps {
-  value: string;
-  onChange: (gen: string) => void;
+  value: string[];
+  onChange: (gens: string[]) => void;
   disabled?: boolean;
 }
 
 export function GenerationPicker({ value, onChange, disabled }: GenerationPickerProps) {
+  const allKeys = Object.keys(GENERATION_LABELS);
+  const allSelected = allKeys.length > 0 && allKeys.every((k) => value.includes(k));
+
+  function toggle(key: string) {
+    if (value.includes(key)) {
+      onChange(value.filter((k) => k !== key));
+    } else {
+      onChange([...value, key]);
+    }
+  }
+
+  function toggleAll() {
+    onChange(allSelected ? [] : allKeys);
+  }
+
   return (
     <div className="space-y-2">
-      <p className="text-sm font-medium">Generation</p>
-      <RadioGroup value={value} onValueChange={onChange} disabled={disabled} className="grid grid-cols-2 gap-2">
-        {Object.entries(GENERATION_LABELS).map(([key, label]) => (
-          <div key={key} className="flex items-center space-x-2">
-            <RadioGroupItem value={key} id={`gen-${key}`} />
-            <Label htmlFor={`gen-${key}`} className="text-sm cursor-pointer">
+      <div className="flex items-center justify-between">
+        <Label className="text-sm font-medium">Generations (select one or more)</Label>
+        <Button
+          type="button"
+          variant="ghost"
+          size="sm"
+          className="text-xs h-auto py-1 px-2"
+          disabled={disabled}
+          onClick={toggleAll}
+        >
+          {allSelected ? "Deselect All" : "Select All"}
+        </Button>
+      </div>
+      <div className="grid grid-cols-1 gap-1.5">
+        {Object.entries(GENERATION_LABELS).map(([key, label]) => {
+          const selected = value.includes(key);
+          return (
+            <Button
+              key={key}
+              type="button"
+              variant={selected ? "default" : "outline"}
+              size="sm"
+              className="justify-start h-auto py-1.5 px-3 text-sm"
+              disabled={disabled}
+              onClick={() => toggle(key)}
+            >
               {label}
-            </Label>
-          </div>
-        ))}
-      </RadioGroup>
+            </Button>
+          );
+        })}
+      </div>
     </div>
   );
 }
