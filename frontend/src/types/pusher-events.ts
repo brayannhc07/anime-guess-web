@@ -15,6 +15,8 @@ export const PUSHER_EVENTS = {
   GAME_CANCELLED: "game-cancelled",
   RULE_GUESS_SUBMITTED: "rule-guess-submitted",
   RULE_GUESS_JUDGED: "rule-guess-judged",
+  // Classic mode events
+  REMAINING_COUNT: "remaining-count",
 } as const;
 
 export interface PlayerJoinedPayload {
@@ -93,4 +95,9 @@ export interface RuleGuessJudgedPayload {
   actualRule: string;
   winnerId: string | null;
   nextTurn: string | null;
+}
+
+export interface RemainingCountPayload {
+  playerId: string;
+  remaining: number;
 }

@@ -17,6 +17,7 @@ import type {
   CharacterAnsweredPayload,
   RuleGuessSubmittedPayload,
   RuleGuessJudgedPayload,
+  RemainingCountPayload,
 } from "@/types/pusher-events";
 import { toast } from "sonner";
 
@@ -83,6 +84,7 @@ export function useRoomChannel(roomCode: string) {
       setPendingAsk(null);
       setPendingRuleGuess(null);
       setAskedCharacters([]);
+      useGameStore.getState().setOpponentRemainingCount(null);
     });
 
     channel.bind(PUSHER_EVENTS.PLAYER_LOCKED_IN, (data: PlayerLockedInPayload) => {
@@ -174,13 +176,29 @@ export function useRoomChannel(roomCode: string) {
         setWinner(data.winnerId);
         setPhase("finished");
       } else {
-        // Wrong guess — game continues, show feedback
+        // Wrong guess — game continues, auto-eliminate the wrong guess
         const isMe = data.guesserId === playerId;
+        if (isMe && typeof data.guessedValue === "number") {
+          const { eliminated, toggleEliminated } = useGameStore.getState();
+          if (!eliminated.has(data.guessedValue)) {
+            toggleEliminated(data.guessedValue);
+          }
+        }
         toast(
           isMe
             ? "Wrong guess! Game continues."
             : `${data.guesserName} guessed wrong! Game continues.`
         );
+      }
+    });
+
+    channel.bind(PUSHER_EVENTS.REMAINING_COUNT, (data: RemainingCountPayload) => {
+      if (data.playerId !== playerId) {
+        const store = useGameStore.getState();
+        store.setOpponentRemainingCount(data.remaining);
+        if (data.remaining <= 3 && data.remaining > 0) {
+          toast(`Opponent is down to ${data.remaining} character${data.remaining === 1 ? "" : "s"}!`);
+        }
       }
     });
 

@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
+import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 
 export function AnswerPrompt() {
   const { roomCode, playerId, pendingAsk, players } = useGameStore();
@@ -41,6 +42,7 @@ export function AnswerPrompt() {
             src={pendingAsk.characterImage}
             alt={pendingAsk.characterName}
             className="aspect-[3/4] w-20 object-cover rounded"
+            onError={(e) => { e.currentTarget.src = PLACEHOLDER_IMAGE; }}
           />
           <p className="text-lg font-medium">
             &quot;Does {pendingAsk.characterName} fit?&quot;

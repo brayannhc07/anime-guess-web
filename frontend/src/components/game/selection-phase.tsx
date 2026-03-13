@@ -86,14 +86,23 @@ export function SelectionPhase() {
               Click a character below or pick randomly. Your opponent will try to guess which one you picked.
             </p>
           ) : (
-            <div className="space-y-2">
+            <div className="space-y-3">
               <p className="text-sm text-muted-foreground">
-                Write a rule for your opponent to figure out. They&apos;ll ask you about
-                characters and you&apos;ll tell them if each one fits your rule.
+                Write a secret rule for your opponent to figure out. They&apos;ll ask you about
+                characters and you&apos;ll answer yes/no based on whether each one fits your rule.
               </p>
-              <p className="text-xs text-muted-foreground">
-                Examples: &quot;Has blue hair&quot;, &quot;Female character&quot;, &quot;Appears in season 2&quot;
-              </p>
+              <div className="rounded-lg bg-muted/50 p-3 space-y-1.5">
+                <p className="text-xs font-medium">Tips for good rules:</p>
+                <ul className="text-xs text-muted-foreground space-y-1 list-disc pl-4">
+                  <li>Be specific enough that your opponent can guess it</li>
+                  <li>Make sure multiple characters can match (not just one)</li>
+                  <li>Base it on visible traits, story roles, or well-known facts</li>
+                </ul>
+                <p className="text-xs text-muted-foreground mt-2">
+                  Examples: &quot;Has blue hair&quot;, &quot;Is a villain&quot;, &quot;Uses a sword&quot;,
+                  &quot;Female character&quot;, &quot;From a shonen anime&quot;
+                </p>
+              </div>
               <Input
                 placeholder="Enter a rule for your opponent..."
                 value={rule}

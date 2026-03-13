@@ -18,6 +18,7 @@ export function RoomHeader() {
   const showCancel = isHost && phase !== "lobby";
 
   async function handleCancel() {
+    if (phase !== "lobby" && !window.confirm("This will end the current game and return both players to the lobby. Continue?")) return;
     setCancelling(true);
     try {
       await cancelGame(roomCode);
@@ -29,6 +30,7 @@ export function RoomHeader() {
   }
 
   function handleLeave() {
+    if (phase !== "lobby" && !window.confirm("You'll leave the room and lose your current game. Continue?")) return;
     leaveRoom();
     router.push("/");
   }

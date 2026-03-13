@@ -22,6 +22,7 @@ interface GameState {
   askedCharacters: AskedCharacter[];
   pendingAsk: CharacterAskedPayload | null;
   pendingRuleGuess: RuleGuessSubmittedPayload | null;
+  opponentRemainingCount: number | null;
 
   setPlayer: (id: string, name: string) => void;
   setRoomCode: (code: string) => void;
@@ -43,6 +44,7 @@ interface GameState {
   setPendingRuleGuess: (guess: RuleGuessSubmittedPayload | null) => void;
   setAskedCharacters: (characters: AskedCharacter[]) => void;
   addAskedCharacter: (character: AskedCharacter) => void;
+  setOpponentRemainingCount: (count: number | null) => void;
   hydratePlayer: () => void;
   leaveRoom: () => void;
   resetGame: () => void;
@@ -67,6 +69,7 @@ export const useGameStore = create<GameState>((set) => ({
   askedCharacters: [],
   pendingAsk: null,
   pendingRuleGuess: null,
+  opponentRemainingCount: null,
 
   setPlayer: (id, name) => {
     if (typeof window !== "undefined") {
@@ -107,6 +110,7 @@ export const useGameStore = create<GameState>((set) => ({
     set((state) => ({
       askedCharacters: [...state.askedCharacters, character],
     })),
+  setOpponentRemainingCount: (count) => set({ opponentRemainingCount: count }),
   hydratePlayer: () => {
     if (typeof window === "undefined") return;
     const stored = sessionStorage.getItem("animeguess-player");
@@ -138,6 +142,7 @@ export const useGameStore = create<GameState>((set) => ({
       askedCharacters: [],
       pendingAsk: null,
       pendingRuleGuess: null,
+      opponentRemainingCount: null,
     });
   },
   resetGame: () =>
@@ -152,5 +157,6 @@ export const useGameStore = create<GameState>((set) => ({
       askedCharacters: [],
       pendingAsk: null,
       pendingRuleGuess: null,
+      opponentRemainingCount: null,
     }),
 }));

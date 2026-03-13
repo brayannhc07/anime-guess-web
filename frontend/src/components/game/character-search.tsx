@@ -7,6 +7,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useAllCharacters } from "@/hooks/use-character-list";
+import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 
 export function CharacterSearch() {
   const { roomCode, playerId, currentTurn, pendingAsk, askedCharacters } = useGameStore();
@@ -77,6 +78,7 @@ export function CharacterSearch() {
                   src={character.image}
                   alt={character.name}
                   className="aspect-[3/4] w-12 object-cover rounded"
+                  onError={(e) => { e.currentTarget.src = PLACEHOLDER_IMAGE; }}
                 />
                 <span className="text-xs">{character.name}</span>
               </Button>

@@ -129,8 +129,16 @@ export function useGameActions() {
     return res.json();
   }
 
+  async function broadcastRemaining(code: string, remaining: number) {
+    await fetch("/api/room/remaining", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ code, playerId, remaining }),
+    }).catch(() => {});
+  }
+
   return {
     createRoom, joinRoom, startGame, selectCharacter,
-    askCharacter, answerCharacter, makeGuess, submitRuleGuess, judgeRuleGuess, cancelGame, requestRematch,
+    askCharacter, answerCharacter, makeGuess, submitRuleGuess, judgeRuleGuess, cancelGame, requestRematch, broadcastRemaining,
   };
 }

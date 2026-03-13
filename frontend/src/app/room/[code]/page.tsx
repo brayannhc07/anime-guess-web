@@ -17,6 +17,7 @@ import { RuleMasterBoard } from "@/components/game/rule-master-board";
 import { RuleGuessPrompt } from "@/components/game/rule-guess-prompt";
 import { useRouter } from "next/navigation";
 import { Badge } from "@/components/ui/badge";
+import { useRemainingBroadcast } from "@/hooks/use-remaining-broadcast";
 import type { RoomState } from "@/types/room";
 
 export default function RoomPage({ params }: { params: Promise<{ code: string }> }) {
@@ -24,7 +25,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
   const router = useRouter();
   const [loading, setLoading] = useState(true);
   const {
-    phase, playerId, mode, currentTurn, pendingAsk, pendingRuleGuess, players,
+    phase, playerId, mode, currentTurn, pendingAsk, pendingRuleGuess, players, opponentRemainingCount,
     setRoomCode, setPhase, setMode, setCharacterSource, setTemplateKeys, setSearchAnimeId, setPokemonGeneration,
     setPlayers, setCharacterIds,
     setCurrentTurn, setPendingAsk, setPendingRuleGuess, setWinner, setGuessResult,
@@ -115,6 +116,7 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
 
   useRoomChannel(code);
   useKeepAlive(code);
+  useRemainingBroadcast();
 
   if (loading || !playerId) return null;
 
@@ -132,7 +134,14 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
 
       {phase === "playing" && mode === "classic" && (
         <div className="space-y-4">
-          <div className="flex justify-center">
+          <div className="flex items-center justify-between">
+            {opponentRemainingCount !== null && opponentRemainingCount <= 3 ? (
+              <Badge variant="destructive" className="text-sm px-3 py-1.5 animate-pulse">
+                Opponent has {opponentRemainingCount} left!
+              </Badge>
+            ) : (
+              <div />
+            )}
             <GuessDialog />
           </div>
           <GameBoard />

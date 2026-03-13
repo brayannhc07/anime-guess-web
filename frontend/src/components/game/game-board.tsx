@@ -33,7 +33,7 @@ export function GameBoard({ selectable, selectedId, onSelectCharacter }: GameBoa
   }
 
   return (
-    <div className="grid grid-cols-4 md:grid-cols-6 gap-2">
+    <div className="grid grid-cols-4 md:grid-cols-6 gap-2" role="grid" aria-label="Character grid">
       {characterList.map((character) => (
         <CharacterCard
           key={character.id}
