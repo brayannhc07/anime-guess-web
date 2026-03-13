@@ -10,7 +10,7 @@ import { ThemeToggle } from "./theme-toggle";
 
 export function RoomHeader() {
   const { roomCode, players, playerId, clearEliminated, phase, mode, leaveRoom } = useGameStore();
-  const { cancelGame } = useGameActions();
+  const { cancelGame, leaveRoomServer } = useGameActions();
   const router = useRouter();
   const [cancelling, setCancelling] = useState(false);
 
@@ -32,8 +32,9 @@ export function RoomHeader() {
     }
   }
 
-  function handleLeave() {
+  async function handleLeave() {
     if (phase !== "lobby" && !window.confirm("You'll leave the room and lose your current game. Continue?")) return;
+    await leaveRoomServer(roomCode);
     leaveRoom();
     router.push("/");
   }

@@ -137,8 +137,16 @@ export function useGameActions() {
     }).catch(() => {});
   }
 
+  async function leaveRoomServer(code: string) {
+    await fetch("/api/room/leave", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ code, playerId }),
+    }).catch(() => {});
+  }
+
   return {
     createRoom, joinRoom, startGame, selectCharacter,
-    askCharacter, answerCharacter, makeGuess, submitRuleGuess, judgeRuleGuess, cancelGame, requestRematch, broadcastRemaining,
+    askCharacter, answerCharacter, makeGuess, submitRuleGuess, judgeRuleGuess, cancelGame, requestRematch, broadcastRemaining, leaveRoomServer,
   };
 }

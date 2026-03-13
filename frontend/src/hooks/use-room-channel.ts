@@ -18,6 +18,7 @@ import type {
   RuleGuessSubmittedPayload,
   RuleGuessJudgedPayload,
   RemainingCountPayload,
+  PlayerLeftPayload,
 } from "@/types/pusher-events";
 import { toast } from "sonner";
 import { playJoinSound, playStartSound, playTurnSound, playCorrectSound, playWrongSound, playNotificationSound } from "@/lib/sounds";
@@ -73,6 +74,38 @@ export function useRoomChannel(roomCode: string) {
           rematchRequested: false,
         },
       ]);
+    });
+
+    channel.bind(PUSHER_EVENTS.PLAYER_LEFT, (data: PlayerLeftPayload) => {
+      const currentPlayers = useGameStore.getState().players;
+      const leavingPlayer = currentPlayers.find((p) => p.id === data.playerId);
+      let updated = currentPlayers.filter((p) => p.id !== data.playerId);
+
+      // Transfer host if needed
+      if (data.newHostId) {
+        updated = updated.map((p) =>
+          p.id === data.newHostId ? { ...p, isHost: true } : p
+        );
+      }
+
+      // Promote first spectator to player if a game player left
+      if (data.wasGamePlayer) {
+        const gamePlayers = updated.filter((p) => !p.isSpectator);
+        if (gamePlayers.length < 2) {
+          const firstSpectator = updated.find((p) => p.isSpectator);
+          if (firstSpectator) {
+            updated = updated.map((p) =>
+              p.id === firstSpectator.id ? { ...p, isSpectator: false } : p
+            );
+          }
+        }
+      }
+
+      setPlayers(updated);
+      if (leavingPlayer) {
+        toast(`${leavingPlayer.name} left the room.`);
+        playNotificationSound();
+      }
     });
 
     channel.bind(PUSHER_EVENTS.GAME_STARTED, (data: GameStartedPayload) => {

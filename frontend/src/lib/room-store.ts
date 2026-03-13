@@ -88,6 +88,62 @@ export async function fetchRoom(code: string): Promise<RoomState | null> {
   return getRoom(code);
 }
 
+export async function removePlayer(
+  code: string,
+  playerId: string
+): Promise<{ room: RoomState; wasGamePlayer: boolean; newHostId: string | null } | null> {
+  const room = await getRoom(code);
+  if (!room) return null;
+
+  const player = room.players.find((p) => p.id === playerId);
+  if (!player) return null;
+
+  const wasGamePlayer = !player.isSpectator;
+  const wasHost = player.isHost;
+
+  room.players = room.players.filter((p) => p.id !== playerId);
+
+  // If the host left, transfer host to next non-spectator player
+  let newHostId: string | null = null;
+  if (wasHost && room.players.length > 0) {
+    const nextHost = room.players.find((p) => !p.isSpectator) ?? room.players[0];
+    nextHost.isHost = true;
+    newHostId = nextHost.id;
+  }
+
+  // If a game player left mid-game, reset to lobby
+  if (wasGamePlayer && room.phase !== "lobby") {
+    room.phase = "lobby";
+    room.characterIds = [];
+    room.winner = null;
+    room.guessResult = null;
+    room.currentTurn = null;
+    room.askedCharacters = [];
+    room.pendingAsk = null;
+    room.pendingRuleGuess = null;
+    for (const p of room.players) {
+      p.selection = null;
+      p.rule = null;
+      p.lockedIn = false;
+      p.rematchRequested = false;
+    }
+    // Promote first spectator to player if we're down to 1 game player
+    const gamePlayers = room.players.filter((p) => !p.isSpectator);
+    if (gamePlayers.length < 2) {
+      const firstSpectator = room.players.find((p) => p.isSpectator);
+      if (firstSpectator) firstSpectator.isSpectator = false;
+    }
+  }
+
+  if (room.players.length === 0) {
+    await redis.del(`room:${code}`);
+    return { room, wasGamePlayer, newHostId };
+  }
+
+  await saveRoom(room);
+  return { room, wasGamePlayer, newHostId };
+}
+
 export async function cancelGame(code: string, playerId: string): Promise<RoomState | null> {
   const room = await getRoom(code);
   if (!room) return null;

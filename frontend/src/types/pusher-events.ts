@@ -27,6 +27,8 @@ export interface PlayerJoinedPayload {
 
 export interface PlayerLeftPayload {
   playerId: string;
+  wasGamePlayer: boolean;
+  newHostId: string | null;
 }
 
 export interface GameStartedPayload {
