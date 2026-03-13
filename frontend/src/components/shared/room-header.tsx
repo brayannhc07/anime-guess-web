@@ -14,7 +14,10 @@ export function RoomHeader() {
   const router = useRouter();
   const [cancelling, setCancelling] = useState(false);
 
-  const isHost = players.find((p) => p.id === playerId)?.isHost ?? false;
+  const me = players.find((p) => p.id === playerId);
+  const isHost = me?.isHost ?? false;
+  const isSpectator = me?.isSpectator ?? false;
+  const spectatorCount = players.filter((p) => p.isSpectator).length;
   const showCancel = isHost && phase !== "lobby";
 
   async function handleCancel() {
@@ -39,17 +42,22 @@ export function RoomHeader() {
     <div className="flex items-center justify-between flex-wrap gap-2">
       <div className="flex items-center gap-3">
         <h1 className="text-lg font-bold">Room: {roomCode}</h1>
-        <div className="flex gap-1">
-          {players.map((p) => (
+        <div className="flex gap-1 flex-wrap">
+          {players.filter((p) => !p.isSpectator).map((p) => (
             <Badge key={p.id} variant={p.isHost ? "default" : "secondary"} className="text-xs">
               {p.name}
             </Badge>
           ))}
+          {spectatorCount > 0 && (
+            <Badge variant="outline" className="text-xs">
+              {spectatorCount} watching
+            </Badge>
+          )}
         </div>
       </div>
       <div className="flex items-center gap-2">
         <ThemeToggle />
-        {(phase === "playing" || phase === "selection") && mode === "classic" && (
+        {!isSpectator && (phase === "playing" || phase === "selection") && mode === "classic" && (
           <Button variant="outline" size="sm" onClick={clearEliminated}>
             Reset Board
           </Button>

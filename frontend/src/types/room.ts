@@ -8,6 +8,7 @@ export interface Player {
   id: string;
   name: string;
   isHost: boolean;
+  isSpectator: boolean;
   selection: number | null; // Character ID (classic) or null
   rule: string | null; // Rule text set FOR the opponent (rule-master)
   lockedIn: boolean;

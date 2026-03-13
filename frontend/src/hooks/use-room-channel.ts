@@ -57,7 +57,7 @@ export function useRoomChannel(roomCode: string) {
 
     channel.bind(PUSHER_EVENTS.PLAYER_JOINED, (data: PlayerJoinedPayload) => {
       if (data.playerId !== playerId) {
-        toast(`${data.playerName} joined the room!`);
+        toast(`${data.playerName} joined${data.isSpectator ? " as spectator" : ""}!`);
         playJoinSound();
       }
       setPlayers([
@@ -66,6 +66,7 @@ export function useRoomChannel(roomCode: string) {
           id: data.playerId,
           name: data.playerName,
           isHost: false,
+          isSpectator: data.isSpectator,
           selection: null,
           rule: null,
           lockedIn: false,

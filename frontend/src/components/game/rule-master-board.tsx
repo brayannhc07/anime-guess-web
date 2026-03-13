@@ -6,10 +6,27 @@ import { cn } from "@/lib/utils";
 
 export function RuleMasterBoard() {
   const { playerId, askedCharacters, players } = useGameStore();
+  const me = players.find((p) => p.id === playerId);
+  const isSpectator = me?.isSpectator ?? false;
+  const gamePlayers = players.filter((p) => !p.isSpectator);
+
+  if (isSpectator) {
+    return (
+      <div className="space-y-6">
+        {gamePlayers.map((p) => (
+          <BoardSection
+            key={p.id}
+            title={`${p.name}'s Board`}
+            characters={askedCharacters.filter((c) => c.askerId === p.id)}
+          />
+        ))}
+      </div>
+    );
+  }
 
   const myCharacters = askedCharacters.filter((c) => c.askerId === playerId);
   const opponentCharacters = askedCharacters.filter((c) => c.askerId !== playerId);
-  const opponent = players.find((p) => p.id !== playerId);
+  const opponent = gamePlayers.find((p) => p.id !== playerId);
 
   return (
     <div className="space-y-6">

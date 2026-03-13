@@ -22,6 +22,7 @@ export const PUSHER_EVENTS = {
 export interface PlayerJoinedPayload {
   playerId: string;
   playerName: string;
+  isSpectator: boolean;
 }
 
 export interface PlayerLeftPayload {

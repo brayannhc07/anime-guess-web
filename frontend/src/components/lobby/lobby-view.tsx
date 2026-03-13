@@ -32,8 +32,12 @@ export function LobbyView() {
     characterSource === "search" ? searchAnimeId : null
   );
 
-  const isHost = players.find((p) => p.id === playerId)?.isHost ?? false;
-  const hasTwoPlayers = players.length === 2;
+  const me = players.find((p) => p.id === playerId);
+  const isHost = me?.isHost ?? false;
+  const isSpectator = me?.isSpectator ?? false;
+  const gamePlayers = players.filter((p) => !p.isSpectator);
+  const spectators = players.filter((p) => p.isSpectator);
+  const hasTwoPlayers = gamePlayers.length === 2;
 
   const poolSize = characterSource === "template"
     ? getMultiTemplatePoolSize(templateKeys, genderFilter)
@@ -101,19 +105,31 @@ export function LobbyView() {
         <CardContent className="space-y-4">
           <div className="space-y-2">
             <p className="text-sm font-medium">Players</p>
-            <div className="flex gap-2">
-              {players.map((p) => (
+            <div className="flex gap-2 flex-wrap">
+              {gamePlayers.map((p) => (
                 <Badge key={p.id} variant={p.isHost ? "default" : "secondary"}>
                   {p.name} {p.isHost && "(Host)"}
                 </Badge>
               ))}
-              {players.length < 2 && (
+              {gamePlayers.length < 2 && (
                 <Badge variant="outline" className="text-muted-foreground">
                   Waiting for opponent...
                 </Badge>
               )}
             </div>
           </div>
+          {spectators.length > 0 && (
+            <div className="space-y-2">
+              <p className="text-sm font-medium text-muted-foreground">Spectators</p>
+              <div className="flex gap-2 flex-wrap">
+                {spectators.map((p) => (
+                  <Badge key={p.id} variant="outline">
+                    {p.name}
+                  </Badge>
+                ))}
+              </div>
+            </div>
+          )}
         </CardContent>
       </Card>
 
@@ -207,7 +223,11 @@ export function LobbyView() {
             </p>
           )}
 
-          {isHost ? (
+          {isSpectator ? (
+            <p className="text-center text-muted-foreground text-sm">
+              You are spectating this game.
+            </p>
+          ) : isHost ? (
             <Button onClick={handleStart} disabled={!canStart || loading} className="w-full">
               {loading
                 ? "Starting..."

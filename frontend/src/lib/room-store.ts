@@ -23,6 +23,7 @@ export function createRoom(hostName: string, hostId: string): RoomState {
         id: hostId,
         name: hostName,
         isHost: true,
+        isSpectator: false,
         selection: null,
         rule: null,
         lockedIn: false,
@@ -44,13 +45,16 @@ export function createRoom(hostName: string, hostId: string): RoomState {
 export function joinRoom(code: string, playerName: string, playerId: string): RoomState | null {
   const room = rooms.get(code);
   if (!room) return null;
-  if (room.players.length >= 2) return null;
   if (room.players.some((p) => p.id === playerId)) return room;
+
+  const activePlayers = room.players.filter((p) => !p.isSpectator);
+  const isSpectator = activePlayers.length >= 2;
 
   room.players.push({
     id: playerId,
     name: playerName,
     isHost: false,
+    isSpectator,
     selection: null,
     rule: null,
     lockedIn: false,
@@ -141,7 +145,8 @@ export function setPlayerSelection(
   player.rule = rule;
   player.lockedIn = true;
 
-  const bothLocked = room.players.length === 2 && room.players.every((p) => p.lockedIn);
+  const gamePlayers = room.players.filter((p) => !p.isSpectator);
+  const bothLocked = gamePlayers.length === 2 && gamePlayers.every((p) => p.lockedIn);
   if (bothLocked) {
     room.phase = "playing";
     // In rule-master, host goes first
@@ -189,8 +194,8 @@ export function answerCharacter(
     askerId: pending.askerId,
   });
 
-  // Switch turns
-  const nextTurn = room.players.find((p) => p.id !== pending.askerId)!.id;
+  // Switch turns (only between non-spectators)
+  const nextTurn = room.players.find((p) => p.id !== pending.askerId && !p.isSpectator)!.id;
   room.currentTurn = nextTurn;
   room.pendingAsk = null;
 
@@ -212,7 +217,7 @@ export function makeGuess(
   if (room.mode !== "classic") return null; // rule-master uses submitRuleGuess/judgeRuleGuess
   const guesser = room.players.find((p) => p.id === guesserId);
   if (!guesser) return null;
-  const opponent = room.players.find((p) => p.id !== guesserId);
+  const opponent = room.players.find((p) => p.id !== guesserId && !p.isSpectator);
   if (!opponent) return null;
 
   const correct = guess === opponent.selection;
@@ -276,7 +281,7 @@ export function judgeRuleGuess(
     room.guessResult = { correct: true, guesserId: guesser.id, actual: actualRule };
   } else {
     // Wrong guess - switch turn to guesser's opponent (i.e. guesser loses their turn)
-    const nextTurn = room.players.find((p) => p.id !== guesser.id)!.id;
+    const nextTurn = room.players.find((p) => p.id !== guesser.id && !p.isSpectator)!.id;
     room.currentTurn = nextTurn;
   }
 
@@ -292,7 +297,8 @@ export function requestRematch(code: string, playerId: string): { room: RoomStat
 
   player.rematchRequested = true;
 
-  const bothRequested = room.players.length === 2 && room.players.every((p) => p.rematchRequested);
+  const gamePlayers = room.players.filter((p) => !p.isSpectator);
+  const bothRequested = gamePlayers.length === 2 && gamePlayers.every((p) => p.rematchRequested);
   if (bothRequested) {
     room.phase = "lobby";
     room.characterIds = [];

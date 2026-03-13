@@ -13,10 +13,12 @@ export async function POST(req: NextRequest) {
     return NextResponse.json({ error: "Room not found or full" }, { status: 404 });
   }
 
+  const joinedPlayer = room.players.find((p) => p.id === playerId)!;
   const pusher = getPusherServer();
   await pusher.trigger(`presence-room-${room.code}`, PUSHER_EVENTS.PLAYER_JOINED, {
     playerId,
     playerName,
+    isSpectator: joinedPlayer.isSpectator,
   });
 
   return NextResponse.json(room);

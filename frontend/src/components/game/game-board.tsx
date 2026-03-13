@@ -14,7 +14,8 @@ interface GameBoardProps {
 }
 
 export function GameBoard({ selectable, selectedId, onSelectCharacter }: GameBoardProps) {
-  const { eliminated, toggleEliminated, phase } = useGameStore();
+  const { eliminated, toggleEliminated, phase, playerId, players } = useGameStore();
+  const isSpectator = players.find((p) => p.id === playerId)?.isSpectator ?? false;
   const { data: characterList, isLoading } = useGameCharacters();
   const [filter, setFilter] = useState("");
 
@@ -29,6 +30,7 @@ export function GameBoard({ selectable, selectedId, onSelectCharacter }: GameBoa
   }
 
   function handleClick(characterId: number) {
+    if (isSpectator) return;
     if (selectable && onSelectCharacter) {
       onSelectCharacter(characterId);
     } else if (phase === "playing" || phase === "selection") {

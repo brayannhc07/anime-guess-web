@@ -129,6 +129,8 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
 
   if (loading || !playerId) return null;
 
+  const me = players.find((p) => p.id === playerId);
+  const isSpectator = me?.isSpectator ?? false;
   const isWaitingForAnswer = pendingAsk !== null && pendingAsk.askerId === playerId;
   const isWaitingForRuleJudgment = pendingRuleGuess !== null && pendingRuleGuess.guesserId === playerId;
   const isJudgingRuleGuess = pendingRuleGuess !== null && pendingRuleGuess.guesserId !== playerId;
@@ -137,58 +139,75 @@ export default function RoomPage({ params }: { params: Promise<{ code: string }>
     <main className="min-h-screen p-4 max-w-4xl mx-auto space-y-4">
       <RoomHeader />
 
+      {isSpectator && phase !== "lobby" && (
+        <Badge variant="outline" className="text-sm px-3 py-1.5">
+          Spectating
+        </Badge>
+      )}
+
       <div key={phase} className="animate-in fade-in slide-in-from-bottom-4 duration-300">
         {phase === "lobby" && <LobbyView />}
-        {phase === "selection" && <SelectionPhase />}
+        {phase === "selection" && !isSpectator && <SelectionPhase />}
+        {phase === "selection" && isSpectator && (
+          <div className="text-center text-muted-foreground py-8">
+            Players are making their selections...
+          </div>
+        )}
 
         {phase === "playing" && mode === "classic" && (
           <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              {opponentRemainingCount !== null && opponentRemainingCount <= 3 ? (
-                <Badge variant="destructive" className="text-sm px-3 py-1.5 animate-pulse">
-                  Opponent has {opponentRemainingCount} left!
-                </Badge>
-              ) : (
-                <div />
-              )}
-              <GuessDialog />
-            </div>
+            {!isSpectator && (
+              <div className="flex items-center justify-between">
+                {opponentRemainingCount !== null && opponentRemainingCount <= 3 ? (
+                  <Badge variant="destructive" className="text-sm px-3 py-1.5 animate-pulse">
+                    Opponent has {opponentRemainingCount} left!
+                  </Badge>
+                ) : (
+                  <div />
+                )}
+                <GuessDialog />
+              </div>
+            )}
             <GameBoard />
           </div>
         )}
 
         {phase === "playing" && mode === "rule-master" && (
           <div className="space-y-4">
-            <div className="flex items-center justify-between">
-              <Badge variant={isMyTurn ? "default" : "secondary"} className="text-sm px-3 py-1.5">
-                {isWaitingForRuleJudgment
-                  ? "Waiting for opponent to judge your guess..."
-                  : isJudgingRuleGuess
-                    ? "Judge your opponent's rule guess!"
-                    : isWaitingForAnswer
-                      ? "Waiting for opponent's answer..."
-                      : isMyTurn
-                        ? "Your turn - search for a character!"
-                        : "Opponent's turn..."}
-              </Badge>
-              <GuessDialog />
-            </div>
-            <RuleGuessPrompt />
-            <AnswerPrompt />
-            <CharacterSearch />
+            {!isSpectator && (
+              <>
+                <div className="flex items-center justify-between">
+                  <Badge variant={isMyTurn ? "default" : "secondary"} className="text-sm px-3 py-1.5">
+                    {isWaitingForRuleJudgment
+                      ? "Waiting for opponent to judge your guess..."
+                      : isJudgingRuleGuess
+                        ? "Judge your opponent's rule guess!"
+                        : isWaitingForAnswer
+                          ? "Waiting for opponent's answer..."
+                          : isMyTurn
+                            ? "Your turn - search for a character!"
+                            : "Opponent's turn..."}
+                  </Badge>
+                  <GuessDialog />
+                </div>
+                <RuleGuessPrompt />
+                <AnswerPrompt />
+                <CharacterSearch />
+              </>
+            )}
             <RuleMasterBoard />
           </div>
         )}
 
         {phase === "finished" && (
           <div className="space-y-4">
-            <GameOverBanner />
+            {!isSpectator && <GameOverBanner />}
             {mode === "classic" ? <GameBoard /> : <RuleMasterBoard />}
           </div>
         )}
       </div>
 
-      <PlayerInfoBadge />
+      {!isSpectator && <PlayerInfoBadge />}
     </main>
   );
 }
