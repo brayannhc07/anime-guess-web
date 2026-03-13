@@ -9,6 +9,7 @@ import { Label } from "@/components/ui/label";
 import { useGameStore } from "@/stores/game-store";
 import { resetStats } from "@/lib/game-stats";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function JoinRoomForm() {
   const [name, setName] = useState("");
@@ -40,7 +41,7 @@ export function JoinRoomForm() {
       resetStats();
       router.push(`/room/${room.code}`);
     } catch {
-      alert("Room not found or full");
+      toast.error(t("error.joinRoom"));
     } finally {
       setLoading(false);
     }

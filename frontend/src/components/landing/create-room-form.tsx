@@ -10,6 +10,7 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { resetStats } from "@/lib/game-stats";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function CreateRoomForm() {
   const [name, setName] = useState("");
@@ -40,7 +41,7 @@ export function CreateRoomForm() {
       resetStats();
       router.push(`/room/${room.code}`);
     } catch {
-      alert("Failed to create room");
+      toast.error(t("error.createRoom"));
     } finally {
       setLoading(false);
     }

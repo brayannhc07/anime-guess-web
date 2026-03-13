@@ -15,6 +15,7 @@ import { GRID_SIZE } from "@/lib/constants";
 import { pickRandomPokemonIdsMultiGen, getMultiGenerationSize } from "@/lib/pokemon";
 import type { GameMode, CharacterSource } from "@/types/room";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function LobbyView() {
   const { roomCode, players, playerId } = useGameStore();
@@ -83,7 +84,7 @@ export function LobbyView() {
       const genParam = characterSource === "pokemon" ? pokemonGenerations : null;
       await startGame(roomCode, characterIds, mode, characterSource, templateKeys, searchAnimeId, genParam);
     } catch {
-      alert("Failed to start game");
+      toast.error(t("error.startGame"));
     } finally {
       setLoading(false);
     }
@@ -98,7 +99,11 @@ export function LobbyView() {
             <Button
               variant="outline"
               size="sm"
-              onClick={() => navigator.clipboard.writeText(roomCode)}
+              onClick={() => {
+                const url = `${window.location.origin}/room/${roomCode}`;
+                navigator.clipboard.writeText(url);
+                toast(t("toast.linkCopied"));
+              }}
             >
               {t("lobby.copyCode")}
             </Button>

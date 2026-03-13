@@ -8,6 +8,7 @@ import { GameBoard } from "./game-board";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function SelectionPhase() {
   const { mode, roomCode, playerId, players, characterIds, setPlayers, setAskedCharacters, clearEliminated } = useGameStore();
@@ -52,7 +53,7 @@ export function SelectionPhase() {
         )
       );
     } catch {
-      alert("Failed to lock in");
+      toast.error(t("error.lockIn"));
     } finally {
       setLoading(false);
     }

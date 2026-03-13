@@ -8,6 +8,7 @@ import { useGameCharacters } from "@/hooks/use-character-list";
 import { getStats, resetStats } from "@/lib/game-stats";
 import { useState, useEffect } from "react";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 import confetti from "canvas-confetti";
 
 export function GameOverBanner() {
@@ -43,7 +44,7 @@ export function GameOverBanner() {
     try {
       await requestRematch(roomCode);
     } catch {
-      alert("Failed to request rematch");
+      toast.error(t("error.rematch"));
     } finally {
       setLoading(false);
     }

@@ -9,6 +9,7 @@ import { useGameActions } from "@/hooks/use-game-actions";
 import { useAllCharacters } from "@/hooks/use-character-list";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function CharacterSearch() {
   const { roomCode, playerId, currentTurn, pendingAsk, askedCharacters } = useGameStore();
@@ -46,7 +47,7 @@ export function CharacterSearch() {
       // Rollback: remove the optimistic entry
       const { askedCharacters, setAskedCharacters } = useGameStore.getState();
       setAskedCharacters(askedCharacters.filter((c) => !(c.id === character.id && c.askerId === playerId && c.valid === null)));
-      alert("Failed to ask");
+      toast.error(t("error.ask"));
     } finally {
       setAsking(false);
     }

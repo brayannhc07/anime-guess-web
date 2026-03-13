@@ -7,6 +7,7 @@ import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function AnswerPrompt() {
   const { roomCode, playerId, pendingAsk, players } = useGameStore();
@@ -24,7 +25,7 @@ export function AnswerPrompt() {
     try {
       await answerCharacter(roomCode, valid);
     } catch {
-      alert("Failed to answer");
+      toast.error(t("error.answer"));
     } finally {
       setLoading(false);
     }

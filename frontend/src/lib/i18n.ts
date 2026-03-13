@@ -174,6 +174,20 @@ const translations = {
     "toast.wantsRematch": "Opponent wants a rematch!",
     "toast.rematchAccepted": "Rematch accepted! Back to lobby.",
     "toast.playerLeft": "{name} left the room.",
+    "toast.linkCopied": "Invite link copied!",
+
+    // Errors
+    "error.startGame": "Failed to start game",
+    "error.lockIn": "Failed to lock in",
+    "error.makeGuess": "Failed to make guess",
+    "error.submitGuess": "Failed to submit guess",
+    "error.ask": "Failed to ask",
+    "error.answer": "Failed to answer",
+    "error.judge": "Failed to judge",
+    "error.rematch": "Failed to request rematch",
+    "error.cancel": "Failed to cancel game",
+    "error.createRoom": "Failed to create room",
+    "error.joinRoom": "Room not found",
   },
   es: {
     // Home
@@ -348,6 +362,20 @@ const translations = {
     "toast.wantsRematch": "¡El oponente quiere revancha!",
     "toast.rematchAccepted": "¡Revancha aceptada! De vuelta al lobby.",
     "toast.playerLeft": "{name} salió de la sala.",
+    "toast.linkCopied": "¡Enlace de invitación copiado!",
+
+    // Errors
+    "error.startGame": "Error al iniciar la partida",
+    "error.lockIn": "Error al confirmar",
+    "error.makeGuess": "Error al adivinar",
+    "error.submitGuess": "Error al enviar respuesta",
+    "error.ask": "Error al preguntar",
+    "error.answer": "Error al responder",
+    "error.judge": "Error al juzgar",
+    "error.rematch": "Error al solicitar revancha",
+    "error.cancel": "Error al cancelar",
+    "error.createRoom": "Error al crear sala",
+    "error.joinRoom": "Sala no encontrada",
   },
 } as const;
 

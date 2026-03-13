@@ -7,6 +7,7 @@ import { Badge } from "@/components/ui/badge";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 import { ThemeToggle } from "./theme-toggle";
 import { LanguageToggle } from "./language-toggle";
 
@@ -29,7 +30,7 @@ export function RoomHeader() {
     try {
       await cancelGame(roomCode);
     } catch {
-      alert("Failed to cancel game");
+      toast.error(t("error.cancel"));
     } finally {
       setCancelling(false);
     }

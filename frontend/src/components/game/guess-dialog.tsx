@@ -18,6 +18,7 @@ import { isPokemonSprite } from "@/lib/pokemon";
 import { PLACEHOLDER_IMAGE } from "@/lib/constants";
 import { cn } from "@/lib/utils";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function GuessDialog() {
   const { mode, roomCode, eliminated, pendingRuleGuess } = useGameStore();
@@ -40,7 +41,7 @@ export function GuessDialog() {
       setOpen(false);
       setConfirmCharacter(null);
     } catch {
-      alert("Failed to make guess");
+      toast.error(t("error.makeGuess"));
     } finally {
       setLoading(false);
     }
@@ -54,7 +55,7 @@ export function GuessDialog() {
       setOpen(false);
       setRuleGuess("");
     } catch {
-      alert("Failed to submit guess");
+      toast.error(t("error.submitGuess"));
     } finally {
       setLoading(false);
     }

@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useGameStore } from "@/stores/game-store";
 import { useGameActions } from "@/hooks/use-game-actions";
 import { useLanguage } from "@/contexts/language-context";
+import { toast } from "sonner";
 
 export function RuleGuessPrompt() {
   const { roomCode, playerId, pendingRuleGuess, players } = useGameStore();
@@ -23,7 +24,7 @@ export function RuleGuessPrompt() {
     try {
       await judgeRuleGuess(roomCode, correct);
     } catch {
-      alert("Failed to judge");
+      toast.error(t("error.judge"));
     } finally {
       setLoading(false);
     }

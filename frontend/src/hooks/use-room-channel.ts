@@ -290,6 +290,25 @@ export function useRoomChannel(roomCode: string, t: TFunc) {
       toast(t("toast.rematchAccepted"));
     });
 
+    // Detect disconnections via Pusher presence channel
+    channel.bind("pusher:member_removed", (member: { id: string }) => {
+      if (member.id === playerId) return; // Ignore own disconnection
+      const store = useGameStore.getState();
+      const disconnectedPlayer = store.players.find((p) => p.id === member.id);
+      if (!disconnectedPlayer) return;
+
+      const me = store.players.find((p) => p.id === playerId);
+      // Host triggers removal, or if the host disconnected, the first non-spectator does
+      const shouldHandle = me?.isHost || (disconnectedPlayer.isHost && !me?.isSpectator);
+      if (shouldHandle) {
+        fetch("/api/room/leave", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ code: roomCode, playerId: member.id }),
+        }).catch(() => {});
+      }
+    });
+
     // Re-sync room state when Pusher reconnects after a disconnection
     // This catches any events missed while disconnected (common in Classic mode)
     const handleConnected = () => {
